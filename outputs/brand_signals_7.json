@@ -1,0 +1,1353 @@
+[
+  {
+    "url": "https://x.com/Google/status/1953929256674722202?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+    "data": {
+      "__typename": "Tweet",
+      "rest_id": "1953929256674722202",
+      "core": {
+        "user_results": {
+          "result": {
+            "__typename": "User",
+            "id": "VXNlcjoyMDUzNjE1Nw==",
+            "rest_id": "20536157",
+            "affiliates_highlighted_label": {},
+            "avatar": {
+              "image_url": "https://pbs.twimg.com/profile_images/1754606338460487681/bWupXdxo_normal.jpg"
+            },
+            "core": {
+              "created_at": "Tue Feb 10 19:14:39 +0000 2009",
+              "name": "Google",
+              "screen_name": "Google"
+            },
+            "dm_permissions": {},
+            "is_blue_verified": true,
+            "legacy": {
+              "default_profile": false,
+              "default_profile_image": false,
+              "description": "Here to help.",
+              "entities": {
+                "description": {
+                  "urls": []
+                },
+                "url": {
+                  "urls": [
+                    {
+                      "display_url": "blog.google/newsletter-sub…",
+                      "expanded_url": "https://blog.google/newsletter-subscribe/",
+                      "url": "https://t.co/RS3iU873QG",
+                      "indices": [
+                        0,
+                        23
+                      ]
+                    }
+                  ]
+                }
+              },
+              "fast_followers_count": 0,
+              "favourites_count": 3769,
+              "followers_count": 32793762,
+              "friends_count": 285,
+              "has_custom_timelines": true,
+              "is_translator": false,
+              "listed_count": 89744,
+              "media_count": 37473,
+              "normal_followers_count": 32793762,
+              "pinned_tweet_ids_str": [],
+              "possibly_sensitive": false,
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/20536157/1752864768",
+              "profile_interstitial_type": "",
+              "statuses_count": 239168,
+              "translator_type": "regular",
+              "url": "https://t.co/RS3iU873QG",
+              "withheld_in_countries": []
+            },
+            "location": {
+              "location": "Mountain View, CA"
+            },
+            "media_permissions": {},
+            "parody_commentary_fan_label": "None",
+            "profile_image_shape": "Square",
+            "professional": {
+              "rest_id": "1504886752259059716",
+              "professional_type": "Business",
+              "category": [
+                {
+                  "id": 713,
+                  "name": "Science & Technology",
+                  "icon_name": "IconBriefcaseStroke"
+                }
+              ]
+            },
+            "privacy": {
+              "protected": false
+            },
+            "relationship_perspectives": {},
+            "tipjar_settings": {
+              "is_enabled": false,
+              "bandcamp_handle": "",
+              "bitcoin_handle": "",
+              "cash_app_handle": "",
+              "ethereum_handle": "",
+              "gofundme_handle": "",
+              "patreon_handle": "",
+              "pay_pal_handle": "",
+              "venmo_handle": ""
+            },
+            "verification": {
+              "verified": false,
+              "verified_type": "Business"
+            },
+            "verified_phone_status": false
+          }
+        }
+      },
+      "unmention_data": {},
+      "edit_control": {
+        "edit_tweet_ids": [
+          "1953929256674722202"
+        ],
+        "editable_until_msecs": "1754691611000",
+        "is_edit_eligible": true,
+        "edits_remaining": "5"
+      },
+      "is_translatable": false,
+      "views": {
+        "count": "90318",
+        "state": "EnabledWithCount"
+      },
+      "source": "<a href=\"https://prod8.sprinklr.com/\" rel=\"nofollow\">Sprinklr Care</a>",
+      "grok_analysis_button": true,
+      "legacy": {
+        "bookmark_count": 82,
+        "bookmarked": false,
+        "created_at": "Fri Aug 08 21:20:11 +0000 2025",
+        "conversation_id_str": "1953929256674722202",
+        "display_text_range": [
+          0,
+          102
+        ],
+        "entities": {
+          "hashtags": [],
+          "media": [
+            {
+              "display_url": "pic.x.com/ZHbgP2sbDA",
+              "expanded_url": "https://x.com/Google/status/1953929256674722202/video/1",
+              "id_str": "1953929214408712192",
+              "indices": [
+                103,
+                126
+              ],
+              "media_key": "13_1953929214408712192",
+              "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1953929214408712192/img/NTkUO76Z8UiH7xTn.jpg",
+              "type": "video",
+              "url": "https://t.co/ZHbgP2sbDA",
+              "additional_media_info": {
+                "monetizable": false
+              },
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "sizes": {
+                "large": {
+                  "h": 1080,
+                  "w": 1920,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "h": 675,
+                  "w": 1200,
+                  "resize": "fit"
+                },
+                "small": {
+                  "h": 383,
+                  "w": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "h": 150,
+                  "w": 150,
+                  "resize": "crop"
+                }
+              },
+              "original_info": {
+                "height": 1080,
+                "width": 1920,
+                "focus_rects": []
+              },
+              "video_info": {
+                "aspect_ratio": [
+                  16,
+                  9
+                ],
+                "duration_millis": 55833,
+                "variants": [
+                  {
+                    "content_type": "application/x-mpegURL",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/pl/POLkWliRzTyW1vFP.m3u8?tag=16&v=8d5"
+                  },
+                  {
+                    "bitrate": 288000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/480x270/f6B1m4Y6QYBBDJWd.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 832000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/640x360/0WPj0xOFFYEyArA7.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 2176000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/1280x720/8YqKYyzxwe2h_Ah6.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 10368000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/1920x1080/g2FCki_nPh14euu_.mp4?tag=16"
+                  }
+                ]
+              },
+              "media_results": {
+                "result": {
+                  "media_key": "13_1953929214408712192"
+                }
+              }
+            }
+          ],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [],
+          "user_mentions": []
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "display_url": "pic.x.com/ZHbgP2sbDA",
+              "expanded_url": "https://x.com/Google/status/1953929256674722202/video/1",
+              "id_str": "1953929214408712192",
+              "indices": [
+                103,
+                126
+              ],
+              "media_key": "13_1953929214408712192",
+              "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1953929214408712192/img/NTkUO76Z8UiH7xTn.jpg",
+              "type": "video",
+              "url": "https://t.co/ZHbgP2sbDA",
+              "additional_media_info": {
+                "monetizable": false
+              },
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "sizes": {
+                "large": {
+                  "h": 1080,
+                  "w": 1920,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "h": 675,
+                  "w": 1200,
+                  "resize": "fit"
+                },
+                "small": {
+                  "h": 383,
+                  "w": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "h": 150,
+                  "w": 150,
+                  "resize": "crop"
+                }
+              },
+              "original_info": {
+                "height": 1080,
+                "width": 1920,
+                "focus_rects": []
+              },
+              "video_info": {
+                "aspect_ratio": [
+                  16,
+                  9
+                ],
+                "duration_millis": 55833,
+                "variants": [
+                  {
+                    "content_type": "application/x-mpegURL",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/pl/POLkWliRzTyW1vFP.m3u8?tag=16&v=8d5"
+                  },
+                  {
+                    "bitrate": 288000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/480x270/f6B1m4Y6QYBBDJWd.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 832000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/640x360/0WPj0xOFFYEyArA7.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 2176000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/1280x720/8YqKYyzxwe2h_Ah6.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 10368000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/1920x1080/g2FCki_nPh14euu_.mp4?tag=16"
+                  }
+                ]
+              },
+              "media_results": {
+                "result": {
+                  "media_key": "13_1953929214408712192"
+                }
+              }
+            }
+          ]
+        },
+        "favorite_count": 619,
+        "favorited": false,
+        "full_text": "This week at Google, we shared updates to learning tools in Gemini and a new feature called Storybook. https://t.co/ZHbgP2sbDA",
+        "is_quote_status": false,
+        "lang": "en",
+        "possibly_sensitive": false,
+        "possibly_sensitive_editable": true,
+        "quote_count": 3,
+        "reply_count": 79,
+        "retweet_count": 108,
+        "retweeted": false,
+        "user_id_str": "20536157",
+        "id_str": "1953929256674722202"
+      }
+    },
+    "sentiment": {
+      "label": "NEUTRAL",
+      "score": 0.5,
+      "confidence_bucket": "LOW"
+    },
+    "quality": {
+      "overall_quality_score": 0.67,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.8,
+        "clarity": 0.9,
+        "sentiment_extractable": 0.4,
+        "temporal_value": 0.7,
+        "actionable_insight": 0.6,
+        "noise_level": 0.8
+      },
+      "quality_issues": [
+        "Poor sentiment indicators (too neutral/ambiguous)",
+        "Content too short to be meaningful"
+      ],
+      "recommendations": "The signal could be improved by including more specific information about the brand and more pronounced sentiment. Consider adding more context or details about the updates to learning tools in Gemini and the new feature called Storybook.",
+      "evaluation_timestamp": "2025-08-10T11:52:03.465039",
+      "text_length": 0,
+      "word_count": 0,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "15cafefd-9daa-4b6c-b8d0-204eaeb327bd",
+    "topic": "Other"
+  },
+  {
+    "url": "https://x.com/Google/status/1953210766183538949?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+    "data": {
+      "__typename": "Tweet",
+      "rest_id": "1953210766183538949",
+      "core": {
+        "user_results": {
+          "result": {
+            "__typename": "User",
+            "id": "VXNlcjoyMDUzNjE1Nw==",
+            "rest_id": "20536157",
+            "affiliates_highlighted_label": {},
+            "avatar": {
+              "image_url": "https://pbs.twimg.com/profile_images/1754606338460487681/bWupXdxo_normal.jpg"
+            },
+            "core": {
+              "created_at": "Tue Feb 10 19:14:39 +0000 2009",
+              "name": "Google",
+              "screen_name": "Google"
+            },
+            "dm_permissions": {},
+            "is_blue_verified": true,
+            "legacy": {
+              "default_profile": false,
+              "default_profile_image": false,
+              "description": "Here to help.",
+              "entities": {
+                "description": {
+                  "urls": []
+                },
+                "url": {
+                  "urls": [
+                    {
+                      "display_url": "blog.google/newsletter-sub…",
+                      "expanded_url": "https://blog.google/newsletter-subscribe/",
+                      "url": "https://t.co/RS3iU873QG",
+                      "indices": [
+                        0,
+                        23
+                      ]
+                    }
+                  ]
+                }
+              },
+              "fast_followers_count": 0,
+              "favourites_count": 3769,
+              "followers_count": 32793762,
+              "friends_count": 285,
+              "has_custom_timelines": true,
+              "is_translator": false,
+              "listed_count": 89744,
+              "media_count": 37473,
+              "normal_followers_count": 32793762,
+              "pinned_tweet_ids_str": [],
+              "possibly_sensitive": false,
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/20536157/1752864768",
+              "profile_interstitial_type": "",
+              "statuses_count": 239168,
+              "translator_type": "regular",
+              "url": "https://t.co/RS3iU873QG",
+              "withheld_in_countries": []
+            },
+            "location": {
+              "location": "Mountain View, CA"
+            },
+            "media_permissions": {},
+            "parody_commentary_fan_label": "None",
+            "profile_image_shape": "Square",
+            "professional": {
+              "rest_id": "1504886752259059716",
+              "professional_type": "Business",
+              "category": [
+                {
+                  "id": 713,
+                  "name": "Science & Technology",
+                  "icon_name": "IconBriefcaseStroke"
+                }
+              ]
+            },
+            "privacy": {
+              "protected": false
+            },
+            "relationship_perspectives": {},
+            "tipjar_settings": {
+              "is_enabled": false,
+              "bandcamp_handle": "",
+              "bitcoin_handle": "",
+              "cash_app_handle": "",
+              "ethereum_handle": "",
+              "gofundme_handle": "",
+              "patreon_handle": "",
+              "pay_pal_handle": "",
+              "venmo_handle": ""
+            },
+            "verification": {
+              "verified": false,
+              "verified_type": "Business"
+            },
+            "verified_phone_status": false
+          }
+        }
+      },
+      "unmention_data": {},
+      "edit_control": {
+        "edit_tweet_ids": [
+          "1953210766183538949"
+        ],
+        "editable_until_msecs": "1754520310000",
+        "is_edit_eligible": false,
+        "edits_remaining": "5"
+      },
+      "is_translatable": false,
+      "views": {
+        "count": "168129",
+        "state": "EnabledWithCount"
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "note_tweet": {
+        "is_expandable": true,
+        "note_tweet_results": {
+          "result": {
+            "id": "Tm90ZVR3ZWV0OjE5NTMyMTA3NjYxMjA2MDM2NDg=",
+            "text": "In June, we launched Gemini CLI, an open-source AI agent that brings the power of Gemini to your terminal. Now, we’re introducing Gemini CLI GitHub Actions.\n\nIt’s a powerful AI coding teammate for your repository, created for team collaboration on the platform where developers work with each other. It’s now available on GitHub in beta to everyone worldwide at no cost.",
+            "entity_set": {
+              "hashtags": [],
+              "symbols": [],
+              "urls": [],
+              "user_mentions": []
+            },
+            "richtext": {
+              "richtext_tags": []
+            },
+            "media": {
+              "inline_media": []
+            }
+          }
+        }
+      },
+      "grok_analysis_button": true,
+      "legacy": {
+        "bookmark_count": 271,
+        "bookmarked": false,
+        "created_at": "Wed Aug 06 21:45:10 +0000 2025",
+        "conversation_id_str": "1953210766183538949",
+        "display_text_range": [
+          0,
+          277
+        ],
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [],
+          "user_mentions": []
+        },
+        "favorite_count": 1305,
+        "favorited": false,
+        "full_text": "In June, we launched Gemini CLI, an open-source AI agent that brings the power of Gemini to your terminal. Now, we’re introducing Gemini CLI GitHub Actions.\n\nIt’s a powerful AI coding teammate for your repository, created for team collaboration on the platform where developers",
+        "is_quote_status": false,
+        "lang": "en",
+        "quote_count": 10,
+        "reply_count": 116,
+        "retweet_count": 164,
+        "retweeted": false,
+        "user_id_str": "20536157",
+        "id_str": "1953210766183538949"
+      }
+    },
+    "sentiment": {
+      "label": "NEUTRAL",
+      "score": 0.5,
+      "confidence_bucket": "LOW"
+    },
+    "quality": {
+      "overall_quality_score": 0.67,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.8,
+        "clarity": 0.9,
+        "sentiment_extractable": 0.4,
+        "temporal_value": 0.7,
+        "actionable_insight": 0.8,
+        "noise_level": 0.9
+      },
+      "quality_issues": [
+        "Poor sentiment indicators (too neutral/ambiguous)",
+        "Content may be too short to be meaningful for some analysis"
+      ],
+      "recommendations": "Consider adding more specific sentiment-related language to improve sentiment extractability. Also, ensure that the content is comprehensive enough to provide meaningful insights.",
+      "evaluation_timestamp": "2025-08-10T11:52:08.795682",
+      "text_length": 0,
+      "word_count": 0,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "48277bf3-2fd5-4523-a9cb-2ab2e297cd42",
+    "topic": "Other"
+  },
+  {
+    "url": "https://x.com/Google/status/1953143185011617891?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+    "data": {
+      "__typename": "Tweet",
+      "rest_id": "1953143185011617891",
+      "core": {
+        "user_results": {
+          "result": {
+            "__typename": "User",
+            "id": "VXNlcjoyMDUzNjE1Nw==",
+            "rest_id": "20536157",
+            "affiliates_highlighted_label": {},
+            "avatar": {
+              "image_url": "https://pbs.twimg.com/profile_images/1754606338460487681/bWupXdxo_normal.jpg"
+            },
+            "core": {
+              "created_at": "Tue Feb 10 19:14:39 +0000 2009",
+              "name": "Google",
+              "screen_name": "Google"
+            },
+            "dm_permissions": {},
+            "is_blue_verified": true,
+            "legacy": {
+              "default_profile": false,
+              "default_profile_image": false,
+              "description": "Here to help.",
+              "entities": {
+                "description": {
+                  "urls": []
+                },
+                "url": {
+                  "urls": [
+                    {
+                      "display_url": "blog.google/newsletter-sub…",
+                      "expanded_url": "https://blog.google/newsletter-subscribe/",
+                      "url": "https://t.co/RS3iU873QG",
+                      "indices": [
+                        0,
+                        23
+                      ]
+                    }
+                  ]
+                }
+              },
+              "fast_followers_count": 0,
+              "favourites_count": 3769,
+              "followers_count": 32793763,
+              "friends_count": 285,
+              "has_custom_timelines": true,
+              "is_translator": false,
+              "listed_count": 89744,
+              "media_count": 37473,
+              "normal_followers_count": 32793763,
+              "pinned_tweet_ids_str": [],
+              "possibly_sensitive": false,
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/20536157/1752864768",
+              "profile_interstitial_type": "",
+              "statuses_count": 239168,
+              "translator_type": "regular",
+              "url": "https://t.co/RS3iU873QG",
+              "withheld_in_countries": []
+            },
+            "location": {
+              "location": "Mountain View, CA"
+            },
+            "media_permissions": {},
+            "parody_commentary_fan_label": "None",
+            "profile_image_shape": "Square",
+            "professional": {
+              "rest_id": "1504886752259059716",
+              "professional_type": "Business",
+              "category": [
+                {
+                  "id": 713,
+                  "name": "Science & Technology",
+                  "icon_name": "IconBriefcaseStroke"
+                }
+              ]
+            },
+            "privacy": {
+              "protected": false
+            },
+            "relationship_perspectives": {},
+            "tipjar_settings": {
+              "is_enabled": false,
+              "bandcamp_handle": "",
+              "bitcoin_handle": "",
+              "cash_app_handle": "",
+              "ethereum_handle": "",
+              "gofundme_handle": "",
+              "patreon_handle": "",
+              "pay_pal_handle": "",
+              "venmo_handle": ""
+            },
+            "verification": {
+              "verified": false,
+              "verified_type": "Business"
+            },
+            "verified_phone_status": false
+          }
+        }
+      },
+      "unmention_data": {},
+      "edit_control": {
+        "edit_tweet_ids": [
+          "1953143185011617891"
+        ],
+        "editable_until_msecs": "1754504197000",
+        "is_edit_eligible": true,
+        "edits_remaining": "5"
+      },
+      "is_translatable": false,
+      "views": {
+        "count": "183620",
+        "state": "EnabledWithCount"
+      },
+      "source": "<a href=\"https://prod8.sprinklr.com/\" rel=\"nofollow\">Sprinklr Care</a>",
+      "note_tweet": {
+        "is_expandable": true,
+        "note_tweet_results": {
+          "result": {
+            "id": "Tm90ZVR3ZWV0OjE5NTMxNDMxODQ4NDc5OTg5NzY=",
+            "text": "Here are new @GeminiApp tools to help you learn, understand and study better this school year ✏️\n\n- Guided Learning helps you build a deep understanding of subjects, with step-by-step breakdowns that uncover the “why” and “how”\n- Gemini’s responses automatically integrate visuals, like diagrams and YouTube videos, so you can understand more easily\n- Flashcards and study guides based on Gemini-generated quizzes or other class materials let you review key concepts \n\nPlus, students can get a Google AI Pro subscription at no cost for 1 year, available in the U.S., Japan, Indonesia, Korea and Brazil. \n\nLearn more about @GeminiApp’s latest updates → https://t.co/IYi4Ns1Nvk",
+            "entity_set": {
+              "hashtags": [],
+              "symbols": [],
+              "urls": [
+                {
+                  "display_url": "goo.gle/45lvCGV",
+                  "expanded_url": "https://goo.gle/45lvCGV",
+                  "url": "https://t.co/IYi4Ns1Nvk",
+                  "indices": [
+                    652,
+                    675
+                  ]
+                }
+              ],
+              "user_mentions": [
+                {
+                  "id_str": "1806359170830172162",
+                  "name": "Google Gemini App",
+                  "screen_name": "GeminiApp",
+                  "indices": [
+                    13,
+                    23
+                  ]
+                },
+                {
+                  "id_str": "1806359170830172162",
+                  "name": "Google Gemini App",
+                  "screen_name": "GeminiApp",
+                  "indices": [
+                    622,
+                    632
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "grok_analysis_button": true,
+      "legacy": {
+        "bookmark_count": 434,
+        "bookmarked": false,
+        "created_at": "Wed Aug 06 17:16:37 +0000 2025",
+        "conversation_id_str": "1953143185011617891",
+        "display_text_range": [
+          0,
+          272
+        ],
+        "entities": {
+          "hashtags": [],
+          "media": [
+            {
+              "display_url": "pic.x.com/SS2Vux6hYN",
+              "expanded_url": "https://x.com/Google/status/1953143185011617891/photo/1",
+              "ext_alt_text": "A side-by-side comparison of two Gemini AI versions. The \"Before\" version instantly solves a physics problem for a user, providing all calculations and the final answer. The \"After\" version, labeled \"Guided Learning in Gemini,\" engages the user in a step-by-step tutorial. It breaks down the problem, explains concepts like kinetic and potential energy, and prompts the user to recall formulas and solve the problem themselves, acting as a tutor rather than an answer key.",
+              "id_str": "1953143142783295488",
+              "indices": [
+                273,
+                296
+              ],
+              "media_key": "16_1953143142783295488",
+              "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/Gxr1VxUWoAAUIkw.jpg",
+              "type": "animated_gif",
+              "url": "https://t.co/SS2Vux6hYN",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "sizes": {
+                "large": {
+                  "h": 540,
+                  "w": 960,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "h": 540,
+                  "w": 960,
+                  "resize": "fit"
+                },
+                "small": {
+                  "h": 383,
+                  "w": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "h": 150,
+                  "w": 150,
+                  "resize": "crop"
+                }
+              },
+              "original_info": {
+                "height": 540,
+                "width": 960,
+                "focus_rects": []
+              },
+              "video_info": {
+                "aspect_ratio": [
+                  16,
+                  9
+                ],
+                "variants": [
+                  {
+                    "bitrate": 0,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/tweet_video/Gxr1VxUWoAAUIkw.mp4"
+                  }
+                ]
+              },
+              "media_results": {
+                "result": {
+                  "media_key": "16_1953143142783295488"
+                }
+              }
+            }
+          ],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [],
+          "user_mentions": [
+            {
+              "id_str": "1806359170830172162",
+              "name": "Google Gemini App",
+              "screen_name": "GeminiApp",
+              "indices": [
+                13,
+                23
+              ]
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "display_url": "pic.x.com/SS2Vux6hYN",
+              "expanded_url": "https://x.com/Google/status/1953143185011617891/photo/1",
+              "ext_alt_text": "A side-by-side comparison of two Gemini AI versions. The \"Before\" version instantly solves a physics problem for a user, providing all calculations and the final answer. The \"After\" version, labeled \"Guided Learning in Gemini,\" engages the user in a step-by-step tutorial. It breaks down the problem, explains concepts like kinetic and potential energy, and prompts the user to recall formulas and solve the problem themselves, acting as a tutor rather than an answer key.",
+              "id_str": "1953143142783295488",
+              "indices": [
+                273,
+                296
+              ],
+              "media_key": "16_1953143142783295488",
+              "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/Gxr1VxUWoAAUIkw.jpg",
+              "type": "animated_gif",
+              "url": "https://t.co/SS2Vux6hYN",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "sizes": {
+                "large": {
+                  "h": 540,
+                  "w": 960,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "h": 540,
+                  "w": 960,
+                  "resize": "fit"
+                },
+                "small": {
+                  "h": 383,
+                  "w": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "h": 150,
+                  "w": 150,
+                  "resize": "crop"
+                }
+              },
+              "original_info": {
+                "height": 540,
+                "width": 960,
+                "focus_rects": []
+              },
+              "video_info": {
+                "aspect_ratio": [
+                  16,
+                  9
+                ],
+                "variants": [
+                  {
+                    "bitrate": 0,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/tweet_video/Gxr1VxUWoAAUIkw.mp4"
+                  }
+                ]
+              },
+              "media_results": {
+                "result": {
+                  "media_key": "16_1953143142783295488"
+                }
+              }
+            }
+          ]
+        },
+        "favorite_count": 1481,
+        "favorited": false,
+        "full_text": "Here are new @GeminiApp tools to help you learn, understand and study better this school year ✏️\n\n- Guided Learning helps you build a deep understanding of subjects, with step-by-step breakdowns that uncover the “why” and “how”\n- Gemini’s responses automatically integrate https://t.co/SS2Vux6hYN",
+        "is_quote_status": false,
+        "lang": "en",
+        "possibly_sensitive": false,
+        "possibly_sensitive_editable": true,
+        "quote_count": 43,
+        "reply_count": 85,
+        "retweet_count": 240,
+        "retweeted": false,
+        "user_id_str": "20536157",
+        "id_str": "1953143185011617891"
+      }
+    },
+    "sentiment": {
+      "label": "NEUTRAL",
+      "score": 0.5,
+      "confidence_bucket": "LOW"
+    },
+    "quality": {
+      "overall_quality_score": 0.83,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.9,
+        "clarity": 0.9,
+        "sentiment_extractable": 0.6,
+        "temporal_value": 0.8,
+        "actionable_insight": 0.9,
+        "noise_level": 0.9
+      },
+      "quality_issues": [],
+      "recommendations": "The signal is of high quality and can be used for brand perception analysis. No specific improvements are needed.",
+      "evaluation_timestamp": "2025-08-10T11:52:14.222467",
+      "text_length": 0,
+      "word_count": 0,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "0add808f-d6b5-444b-897f-89d55c053755",
+    "topic": "Other"
+  },
+  {
+    "url": "https://x.com/Google/status/1953126394847768936?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+    "data": {
+      "__typename": "Tweet",
+      "rest_id": "1953126394847768936",
+      "core": {
+        "user_results": {
+          "result": {
+            "__typename": "User",
+            "id": "VXNlcjoyMDUzNjE1Nw==",
+            "rest_id": "20536157",
+            "affiliates_highlighted_label": {},
+            "avatar": {
+              "image_url": "https://pbs.twimg.com/profile_images/1754606338460487681/bWupXdxo_normal.jpg"
+            },
+            "core": {
+              "created_at": "Tue Feb 10 19:14:39 +0000 2009",
+              "name": "Google",
+              "screen_name": "Google"
+            },
+            "dm_permissions": {},
+            "is_blue_verified": true,
+            "legacy": {
+              "default_profile": false,
+              "default_profile_image": false,
+              "description": "Here to help.",
+              "entities": {
+                "description": {
+                  "urls": []
+                },
+                "url": {
+                  "urls": [
+                    {
+                      "display_url": "blog.google/newsletter-sub…",
+                      "expanded_url": "https://blog.google/newsletter-subscribe/",
+                      "url": "https://t.co/RS3iU873QG",
+                      "indices": [
+                        0,
+                        23
+                      ]
+                    }
+                  ]
+                }
+              },
+              "fast_followers_count": 0,
+              "favourites_count": 3769,
+              "followers_count": 32793762,
+              "friends_count": 285,
+              "has_custom_timelines": true,
+              "is_translator": false,
+              "listed_count": 89744,
+              "media_count": 37473,
+              "normal_followers_count": 32793762,
+              "pinned_tweet_ids_str": [],
+              "possibly_sensitive": false,
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/20536157/1752864768",
+              "profile_interstitial_type": "",
+              "statuses_count": 239168,
+              "translator_type": "regular",
+              "url": "https://t.co/RS3iU873QG",
+              "withheld_in_countries": []
+            },
+            "location": {
+              "location": "Mountain View, CA"
+            },
+            "media_permissions": {},
+            "parody_commentary_fan_label": "None",
+            "profile_image_shape": "Square",
+            "professional": {
+              "rest_id": "1504886752259059716",
+              "professional_type": "Business",
+              "category": [
+                {
+                  "id": 713,
+                  "name": "Science & Technology",
+                  "icon_name": "IconBriefcaseStroke"
+                }
+              ]
+            },
+            "privacy": {
+              "protected": false
+            },
+            "relationship_perspectives": {},
+            "tipjar_settings": {
+              "is_enabled": false,
+              "bandcamp_handle": "",
+              "bitcoin_handle": "",
+              "cash_app_handle": "",
+              "ethereum_handle": "",
+              "gofundme_handle": "",
+              "patreon_handle": "",
+              "pay_pal_handle": "",
+              "venmo_handle": ""
+            },
+            "verification": {
+              "verified": false,
+              "verified_type": "Business"
+            },
+            "verified_phone_status": false
+          }
+        }
+      },
+      "unmention_data": {},
+      "edit_control": {
+        "edit_tweet_ids": [
+          "1953126394847768936"
+        ],
+        "editable_until_msecs": "1754500194000",
+        "is_edit_eligible": true,
+        "edits_remaining": "5"
+      },
+      "is_translatable": false,
+      "views": {
+        "count": "96130",
+        "state": "EnabledWithCount"
+      },
+      "source": "<a href=\"https://prod8.sprinklr.com/\" rel=\"nofollow\">Sprinklr Care</a>",
+      "grok_analysis_button": true,
+      "legacy": {
+        "bookmark_count": 127,
+        "bookmarked": false,
+        "created_at": "Wed Aug 06 16:09:54 +0000 2025",
+        "conversation_id_str": "1953126394847768936",
+        "display_text_range": [
+          0,
+          272
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "indices": [
+                257,
+                272
+              ],
+              "text": "GrowwithGoogle"
+            }
+          ],
+          "media": [
+            {
+              "display_url": "pic.x.com/PnS5N7X4Og",
+              "expanded_url": "https://x.com/Google/status/1953126394847768936/photo/1",
+              "ext_alt_text": "\nA collage of screenshots centered around a colorful, droplet-shaped icon with the letters 'A', 'B', 'C', and 'D' circling it. The screenshots, each with a colorful border, show various learning materials, including a video of a planet, a handwritten math problem, a multiple-choice question, a diagram of an insect, and a screenshot of a video player with a timeline. This image appears to represent a learning or educational platform that incorporates different media types.",
+              "id_str": "1953126390720548864",
+              "indices": [
+                273,
+                296
+              ],
+              "media_key": "3_1953126390720548864",
+              "media_url_https": "https://pbs.twimg.com/media/GxrmGrBW0AAdhJp.jpg",
+              "type": "photo",
+              "url": "https://t.co/PnS5N7X4Og",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "features": {
+                "large": {
+                  "faces": [
+                    {
+                      "x": 18,
+                      "y": 496,
+                      "h": 71,
+                      "w": 71
+                    }
+                  ]
+                },
+                "medium": {
+                  "faces": [
+                    {
+                      "x": 11,
+                      "y": 310,
+                      "h": 44,
+                      "w": 44
+                    }
+                  ]
+                },
+                "small": {
+                  "faces": [
+                    {
+                      "x": 6,
+                      "y": 175,
+                      "h": 25,
+                      "w": 25
+                    }
+                  ]
+                },
+                "orig": {
+                  "faces": [
+                    {
+                      "x": 18,
+                      "y": 496,
+                      "h": 71,
+                      "w": 71
+                    }
+                  ]
+                }
+              },
+              "sizes": {
+                "large": {
+                  "h": 1080,
+                  "w": 1920,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "h": 675,
+                  "w": 1200,
+                  "resize": "fit"
+                },
+                "small": {
+                  "h": 383,
+                  "w": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "h": 150,
+                  "w": 150,
+                  "resize": "crop"
+                }
+              },
+              "original_info": {
+                "height": 1080,
+                "width": 1920,
+                "focus_rects": [
+                  {
+                    "x": 0,
+                    "y": 0,
+                    "w": 1920,
+                    "h": 1075
+                  },
+                  {
+                    "x": 468,
+                    "y": 0,
+                    "w": 1080,
+                    "h": 1080
+                  },
+                  {
+                    "x": 535,
+                    "y": 0,
+                    "w": 947,
+                    "h": 1080
+                  },
+                  {
+                    "x": 738,
+                    "y": 0,
+                    "w": 540,
+                    "h": 1080
+                  },
+                  {
+                    "x": 0,
+                    "y": 0,
+                    "w": 1920,
+                    "h": 1080
+                  }
+                ]
+              },
+              "media_results": {
+                "result": {
+                  "media_key": "3_1953126390720548864"
+                }
+              }
+            }
+          ],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [
+            {
+              "display_url": "goo.gle/3H2oI1r",
+              "expanded_url": "https://goo.gle/3H2oI1r",
+              "url": "https://t.co/MDoQQO1zCn",
+              "indices": [
+                232,
+                255
+              ]
+            }
+          ],
+          "user_mentions": []
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "display_url": "pic.x.com/PnS5N7X4Og",
+              "expanded_url": "https://x.com/Google/status/1953126394847768936/photo/1",
+              "ext_alt_text": "\nA collage of screenshots centered around a colorful, droplet-shaped icon with the letters 'A', 'B', 'C', and 'D' circling it. The screenshots, each with a colorful border, show various learning materials, including a video of a planet, a handwritten math problem, a multiple-choice question, a diagram of an insect, and a screenshot of a video player with a timeline. This image appears to represent a learning or educational platform that incorporates different media types.",
+              "id_str": "1953126390720548864",
+              "indices": [
+                273,
+                296
+              ],
+              "media_key": "3_1953126390720548864",
+              "media_url_https": "https://pbs.twimg.com/media/GxrmGrBW0AAdhJp.jpg",
+              "type": "photo",
+              "url": "https://t.co/PnS5N7X4Og",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "features": {
+                "large": {
+                  "faces": [
+                    {
+                      "x": 18,
+                      "y": 496,
+                      "h": 71,
+                      "w": 71
+                    }
+                  ]
+                },
+                "medium": {
+                  "faces": [
+                    {
+                      "x": 11,
+                      "y": 310,
+                      "h": 44,
+                      "w": 44
+                    }
+                  ]
+                },
+                "small": {
+                  "faces": [
+                    {
+                      "x": 6,
+                      "y": 175,
+                      "h": 25,
+                      "w": 25
+                    }
+                  ]
+                },
+                "orig": {
+                  "faces": [
+                    {
+                      "x": 18,
+                      "y": 496,
+                      "h": 71,
+                      "w": 71
+                    }
+                  ]
+                }
+              },
+              "sizes": {
+                "large": {
+                  "h": 1080,
+                  "w": 1920,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "h": 675,
+                  "w": 1200,
+                  "resize": "fit"
+                },
+                "small": {
+                  "h": 383,
+                  "w": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "h": 150,
+                  "w": 150,
+                  "resize": "crop"
+                }
+              },
+              "original_info": {
+                "height": 1080,
+                "width": 1920,
+                "focus_rects": [
+                  {
+                    "x": 0,
+                    "y": 0,
+                    "w": 1920,
+                    "h": 1075
+                  },
+                  {
+                    "x": 468,
+                    "y": 0,
+                    "w": 1080,
+                    "h": 1080
+                  },
+                  {
+                    "x": 535,
+                    "y": 0,
+                    "w": 947,
+                    "h": 1080
+                  },
+                  {
+                    "x": 738,
+                    "y": 0,
+                    "w": 540,
+                    "h": 1080
+                  },
+                  {
+                    "x": 0,
+                    "y": 0,
+                    "w": 1920,
+                    "h": 1080
+                  }
+                ]
+              },
+              "media_results": {
+                "result": {
+                  "media_key": "3_1953126390720548864"
+                }
+              }
+            }
+          ]
+        },
+        "favorite_count": 762,
+        "favorited": false,
+        "full_text": "New: The Google AI for Education Accelerator will provide free AI training &amp; Google Career Certificates to college students in the U.S.\n\nWe're also committing $1 billion to AI literacy, research and more over the next 3 years → https://t.co/MDoQQO1zCn \n#GrowwithGoogle https://t.co/PnS5N7X4Og",
+        "is_quote_status": false,
+        "lang": "en",
+        "possibly_sensitive": false,
+        "possibly_sensitive_editable": true,
+        "quote_count": 10,
+        "reply_count": 63,
+        "retweet_count": 133,
+        "retweeted": false,
+        "user_id_str": "20536157",
+        "id_str": "1953126394847768936"
+      }
+    },
+    "sentiment": {
+      "label": "NEUTRAL",
+      "score": 0.5,
+      "confidence_bucket": "LOW"
+    },
+    "quality": {
+      "overall_quality_score": 0.83,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.9,
+        "clarity": 0.9,
+        "sentiment_extractable": 0.6,
+        "temporal_value": 0.8,
+        "actionable_insight": 0.9,
+        "noise_level": 0.9
+      },
+      "quality_issues": [],
+      "recommendations": "The signal is of high quality and provides valuable insights into Google's brand perception. To further improve, consider adding more diverse and representative data points to increase the signal-to-noise ratio.",
+      "evaluation_timestamp": "2025-08-10T11:52:19.941358",
+      "text_length": 0,
+      "word_count": 0,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "e08528e2-6606-4ae5-8c5f-74a199dbf64b",
+    "topic": "Other"
+  }
+]

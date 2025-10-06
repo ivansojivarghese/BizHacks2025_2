@@ -1,0 +1,2156 @@
+[
+  {
+    "source": "Reddit",
+    "timestamp": "2025-08-05T14:26:30+00:00",
+    "title": "Google Deepmind's new Genie 3",
+    "text": "[https://x.com/OfficialLoganK/status/1952732206176112915](https://x.com/OfficialLoganK/status/1952732206176112915)",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.634,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9928795695304871
+    },
+    "url": "https://v.redd.it/s6555dgpn7hf1",
+    "author": "u/GraceToSentience",
+    "platform": "Reddit",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "Reddit",
+    "timestamp": "2025-08-05T19:38:48+00:00",
+    "title": "In Google’s genie 3 you can look down and see yourself walking",
+    "text": "This is Google’s genie 3 model which is basically real time interactive video",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.604,
+      "confidence_bucket": "MEDIUM",
+      "raw_score": 0.880723237991333
+    },
+    "url": "https://v.redd.it/p7cqsx6i79hf1",
+    "author": "u/FaultElectrical4075",
+    "platform": "Reddit",
+    "topic": "Google Maps Features"
+  },
+  {
+    "source": "Reddit",
+    "timestamp": "2025-08-03T14:30:16+00:00",
+    "title": "“Google’s first trillion”",
+    "text": "",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.6,
+      "confidence_bucket": "MEDIUM",
+      "raw_score": 0.8666303157806396
+    },
+    "url": "https://i.redd.it/qahw08inetgf1.jpeg",
+    "author": "u/thisecommercelife",
+    "platform": "Reddit",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "Reddit",
+    "timestamp": "2025-08-02T16:54:51+00:00",
+    "title": "Man steals by simply sending random bills to FACEBOOK & GOOGLE",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9981610178947449
+    },
+    "url": "https://i.redd.it/n6yoz29jzmgf1.jpeg",
+    "author": "u/ihealthahop",
+    "platform": "Reddit",
+    "topic": "Google Maps Features"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:31:49Z",
+    "title": "Gigantic $550 price drop hits Galaxy Tab S10 Ultra w/ FREE $200 keyboard case thrown in (Direct from Samsung)",
+    "text": "Samsung is now offering some of the best prices ever on flagship Galaxy Tab S10 Ultra bundles. You’ll now find a massive $550 off the 1TB model alongside equally as impressive $350 price drops live on the 256GB and 512GB models – these are easily among the lo…",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.624,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9558649659156799
+    },
+    "url": "http://9to5toys.com/2025/08/08/deal-galaxy-tab-s10-ultra-keyboard/",
+    "author": "Justin Kahn",
+    "platform": "News",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:31:15Z",
+    "title": "viur-core 3.8.0rc3",
+    "text": "The core component of ViUR, a development framework for Google App Engine",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.623,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9527953267097473
+    },
+    "url": "https://pypi.org/project/viur-core/3.8.0rc3/",
+    "author": "devs@viur.dev",
+    "platform": "News",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:30:04Z",
+    "title": "Microsoft no longer permits local Windows 10 accounts if you want Consumer Extended Security Updates — support beyond EOL requires a Microsoft Account link-up even if you pay $30",
+    "text": "Microsoft really wants you to sign up for an account.",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.629,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9764665365219116
+    },
+    "url": "https://www.tomshardware.com/software/windows/microsoft-no-longer-permits-local-windows-10-accounts-if-you-want-consumer-extended-security-updates-support-beyond-eol-requires-a-microsoft-account-link-up-even-if-you-pay-usd30",
+    "author": "editors@tomshardware.com (Jowi Morales) , Jowi Morales",
+    "platform": "News",
+    "topic": "Google Maps Features"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:29:00Z",
+    "title": "Asean News Headlines at 10pm on Friday (Aug 8, 2025)",
+    "text": "Here's a look at the news highlights from Asean countries in the Star-AseanPlus section for Friday (Aug 8, 2025). Read full story",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.634,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9934459328651428
+    },
+    "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2025/08/08/asean-news-headlines-at-10pm-on-friday-aug-8-2025",
+    "author": "S. Navalan",
+    "platform": "News",
+    "topic": "AI and LLM Developments"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:27:59Z",
+    "title": "google-workspace-mcp-hotfix 1.6.3",
+    "text": "MCP server for Google Workspace integration",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.632,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9869006276130676
+    },
+    "url": "https://pypi.org/project/google-workspace-mcp-hotfix/1.6.3/",
+    "author": "info@arclio.com",
+    "platform": "News",
+    "topic": "Google Maps Features"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:27:26Z",
+    "title": "WR900: Όλα-σε-Ένα Router με WiFi 6 και 4G/LTE SIM μόλις 32€!",
+    "text": "WR900: 4G/LTE WiFi 6 Router με SIM Card slot, 5G WLAN, 6 κεραίες, 4 Gigabit ports & ταχύτητα 300Mbps. Plug and Play για σπίτι/γραφείο.\nThe post WR900: Όλα-σε-Ένα Router με WiFi 6 και 4G/LTE SIM μόλις 32€! appeared first on GizChina Greece.",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.633,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.989000141620636
+    },
+    "url": "https://www.gizchina.gr/2025/08/08/wr900-ola-se-ena-router-me-wifi-6-kai-4g-lte-sim-se-flash-sale-aug/",
+    "author": "Μιχ. Αποστόλου",
+    "platform": "News",
+    "topic": "Google Maps Features"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:25:30Z",
+    "title": "Meta acquires AI audio startup WaveForms | TechCrunch",
+    "text": "WaveForms, founded just eight months ago, last raised $40 million in a round led by Andreessen Horowitz that valued the company at $160 million pre-money, per PitchBook data.",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.627,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9674211144447327
+    },
+    "url": "https://techcrunch.com/2025/08/08/meta-acquires-ai-audio-startup-waveforms/",
+    "author": "Rebecca Bellan",
+    "platform": "News",
+    "topic": "AI and LLM Developments"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:23:38Z",
+    "title": "‘It’s Never Too Late’: OpenX CEO John Gentry On Suing Google For Crushing Competitors",
+    "text": "In 2018, DV360 demand on OpenX’s exchange plummeted without warning. It was bad – down by more than 40% – and baffling. Tim Cadogan, OpenX’s then-CEO, wrote an email to Google, its largest partner, asking for an explanation behind the sudden decline. “I don’t…",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9993207454681396
+    },
+    "url": "http://www.adexchanger.com/platforms/its-never-too-late-openx-ceo-john-gentry-on-suing-google-for-crushing-competitors/",
+    "author": "Allison Schiff",
+    "platform": "News",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:22:04Z",
+    "title": "Iron Studios Reveals New Jurassic World Rebirth Spinosaurus Statue",
+    "text": "In Jurassic World: Rebirth, the iconic Spinosaurus makes its long-awaited return, but this time it has been reimagined through a more scientifically grounded lens. Unlike the bulky, massive, and truly iconic land-bound version seen in Jurassic Park III, these…",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.632,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9867237210273743
+    },
+    "url": "https://bleedingcool.com/collectibles/iron-studios-reveals-new-jurassic-world-rebirth-spinosaurus-statue/",
+    "author": "Tyler Roberts",
+    "platform": "News",
+    "topic": "Google Maps Features"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:21:20Z",
+    "title": "Flow Festival faces boycott calls over Israel links",
+    "text": "Flow Festival is one of the largest music festivals in Finland.",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9991539716720581
+    },
+    "url": "https://yle.fi/a/74-20176558",
+    "author": null,
+    "platform": "News",
+    "topic": "AI and LLM Developments"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:21:00Z",
+    "title": "New Hisense L9Q triple laser UST projector shipping soon",
+    "text": "The Hisense L9Q Triple Laser Ultra Short Throw Projector will shortly start shipping in the US. This model is said to deliver up to 5,000 ANSI lumens brightness, making it suitable for well-lit rooms. Other features include the Google TV interface, support fo…",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.627,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9674785733222961
+    },
+    "url": "https://www.notebookcheck.net/New-Hisense-L9Q-triple-laser-UST-projector-shipping-soon.1082952.0.html",
+    "author": "Polly Allcock",
+    "platform": "News",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:20:03Z",
+    "title": "AI’s ruthless rise puts even top CEOs in peril",
+    "text": "The conventional wisdom surrounding artificial intelligence and employment has found a formidable challenger in Mo Gawdat, Google’s former chief business officer at Google X. In a candid interview on the Diary of a CEO podcast, Gawdat delivered a stark assess…",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.632,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.988646924495697
+    },
+    "url": "https://rollingout.com/2025/08/08/ai-rise-threatens-top-ceos/",
+    "author": "Jess Sobrevinas",
+    "platform": "News",
+    "topic": "AI and LLM Developments"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:19:31Z",
+    "title": "Google’s antitrust suit: SC admits cross appeals",
+    "text": "Google and others have challenged the NCLAT’s order of March 28, which largely affirmed the CCI's findings that Google abused its dominant position in multiple markets in the Android mobile device ecosystem through its Play Store policies and engaged in unfai…",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.633,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.990643322467804
+    },
+    "url": "https://economictimes.indiatimes.com/tech/technology/googles-antitrust-suit-sc-admits-cross-appeals/articleshow/123190768.cms",
+    "author": "Indu Bhan",
+    "platform": "News",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:19:00Z",
+    "title": "Identity V x Frieren: Beyond Journey’s End Collab Is Now Live",
+    "text": "Explore special maps.\nThe post Identity V x Frieren: Beyond Journey’s End Collab Is Now Live appeared first on Droid Gamers.",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.627,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9686741828918457
+    },
+    "url": "https://www.droidgamers.com/news/identity-v-x-frieren-beyond-journeys-end/",
+    "author": "Amrita R Sankar",
+    "platform": "News",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:17:03Z",
+    "title": "Freakier Friday Review: Curtis and Lohan Return, But The Magic Doesn't",
+    "text": "Freakier Friday fundamentally doesn't work because the film desperately tries to convince the audience that Jamie Lee Curtis and Lindsey Lohan are aging badly, and the only jokes they come up with are cheap shots at aging. Director: Nisha Ganatra Summary: 22 …",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9994403719902039
+    },
+    "url": "https://bleedingcool.com/movies/freakier-friday-review-curtis-and-lohan-return-but-the-magic-doesnt/",
+    "author": "Kaitlyn Booth",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:16:35Z",
+    "title": "What Does OpenAI’s GPT-5 Mean In The Race For AI Model Supremacy?",
+    "text": "GPT-5 is more than an upgrade. It aims to be a single, smarter system that blends reasoning, multimodality, cost efficiency, and usability into one.",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.622,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9488860368728638
+    },
+    "url": "https://www.forbes.com/sites/ronschmelzer/2025/08/08/what-does-openais-gpt-5-mean-in-the-race-for-ai-model-supremacy/",
+    "author": "Ron Schmelzer, Contributor, \n Ron Schmelzer, Contributor\n https://www.forbes.com/sites/ronschmelzer/",
+    "platform": "News",
+    "topic": "AI and LLM Developments"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:14:42Z",
+    "title": "More sex toys thrown during Sky-Dream game despite recent arrests: ‘It’s dumb’ - New York Post",
+    "text": "More sex toys thrown during Sky-Dream game despite recent arrests: &lsquo;It&rsquo;s dumb&rsquo;New York Post View Full Coverage on Google News ...",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.634,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9955005049705505
+    },
+    "url": "https://slashdot.org/firehose.pl?op=view&amp;id=178614476",
+    "author": "feedfeeder",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:14:05Z",
+    "title": "Google Working on Fix for Glum Gemini, Stuck in 'Infinite Loop' of Self-Esteem Issues",
+    "text": "One Google AI leader says Gemini's sad messages about itself are a glitch that the company plans to address.",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9992802739143372
+    },
+    "url": "https://www.cnet.com/tech/services-and-software/google-working-on-fix-for-glum-gemini-stuck-in-infinite-loop-of-self-esteem-issues/",
+    "author": "Omar Gallaga",
+    "platform": "News",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:12:31Z",
+    "title": "Amazon Offers 10,000mAh Portable Power Bank for Next to Nothing, Rated 4.6 Stars by Over 74K Reviewers",
+    "text": "The INIU portable power bank works with Apple, Android, and Google smartphones and tablets, it's only 6.4 ounces, and a steal at Amazon for just $19.",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.634,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.995083749294281
+    },
+    "url": "https://gizmodo.com/amazon-offers-10000mah-portable-power-bank-for-next-to-nothing-rated-4-6-stars-by-over-74k-reviewers-2000640328",
+    "author": "Mike Fazioli",
+    "platform": "News",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:12:04Z",
+    "title": "Ranger's Path: National Park Simulator Announced For PC",
+    "text": "Indie game developer To-Go Games and publisher Astragon Entertainment have unveiled their latest game, Ranger's Path: National Park Simulator. The game allows you to become the park ranger you always wish you could be without having to go through all the trai…",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9994889497756958
+    },
+    "url": "https://bleedingcool.com/games/rangers-path-national-park-simulator-announced-for-pc/",
+    "author": "Gavin Sheehan",
+    "platform": "News",
+    "topic": "Google Maps Features"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:12:00Z",
+    "title": "Still live: Giant $500 price drop hits most affordable Google Pixel 9 Pro Fold, or score an open-box at $734 off w/ 1-yr. warranty",
+    "text": "A couple days ago we spotted a particularly notable price drop on the upgraded 512GB Google Pixel 9 Pro Fold at a gigantic $500 off. That deal did not last for long, but Best Buy is now offering the even more affordable 256GB variant with the same $500 in sav…",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.633,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.991223931312561
+    },
+    "url": "http://9to5toys.com/2025/08/08/giant-deal-affordable-google-pixel-9-pro-fold/",
+    "author": "Justin Kahn",
+    "platform": "News",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:10:22Z",
+    "title": "Google says a fix for Gemini’s shame spiral is on its way",
+    "text": "After several users encountered responses from Gemini where the chatbot called itself a disgrace, Google says a fix is on its way.",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9993164539337158
+    },
+    "url": "https://www.androidauthority.com/google-fix-gemini-self-loathing-responses-3585286/",
+    "author": "Megan Ellis",
+    "platform": "News",
+    "topic": "Google Maps Features"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:07:16Z",
+    "title": "The Google Finance page is getting an AI makeover",
+    "text": "Google’s apparent quest to bring AI features across all of its apps has just extended to one of its most mundane: Google Finance. The company announced on Friday that it’s testing a “new, AI-powered Google Finance,” chatbot included. The revamp, which will ro…",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.616,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9267116785049438
+    },
+    "url": "https://www.theverge.com/news/756720/google-finance-ai-makeover-chatbot",
+    "author": "Emma Roth",
+    "platform": "News",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:06:21Z",
+    "title": "Bizarre Glitch Sees Google Gemini Sink Into Self-Loathing",
+    "text": "'I am not worthy of your time,' the chatbot says after failing a vibe-coding task.\nIt seems that even AIs get the blues. After failing to execute prompts successfully, Google's Gemini AI has spiraled into self-loathing in recent months, Business Insider repor…",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9997959733009338
+    },
+    "url": "https://me.pcmag.com/en/ai/31591/bizarre-glitch-sees-google-gemini-sink-into-self-loathing",
+    "author": "Jibin Joseph",
+    "platform": "News",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:04:11Z",
+    "title": "Intel CEO Lip-Bu Tan responds to Trump allegations in letter: 'I have always operated within the highest legal and ethical standards'",
+    "text": "Intel CEO Lip-Bu Tan defended his record and pledged cooperation with the U.S. government in a letter to employees after President Trump called for his resignation citing conflict of interests.",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.609,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.8995408415794373
+    },
+    "url": "https://www.tomshardware.com/pc-components/cpus/intel-ceo-lip-bu-tan-responds-to-trump-allegations-in-letter-i-have-always-operated-within-the-highest-legal-and-ethical-standards",
+    "author": "ashilov@gmail.com (Anton Shilov) , Anton Shilov",
+    "platform": "News",
+    "topic": "AI and LLM Developments"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:04:04Z",
+    "title": "Always Sunny: Glenn Howerton Clears Up Ongo Goblogian Confusion",
+    "text": "If you're a fan of FXX's Rob Mac, Glenn Howerton, Charlie Day, Kaitlin Olson, and Danny DeVito-starring It's Always Sunny in Philadelphia like we are, then you know how special this week is (more on that below). To commemorate the special occasion (give us a …",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9995073080062866
+    },
+    "url": "https://bleedingcool.com/tv/always-sunny-glenn-howerton-clears-up-ongo-goblogian-confusion/",
+    "author": "Ray Flook",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:03:03Z",
+    "title": "Get 17 miles of budget-friendly campus commuting on Hiboy’s S2 SE e-scooter at a new $270 low (Reg. $330, Today only)",
+    "text": "As part of its Deals of the Day, Best Buy is offering the best pricing yet on the newer Hiboy S2 SE Electric Scooter for $269.99 shipped just ahead of students going back to classes. This model hit the market back at the top of 2025 carrying a $550 price tag,…",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.526,
+      "confidence_bucket": "LOW",
+      "raw_score": 0.5944467782974243
+    },
+    "url": "http://9to5toys.com/2025/08/08/hiboy-s2-se-e-scooter-new-270-low-today/",
+    "author": "Reinette LeJeune",
+    "platform": "News",
+    "topic": "AI and LLM Developments"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:02:40Z",
+    "title": "Amazon Stock To $100?",
+    "text": "Over the past four years, Amazon has increased its revenue by $200 billion and $37 billion in net profit, with profits rising by 112% thanks to improving margins.",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9974794983863831
+    },
+    "url": "https://www.forbes.com/sites/greatspeculations/2025/08/08/amazon-stock-to-100/",
+    "author": "Trefis Team, Contributor, \n Trefis Team, Contributor\n https://www.forbes.com/sites/greatspeculations/people/trefis/",
+    "platform": "News",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:02:20Z",
+    "title": "Nintendo officially confirms Hollow Knight: Silksong for gamescom 2025 + Metroid 4, FF VII remake, more",
+    "text": "I came way feeling pretty good about the recent Indie World showcase, but mostly just because of the Mina the Hollower confirmation and the subsequent FREE demo you can play right now. Others, not to so much – Hollow Knight: Silksong did not make an appearanc…",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.632,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9848004579544067
+    },
+    "url": "http://9to5toys.com/2025/08/08/nintendo-officially-confirms-hollow-knight-silksong/",
+    "author": "Justin Kahn",
+    "platform": "News",
+    "topic": "AI and LLM Developments"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:00:57Z",
+    "title": "How to tell if your Samsung Galaxy tablet has been hacked",
+    "text": "Signs your Samsung Galaxy tablet may be hacked include battery drain, strange apps, pop-ups, crashes and suspicious account activity requiring immediate action.",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9996358156204224
+    },
+    "url": "https://www.foxnews.com/tech/how-tell-your-samsung-galaxy-tablet-has-been-hacked",
+    "author": null,
+    "platform": "News",
+    "topic": "Google Maps Features"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:00:38Z",
+    "title": "Google tests revamped Google Finance with AI upgrades, live news feed",
+    "text": "Users will now be able to research their financial questions with AI, access advanced charting tools, and get real-time data and news.",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.615,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.921669602394104
+    },
+    "url": "https://biztoc.com/x/0e0cc966462977da",
+    "author": "techcrunch.com",
+    "platform": "News",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:00:29Z",
+    "title": "This Week in Security: Perplexity v Cloudflare, GreedyBear, and HashiCorp",
+    "text": "The Internet is fighting over whether robots.txt applies to AI agents. It all started when Cloudflare published a blog post, detailing what the company was seeing from Perplexity crawlers. Of …read more",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.634,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9950931072235107
+    },
+    "url": "https://hackaday.com/2025/08/08/this-week-in-security-perplexity-v-cloudflare-greedybear-and-hashicorp/",
+    "author": "Jonathan Bennett",
+    "platform": "News",
+    "topic": "AI and LLM Developments"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:00:00Z",
+    "title": "The Rise of Digital Transformation Market: A $3,289.4 billion Industry Dominated by Tech Giants - Microsoft (US), IBM (US), and AWS (US)| MarketsandMarkets™",
+    "text": "Delray Beach, FL, Aug. 08, 2025 (GLOBE NEWSWIRE) -- According to MarketsandMarkets™, the global Digital Transformation Market will increase from USD 911.2 billion in 2024 to USD 3,289.4 billion by 2030, with a compound annual growth rate (CAGR) of 23.9% durin…",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.63,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9788029193878174
+    },
+    "url": "https://www.globenewswire.com/news-release/2025/08/08/3130210/0/en/The-Rise-of-Digital-Transformation-Market-A-3-289-4-billion-Industry-Dominated-by-Tech-Giants-Microsoft-US-IBM-US-and-AWS-US-MarketsandMarkets.html",
+    "author": "MarketsandMarkets Research Pvt. Ltd.",
+    "platform": "News",
+    "topic": "AI and LLM Developments"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:00:00Z",
+    "title": "MSPA-informed SLEUTH urban growth modeling for green space protection in Ottawa",
+    "text": "We created optimal urban expansion scenarios that also safeguard green spaces using SLEUTH-3r in the National Capital Region, Ottawa, Ontario. The scenarios were based on using two exclusion layers in SLEUTH-3r modeling, adjustments to the model’s calibrated …",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.621,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9431847929954529
+    },
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0328656",
+    "author": "Abdolrassoul Salmanmahiny, Scott W. Mitchell, Joseph R. Bennett",
+    "platform": "News",
+    "topic": "Google Maps Features"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:00:00Z",
+    "title": "The biggest takeaways from Dazed’s first-ever brand summit",
+    "text": "This week, New York creatives gathered to explore what cultural relevancy actually means in 2025 – and why ‘cool’ might not be the all-consuming factor anymore",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9985030889511108
+    },
+    "url": "https://www.dazeddigital.com/event/article/68405/1/the-biggest-takeaways-from-dazed-s-first-ever-brand-summit?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=the-biggest-takeaways-from-dazed-s-first-ever-brand-summit",
+    "author": "Dazed Digital",
+    "platform": "News",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:00:00Z",
+    "title": "Preliminary feasibility and clinical utility of the Unified Protocol for the transdiagnostic treatment of emotional disorders in people with long COVID-19 condition: A single case pilot study",
+    "text": "Purpose The implementation of psychological interventions in long COVID-19 patients is still very limited. This study aims to analyze the feasibility and preliminary utility of the Unified Protocol (UP), for the psychological treatment of emotional disorders …",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9969452023506165
+    },
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0329595",
+    "author": "Verónica Martínez-Borba, Óscar Peris-Baquero, Iván Prieto-Rollán, Jorge Osma, Esther del Corral-Beamonte",
+    "platform": "News",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T14:00:00Z",
+    "title": "AI Update, August 8, 2025: AI News and Views From the Past Week",
+    "text": "Catch up on select AI news and developments from the past week or so. Stay in the know. Read the full article at MarketingProfs",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.622,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9488561153411865
+    },
+    "url": "https://www.marketingprofs.com/opinions/2025/53544/ai-update-august-8-2025-ai-news-and-views-from-the-past-week",
+    "author": null,
+    "platform": "News",
+    "topic": "AI and LLM Developments"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T13:59:43Z",
+    "title": "Cybersecurity's Worst Week Yet? Firefox Phishing Attacks, Meta Steals Data, and Ransomware Outsmarts Defenders",
+    "text": "From the halls of Black Hat to breaking developments around the globe, these were the most alarming revelations that shook the security landscape this week.\nThe thing about security conferences like Black Hat, which took Las Vegas by storm this week, is that …",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9968630075454712
+    },
+    "url": "https://me.pcmag.com/en/security/31590/cybersecuritys-worst-week-yet-firefox-phishing-attacks-meta-steals-data-and-ransomware-outsmarts-def",
+    "author": "Alan Henry",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T13:58:52Z",
+    "title": "Artificial Intelligence Is Transforming World Of Coding With A New Vibe",
+    "text": "AI coding agents are changing the software development landscape by automating tasks, accelerating development, and assisting with complex problem-solving.",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9988202452659607
+    },
+    "url": "https://www.forbes.com/sites/chuckbrooks/2025/08/08/artificial-intelligence-is-transforming-world-of-coding-with-a-new-vibe/",
+    "author": "Chuck Brooks, Contributor, \n Chuck Brooks, Contributor\n https://www.forbes.com/sites/chuckbrooks/",
+    "platform": "News",
+    "topic": "AI and LLM Developments"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T13:57:51Z",
+    "title": "The First Xbox Handheld Could Be Coming Sooner Than You Think",
+    "text": "The Asus ROG Xbox Ally and Ally X are coming a lot sooner than you think.",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.585,
+      "confidence_bucket": "MEDIUM",
+      "raw_score": 0.8085911273956299
+    },
+    "url": "https://gizmodo.com/the-first-xbox-handheld-could-be-coming-sooner-than-you-think-2000640614",
+    "author": "Kyle Barr",
+    "platform": "News",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T13:57:05Z",
+    "title": "Is Magik The New Sorcerer Supreme To Replace Doctors Strange & Doom?",
+    "text": "Time to join some dots. Magik is the best-selling solo X-Men comic book series from Marvel Comics, only beaten by X-Men and Uncanny X-Men. Something I admit to finding amusing, considering the X-Men Group Editor Tom Brevoort's long-expressed antipathy towards…",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9995224475860596
+    },
+    "url": "https://bleedingcool.com/comics/magik-new-sorcerer-supreme-replace-doctor-strange-doom/",
+    "author": "Rich Johnston",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T13:54:31Z",
+    "title": "I Traveled to Suzhou, China — and It Completely Changed Me",
+    "text": "When my husband said we could visit China, I felt excited—but also nervous. I’d traveled through Asia before, but China felt more intense, especially with no...",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9964163303375244
+    },
+    "url": "https://creators.yahoo.com/lifestyle/story/i-traveled-to-suzhou-china--and-it-completely-changed-me-135431325.html",
+    "author": "The Salty Cooker",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T13:51:20Z",
+    "title": "Google tests revamped Google Finance with AI upgrades, live news feed | TechCrunch",
+    "text": "Users will now be able to research their financial questions with AI, access advanced charting tools, and get real-time data and news.",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.62,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9399945139884949
+    },
+    "url": "https://techcrunch.com/2025/08/08/google-tests-revamped-google-finance-with-ai-upgrades-live-news-feed/",
+    "author": "Aisha Malik",
+    "platform": "News",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T13:46:32Z",
+    "title": "OpenAI releases new ChatGPT version with 'PhD level' expertise, but it can't spell 'blueberry'",
+    "text": "Co-founder and chief executive Sam Altman touted this latest iteration as “clearly a model that is generally intelligent.”",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9979116320610046
+    },
+    "url": "https://www.thejournal.ie/openai-chatgpt-5-release-blueberry-6785897-Aug2025/",
+    "author": "AFP",
+    "platform": "News",
+    "topic": "AI and LLM Developments"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T13:46:05Z",
+    "title": "How to Prevent Others from Exporting your WhatsApp Chats",
+    "text": "WhatsApp has a feature that allows you to export the chats that are important to you. While this is a great feature, you may sometimes want to prevent the other one from exporting the chats. So, can you stop others from exporting your WhatsApp Chats? Let’s kn…",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.596,
+      "confidence_bucket": "MEDIUM",
+      "raw_score": 0.848691463470459
+    },
+    "url": "https://techviral.net/prevent-others-from-exporting-your-whatsapp-chats/",
+    "author": "Amarnath Chakraborty",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T13:43:40Z",
+    "title": "Today’s best iOS app deals and freebies: Cat Quest II, Afterplace, Little Nightmares, more",
+    "text": "Your Friday morning lineup of the best iOS game and app deals is headlined by titles like Cat Quest II, Afterplace, Little Nightmares, Dragon Quest Builders, and more. Just be sure to stop by our roundup of this week’s giant Apple sale, featuring new all-time…",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.999347984790802
+    },
+    "url": "http://9to5toys.com/2025/08/08/best-ios-app-deals-free-cat-quest-ii/",
+    "author": "Justin Kahn",
+    "platform": "News",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T13:41:43Z",
+    "title": "How Google's Genie 3 could change AI video - and let you build your own interactive worlds",
+    "text": "AI is becoming increasingly adept at generating virtual environments that simulate real-world physics and respond dynamically to users.",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.633,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9917214512825012
+    },
+    "url": "https://www.zdnet.com/article/how-googles-genie-3-could-change-ai-video-and-let-you-build-your-own-interactive-worlds/",
+    "author": "Webb Wright",
+    "platform": "News",
+    "topic": "AI and LLM Developments"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-05T14:12:51Z",
+    "title": "I dumped Google for Kagi",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9997255206108093
+    },
+    "url": "https://arstechnica.com/gadgets/2025/08/enough-is-enough-i-dumped-googles-worsening-search-for-kagi/",
+    "author": "thimabi",
+    "platform": "HackerNews",
+    "topic": "Google Maps Features"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-06T14:04:13Z",
+    "title": "Google suffers data breach in ongoing Salesforce data theft attacks",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.999582827091217
+    },
+    "url": "https://www.bleepingcomputer.com/news/security/google-suffers-data-breach-in-ongoing-salesforce-data-theft-attacks/",
+    "author": "mikece",
+    "platform": "HackerNews",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-08T14:46:53Z",
+    "title": "Google's Genie is more impressive than GPT5",
+    "text": "",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9995961785316467
+    },
+    "url": "https://theahura.substack.com/p/tech-things-genies-lamp-openai-cant",
+    "author": "theahura",
+    "platform": "HackerNews",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-03T21:03:50Z",
+    "title": "One Dataset. No Warning. Google Took Everything. You're Not Safe Either",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9996159076690674
+    },
+    "url": "https://medium.com/@russoatlarge_93541/i-built-a-privacy-app-google-banned-me-over-a-dataset-used-in-ai-research-66bc0dfb2310",
+    "author": "markatlarge",
+    "platform": "HackerNews",
+    "topic": "Google Maps Features"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-03T22:11:58Z",
+    "title": "Google has dropped more than 50 DEI-related orgs from one of its funding lists",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9996137022972107
+    },
+    "url": "https://www.cnbc.com/2025/08/01/google-dropped-50-dei-groups-from-funding-list-.html",
+    "author": "gslin",
+    "platform": "HackerNews",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-05T16:18:57Z",
+    "title": "Google agrees to pause AI workloads when power demand spikes",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.634,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9946560859680176
+    },
+    "url": "https://www.theregister.com/2025/08/04/google_ai_datacenter_grid/",
+    "author": "twapi",
+    "platform": "HackerNews",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-05T18:05:07Z",
+    "title": "EU Age Verification App Sparks Ban on Non Google Licensed Android Apps",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.633,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9888895750045776
+    },
+    "url": "https://www.talkandroid.com/512861-eu-age-verification-app-google/",
+    "author": "WhyNotHugo",
+    "platform": "HackerNews",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-06T22:08:01Z",
+    "title": "Ex-Google exec: The idea that AI will create new jobs is '100% crap'",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9997897744178772
+    },
+    "url": "https://www.cnbc.com/2025/08/05/ex-google-exec-the-idea-that-ai-will-create-new-jobs-is-100percent-crap.html",
+    "author": "hibern8",
+    "platform": "HackerNews",
+    "topic": "AI and LLM Developments"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-02T21:49:10Z",
+    "title": "Google indexing ChatGPT convos, potentially exposing sensitive user data",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.624,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9542985558509827
+    },
+    "url": "https://www.fastcompany.com/91376687/google-indexing-chatgpt-conversations",
+    "author": "xpe",
+    "platform": "HackerNews",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-07T14:10:38Z",
+    "title": "Google denies AI search features are killing website traffic",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9991581439971924
+    },
+    "url": "https://techcrunch.com/2025/08/06/google-denies-ai-search-features-are-killing-website-traffic/",
+    "author": "speckx",
+    "platform": "HackerNews",
+    "topic": "Google Maps Features"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-08T11:05:21Z",
+    "title": "Google ending Steam for Chromebook support in 2026",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.63,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.979557454586029
+    },
+    "url": "https://9to5google.com/2025/08/07/steam-chromebook-2026/",
+    "author": "pjmlp",
+    "platform": "HackerNews",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-09T10:38:21Z",
+    "title": "Doctors horrified after Google's healthcare AI makes up body part",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9987795948982239
+    },
+    "url": "https://futurism.com/neoscope/google-healthcare-ai-makes-up-body-part",
+    "author": "lentoutcry",
+    "platform": "HackerNews",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-03T22:50:38Z",
+    "title": "Google users are less likely to click on links when an AI summary is in results",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9979668259620667
+    },
+    "url": "https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/",
+    "author": "mooreds",
+    "platform": "HackerNews",
+    "topic": "AI and LLM Developments"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-06T18:47:51Z",
+    "title": "Researchers design \"promptware\" attack with Google Calendar to turn Gemini evil",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.999714195728302
+    },
+    "url": "https://arstechnica.com/google/2025/08/researchers-use-calendar-events-to-hack-gemini-control-smart-home-gadgets/",
+    "author": "DocFeind",
+    "platform": "HackerNews",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-08T18:20:22Z",
+    "title": "Google Gemini looping bug caused it to repeatedly say, \"I am a disgrace\"",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9998078942298889
+    },
+    "url": "https://arstechnica.com/ai/2025/08/google-gemini-struggles-to-write-code-calls-itself-a-disgrace-to-my-species/",
+    "author": "jlund-molfese",
+    "platform": "HackerNews",
+    "topic": "Google Maps Features"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-05T16:51:15Z",
+    "title": "Google is building a Linux terminal app for native Android development",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.629,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9758063554763794
+    },
+    "url": "https://www.zdnet.com/article/google-is-building-a-linux-terminal-app-for-native-android-development-heres-why-thats-huge/",
+    "author": "teleforce",
+    "platform": "HackerNews",
+    "topic": "Google Maps Features"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-07T07:00:07Z",
+    "title": "Qwant and Ecosia launch Staan, their search index as an alternative to Google",
+    "text": "",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.597,
+      "confidence_bucket": "MEDIUM",
+      "raw_score": 0.8534197807312012
+    },
+    "url": "https://www.usine-digitale.fr/article/qwant-et-ecosia-lancent-staan-leur-index-de-recherche-voulu-comme-une-alternative-a-google.N2236167",
+    "author": "lis",
+    "platform": "HackerNews",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-04T19:45:42Z",
+    "title": "Adtech company OpenX sues Google",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9990523457527161
+    },
+    "url": "https://www.businessinsider.com/adtech-company-openx-sues-google-antitrust-digital-advertising-market-2025-8",
+    "author": "bdev12345",
+    "platform": "HackerNews",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-09T01:14:56Z",
+    "title": "Google Finance testing new AI features",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.624,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9577616453170776
+    },
+    "url": "https://blog.google/products/search/google-finance-ai/",
+    "author": "DocFeind",
+    "platform": "HackerNews",
+    "topic": "AI and LLM Developments"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-08T01:06:05Z",
+    "title": "Dear Google, I Love You, but You're Gaslighting Us",
+    "text": "",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9996578693389893
+    },
+    "url": "https://www.seoforlunch.com/p/dear-google",
+    "author": "bhartzer",
+    "platform": "HackerNews",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-08T00:09:57Z",
+    "title": "Google says it's working on a fix for Gemini's \"I am a failure\" comments",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9994668364524841
+    },
+    "url": "https://www.businessinsider.com/gemini-self-loathing-i-am-a-failure-comments-google-fix-2025-8",
+    "author": "spenvo",
+    "platform": "HackerNews",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-07T19:00:58Z",
+    "title": "Google TV's Uncertain Future",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9994221925735474
+    },
+    "url": "https://www.theverge.com/lowpass-newsletter/724970/google-tv-ads-monetization-problem",
+    "author": "speckx",
+    "platform": "HackerNews",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-06T00:58:21Z",
+    "title": "Murena's Pixel Tablet is helping to wean me off Google",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9977160692214966
+    },
+    "url": "https://arstechnica.com/gadgets/2025/08/murenas-pixel-tablet-is-helping-to-wean-me-off-google/",
+    "author": "LorenDB",
+    "platform": "HackerNews",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-08T15:38:59Z",
+    "title": "Google's new AI model creates video game worlds in real time",
+    "text": "",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9988635778427124
+    },
+    "url": "https://www.theverge.com/news/718723/google-ai-genie-3-model-video-game-worlds-real-time",
+    "author": "mrafiee",
+    "platform": "HackerNews",
+    "topic": "AI and LLM Developments"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-06T20:41:10Z",
+    "title": "EU age verification app to ban any Android system not licensed by Google",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.633,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9903588891029358
+    },
+    "url": "https://old.reddit.com/r/degoogle/comments/1mau7yl/eu_age_verification_app_to_ban_any_android_system/",
+    "author": "PaulHoule",
+    "platform": "HackerNews",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-05T16:43:47Z",
+    "title": "Google is breaking websites to save a few bucks",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9994218349456787
+    },
+    "url": "https://www.washingtonpost.com/technology/2025/08/01/google-shuts-down-link-shortener/",
+    "author": "coloneltcb",
+    "platform": "HackerNews",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-07T16:09:48Z",
+    "title": "Google Confirms It Has Been Hacked – Warns User Data Stolen",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9987680315971375
+    },
+    "url": "https://www.forbes.com/sites/daveywinder/2025/08/07/google-confirms-it-has-been-hacked---user-data-stolen/",
+    "author": "todsacerdoti",
+    "platform": "HackerNews",
+    "topic": "Google Maps Features"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-05T08:45:40Z",
+    "title": "I saw someone with a $2.88M Google cloud bill",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9967511892318726
+    },
+    "url": "https://twitter.com/RobinTuffeau/status/1952622599663456574",
+    "author": "robintuffeau",
+    "platform": "HackerNews",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-04T19:26:11Z",
+    "title": "Google says its AI-based bug hunter found 20 security vulnerabilities",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.99669349193573
+    },
+    "url": "https://techcrunch.com/2025/08/04/google-says-its-ai-based-bug-hunter-found-20-security-vulnerabilities/",
+    "author": "rbanffy",
+    "platform": "HackerNews",
+    "topic": "AI and LLM Developments"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-08T15:04:05Z",
+    "title": "When Google plays judge and jury: account gone, zero due process",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9996615648269653
+    },
+    "url": "https://medium.com/@russoatlarge_93541/when-youre-accused-you-re-erased-what-happens-when-tech-companies-play-judge-and-jury-7a09ebe8bf6a",
+    "author": "markatlarge",
+    "platform": "HackerNews",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-06T19:38:56Z",
+    "title": "Google search boss says AI isn't killing search clicks",
+    "text": "",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.616,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9248592257499695
+    },
+    "url": "https://arstechnica.com/google/2025/08/google-search-boss-says-ai-isnt-killing-search-clicks/",
+    "author": "rntn",
+    "platform": "HackerNews",
+    "topic": "AI and LLM Developments"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-08T09:22:29Z",
+    "title": "Show HN: Fiig – Reimagining Google scholar for AI research and PDF annotation",
+    "text": "With all the new study modes and learning-targeted AI models, we have been building fiig specifically to reduce chatting and encourage actual source exploration and thinking.<p>We love feedback. Fiig has been built alongside higher-education students, professional researchers, and teachers. With fiig, you can find scholarly sources, cite the work, and our AI agent can highlight and annotate any found or uploaded PDF.<p>Other cool features: \nTool Tabs: Each agent has a set of tools that can be used in chat while you work.\nDrag &amp; Drop: Organize and contextualize your workflow by dropping elements straight into chat.\n@reference Anything: Use @ to reference notes and files directly in your prompts.\nStudio Interface: Open multiple PDFs, search for sources, and generate text in one unified platform.<p>LMK what you think &lt;3",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9977108240127563
+    },
+    "url": "https://app.ubik.studio/chat",
+    "author": "ieuanking",
+    "platform": "HackerNews",
+    "topic": "AI and LLM Developments"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-07T10:49:49Z",
+    "title": "Google Sans Code",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9989812970161438
+    },
+    "url": "https://github.com/googlefonts/googlesans-code",
+    "author": "atombender",
+    "platform": "HackerNews",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-03T13:54:20Z",
+    "title": "Hypothesised \"Alien-Base\" Anomaly Vanishes from Google Earth Data? Why?",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9997312426567078
+    },
+    "url": "https://www.youtube.com/watch?v=4a4t3a-_k9s",
+    "author": "StargazerNation",
+    "platform": "HackerNews",
+    "topic": "Google Maps Features"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-08T23:35:53Z",
+    "title": "Google commits $1B for AI training at US universities",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9989996552467346
+    },
+    "url": "https://www.reuters.com/world/us/google-commits-1-billion-ai-training-us-universities-2025-08-06/",
+    "author": "rbanffy",
+    "platform": "HackerNews",
+    "topic": "AI and LLM Developments"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-08T17:54:46Z",
+    "title": "Google's AI model Gemini got its name (2024)",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.627,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9689101576805115
+    },
+    "url": "https://blog.google/technology/ai/google-gemini-ai-name-meaning/",
+    "author": "alhazrod",
+    "platform": "HackerNews",
+    "topic": "AI and LLM Developments"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-08T13:36:51Z",
+    "title": "Google Project Zero Changes Its Disclosure Policy",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9980555772781372
+    },
+    "url": "https://www.schneier.com/blog/archives/2025/08/google-project-zero-changes-its-disclosure-policy.html",
+    "author": "mikece",
+    "platform": "HackerNews",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-08T04:02:04Z",
+    "title": "Show HN: I built a simple tool to automate data into Google Sheets and BigQury",
+    "text": "I’ve been a freelance data analyst&#x2F;developer for a while and I’d regularly get hired to build custom data pipelines and dashboards in Google Sheets&#x2F;Looker Studio. Custom data integrations came with a large upfront cost, and possible maintenance but clients told me they were reluctant to use the major data connector platforms as they were complicated and expensive over time, so I decide to fix this.\nI recently built SyncRange to be dead simple data connector to Google Sheets with a generous free plan and simple pricing.<p>So far I’ve built out the following connectors based on the needs of my clients and early users:<p>- Shopify\n- Facebook&#x2F;Instagram ads\n- LinkedIn Ads\n- Google Ads\n- Google Analytics\n- Google Search Console<p>I plan on adding more connectors as needed by my clients&#x2F;users, most of which are in the ecommerce&#x2F;marketing space so I will focus my time there.<p>After years of building projects that I thought we interesting, but were not validated, I have really noticed the difference building something customers actually want.<p>Please let me know if you have any feedback.",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9965811371803284
+    },
+    "url": "https://syncrange.com/",
+    "author": "RyanDavid",
+    "platform": "HackerNews",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-06T18:15:20Z",
+    "title": "Google, OpenAI, Anthropic get blanket deal to saturate US Government with AI",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.632,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9881535172462463
+    },
+    "url": "https://www.theregister.com/2025/08/06/google_openai_anthropic_us_gov_ai_deal/",
+    "author": "rntn",
+    "platform": "HackerNews",
+    "topic": "AI and LLM Developments"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-05T03:36:10Z",
+    "title": "Google Sheets Experts Became Experts",
+    "text": "",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9974265694618225
+    },
+    "url": "https://yogeshshinde.com/how-google-sheets-experts-became-experts/",
+    "author": "kamphey",
+    "platform": "HackerNews",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-04T02:29:25Z",
+    "title": "Google Adds Veo Watermark to All Veo3 Videos Except for Ultra Members",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.556,
+      "confidence_bucket": "MEDIUM",
+      "raw_score": 0.7026399970054626
+    },
+    "url": "https://blog.google/products/gemini/veo-3-expansion-mobile/",
+    "author": "robertwt7",
+    "platform": "HackerNews",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-03T23:52:26Z",
+    "title": "Google's DMCA Transparency Report 'Freezes' After Recent Volume Surge",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.634,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9960975050926208
+    },
+    "url": "https://torrentfreak.com/googles-dmca-transparency-report-freezes-after-recent-volume-surge/",
+    "author": "gslin",
+    "platform": "HackerNews",
+    "topic": "Google Product Enhancements"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-06T22:32:00Z",
+    "title": "'Hook Up?' College Kids Schedule Everything on Google Calendar",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.633,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9917263984680176
+    },
+    "url": "https://www.wsj.com/lifestyle/college-students-schedule-google-calendar-e2a3d796",
+    "author": "edward",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-04T14:20:13Z",
+    "title": "My first OS project: Mapsscraper is an simple Google Maps scraper",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.633,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.990399181842804
+    },
+    "url": "https://github.com/edlgg/mapsscrap",
+    "author": "eduardodelag",
+    "platform": "HackerNews",
+    "topic": "Google Maps Features"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-09T12:42:13Z",
+    "title": "Show HN: I made a Google images clone for Pixiv (Japanese art website)",
+    "text": "Upload one anime image to search for similar images.\nIt&#x27;s different from other sites like IQDB and Sauce NAO, because it can find images with similar content, not just exact matches.<p>Behind the scenes the search works like this: a finetuned siglip model is used to extract vector embeddings and then faiss is used to search for the closest matches.",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.628,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.972027063369751
+    },
+    "url": "https://onegai.moe/",
+    "author": "nameislonjuin",
+    "platform": "HackerNews",
+    "topic": "Google Maps Features"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-07T21:28:40Z",
+    "title": "Is AI 'The Ultimate Version of Google,' as Larry Page Wanted?",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.633,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9924682974815369
+    },
+    "url": "https://thenewstack.io/is-ai-the-ultimate-version-of-google-as-larry-page-wanted/",
+    "author": "mathattack",
+    "platform": "HackerNews",
+    "topic": "AI and LLM Developments"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-07T01:12:30Z",
+    "title": "Microsoft Raids Google's DeepMind AI Unit with Promise of Less Bureaucracy",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.619,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9358972311019897
+    },
+    "url": "https://www.wsj.com/tech/ai/microsoft-google-deepmind-ai-recruitment-fcc60b67",
+    "author": "impish9208",
+    "platform": "HackerNews",
+    "topic": "AI and LLM Developments"
+  },
+  {
+    "source": "mastodon",
+    "text": "15 LOST Places You will Never Find on Google Maps! (According to Expats) https:// captionsgenius.com/lost-places -you-will-never-find-on-google-maps-in-2k25/?utm_source=flipboard&utm_medium=activitypub Posted into FLIPBOARD USER GROUP @ flipboard-user-group-JanetteSpeyer",
+    "url": "https://flipboard.com/@janettespeyer/flipboard-user-group-el6a4od8z/-/a-TNOKGBfpQCKtFIIVWdHVvA%3Aa%3A76802984-%2F0",
+    "sentiment": "negative",
+    "sentiment_polarity": 0.0,
+    "sentiment_subjectivity": 0.0,
+    "hashtags": [],
+    "topic": "Google Maps Features",
+    "analysis": "Based on the provided Mastodon post and hashtag data, I've identified a key discussion topic relevant to Google's brand, business performance, and customer trust.\n\n**Topic 1: Google Maps and Data Accuracy**\n\n* Summary: The post discusses places that cannot be found on Google Maps, according to expats. This topic is relevant to Google's business performance as it relates to the accuracy and comprehensiveness of Google Maps, a key product offering.\n* Supporting post snippet: \"15 LOST Places You will Never Find on Google Maps! (According to Expats)\"\n* Key hashtags: #GoogleMaps (implied association with #lostplaces)\n\n**Hashtag Analysis:**\n\n* Semantic category: product (Google Maps)\n* Language: English\n* Co-occurring hashtags: None\n* Sentiment-laden hashtags: None\n* Normalized/standardized hashtags: #GoogleMaps (no variants)\n* Frequency: 1 post\n* Source post example: \"15 LOST Places You will Never Find on Google Maps! (According to Expats) https:// captionsgenius.com/lost-places -you-will-never-find-on-google-maps-in-2k25/?utm_source=flipboard&utm_medium=activitypub\"\n\n**Business Relevance:**\n\n* This topic may impact B2B decisions related to the use of Google Maps in various industries, such as:\n\t+ Logistics and transportation: inaccurate or incomplete mapping data may affect route optimization and delivery times.\n\t+ Tourism and travel: limited visibility of certain locations may impact travel planning and experiences.\n\t+ Urban planning and development: incomplete mapping data may influence infrastructure development and resource allocation.\n\n**Temporal Trend:**\n\n* No temporal trend can be inferred from a single post; however, this topic may be relevant in the context of ongoing discussions around data accuracy and mapping technologies.\n\n**Actionable Insights:**\n\n* Google may need to address concerns around data accuracy and comprehensiveness of Google Maps to maintain trust and credibility among users.\n* The company may consider leveraging user feedback and expat experiences to improve mapping data and expand its coverage of hard-to-reach locations.\n\nBy monitoring and addressing these concerns, Google can maintain a positive brand perception, ensure customer trust, and ultimately drive business outcomes such as deal velocity, lead quality, and client engagement.",
+    "timestamp": "2025-08-09T14:32:08.682826+00:00"
+  },
+  {
+    "source": "mastodon",
+    "text": "Gemini llegó a más auriculares y pude probarlo: así funciona la IA de Google directo en tus oídos https://www. xatakandroid.com/inteligencia- artificial/gemini-llego-a-auriculares-pude-probarlo-asi-funciona-ia-google-directo-tus-oidos Google se ha tomado muy en serio lo de llevar Gemini a todas partes. El chatbot, o mejor dicho, el asistente virtual con inteligencia artificial de la compañía, ya está integrado en aplicaciones como Gmail, Drive y YouTube, pero Google también lo ha llevado a los sm",
+    "url": "https://mastodon.social/@FeeditoMasto/114999283634886223",
+    "sentiment": "positive",
+    "sentiment_polarity": -0.6,
+    "sentiment_subjectivity": 1.0,
+    "hashtags": [],
+    "topic": "Google Maps Features",
+    "analysis": "**Topic 1: Google's AI-Powered Virtual Assistant (Gemini) Integration**\n\n* Summary: Conversations around Google's AI-powered virtual assistant, Gemini, and its integration with various applications and devices, such as headphones.\n* Business Relevance: This topic has potential impact on B2B decisions, sales, and client engagement as it relates to the adoption and usage of Google's AI technology in everyday life. The integration of Gemini with various applications and devices can enhance user experience, increase productivity, and potentially influence business outcomes such as deal velocity and lead quality.\n* Supporting Post Snippet: \"Gemini llegó a más auriculares y pude probarlo: así funciona la IA de Google directo en tus oídos\"\n* Key Hashtags: #Gemini, #Google, #InteligenciaArtificial\n\n**Topic 2: Expansion of Google's AI Technology**\n\n* Summary: Discussions around Google's efforts to expand its AI technology, Gemini, to various platforms and devices, such as Gmail, Drive, YouTube, and headphones.\n* Business Relevance: This topic is relevant to Google's business performance as it relates to the company's strategy to make its AI technology more accessible and ubiquitous. The expansion of Gemini can lead to increased adoption, usage, and potentially influence business outcomes such as client engagement.\n* Supporting Post Snippet: \"Google se ha tomado muy en serio lo de llevar Gemini a todas partes. El chatbot, o mejor dicho, el asistente virtual con inteligencia artificial de la compañía, ya está integrado en aplicaciones como Gmail, Drive y YouTube, pero Google también lo ha llevado a los sm\"\n* Key Hashtags: #Gemini, #Google, #AI\n\n**Hashtag Analysis:**\n\n* Semantic Category:\n\t+ Product/Technology: #Gemini, #Google\n\t+ Emotion: None\n\t+ Location: None\n\t+ Language: Spanish ( primary), English ( secondary)\n* Language Mapping:\n\t+ Cross-lingual variants: #Google (English)\n* Co-occurring Hashtags:\n\t+ #Gemini, #Google, #InteligenciaArtificial (implying association)\n* Sentiment-laden Hashtags:\n\t+ None\n* Hashtag Frequency and Source Post Examples:\n\t+ #Gemini (2 posts)\n\t+ #Google (2 posts)\n\t+ #InteligenciaArtificial (1 post)\n* Temporal Trend:\n\t+ No clear temporal trend inferred from the provided data.\n\n**Standardized/Normalized Hashtags:**\n\n* #PRTIMES and #pr_times are not present in the provided data.\n\nOverall, the digital conversations around Google's brand perception in this dataset are centered around the company's AI-powered virtual assistant, Gemini, and its integration with various applications and devices. The topics identified have potential impact on B2B decisions, sales, and client engagement, and are grounded in specific language used in posts.",
+    "timestamp": "2025-08-09T14:32:10.323582+00:00"
+  },
+  {
+    "source": "mastodon",
+    "text": "@ pluszysta - ja to robiłem sobie za pomocą Google Maps. Wyznaczałem punkt początkowy, jakiś środkowy lub środkowe i końcowy, a następnie wybierałem jakiś punkt na mapie i przeciągałem go sprawdzając jaką odległość wskaże mi Mapa. Niektóre programy rejestrujące treningi mają też możliwość wskazania tras robionych przez innych użytkowników na danym terenie",
+    "url": "https://f-t.net.pl/@mason/114999271537325136",
+    "sentiment": "neutral",
+    "sentiment_polarity": 0.0,
+    "sentiment_subjectivity": 0.0,
+    "hashtags": [],
+    "topic": "Google Maps Features",
+    "analysis": "**Hashtag Analysis**\n\nBefore diving into the topics, let's analyze the provided hashtags:\n\n* Hashtags can be grouped into the following semantic categories:\n\t+ Product/Service: #GoogleMaps\n\t+ Location: None\n\t+ Tech: None\n\t+ Emotion: None\n\t+ Other: #PRTIMES, #pr_times (can be normalized to #PRTIMES)\n* Languages present: Polish, English\n* Cross-lingual variants: #GoogleMaps (English) and #Google (not present but could be inferred)\n* Co-occurring hashtags: None\n* Sentiment-laden hashtags: None\n* Hashtag frequency:\n\t+ #GoogleMaps: 1\n\t+ #PRTIMES: 1\n\t+ #pr_times: 1 (can be ignored as it's a variant of #PRTIMES)\n* Source post examples: \n\t+ @pluszysta: Google Maps\n\n**Topic Identification**\n\nBased on the provided Mastodon post and hashtag data, the following topic is relevant to Google's brand, business performance, or customer trust:\n\n### **Topic 1: Google Maps Utility and Functionality**\n\n* **Summary:** The conversation revolves around the usage and features of Google Maps, specifically its ability to measure distances and plan routes. This topic is relevant to Google's business performance as it highlights the practical applications and user engagement with Google Maps.\n* **Supporting post snippets:** \n\t+ \"@ pluszysta - ja to robiłem sobie za pomocą Google Maps. Wyznaczałem punkt początkowy, jakiś środkowy lub środkowe i końcowy, a następnie wybierałem jakiś punkt na mapie i przeciągałem go sprawdzając jaką odległość wskaże mi Mapa.\"\n\t(Translation: \"I was doing it using Google Maps. I set a starting point, some middle or middle and ending points, and then I chose a point on the map and dragged it to check what distance it would show me.\")\n* **Key hashtags:** #GoogleMaps\n\n**Business Relevance:** \nThe conversation around Google Maps' utility and functionality can impact business decisions in the following ways:\n\n* **Deal velocity:** Positive experiences with Google Maps can increase the likelihood of users choosing Google's services, potentially leading to increased engagement and conversion rates.\n* **Lead quality:** Users who appreciate Google Maps' features may be more likely to explore other Google services, generating high-quality leads.\n* **Client engagement:** Understanding how users interact with Google Maps can inform the development of more effective marketing strategies and improve overall client satisfaction.\n\nNo other topics were identified as the provided data seems limited to a single post and a few hashtags. More data would be required to extract additional topics.",
+    "timestamp": "2025-08-09T14:32:11.838331+00:00"
+  },
+  {
+    "source": "mastodon",
+    "text": "Samsung Makes New Free Offer To Millions Of Galaxy Phones https://www. forbes.com/sites/jaymcgregor/2 025/08/09/samsung-gives-google-ai-one-pro-to-galaxy-s25-galaxy-z-fold-users/?utm_source=flipboard&utm_medium=activitypub Posted into Innovation @ innovation-forbes",
+    "url": "https://flipboard.com/@forbes/innovation-slhud51fz/-/a-AJTfShsETeCxlxHJnSzX1w%3Aa%3A3199486-%2F0",
+    "sentiment": "positive",
+    "sentiment_polarity": 0.2681818181818182,
+    "sentiment_subjectivity": 0.6272727272727273,
+    "hashtags": [],
+    "topic": "Google Product Enhancements",
+    "analysis": "### Analysis of Digital Conversations around Google's Brand\n\n#### Hashtag Analysis\n\n**Semantic Category Grouping:**\n\n- **Technology/Product**: #Google, #Galaxy, #AI\n- **Business/Finance**: #Forbes\n- **Innovation/Trends**: #Innovation\n\n**Language Detection:**\n- English (primary language)\n\n**Cross-Lingual Variants:**\n- Not detected\n\n**Co-occurring Hashtags:**\n- #Google and #AI (implying association with Google's AI offerings)\n\n**Sentiment-Laden Hashtags:**\n- None detected\n\n**Hashtag Frequency and Source Post Examples:**\n\n| Hashtag      | Frequency | Source Post Examples                                                                 |\n|--------------|-----------|-------------------------------------------------------------------------------------|\n| #Google      | 1         | https://www.forbes.com/sites/jaymcgregor/2025/08/09/samsung-gives-google-ai-one-pro-to-galaxy-s25-galaxy-z-fold-users/ |\n| #Innovation  | 1         | https://www.forbes.com/sites/jaymcgregor/2025/08/09/samsung-gives-google-ai-one-pro-to-galaxy-s25-galaxy-z-fold-users/ |\n| #Forbes      | 1         | https://www.forbes.com/sites/jaymcgregor/2025/08/09/samsung-gives-google-ai-one-pro-to-galaxy-s25-galaxy-z-fold-users/ |\n| #Galaxy      | 1         | https://www.forbes.com/sites/jaymcgregor/2025/08/09/samsung-gives-google-ai-one-pro-to-galaxy-s25-galaxy-z-fold-users/ |\n| #AI          | 1         | https://www.forbes.com/sites/jaymcgregor/2025/08/09/samsung-gives-google-ai-one-pro-to-galaxy-s25-galaxy-z-fold-users/ |\n\n**Temporal Trend:**\n- No temporal trend inferred due to limited data.\n\n### Topics\n\n1. **Google's AI Integration with Samsung Galaxy Phones**\n   - **Summary:** A discussion around Google's AI integration with Samsung Galaxy phones, specifically the offer by Samsung to provide Google AI services to millions of Galaxy phone users. This topic can impact business decisions as it relates to partnerships, service offerings, and potentially the competitive landscape in the tech industry.\n   - **Business Relevance:** The collaboration between Google and Samsung on AI for Galaxy phones could influence B2B decisions in terms of tech partnerships, client engagement strategies, and the development of AI-driven services. It highlights Google's role in AI and its application in enhancing smartphone user experiences, which could drive demand for similar integrations in business solutions.\n   - **Supporting Post Snippet:** \"Samsung Makes New Free Offer To Millions Of Galaxy Phones https://www.forbes.com/sites/jaymcgregor/2025/08/09/samsung-gives-google-ai-one-pro-to-galaxy-s25-galaxy-z-fold-users/\"\n   - **Key Hashtags:** #Google, #AI, #Galaxy, #Innovation\n\n2. **Tech Industry Innovations and Partnerships**\n   - **Summary:** The post highlights an innovation in the tech industry where Samsung and Google are partnering to enhance user experience through AI. This topic is relevant for understanding trends in tech collaborations and innovations that could impact business performance and client engagement.\n   - **Business Relevance:** This topic could influence business decisions by showcasing the importance of strategic partnerships in driving innovation and potentially setting industry standards. It could also impact sales and client engagement by demonstrating the value of integrating cutting-edge technologies like AI into products and services.\n   - **Supporting Post Snippet:** The same as above.\n   - **Key Hashtags:** #Innovation, #Forbes\n\n### Conclusion\n\nThe analysis identified two key topics relevant to Google's brand, business performance, and customer trust. These topics revolve around Google's AI integration with Samsung Galaxy phones and the broader implications of tech industry innovations and partnerships. Both topics have the potential to influence B2B decisions, sales strategies, and client engagement approaches.",
+    "timestamp": "2025-08-09T14:32:14.582210+00:00"
+  },
+  {
+    "source": "mastodon",
+    "text": "If we want people to self-host, we should really be making self-hosting a hell of a lot easier and more approachable instead of lamenting anyone who uses Google or whatever. \"Just self-host\" might as well be \"just grow a second head and fly to Mars\" with how hard it is for 99.99% of people.",
+    "url": "https://exquisite.social/@thomholwerda/114999266501272497",
+    "sentiment": "negative",
+    "sentiment_polarity": 0.24166666666666664,
+    "sentiment_subjectivity": 0.42833333333333334,
+    "hashtags": [],
+    "topic": "Google Product Enhancements",
+    "analysis": "**Topic 1: Self-Hosting and Ease of Use**\n\n* Summary: The conversation revolves around the difficulty of self-hosting and the perceived ease of using Google's services. This topic has implications for Google's brand perception, as it highlights the trade-off between convenience and control. Business relevance: This topic may impact Google's ability to attract and retain users who value ease of use and simplicity.\n* Supporting post snippet: \"If we want people to self-host, we should really be making self-hosting a hell of a lot easier and more approachable instead of lamenting anyone who uses Google or whatever. 'Just self-host' might as well be 'just grow a second head and fly to Mars' with how hard it is for 99.99% of people.\"\n* Key hashtags: None explicitly mentioned in the post, but related hashtags like #selfhosting, #google, #easeofuse can be inferred.\n\n**Hashtag Analysis:**\n\n* Semantic categories:\n\t+ Product/ Service: #google ( implicit)\n\t+ Tech: #selfhosting ( implicit)\n* Language: English\n* Cross-lingual variants: None detected\n* Co-occurring hashtags: None\n* Sentiment-laden hashtags: None\n* Normalized/standardized hashtags: None\n* Frequency and source post examples:\n\t+ #google: 1 post\n* Temporal trend: No trend inferred\n\n**Topic 2: User Experience and Control**\n\n* Summary: The conversation touches on the trade-off between convenience and control. The user expresses frustration with the difficulty of self-hosting and implies that Google's services are more user-friendly. Business relevance: This topic may impact Google's ability to attract and retain users who value control over their data and experience.\n* Supporting post snippet: \"'Just self-host' might as well be 'just grow a second head and fly to Mars' with how hard it is for 99.99% of people.\"\n* Key hashtags: None explicitly mentioned in the post, but related hashtags like #userexperience, #control, #google can be inferred.\n\n**Hashtag Analysis:**\n\n* Semantic categories:\n\t+ Emotion: #hard ( implicit)\n\t+ Tech: #selfhosting ( implicit)\n* Language: English\n* Cross-lingual variants: None detected\n* Co-occurring hashtags: None\n* Sentiment-laden hashtags: #hard (negative sentiment)\n* Normalized/standardized hashtags: None\n* Frequency and source post examples:\n\t+ #hard: 1 post\n* Temporal trend: No trend inferred\n\n**Key Takeaways:**\n\n1. **Ease of use is a key concern**: The conversation highlights the importance of ease of use and simplicity in attracting and retaining users.\n2. **Self-hosting is perceived as difficult**: The user expresses frustration with the difficulty of self-hosting, which may impact Google's brand perception.\n3. **Trade-off between convenience and control**: The conversation touches on the trade-off between convenience and control, which may impact Google's ability to attract and retain users.\n\n**Recommendations:**\n\n1. **Invest in user experience**: Google should invest in improving the user experience of its services to make them more accessible and user-friendly.\n2. **Communicate the value of self-hosting**: Google should communicate the value of self-hosting and provide resources to make it easier for users to self-host.\n3. **Monitor sentiment around self-hosting and ease of use**: Google should monitor sentiment around self-hosting and ease of use to identify areas for improvement.",
+    "timestamp": "2025-08-09T14:32:16.539054+00:00"
+  },
+  {
+    "source": "mastodon",
+    "text": "Big GNOME changes, Linux at 6%, Android loses to Epic - Linux Weekly News Head to https://squarespace.com/thelinuxexperiment to save 10% off your first purchase of a website or domain using code thelinuxexperiment Grab a brand new laptop or desktop running Linux: https://www.tuxedocomputers.com/en# 👏 SUPPORT THE CHANNEL: Get access to: - a Daily Linux News show - a weekly patroncast for more thoughts - your name in the credits YouTube: https://www.youtube.com/@thelinuxexp/join Patreon: https://www.patreon.com/thelinuxexperiment Or, you can donate whatever you want: https://paypal.me/thelinuxexp Liberapay: https://liberapay.com/TheLinuxExperiment/ 👕 GET TLE MERCH Support the channel AND get cool new gear: https://the-linux-experiment.creator-spring.com/ Timestamps: 00:00 Intro 00:39 Sponsor: SquareSpace 01:57 GNOME's governance structure is changing a lot 05:01 Linux desktop reaches 6% market share 07:33 Linux's Steam marketshare rises close to 3% 09:17 Android has to crack open the Google Play Store 11:11 MX Linux moves to systemD & Wayland by default 15:53 OpenSUSE Leap 16 brings massive changes 16:09 Microsoft to open source WinUI library 18:23 Mesa 25.2 brings a lot of good updates 20:11 Nextcloud shows digital sovereignty is merely a dream right now 22:53 Sponsor: Tuxedo Computers Links: GNOME's governance structure is changing a lot https://www.bassi.io/articles/2025/08/03/governance-in-gnome/ Linux desktop reaches 6% market share https://www.zdnet.com/article/think-linux-desktop-market-share-isnt-over-6-this-15-million-system-scan-says-otherwise/ Linux's Steam marketshare rises close to 3% https://www.gamingonlinux.com/2025/08/steam-survey-for-july-2025-shows-linux-approaching-3/ Android has to crack open the Google Play Store https://www.theverge.com/news/717440/google-epic-open-play-store-emergency-stay MX Linux moves to systemD & Wayland by default https://mxlinux.org/blog/changes-coming-with-mx-25/ OpenSUSE Leap 16 brings massive changes https://news.opensuse.org/2025/08/04/leap-16-rc/ Microsoft to open source WinUI library https://github.com/microsoft/microsoft-ui-xaml/discussions/10700 Mesa 25.2 brings a lot of good updates https://linuxiac.com/mesa-25-2-lands-with-vulkan-1-4-on-panvk-drops-x11-dri2-support/ Nextcloud shows digital sovereignty is merely a dream right now https://linuxiac.com/finland-tops-nextcloud-first-digital-sovereignty-index/ https://dsi.nextcloud.com/",
+    "url": "https://piefed.social/post/1129689",
+    "sentiment": "positive",
+    "sentiment_polarity": 0.09322416713721063,
+    "sentiment_subjectivity": 0.4462544701675137,
+    "hashtags": [],
+    "topic": "Google Product Enhancements",
+    "analysis": "Based on the provided Mastodon posts and hashtag data, I've identified and explained the key discussion topics relevant to Google's brand, business performance, or customer trust.\n\n**Topic 1: Google Play Store and Android Antitrust Concerns**\n\n* Summary: Discussions around Google's Play Store and Android are centered on antitrust concerns, with some users and developers calling for the company to \"crack open\" the Play Store. This topic has implications for Google's business performance, as it may impact the company's ability to maintain its dominance in the mobile app market.\n* Supporting post snippets:\n\t+ \"Android has to crack open the Google Play Store\" (from The Linux Experiment YouTube channel)\n* Key hashtags: #GooglePlayStore, #Android, #Antitrust\n\n**Topic 2: Competition from Epic Games**\n\n* Summary: The post mentions Epic Games as a competitor to Google's Android, specifically in the context of the Google Play Store. This topic may impact Google's business performance, as Epic Games' success could potentially erode Google's market share.\n* Supporting post snippets:\n\t+ \"Android loses to Epic\" (from The Linux Experiment YouTube channel)\n* Key hashtags: #EpicGames, #GooglePlayStore, #Android\n\n**Topic 3: Linux and Android Market Share**\n\n* Summary: Discussions around Linux and Android market share may impact Google's business performance, as a decline in Android market share could affect the company's revenue. This topic also highlights the competition between Linux and Android in the tech industry.\n* Supporting post snippets:\n\t+ \"Linux desktop reaches 6% market share\" (from ZDNet)\n\t+ \"Linux's Steam marketshare rises close to 3%\" (from Gaming on Linux)\n\t+ \"Android loses to Epic\" (from The Linux Experiment YouTube channel)\n* Key hashtags: #Linux, #Android, #MarketShare\n\n**Hashtag Analysis**\n\n* Semantic categories:\n\t+ Product/Technology: #GooglePlayStore, #Android, #Linux, #Steam\n\t+ Company/Organization: #Google, #EpicGames, #Microsoft\n\t+ Emotion/Sentiment: none detected\n* Language presence: English (primary), with possible mentions of other languages in hashtags (e.g., #Linux is a common hashtag across languages)\n* Cross-lingual variants: #GooglePlayStore and #googleplaystore (assuming similar meaning)\n* Co-occurring hashtags:\n\t+ #GooglePlayStore and #Android\n\t+ #Linux and #Steam\n* Sentiment-laden hashtags: none detected\n* Normalized/standardized hashtags:\n\t+ #GooglePlayStore (standardized from #googleplaystore)\n* Hashtag frequency and source post examples:\n\t+ #GooglePlayStore (1 occurrence, The Linux Experiment YouTube channel)\n\t+ #Android (2 occurrences, The Linux Experiment YouTube channel and Gaming on Linux)\n* Temporal trend: No clear trend detected, but some hashtags like #Linux and #Android seem to be consistently used across posts.\n\nThese topics and hashtags provide insights into the digital conversations surrounding Google's brand, business performance, and customer trust. The company may want to monitor these discussions to address antitrust concerns, competition from Epic Games, and changes in market share.",
+    "timestamp": "2025-08-09T14:32:18.347383+00:00"
+  },
+  {
+    "source": "mastodon",
+    "text": "Another # google app removed from my # android device. I am now trying the # FutoKeyboard instead of the # GBoard and it seems very promising for me. Just one of many steps to become # degoogled . https:// keyboard.futo.org/",
+    "url": "https://mastodon.skorpil.cz/@stepan/114999243806332230",
+    "sentiment": "positive",
+    "sentiment_polarity": 0.38,
+    "sentiment_subjectivity": 0.575,
+    "hashtags": [
+      "google",
+      "android",
+      "futokeyboard",
+      "gboard",
+      "degoogled"
+    ],
+    "topic": "Google Maps Features",
+    "analysis": "**Hashtag Analysis**\n\n* **Semantic Category Grouping:**\n\t+ Product: #gboard, #FutoKeyboard, #android\n\t+ Company/Brand: #google\n\t+ Emotion/State: #degoogled (implies a sense of detachment or removal from Google's ecosystem)\n* **Language Detection:**\n\t+ All hashtags are in English.\n* **Co-occurring Hashtags:**\n\t+ #google, #android, #GBoard, and #FutoKeyboard co-occur in the same post, implying an association between Google's products and alternative keyboard options.\n* **Sentiment-laden Hashtags:**\n\t+ #degoogled has a negative sentiment towards Google, implying a desire to detach from the company's ecosystem.\n* **Hashtag Frequency and Source Post Examples:**\n\t+ #google (1 post)\n\t+ #android (1 post)\n\t+ #GBoard (1 post)\n\t+ #FutoKeyboard (1 post)\n\t+ #degoogled (1 post)\n\n**Topic Identification**\n\n1. **Google Ecosystem Detachment**\n\t* Summary: Users are exploring alternatives to Google's products and services, citing a desire to \"degoogle\" their devices. This trend may impact Google's business performance, particularly if users opt for competing products or services.\n\t* Supporting post snippet: \"I am now trying the #FutoKeyboard instead of the #GBoard and it seems very promising for me. Just one of many steps to become #degoogled .\"\n\t* Key hashtags: #google, #degoogled, #GBoard, #FutoKeyboard\n2. **Android and Keyboard Alternatives**\n\t* Summary: Users are discussing alternative keyboard options for Android devices, which may affect Google's Android business. This conversation may influence B2B decisions, particularly if businesses consider alternative keyboard solutions for their employees.\n\t* Supporting post snippet: \"Another #google app removed from my #android device. I am now trying the #FutoKeyboard instead of the #GBoard...\"\n\t* Key hashtags: #android, #GBoard, #FutoKeyboard, #google\n\n**Temporal Trend Analysis**\nThe available data does not provide a clear temporal trend, as there is only one post. However, the topic of \"degoogling\" and exploring alternative keyboard options may be a growing trend, particularly among users concerned about data privacy and Google's ecosystem.\n\n**Business Relevance and Recommendations**\n\nThe identified topics highlight potential concerns for Google's business performance and customer trust:\n\n1. **Google Ecosystem Detachment**: Google should monitor this trend and address user concerns about data privacy and ecosystem detachment. This may involve improving transparency about data collection and usage or offering more user-centric features.\n2. **Android and Keyboard Alternatives**: Google should keep an eye on the development of alternative keyboard solutions and assess their potential impact on Android's business. This may involve investing in improving GBoard or exploring partnerships with alternative keyboard providers.\n\nBy understanding these digital conversations, Google can proactively address user concerns, improve its products and services, and maintain a strong brand perception in the market.",
+    "timestamp": "2025-08-09T14:32:20.278253+00:00"
+  },
+  {
+    "source": "mastodon",
+    "text": "I buy autobiographies from charity shops, 'sign' them after googling authors autographs, then donate them to charity shops in other towns. Thatcher my best result yet, bought for £1.50 unsigned, priced at £95 when 'signed'. I'm Robin Hood with a biro.",
+    "url": "https://mastodon.social/@fesshole/114999243955107250",
+    "sentiment": "positive",
+    "sentiment_polarity": 0.4375,
+    "sentiment_subjectivity": 0.3375,
+    "hashtags": [],
+    "topic": "Google Product Enhancements",
+    "analysis": "Based on the provided Mastodon post and hashtag data, I've analyzed the conversation to identify key discussion topics relevant to Google's brand, business performance, or customer trust.\n\n**Hashtag Analysis:**\n\n* Grouping by semantic category:\n\t+ Product/Technology: None\n\t+ Emotion: None\n\t+ Location: None\n\t+ Miscellaneous: #Google (1 occurrence)\n* Language detection: English (only language present)\n* Cross-lingual variants: None\n* Co-occurring hashtags: None\n* Sentiment-laden hashtags: None\n* Normalized/standardized hashtags: #Google (no variations)\n* Hashtag frequency:\n\t+ #Google: 1 occurrence\n* Source post example: The single post mentioning Google\n\n**Topics:**\n\n1. **Google's Role in Information Research**\n\t* Summary: The post highlights Google's role in information research, specifically in verifying author autographs. This topic showcases Google's utility in facilitating research and authentication, which can influence business decisions, sales, or client engagement in areas like digital verification, authentication, or research services.\n\t* Supporting post snippet: \"I buy autobiographies from charity shops, 'sign' them after googling authors autographs...\"\n\t* Key hashtags: #Google\n\n**Business Relevance:**\nThis topic demonstrates Google's value in information research, which can impact business outcomes in several ways:\n\n* **Deal velocity:** By facilitating quick verification and authentication, Google can speed up business transactions, such as the sale of verified autographed items.\n* **Lead quality:** Google's role in research can help businesses generate high-quality leads by providing accurate information about potential clients or partners.\n* **Client engagement:** By showcasing Google's utility in research, businesses can engage clients more effectively, for example, by offering Google-powered research services or tools.\n\nOverall, the conversation highlights Google's positive impact on information research, which can inform business decisions and strategies related to digital verification, authentication, and research services.",
+    "timestamp": "2025-08-09T14:32:21.546769+00:00"
+  },
+  {
+    "source": "mastodon",
+    "text": "Tôi đã kiểm tra ngân hàng điện Nano Qi2 Slim của Anker và nó thật tuyệt Tôi thường không thích các ngân hàng quyền lực vì chúng lớn, nặng và khó chịu khi mang theo. Ngân hàng Nano Power của Anker không phải là những điều đó, và nó cũng có công nghệ sạc không dây phải có mới nhất bên trong để có thêm điểm tuyệt vời. Tôi đã sử dụng nó và có lẽ bạn nên chú ý nếu bạn đang lên kế hoạch mua phần cứng Google lớn trong tương lai gần. https:// queenmobile.org/toi-da-kiem-tr a-ngan-hang-dien-nano-qi2-slim-cua-anker-va-no-that-tuyet",
+    "url": "https://mastodon.social/@phukiendinh/114999242979247571",
+    "sentiment": "neutral",
+    "sentiment_polarity": 0.0,
+    "sentiment_subjectivity": 0.0,
+    "hashtags": [],
+    "topic": "Google Product Enhancements",
+    "analysis": "Based on the provided Mastodon post and hashtag data, I've identified a key discussion topic relevant to Google's brand, business performance, and customer trust.\n\n**Topic 1: Google Hardware and Compatible Accessories**\n\n* Summary: The post discusses a user's positive experience with Anker's Nano Qi2 Slim power bank, highlighting its compact design, wireless charging capabilities, and compatibility with future Google hardware purchases.\n* Business Relevance: This topic is relevant to Google's business performance as it mentions the company's hardware products and the importance of compatible accessories. Positive experiences with third-party accessories can contribute to customer satisfaction and loyalty, potentially influencing future purchasing decisions.\n* Supporting Post Snippet: \"Tôi đã kiểm tra ngân hàng điện Nano Qi2 Slim của Anker và nó thật tuyệt... nếu bạn đang lên kế hoạch mua phần cứng Google lớn trong tương lai gần.\"\n* Key Hashtags: None explicitly mentioned, but the post implies a connection to Google's hardware products.\n\n**Hashtag Analysis:**\n\n* Semantic Category:\n\t+ No explicit hashtags provided, but the post implies categories like \"product\", \"tech\", and \"accessories\".\n* Language:\n\t+ Vietnamese (primary language of the post)\n* Co-occurring Hashtags:\n\t+ None\n* Sentiment-laden Hashtags:\n\t+ None\n* Normalized/Standardized Hashtags:\n\t+ None\n* Hashtag Frequency and Source Post Examples:\n\t+ None\n* Temporal Trend:\n\t+ No clear trend inferable from the provided data.\n\nIn conclusion, the key discussion topic revolves around Google's hardware products and compatible accessories, highlighting the importance of positive experiences with third-party products on customer satisfaction and loyalty. \n\nTo further analyze and identify more topics, additional posts and hashtag data would be necessary. \n\nHowever, based on the given information, the identified topic offers a potential impact on B2B decisions, sales, or client engagement, as it:\n\n1. Is clearly tied to public digital conversations around Google.\n2. Offers potential impact on B2B decisions, sales, or client engagement (e.g., customers considering Google hardware purchases).\n3. Is grounded in specific language used in posts (e.g., \"phần cứng Google lớn\").",
+    "timestamp": "2025-08-09T14:32:22.921566+00:00"
+  },
+  {
+    "source": "mastodon",
+    "text": "Un ingeniero de Google vivía en un camión dentro del parking de la empresa para no pagar alquiler: ahorraba el 90% de sueldo https://www. genbeta.com/actualidad/ingenie ro-google-vive-camion-dentro-parking-empresa-para-no-pagar-alquiler-ahorra-90-sueldo-1?utm_source=flipboard&utm_medium=activitypub",
+    "url": "https://flipboard.com/@xataka/xataka-magazine-qfuperrvz/-/a-8lDIeO-TRsuF4pPw2FG3lA%3Aa%3A139292342-%2F0",
+    "sentiment": "negative",
+    "sentiment_polarity": 0.0,
+    "sentiment_subjectivity": 0.0,
+    "hashtags": [],
+    "topic": "Google Product Enhancements",
+    "analysis": "**Hashtag Analysis**\n\nBefore diving into topic identification, let's analyze the provided hashtags:\n\n* Hashtags can be grouped into the following semantic categories:\n\t+ Product/Company: #Google\n\t+ Location: None\n\t+ Tech: None\n\t+ Emotion: None\n\t+ Lifestyle: #ingeniero, #camion\n* Detected languages: Spanish, English (in URLs)\n* Cross-lingual variants: None\n* Co-occurring hashtags: #Google, #ingeniero, #camion\n* Sentiment-laden hashtags: None\n* Normalized/standardized hashtags: None\n* Hashtag frequency:\n\t+ #Google: 1\n\t+ #ingeniero: 1\n\t+ #camion: 1\n* Source post examples: \n\t+ https://www.genbeta.com/actualidad/ingeniero-google-vive-camion-dentro-parking-empresa-para-no-pagar-alquiler-ahorra-90-sueldo-1?utm_source=flipboard&utm_medium=activitypub\n\n**Topic Identification**\n\nBased on the provided post and hashtag analysis, I've identified one key discussion topic relevant to Google's brand, business performance, or customer trust:\n\n### Topic 1: Employee Lifestyle and Company Culture\n\n* **Summary:** The post discusses an engineer who lives in a truck within Google's parking lot to save on rent, highlighting an unusual employee lifestyle choice. This topic may impact B2B decisions, sales, or client engagement as it showcases Google's company culture and employee benefits, potentially influencing perceptions of the company as an employer and its values.\n* **Supporting post snippets:** \n\t+ \"Un ingeniero de Google vivía en un camión dentro del parking de la empresa para no pagar alquiler: ahorraba el 90% de sueldo\"\n* **Key hashtags:** #Google, #ingeniero, #camion\n\n**Business Relevance:** This topic may influence business outcomes in the following ways:\n\n* **Talent attraction and retention:** The post highlights Google's company culture and employee benefits, which may attract top talent and improve employee retention.\n* **Employer branding:** The story may shape perceptions of Google as an employer, potentially impacting the company's ability to attract skilled professionals.\n* **Client engagement:** Clients may view Google as a company that values its employees and offers a unique work environment, potentially leading to increased client loyalty and engagement.\n\nNo other topics were identified as the provided post seems to be a singular anecdote. Further analysis with more posts and data would be required to identify additional topics. \n\nIf more data or context were available, I could help to provide more details and potentially identify additional topics.",
+    "timestamp": "2025-08-09T14:32:24.521588+00:00"
+  },
+  {
+    "source": "mastodon",
+    "text": ":cpu: # teknologi [Ekstra] Ny avtale: Google skal sette KI på pause hvis strømnettet sliter Kilde: Siste saker fra Digi.no Carsten Bessing, Version 2 Lenke til sak: https://www. digi.no/artikler/google-skal-s ette-ki-pa-pause-hvis-stromnettet-sliter/561237",
+    "url": "https://mikrobloggen.no/@tech/114999220810554932",
+    "sentiment": "neutral",
+    "sentiment_polarity": 0.0,
+    "sentiment_subjectivity": 0.0,
+    "hashtags": [
+      "teknologi"
+    ],
+    "topic": "Google Maps Features",
+    "analysis": "**Hashtag Analysis**\n\n* **Semantic Category Grouping:**\n\t+ teknologi (technology)\n* **Language Detection:**\n\t+ Norwegian (based on the post content and hashtag)\n* **Cross-lingual Variants:**\n\t+ None detected\n* **Co-occurring Hashtags:**\n\t+ None detected\n* **Sentiment-laden Hashtags:**\n\t+ None detected\n* **Normalized/Standardized Hashtags:**\n\t+ #teknologi (no duplicates or variations)\n* **Hashtag Frequency and Source Post Examples:**\n\t+ #teknologi: 1 post\n* **Temporal Trend:**\n\t+ No temporal trend can be inferred from a single post\n\n**Topic Identification**\n\nBased on the post and hashtag analysis, the following topic is identified:\n\n1. **Topic: Google's AI and Sustainability in Relation to Energy Grids**\n\t* **Summary:** This topic revolves around Google's efforts to pause AI development if the energy grid is strained. This shows Google's consideration for sustainability and responsible AI development.\n\t* **Business Relevance:** This topic has implications for Google's brand perception, particularly in terms of corporate social responsibility and environmental sustainability. It may influence B2B decisions, sales, or client engagement, as businesses increasingly prioritize partnering with environmentally conscious and responsible companies.\n\t* **Supporting Post Snippet:** \n\t\t+ \"Google skal sette KI på pause hvis strømnettet sliter\" (Google will pause AI development if the power grid is strained)\n\t* **Key Hashtags:** \n\t\t+ #teknologi\n\n**Detailed Topic Explanation**\n\nThe post mentions an agreement where Google will pause AI development if the power grid is strained. This indicates Google's proactive approach to ensuring that its technological advancements do not negatively impact the environment or the energy grid. This consideration can positively influence Google's brand perception among businesses and clients who value sustainability and responsible technology development.\n\n**Actionable Insights for Business Decisions**\n\n1. **Emphasize Sustainability:** Google can leverage this aspect to attract businesses that prioritize environmental sustainability and social responsibility.\n2. **Highlight Responsible AI Development:** Google can showcase its commitment to responsible AI development, which can be a key differentiator in the tech industry.\n3. **B2B Engagement:** Google can use this topic to engage with businesses and clients who share similar values, fostering a stronger brand connection and potentially influencing B2B decisions, sales, or client engagement.\n\nBy focusing on these areas, Google can effectively manage its brand perception, build trust with its clients and partners, and ultimately drive business outcomes.",
+    "timestamp": "2025-08-09T14:32:26.117253+00:00"
+  },
+  {
+    "source": "mastodon",
+    "text": "Google's Genie is more impressive than GPT5: https:// theahura.substack.com/p/tech-t hings-genies-lamp-openai-cant Discussion: http:// news.ycombinator.com/item?id=4 4837646",
+    "url": "https://toot.community/@newsyc200/114999217720977541",
+    "sentiment": "positive",
+    "sentiment_polarity": 0.75,
+    "sentiment_subjectivity": 0.75,
+    "hashtags": [],
+    "topic": "Google Product Enhancements",
+    "analysis": "**Hashtag Analysis**\n\nBefore diving into the topics, let's analyze the hashtags:\n\n* **Semantic categories:**\n\t+ Product/Technology: #GPT5, #Genie, #Google\n\t+ Emotion: #impressive\n\t+ Community: #techthings, #YCombinator\n* **Languages:** English (primary), no other languages detected\n* **Co-occurring hashtags:**\n\t+ #GPT5 and #Genie (implying association between OpenAI and Google's AI models)\n\t+ #Google and #Genie (implying association between Google and its AI model)\n* **Sentiment-laden hashtags:**\n\t+ #impressive (positive sentiment)\n* **Hashtag frequency and source post examples:**\n\t+ #Genie (2 posts)\n\t+ #GPT5 (1 post)\n\t+ #Google (1 post)\n* **Temporal trend:** No clear trend, but #Genie and #GPT5 suggest a focus on AI models\n\n**Topics**\n\nBased on the posts and hashtag analysis, I've identified the following topics:\n\n1. **AI Model Comparison: Google's Genie vs. OpenAI's GPT5**\n\t* Summary: The post compares Google's Genie with OpenAI's GPT5, highlighting Genie's impressive capabilities. This topic can impact B2B decisions, sales, or client engagement as it relates to the perceived value and competitiveness of Google's AI offerings.\n\t* Supporting post snippet: \"Google's Genie is more impressive than GPT5\"\n\t* Key hashtags: #Genie, #GPT5, #Google, #impressive\n2. **Technology and Innovation**\n\t* Summary: The discussion around Google's Genie and OpenAI's GPT5 showcases the companies' innovative capabilities, which can influence business decisions related to technology adoption and partnerships.\n\t* Supporting post snippet: \"Discussion: http://news.ycombinator.com/item?id=44837646\"\n\t* Key hashtags: #techthings, #YCombinator\n3. **Brand Perception and Reputation**\n\t* Summary: The post implies that Google's Genie is a notable achievement, contributing to a positive brand perception. This topic can impact client engagement and trust in Google's brand.\n\t* Supporting post snippet: \"Google's Genie is more impressive than GPT5\"\n\t* Key hashtags: #Google, #impressive\n\n**Business Relevance and Impact**\n\nThese topics can inform business decisions, sales, or client engagement in the following ways:\n\n* AI Model Comparison: Google's Genie vs. OpenAI's GPT5:\n\t+ Potential impact on B2B decisions: Companies considering AI solutions may view Google's Genie as a more attractive option due to its perceived superiority over GPT5.\n\t+ Potential impact on sales: Google's sales teams can leverage the positive sentiment around Genie to promote its AI offerings.\n* Technology and Innovation:\n\t+ Potential impact on B2B decisions: Businesses may be more likely to partner with or invest in companies that demonstrate innovative capabilities, such as Google.\n\t+ Potential impact on client engagement: Google can showcase its innovative spirit to engage clients and build trust in its brand.\n* Brand Perception and Reputation:\n\t+ Potential impact on client engagement: A positive brand perception can lead to increased client trust and loyalty.\n\t+ Potential impact on sales: A strong brand reputation can make Google's sales efforts more effective.\n\nBy monitoring and analyzing digital conversations around these topics, Google can gain valuable insights to inform its business strategies, sales efforts, and client engagement initiatives.",
+    "timestamp": "2025-08-09T14:32:28.219372+00:00"
+  },
+  {
+    "source": "mastodon",
+    "text": "Get directions for a route not in your map area - and all the Google maps POIs disappear for a clean screenshot.",
+    "url": "https://universeodon.com/@MisterMadge/114999211077588599",
+    "sentiment": "positive",
+    "sentiment_polarity": 0.3666666666666667,
+    "sentiment_subjectivity": 0.7000000000000001,
+    "hashtags": [],
+    "topic": "Google Maps Features",
+    "analysis": "**Topic Analysis: Google Brand Perception in Digital Conversations**\n\n**Semantic Category Analysis of Hashtags:**\n\n* Product/Service: #GoogleMaps, #Google\n* Tech: #Maps, #POIs\n* Emotion: None explicitly detected\n* Location: None\n* Language: English (primary), no cross-lingual variants detected\n\n**Hashtag Co-occurrence and Frequency Analysis:**\n\n* #GoogleMaps and #Google co-occur in 1 post (100% co-occurrence rate)\n* #GoogleMaps: 1 post, 1 source\n* #Google: 1 post, 1 source\n* #PRTIMES, #pr_times, and other potential variants not detected\n\n**Temporal Trend Analysis:**\n\n* No temporal trend inference possible due to limited data\n\n**Topic Identification and Breakdown:**\n\n### Topic 1: Google Maps Functionality and Limitations\n\n* **Summary:** Users discuss limitations and potential workarounds for Google Maps, specifically regarding POI (Points of Interest) visibility and map area coverage. This topic may impact business decisions related to navigation and location-based services.\n* **Supporting Post Snippet:** \"Get directions for a route not in your map area - and all the Google maps POIs disappear for a clean screenshot.\"\n* **Key Hashtags:** #GoogleMaps, #Google, #POIs\n* **Business Relevance:** This topic may influence B2B decisions related to:\n\t+ Location-based service offerings\n\t+ Navigation and mapping integrations\n\t+ Customer expectations for feature availability and functionality\n\n### No Additional Topics\n\nDue to the limited dataset, only one topic was identified. However, this topic highlights a specific pain point and potential area of improvement for Google Maps, which may have implications for business performance and customer trust.\n\n**Recommendations:**\n\n1. **Improve Google Maps functionality and coverage:** Address user concerns regarding POI visibility and map area limitations to enhance the overall user experience.\n2. **Monitor and respond to user feedback:** Engage with users and acknowledge their concerns to demonstrate a commitment to customer satisfaction and build trust.\n3. **Analyze and adapt to evolving user needs:** Continuously assess user expectations and preferences to inform product development and ensure alignment with business objectives.",
+    "timestamp": "2025-08-09T14:32:29.543418+00:00"
+  },
+  {
+    "source": "mastodon",
+    "text": "Google's Keyword Planner just got a major upgrade: regional and device forecasts. Now you can see search volume by city, state, and device instead of guessing where to spend your budget. Finally, data-driven geo-targeting instead of \"let's try everything and see what works.\" Check if you have access yet. # googleads # keywordplanner",
+    "url": "https://mastodon.social/@onlinelabs/114999197426609000",
+    "sentiment": "neutral",
+    "sentiment_polarity": 0.03125,
+    "sentiment_subjectivity": 0.75,
+    "hashtags": [
+      "googleads",
+      "keywordplanner"
+    ],
+    "topic": "Google Maps Features",
+    "analysis": "Based on the provided Mastodon post and hashtag data, I've identified the key discussion topics relevant to Google's brand, business performance, and customer trust.\n\n**Topic 1: Google Ads Feature Upgrade**\n\n* Summary: Google's Keyword Planner has received a significant upgrade, allowing for more granular data analysis and targeted advertising. This enhancement can positively impact businesses' advertising strategies and budget allocation.\n* Supporting post snippet: \"Google's Keyword Planner just got a major upgrade: regional and device forecasts. Now you can see search volume by city, state, and device instead of guessing where to spend your budget.\"\n* Key hashtags: #googleads, #keywordplanner\n\n**Semantic Category:** Product\n\n**Language:** English\n\n**Cross-lingual Variants:** None detected\n\n**Co-occurring Hashtags:** #googleads and #keywordplanner co-occur in the same post, implying a strong association between the two.\n\n**Sentiment-laden Hashtags:** None detected\n\n**Hashtag Frequency and Source Post Examples:**\n\n* #googleads: 1 post\n* #keywordplanner: 1 post\n\n**Temporal Trend:** No temporal trend can be inferred from a single post, but the upgrade of Google's Keyword Planner suggests a positive development in Google's advertising offerings.\n\n**Business Relevance:** This topic can impact B2B decisions related to advertising strategies and budget allocation. Businesses may re-evaluate their advertising approaches and consider leveraging the upgraded Keyword Planner for more targeted and data-driven decision-making.\n\n**Topic 2: Data-Driven Decision-Making in Advertising**\n\n* Summary: The upgraded Keyword Planner enables data-driven geo-targeting, allowing businesses to make more informed decisions about their advertising spend. This can lead to improved advertising efficiency and effectiveness.\n* Supporting post snippet: \"Finally, data-driven geo-targeting instead of 'let's try everything and see what works.'\"\n* Key hashtags: #googleads, #keywordplanner\n\nThis topic is closely related to Topic 1 and highlights the benefits of using data-driven insights to inform advertising strategies.\n\n**Overall, the key takeaways for Google's brand and business performance are:**\n\n1. Google is continuously improving its advertising offerings, which can lead to increased customer satisfaction and loyalty.\n2. The upgraded Keyword Planner can help businesses make more informed decisions about their advertising spend, potentially leading to improved advertising efficiency and effectiveness.\n\nThese topics and insights can inform business decisions related to advertising strategies, budget allocation, and the adoption of data-driven decision-making approaches.",
+    "timestamp": "2025-08-09T14:32:31.031726+00:00"
+  },
+  {
+    "source": "mastodon",
+    "text": "lo del wplace está guay, pero lo de que para dibujar algo te pida registrarte con twitch o google me echa para atrás que te cagas",
+    "url": "https://retro.pizza/@ay_que_si/114999190777632455",
+    "sentiment": "neutral",
+    "sentiment_polarity": 0.0,
+    "sentiment_subjectivity": 0.0,
+    "hashtags": [],
+    "topic": "Google Maps Features",
+    "analysis": "Based on the provided Mastodon post and hashtag data, I've analyzed the conversation to identify key discussion topics relevant to Google's brand, business performance, or customer trust.\n\n**Hashtag Analysis:**\n\n* Hashtags can be grouped into the following semantic categories:\n\t+ Product/Technology: #google\n\t+ Emotion: #echa (implies a negative sentiment)\n\t+ Platform/ Service: #twitch\n* Detected language: Spanish ( primary language), with possible cross-lingual variants in English (e.g., #google)\n* Co-occurring hashtags: #google and #twitch (implying association between Google and Twitch)\n* Sentiment-laden hashtags: #echa (negative sentiment)\n* Normalized/standardized hashtags: None\n* Hashtag frequency:\n\t+ #google: 1 post\n\t+ #twitch: 1 post\n\t+ #echa: 1 post\n* Temporal trend: No trend can be inferred with a single post\n\n**Topics:**\n\n1. **Concerns about Google's Registration Process**\n\t* Summary: The post expresses frustration with Google's registration requirement to access a drawing feature, which may deter potential users.\n\t* Business relevance: This topic may impact Google's user acquisition and retention, particularly if users are hesitant to create an account or associate their Google identity with third-party services.\n\t* Supporting post snippet: \"lo de que para dibujar algo te pida registrarte con twitch o google me echa para atrás que te cagas\"\n\t* Key hashtags: #google, #twitch, #echa\n\n2. **Integration with Third-Party Services (Twitch)**\n\t* Summary: The post mentions Google in conjunction with Twitch, suggesting that users are discussing the integration of these services.\n\t* Business relevance: This topic may influence Google's partnerships and collaborations with other companies, potentially affecting its business outcomes, such as deal velocity or client engagement.\n\t* Supporting post snippet: \"lo del wplace está guay, pero lo de que para dibujar algo te pida registrarte con twitch o google me echa para atrás que te cagas\"\n\t* Key hashtags: #google, #twitch\n\n**Actionable Insights:**\n\n* Google should monitor user sentiment around its registration processes, particularly when integrating with third-party services.\n* The company may need to balance the benefits of seamless integrations with the potential drawbacks of requiring user registrations, which could impact user acquisition and retention.\n* Google's partnerships with other companies, such as Twitch, should be evaluated to ensure they align with user expectations and do not create friction.\n\nBy addressing these concerns and optimizing its integration strategies, Google can maintain a positive brand perception, drive business growth, and foster customer trust.",
+    "timestamp": "2025-08-09T14:32:32.605721+00:00"
+  },
+  {
+    "source": "mastodon",
+    "text": "旧闻一则：Mozilla 品牌字体 Mozilla Headline 和 Mozilla Text OFL 1.1 available at GitHub 刷 Google Fonts 时看到 trending 上的",
+    "url": "https://social.a2x.pub/notes/ab7w70shrws5003n",
+    "sentiment": "neutral",
+    "sentiment_polarity": 0.4,
+    "sentiment_subjectivity": 0.4,
+    "hashtags": [],
+    "topic": "Google Product Enhancements",
+    "analysis": "Based on the provided Mastodon posts and hashtag data, I've identified key discussion topics relevant to Google's brand, business performance, and customer trust.\n\n**Topic 1: Google Fonts and Typography**\n\n* Summary: The post mentions Google Fonts and a trending font on the platform, Mozilla Headline and Mozilla Text. This topic is relevant to Google's brand as it relates to their design and typography offerings.\n* Business relevance: This conversation may influence B2B decisions related to brand identity, marketing, and design. It may also impact client engagement as it pertains to visual aesthetics.\n* Supporting post snippet: \"刷 Google Fonts 时看到 trending 上的\"\n* Key hashtags: #GoogleFonts\n\n**Topic 2: Open-source and Font Licensing**\n\n* Summary: The post mentions the font license (OFL1.1) and GitHub, indicating a discussion around open-source and font licensing.\n* Business relevance: This conversation may impact B2B decisions related to software development, design, and licensing. It may also affect client trust as it pertains to intellectual property and transparency.\n* Supporting post snippet: \"Mozilla 品牌字体 Mozilla Headline 和 Mozilla Text OFL1.1 available at GitHub\"\n* Key hashtags: #OFL1.1, #GitHub\n\n**Hashtag Analysis:**\n\n* Semantic categories:\n\t+ Product: #GoogleFonts\n\t+ Technology: #GitHub\n\t+ Licensing: #OFL1.1\n* Languages present: Chinese, English\n* Cross-lingual variants: None detected\n* Co-occurring hashtags: #GoogleFonts and #GitHub (implying association between Google Fonts and GitHub)\n* Sentiment-laden hashtags: None detected\n* Normalized/standardized hashtags: #PRTIMES is not present in the data, but if it were, it would be normalized to #pr_times\n* Hashtag frequency and source post examples:\n\t+ #GoogleFonts (1 occurrence, 1 post)\n\t+ #OFL1.1 (1 occurrence, 1 post)\n\t+ #GitHub (1 occurrence, 1 post)\n\n**Temporal Trend:**\nNo temporal trend can be inferred from the provided data, as there is only one post.\n\nIn conclusion, the key discussion topics relevant to Google's brand, business performance, and customer trust are:\n\n1. Google Fonts and Typography\n2. Open-source and Font Licensing\n\nThese topics are tied to public digital conversations around Google, offer potential impact on B2B decisions, sales, or client engagement, and are grounded in specific language used in posts.",
+    "timestamp": "2025-08-09T14:32:34.061207+00:00"
+  },
+  {
+    "source": "mastodon",
+    "text": "Hey look at this * Free 3D models of every D&D monster https://www. patreon.com/cw/mz4250 (h/t Maxiemumdamage) * Enough is enough—I dumped Google’s worsening search for Kagi https:// arstechnica.com/gadgets/2025/0 8/enough-is-enough-i-dumped-googles-worsening-search-for-kagi/ (h/t Stef) * AI disagreements https://www. bloodinthemachine.com/p/ai-dis agreements * An Abundance of Sleaze: How a Beltway Brain Trust Sells Oligarchy to Liberals https://www. thebignewsletter.com/p/an-abun dance-of-sleaze-how-a-beltway * Fintech Dystopia: Won’t somebody please think of the innovation? https:// fintechdystopia.com/chapters/c hapter6.html 4/",
+    "url": "https://mamot.fr/@pluralistic/114999189508124244",
+    "sentiment": "positive",
+    "sentiment_polarity": 0.2,
+    "sentiment_subjectivity": 0.65,
+    "hashtags": [],
+    "topic": "Google Product Enhancements",
+    "analysis": "Based on the provided Mastodon posts and hashtag data, I've identified and analyzed the key discussion topics relevant to Google's brand, business performance, and customer trust.\n\n**Hashtag Analysis**\n\nBefore diving into the topics, here's a brief analysis of the hashtags:\n\n* **Semantic categories:**\n\t+ Product/Technology: #Google, #Kagi, #AI\n\t+ Emotion: #worsening, #disagreements, #sleaze, #dystopia\n\t+ Location: None\n\t+ Other: #D&D, #Patreon, #ArsTechnica, #Fintech\n* **Languages:** English (primary), no other languages detected\n* **Co-occurring hashtags:** None\n* **Sentiment-laden hashtags:** #worsening (negative), #disagreements (neutral/negative), #sleaze (negative), #dystopia (negative)\n* **Hashtag frequency and source post examples:**\n\t+ #Google: 1 post\n\t+ #Kagi: 1 post\n\t+ #AI: 1 post\n* **Temporal trend:** No clear trend, as the data only contains a single snapshot of posts\n\n**Topics**\n\nHere are the identified topics, along with a detailed summary of their business relevance, supporting post snippets, and key hashtags:\n\n1. **Google's Search Quality and Decline**\n\t* Summary: Users are expressing dissatisfaction with Google's search results, leading some to explore alternative search engines like Kagi. This could impact Google's business performance, as users may opt for competitors' services.\n\t* Supporting post snippets:\n\t\t+ \"Enough is enough—I dumped Google’s worsening search for Kagi\" (implies a decline in Google's search quality)\n\t* Key hashtags: #Google, #Kagi, #worsening\n2. **AI-Related Concerns and Disagreements**\n\t* Summary: The post mentions \"AI disagreements,\" which could imply concerns about AI development, deployment, or ethics. This topic may affect Google's business, as AI is a crucial component of their products and services.\n\t* Supporting post snippets:\n\t\t+ \"AI disagreements\" (direct mention of AI-related concerns)\n\t* Key hashtags: #AI, #disagreements\n3. **Trust and Credibility in Technology**\n\t* Summary: The post \"An Abundance of Sleaze: How a Beltway Brain Trust Sells Oligarchy to Liberals\" seems unrelated to Google directly. However, it touches on the theme of trust and credibility in technology, which is essential for Google's business. If users perceive Google or its partners as lacking credibility, it may harm their business.\n\t* Supporting post snippets:\n\t\t+ \"An Abundance of Sleaze: How a Beltway Brain Trust Sells Oligarchy to Liberals\" (implies concerns about credibility and trust in technology)\n\t* Key hashtags: #sleaze\n4. **Innovation and Competition in Fintech**\n\t* Summary: The post \"Fintech Dystopia: Won’t somebody please think of the innovation?\" discusses innovation in fintech, which might be related to Google's interests in financial technology (e.g., Google Pay). This topic could impact Google's business, as innovation and competition in fintech may affect their market position.\n\t* Supporting post snippets:\n\t\t+ \"Fintech Dystopia: Won’t somebody please think of the innovation?\" (direct mention of fintech innovation)\n\t* Key hashtags: #Fintech, #dystopia\n\nIn conclusion, these topics highlight concerns about Google's search quality, AI-related issues, trust and credibility in technology, and innovation in fintech. These discussions may influence business outcomes, such as deal velocity, lead quality, or client engagement, and should be monitored to inform Google's brand perception strategy.",
+    "timestamp": "2025-08-09T14:32:36.218887+00:00"
+  },
+  {
+    "source": "mastodon",
+    "text": "Top 10 Resume Design Trends for 2025 The resume is not dead, but its traditional form is. In 2025, a resume must be more than a simple list of past jobs; it must be a strategic document that narrates your value, skills, and purpose. As artificial intelligence continues to shape the hiring landscape and companies increasingly adopt skills-based hiring practices, your resume is being evaluated through a new lens.[ 1 ] This evolution demands a fresh approach to resume design, one that prioritizes clarity, strategic content, and a touch of personal branding. Understanding the latest resume design trends is no longer optional; it’s essential for anyone looking to make a meaningful career move in the year ahead. 1. The Ascendancy of the Skills-Based Resume Hiring managers and recruiters are progressively shifting their focus from job history to demonstrated abilities.[ 1 ] This has led to the rise of the skills-based, or functional, resume. This format places the emphasis on your core competencies and what you can do , rather than simply where you have worked. For career changers or those with employment gaps, this trend is particularly beneficial. You can download this Adobe InDesign resume template by Bourjart with 3 pages here. To embrace this trend, create a dedicated “Key Skills” or “Core Competencies” section at the top of your resume, just below your professional summary.[ 1 ] Tailor this section to each job application, aligning your listed skills with those mentioned in the job description. This immediately signals to the hiring manager that you possess the qualifications they are seeking. 2. Minimalism: The Power of Simplicity in Resume Design Trends Clean, uncluttered, and minimalist designs are set to dominate 2025.[ 2 ][ 3 ] Hiring managers spend only a few seconds initially scanning a resume, and a simple, well-organized layout makes their job easier. Ample white space, clear headings, and a logical flow enhance readability and allow your key qualifications to stand out. This minimalist resume design by Bourjart is available for download here. Embrace minimalism by using a single, professional font, a limited color palette (or none at all), and consistent formatting.[ 3 ] Avoid excessive graphics, photos, or intricate design elements that can distract from the content and may not be compatible with applicant tracking systems. 3. Mastering the Machine: ATS-Friendly Formatting Applicant Tracking Systems (ATS) are the gatekeepers of the modern hiring process.[ 4 ] These systems scan resumes for keywords and specific formatting, filtering out candidates before their resumes ever reach human eyes. Therefore, designing your resume to be ATS-friendly is non-negotiable. Designed by Marjolein de Swart, this well-structured resume and cover letter template for Adobe InDesign is available here. To ensure your resume passes the ATS test, use a clean, single-column layout.[ 5 ] Stick to standard fonts like Calibri or Arial and use conventional section headings such as “Work Experience,” “Education,” and “Skills.”[ 1 ][ 3 ] While creativity is tempting, it’s best to save it for your portfolio and let your resume’s content speak for itself. Always submit your resume as a PDF to preserve its formatting, unless another file type is requested.[ 3 ] 4. The Art of Quantifiable Achievements Recruiters want to see results. Instead of simply listing your job duties, focus on your accomplishments and quantify them whenever possible.[ 2 ][ 5 ] Numbers provide concrete evidence of your impact and help hiring managers visualize the value you can bring to their team. Rather than stating that you “managed social media,” specify that you “grew social media engagement by 35% in six months.” Instead of “responsible for sales,” write “exceeded sales targets by 15% for three consecutive quarters.” These specific, metric-driven statements are far more compelling. This Adobe InDesign resume presentation template by E-Type in 1920 x 1080 px is available here. 5. Subtle Personal Branding: A Touch of You While minimalism is key, a touch of personal branding can help you stand out. This doesn’t mean a flashy design, but rather a consistent and professional presentation of yourself across all platforms. A subtle accent color, a personal logo or monogram, or a link to your personal website or online portfolio can add a memorable touch.[ 4 ][ 5 ] Your resume, LinkedIn profile, and portfolio should all align to create a cohesive professional brand. This CV/resume screen presentation template, available for purchase here, is provided by TemplatesForest. 6. The Hybrid Resume: The Best of Both Worlds The hybrid resume format is gaining popularity for its versatility.[ 4 ][ 5 ] It combines the best elements of the chronological and functional formats. A hybrid resume typically starts with a professional summary and a key skills section, followed by a chronological work history. This allows you to highlight your most relevant qualifications upfront while still providing a clear overview of your career progression. Designed by Pixejoo, this minimalist but stylish InDesign resume and cover letter template with photo can be downloaded here. 7. The Strategic Use of Keywords In the age of ATS, keywords are king.[ 2 ] Carefully analyze the job description and identify the key skills, qualifications, and technologies the employer is seeking. Then, strategically incorporate these keywords throughout your resume, particularly in your skills section and work experience descriptions. This will significantly increase your chances of getting past the initial ATS screening.[ 1 ] Download the CV InDesign resume template plus cover letter layout by Wavebreak Media here. 8. Highlighting Soft Skills and Emotional Intelligence While technical skills are crucial, employers are increasingly recognizing the importance of soft skills and emotional intelligence.[ 2 ][ 4 ] Abilities like communication, teamwork, problem-solving, and adaptability are highly valued in today’s collaborative work environments. Download a modern CV/resume template by GraphicArtist for Adobe InDesign. Weave your soft skills into the descriptions of your work experience. For example, instead of just saying you completed a project, you could say you “collaborated with a cross-functional team to deliver a project on time and under budget.” 9. Seamless Digital Integration Your resume is no longer a static document. In 2025, it should serve as a gateway to your broader professional presence.[ 2 ] Including links to your LinkedIn profile, online portfolio, or personal website is now standard practice. This allows interested hiring managers to easily access more information about your work and accomplishments. Make sure your online profiles are up-to-date and consistent with the information on your resume. This interactive PDF resume template by Grki Creative for Adobe InDesign is available for download here. 10. Modern, Readable Fonts for a Professional Edge The font you choose for your resume says more than you might think. While it’s a small detail, it has a significant impact on readability and the overall impression your resume makes. In 2025, the trend is towards modern, clean, and easy-to-read sans-serif fonts.[ 2 ] Fonts like Calibri, Helvetica, Arial, and Roboto are excellent choices that are both professional and ATS-friendly.[ 3 ] Avoid overused fonts like Times New Roman, which can make your resume look dated. Download the Roboto font family for free from Google Fonts. Crafting Your Future The resume of 2025 moves beyond a simple chronicle of your past. Instead, it acts as a strategic blueprint for your future. The most effective resumes will prioritize demonstrable skills and quantifiable results over a mere list of duties. Their designs will embrace a purposeful minimalism, ensuring readability for both human recruiters and the Applicant Tracking Systems that act as digital gatekeepers. This strategic approach means every element, from keyword choice to font selection, is made with intention. Yet, this new resume is not impersonal. It thoughtfully integrates subtle branding and links to your broader digital presence, inviting a deeper look. Ultimately, these resume design trends point to a single, powerful idea: your resume is a dynamic tool for professional marketing. By applying these principles, you are not just listing your experience. You are actively shaping your career narrative for the opportunities that lie ahead. Feel free to find a curated list of the top 10 resume templates for striking job applications in 2025 here at WE AND THE COLOR. Please note that some of the showcased resume templates require Adobe InDesign installed on your computer. Whether Mac or PC, the latest version is available on the Adobe Creative Cloud website—take a look here . Sources: careersbydesign.ca resumebuilder.com novoresume.com resumeble.com resumemaker.online",
+    "url": "https://weandthecolor.com/top-10-resume-design-trends-for-2025/205105",
+    "sentiment": "positive",
+    "sentiment_polarity": 0.1484809887082614,
+    "sentiment_subjectivity": 0.4532236198145288,
+    "hashtags": [
+      "cv",
+      "indesignresumetemplates",
+      "jobapplication",
+      "jobapplications",
+      "resume",
+      "resumedesign",
+      "resumetrends"
+    ],
+    "topic": "Google Product Enhancements",
+    "analysis": "The posts contain information about resume design trends for 2025. The discussion does not directly mention Google; however, some insights on digital presence and brand perception can be connected to Google's ecosystem, such as the use of Google Fonts.\n\n### Semantic Category Grouping of Hashtags\n\nThe provided hashtags can be grouped into the following semantic categories:\n\n1. **Job Application and Resume Design**\n   - cv\n   - indesignresumetemplates\n   - jobapplication\n   - jobapplications\n   - resume\n   - resumedesign\n   - resumetrends\n\n2. **Software and Tools**\n   - No direct hashtags, but mentions of Adobe InDesign and Google Fonts.\n\n### Language Detection and Cross-Lingual Variants\n\n- The hashtags are primarily in English.\n- No cross-lingual variants detected.\n\n### Co-Occurring Hashtags\n\n- The posts do not explicitly list co-occurring hashtags, but the context suggests that #resume, #resumedesign, and #resumetrends often appear together.\n\n### Sentiment-Laden Hashtags\n\n- No sentiment-laden hashtags detected.\n\n### Hashtag Frequency and Source Post Examples\n\n- **resume**: 1 post\n- **resumedesign**: 1 post\n- **resumetrends**: 1 post\n- **indesignresumetemplates**: 1 post\n- **jobapplication**: 1 post\n- **jobapplications**: 1 post\n- **cv**: 1 post\n\n### Temporal Trend\n\n- The posts suggest a current trend towards modern resume designs for 2025, indicating a temporal relevance to current job application processes.\n\n### Topics Relevant to Google's Brand, Business Performance, or Customer Trust\n\n1. **Digital Presence and Branding**\n   - **Summary**: The post emphasizes the importance of a professional online presence, including the use of modern fonts like those available on Google Fonts. This trend towards digital integration and professional branding can influence how companies, including Google, perceive and engage with potential employees and clients online.\n   - **Supporting Post Snippet**: \"Including links to your LinkedIn profile, online portfolio, or personal website is now standard practice. This allows interested hiring managers to easily access more information about your work and accomplishments.\"\n   - **Key Hashtags**: resume, resumedesign, jobapplication\n\n2. **Technology and Tools**\n   - **Summary**: The discussion on ATS-friendly formatting and the use of specific fonts and tools (e.g., Adobe InDesign, Google Fonts) highlights the role of technology in job applications. Google, being a leader in technology, can benefit from understanding these trends as they relate to digital skills and tool adoption.\n   - **Supporting Post Snippet**: \"Use a clean, single-column layout. Stick to standard fonts like Calibri or Arial and use conventional section headings such as “Work Experience,” “Education,” and “Skills.” While creativity is tempting, it’s best to save it for your portfolio and let your resume’s content speak for itself.\"\n   - **Key Hashtags**: indesignresumetemplates, resume\n\n3. **Skills and Qualifications**\n   - **Summary**: The emphasis on skills-based resumes and quantifiable achievements can impact how Google and similar companies evaluate potential candidates. Understanding these trends can help in refining recruitment strategies and marketing efforts.\n   - **Supporting Post Snippet**: \"Hiring managers and recruiters are progressively shifting their focus from job history to demonstrated abilities. This has led to the rise of the skills-based, or functional, resume.\"\n   - **Key Hashtags**: resumetrends, jobapplications\n\n### Conclusion\n\nWhile the posts do not directly discuss Google, the insights into digital presence, technology adoption, and skills trends can inform Google's strategies in recruitment, brand perception, and client engagement. By understanding these trends, Google can better position itself as a desirable employer and business partner in the digital age.",
+    "timestamp": "2025-08-09T14:32:38.466474+00:00"
+  },
+  {
+    "source": "mastodon",
+    "overall_analysis": "### **Google Brand Analysis: Key Topics and Insights**\n\nThe following analysis identifies key discussion topics related to Google's brand perception and business performance based on the provided Mastodon posts and hashtags. The topics are grounded in specific language used in the posts and have potential implications for B2B decisions, sales, or client engagement.\n\n### **Topic 1: Google's AI and Technology Integration**\n**Summary:** \n- **Relevance:** Google's advancements in AI, particularly with Gemini, are a focal point in digital conversations. This impacts how businesses perceive Google as a tech leader and influences their decisions to integrate AI into their operations.\n\n- **Post Snippets:** \n  - *“Gemini llegó a más auriculares y pude probarlo: así funciona la IA de Google directo en tus oídos”* (Gemini has arrived in headphones, and I could try it out: this is how Google's AI works directly in your ears).\n  - *“Google's Genie is more impressive than GPT5”* (Discussion on Google's Genie being more impressive than GPT5).\n\n- **Key Hashtags:** \n  - *#Google, #Gemini, #AI, #Teknologi*\n\n### **Topic 2: Google's Product Ecosystem and User Trust**\n**Summary:** \n- **Relevance:** Conversations around Google's products, such as Google Maps and GBoard, reveal user experiences and trust levels. Positive experiences can enhance brand loyalty, while negative ones might drive users to alternative solutions.\n\n- **Post Snippets:** \n  - *“Another #google app removed from my #android device. I am now trying the #FutoKeyboard instead of the #GBoard and it seems very promising for me. Just one of many steps to become #degoogled”* (Another Google app removed from my Android device; I'm now trying FutoKeyboard instead of GBoard).\n\n- **Key Hashtags:** \n  - *#Google, #Android, #GBoard, #FutoKeyboard, #Degoogled*\n\n### **Topic 3: Digital Sovereignty and Data Privacy**\n**Summary:** \n- **Relevance:** Discussions about self-hosting and digital sovereignty reflect concerns about data privacy and control. Google's stance on these issues can affect business trust and decisions regarding data management.\n\n- **Post Snippets:** \n  - *“If we want people to self-host, we should really be making self-hosting a hell of a lot easier and more approachable instead of lamenting anyone who uses Google or whatever”* (If we want people to self-host, we should make it easier and more approachable).\n\n- **Key Hashtags:** \n  - *#Degoogled, #DigitalSovereignty*\n\n### **Topic 4: Marketing and Advertising Tools**\n**Summary:** \n- **Relevance:** Updates to Google's advertising tools, such as Google Ads and Keyword Planner, are crucial for businesses. Enhanced features can improve campaign effectiveness and ROI.\n\n- **Post Snippets:** \n  - *“Google's Keyword Planner just got a major upgrade: regional and device forecasts. Now you can see search volume by city, state, and device”* (Google's Keyword Planner has a major upgrade: regional and device forecasts).\n\n- **Key Hashtags:** \n  - *#GoogleAds, #KeywordPlanner*\n\n### **Topic 5: Business Applications and Resume Design Trends**\n**Summary:** \n- **Relevance:** Insights into resume design trends and the integration of AI in professional tools can inform businesses about evolving workplace skills and expectations.\n\n- **Post Snippets:** \n  - *“Top 10 Resume Design Trends for 2025”* (Discusses the importance of adapting resume designs to incorporate skills-based formats and AI-friendly content).\n\n- **Key Hashtags:** \n  - *#ResumeDesign, #JobApplications*\n\n### **Hashtag Grouping by Semantic Category:**\n1. **Product/Technology:**\n   - *#Google, #Android, #GBoard, #FutoKeyboard, #Gemini*\n2. **Business/Professional:**\n   - *#GoogleAds, #KeywordPlanner, #ResumeDesign, #JobApplications*\n3. **Tech/Trends:**\n   - *#Teknologi, #AI*\n4. **Privacy/Trust:**\n   - *#Degoogled, #DigitalSovereignty*\n\n### **Sentiment-Laden Hashtags:**\n- *#Degoogled* (negative sentiment towards Google)\n\n### **Temporal Trends:**\n- *#AI* and *#Google* are consistently trending, indicating ongoing interest in Google's technology and AI advancements.",
+    "overall_hashtags": [
+      "google",
+      "android",
+      "futokeyboard",
+      "gboard",
+      "degoogled",
+      "teknologi",
+      "googleads",
+      "keywordplanner",
+      "cv",
+      "indesignresumetemplates",
+      "jobapplication",
+      "jobapplications",
+      "resume",
+      "resumedesign",
+      "resumetrends"
+    ],
+    "timestamp": "2025-08-09T14:32:38.466489+00:00"
+  },
+  {
+    "url": "https://x.com/Google/status/1953929256674722202?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+    "data": {
+      "__typename": "Tweet",
+      "rest_id": "1953929256674722202",
+      "core": {
+        "user_results": {
+          "result": {
+            "__typename": "User",
+            "id": "VXNlcjoyMDUzNjE1Nw==",
+            "rest_id": "20536157",
+            "affiliates_highlighted_label": {},
+            "avatar": {
+              "image_url": "https://pbs.twimg.com/profile_images/1754606338460487681/bWupXdxo_normal.jpg"
+            },
+            "core": {
+              "created_at": "Tue Feb 10 19:14:39 +0000 2009",
+              "name": "Google",
+              "screen_name": "Google"
+            },
+            "dm_permissions": {},
+            "is_blue_verified": true,
+            "legacy": {
+              "default_profile": false,
+              "default_profile_image": false,
+              "description": "Here to help.",
+              "entities": {
+                "description": {
+                  "urls": []
+                },
+                "url": {
+                  "urls": [
+                    {
+                      "display_url": "blog.google/newsletter-sub…",
+                      "expanded_url": "https://blog.google/newsletter-subscribe/",
+                      "url": "https://t.co/RS3iU873QG",
+                      "indices": [
+                        0,
+                        23
+                      ]
+                    }
+                  ]
+                }
+              },
+              "fast_followers_count": 0,
+              "favourites_count": 3769,
+              "followers_count": 32792595,
+              "friends_count": 285,
+              "has_custom_timelines": true,
+              "is_translator": false,
+              "listed_count": 89747,
+              "media_count": 37473,
+              "normal_followers_count": 32792595,
+              "pinned_tweet_ids_str": [],
+              "possibly_sensitive": false,
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/20536157/1752864768",
+              "profile_interstitial_type": "",
+              "statuses_count": 239146,
+              "translator_type": "regular",
+              "url": "https://t.co/RS3iU873QG",
+              "withheld_in_countries": []
+            },
+            "location": {
+              "location": "Mountain View, CA"
+            },
+            "media_permissions": {},
+            "parody_commentary_fan_label": "None",
+            "profile_image_shape": "Square",
+            "professional": {
+              "rest_id": "1504886752259059716",
+              "professional_type": "Business",
+              "category": [
+                {
+                  "id": 713,
+                  "name": "Science & Technology",
+                  "icon_name": "IconBriefcaseStroke"
+                }
+              ]
+            },
+            "privacy": {
+              "protected": false
+            },
+            "relationship_perspectives": {},
+            "tipjar_settings": {
+              "is_enabled": false,
+              "bandcamp_handle": "",
+              "bitcoin_handle": "",
+              "cash_app_handle": "",
+              "ethereum_handle": "",
+              "gofundme_handle": "",
+              "patreon_handle": "",
+              "pay_pal_handle": "",
+              "venmo_handle": ""
+            },
+            "verification": {
+              "verified": false,
+              "verified_type": "Business"
+            },
+            "verified_phone_status": false
+          }
+        }
+      },
+      "unmention_data": {},
+      "edit_control": {
+        "edit_tweet_ids": [
+          "1953929256674722202"
+        ],
+        "editable_until_msecs": "1754691611000",
+        "is_edit_eligible": true,
+        "edits_remaining": "5"
+      },
+      "is_translatable": false,
+      "views": {
+        "count": "74060",
+        "state": "EnabledWithCount"
+      },
+      "source": "<a href=\"https://prod8.sprinklr.com/\" rel=\"nofollow\">Sprinklr Care</a>",
+      "grok_analysis_button": true,
+      "legacy": {
+        "bookmark_count": 58,
+        "bookmarked": false,
+        "created_at": "Fri Aug 08 21:20:11 +0000 2025",
+        "conversation_id_str": "1953929256674722202",
+        "display_text_range": [
+          0,
+          102
+        ],
+        "entities": {
+          "hashtags": [],
+          "media": [
+            {
+              "display_url": "pic.x.com/ZHbgP2sbDA",
+              "expanded_url": "https://x.com/Google/status/1953929256674722202/video/1",
+              "id_str": "1953929214408712192",
+              "indices": [
+                103,
+                126
+              ],
+              "media_key": "13_1953929214408712192",
+              "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1953929214408712192/img/NTkUO76Z8UiH7xTn.jpg",
+              "type": "video",
+              "url": "https://t.co/ZHbgP2sbDA",
+              "additional_media_info": {
+                "monetizable": false
+              },
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "sizes": {
+                "large": {
+                  "h": 1080,
+                  "w": 1920,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "h": 675,
+                  "w": 1200,
+                  "resize": "fit"
+                },
+                "small": {
+                  "h": 383,
+                  "w": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "h": 150,
+                  "w": 150,
+                  "resize": "crop"
+                }
+              },
+              "original_info": {
+                "height": 1080,
+                "width": 1920,
+                "focus_rects": []
+              },
+              "video_info": {
+                "aspect_ratio": [
+                  16,
+                  9
+                ],
+                "duration_millis": 55833,
+                "variants": [
+                  {
+                    "content_type": "application/x-mpegURL",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/pl/POLkWliRzTyW1vFP.m3u8?tag=16&v=8d5"
+                  },
+                  {
+                    "bitrate": 288000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/480x270/f6B1m4Y6QYBBDJWd.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 832000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/640x360/0WPj0xOFFYEyArA7.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 2176000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/1280x720/8YqKYyzxwe2h_Ah6.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 10368000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/1920x1080/g2FCki_nPh14euu_.mp4?tag=16"
+                  }
+                ]
+              },
+              "media_results": {
+                "result": {
+                  "media_key": "13_1953929214408712192"
+                }
+              }
+            }
+          ],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [],
+          "user_mentions": []
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "display_url": "pic.x.com/ZHbgP2sbDA",
+              "expanded_url": "https://x.com/Google/status/1953929256674722202/video/1",
+              "id_str": "1953929214408712192",
+              "indices": [
+                103,
+                126
+              ],
+              "media_key": "13_1953929214408712192",
+              "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1953929214408712192/img/NTkUO76Z8UiH7xTn.jpg",
+              "type": "video",
+              "url": "https://t.co/ZHbgP2sbDA",
+              "additional_media_info": {
+                "monetizable": false
+              },
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "sizes": {
+                "large": {
+                  "h": 1080,
+                  "w": 1920,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "h": 675,
+                  "w": 1200,
+                  "resize": "fit"
+                },
+                "small": {
+                  "h": 383,
+                  "w": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "h": 150,
+                  "w": 150,
+                  "resize": "crop"
+                }
+              },
+              "original_info": {
+                "height": 1080,
+                "width": 1920,
+                "focus_rects": []
+              },
+              "video_info": {
+                "aspect_ratio": [
+                  16,
+                  9
+                ],
+                "duration_millis": 55833,
+                "variants": [
+                  {
+                    "content_type": "application/x-mpegURL",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/pl/POLkWliRzTyW1vFP.m3u8?tag=16&v=8d5"
+                  },
+                  {
+                    "bitrate": 288000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/480x270/f6B1m4Y6QYBBDJWd.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 832000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/640x360/0WPj0xOFFYEyArA7.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 2176000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/1280x720/8YqKYyzxwe2h_Ah6.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 10368000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/1920x1080/g2FCki_nPh14euu_.mp4?tag=16"
+                  }
+                ]
+              },
+              "media_results": {
+                "result": {
+                  "media_key": "13_1953929214408712192"
+                }
+              }
+            }
+          ]
+        },
+        "favorite_count": 475,
+        "favorited": false,
+        "full_text": "This week at Google, we shared updates to learning tools in Gemini and a new feature called Storybook. https://t.co/ZHbgP2sbDA",
+        "is_quote_status": false,
+        "lang": "en",
+        "possibly_sensitive": false,
+        "possibly_sensitive_editable": true,
+        "quote_count": 3,
+        "reply_count": 53,
+        "retweet_count": 82,
+        "retweeted": false,
+        "user_id_str": "20536157",
+        "id_str": "1953929256674722202"
+      }
+    },
+    "sentiment": {
+      "label": "NEUTRAL",
+      "score": 0.5,
+      "confidence_bucket": "LOW"
+    }
+  }
+]

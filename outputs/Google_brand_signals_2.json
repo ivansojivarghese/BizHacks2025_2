@@ -1,0 +1,554 @@
+[
+  {
+    "source": "News",
+    "timestamp": "2025-08-09T14:52:03Z",
+    "title": "Hot Toys Announces 1/6 Joker from DC Comics Batman: The Killing Joke",
+    "text": "Hot Toys is getting dark as they debut their newest DC Comics 1/6 Scale figure with Joker. Inspired by Batman: The Killing Joke, this figure is a chilling tribute to one of the most iconic Joker stories ever told. Alan Moore and Brian Bolland's legendary 1988…",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.634,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.995972216129303
+    },
+    "url": "https://bleedingcool.com/collectibles/hot-toys-announces-1-6-joker-from-dc-comics-batman-the-killing-joke/",
+    "author": "Tyler Roberts",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.83,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.9,
+        "clarity": 0.9,
+        "sentiment_extractable": 0.8,
+        "temporal_value": 0.7,
+        "actionable_insight": 0.8,
+        "noise_level": 0.9
+      },
+      "quality_issues": [],
+      "recommendations": "The signal is generally of high quality. To further improve, consider adding more specific brand perception metrics, such as consumer opinions or reviews, to provide a more comprehensive view of brand sentiment.",
+      "evaluation_timestamp": "2025-08-10T20:25:47.493675",
+      "text_length": 330,
+      "word_count": 58,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "1117fcdd-1bc0-4943-9b06-cac757fe3104"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-09T14:43:27Z",
+    "title": "$3 keychain lets you carry a functioning keyboard switch and keycap with you wherever you go — fidget toy is compatible with Cherry MX switches and keycaps",
+    "text": "A Japanese company has started selling the My Key Keychain that accepts Cherry MX-compatible switches and keycaps, allowing you to bring your favorite keyboard feel wherever you go.",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.616,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9260923862457275
+    },
+    "url": "https://www.tomshardware.com/peripherals/key-switches/usd3-keychain-lets-you-carry-a-functioning-keyboard-switch-and-keycap-with-you-wherever-you-go-fidget-toy-is-compatible-with-cherry-mx-switches-and-keycaps",
+    "author": "editors@tomshardware.com (Jowi Morales) , Jowi Morales",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.67,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.5,
+        "clarity": 1.0,
+        "sentiment_extractable": 0.8,
+        "temporal_value": 0.8,
+        "actionable_insight": 0.6,
+        "noise_level": 0.8
+      },
+      "quality_issues": [],
+      "recommendations": "The signal could be improved by providing more context about the brand and its relationship to the My Key Keychain product. Additionally, including more specific information about consumer opinions or reviews would enhance the signal's value for perception forecasting.",
+      "evaluation_timestamp": "2025-08-10T20:25:48.218653",
+      "text_length": 338,
+      "word_count": 55,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "2e0a29f1-8bf9-47eb-9663-43619ef29d12"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-09T14:42:10Z",
+    "title": "MCP's Disregard for 40 Years of RPC Best Practices",
+    "text": "Article URL: https://julsimon.medium.com/why-mcps-disregard-for-40-years-of-rpc-best-practices-will-burn-enterprises-8ef85ce5bc9b\nComments URL: https://news.ycombinator.com/item?id=44846871\nPoints: 6\n# Comments: 2",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9989711046218872
+    },
+    "url": "https://julsimon.medium.com/why-mcps-disregard-for-40-years-of-rpc-best-practices-will-burn-enterprises-8ef85ce5bc9b",
+    "author": "yodon",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.67,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.9,
+        "clarity": 0.8,
+        "sentiment_extractable": 0.9,
+        "temporal_value": 0.7,
+        "actionable_insight": 0.8,
+        "noise_level": 0.4
+      },
+      "quality_issues": [
+        "Somewhat low signal-to-noise ratio due to limited context",
+        "Potential for misinterpretation without specific brand context"
+      ],
+      "recommendations": "Provide additional context about MCP and its relation to the brand, consider adding more detailed sentiment analysis or relevant examples to increase signal-to-noise ratio.",
+      "evaluation_timestamp": "2025-08-10T20:25:49.035673",
+      "text_length": 265,
+      "word_count": 20,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "563a61c6-7eab-4d98-9366-f94430e29682"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-09T14:39:00Z",
+    "title": "INVESTOR ALERT: Pomerantz Law Firm Reminds Investors with Losses on their Investment in Reddit, Inc. of Class Action Lawsuit and Upcoming Deadlines - RDDT",
+    "text": "NEW YORK, Aug. 09, 2025 (GLOBE NEWSWIRE) -- Pomerantz LLP announces that a class action lawsuit has been filed against Reddit, Inc. (“Reddit” or the “Company”) (NYSE: RDDT). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com\r\n or 64…",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.633,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9913852214813232
+    },
+    "url": "https://www.globenewswire.com/news-release/2025/08/09/3130472/1087/en/INVESTOR-ALERT-Pomerantz-Law-Firm-Reminds-Investors-with-Losses-on-their-Investment-in-Reddit-Inc-of-Class-Action-Lawsuit-and-Upcoming-Deadlines-RDDT.html",
+    "author": "Pomerantz LLP",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.67,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.8,
+        "clarity": 0.9,
+        "sentiment_extractable": 0.8,
+        "temporal_value": 0.7,
+        "actionable_insight": 0.6,
+        "noise_level": 0.4
+      },
+      "quality_issues": [
+        "Somewhat low signal-to-noise ratio due to promotional content",
+        "Limited actionable insight beyond a specific legal announcement"
+      ],
+      "recommendations": "Consider filtering out purely promotional or legal content to improve signal quality, and focus on extracting nuanced sentiment indicators.",
+      "evaluation_timestamp": "2025-08-10T20:25:49.853144",
+      "text_length": 416,
+      "word_count": 64,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "32db32d9-ae79-4b66-b799-123147ff9425"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-09T14:30:33Z",
+    "title": "Former youth organizer for AOC busted after urging ‘attack’ on Jewish students at Brooklyn public high school",
+    "text": "A woman urged her 25,000 Instagram followers to “attack” a Brooklyn high school she called a haven for pro-Israel students, sparking an NYPD probe and outrage from Jewish advocates. The now-deleted post targeted Leon M. Goldstein HS in Manhattan Beach.",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.634,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9947732090950012
+    },
+    "url": "https://nypost.com/2025/08/09/us-news/hateful-call-to-attack-nyc-jewish-high-school-probed-by-nypd/",
+    "author": "Susan Edelman, Samantha Olander, Tina Moore",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.67,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.8,
+        "clarity": 0.9,
+        "sentiment_extractable": 0.8,
+        "temporal_value": 0.7,
+        "actionable_insight": 0.6,
+        "noise_level": 0.9
+      },
+      "quality_issues": [
+        "Potential for misleading or false information due to the sensitive nature of the content",
+        "Content may be too specific and not representative of general brand perception trends"
+      ],
+      "recommendations": "Verify the credibility of the source and cross-check with other news outlets to ensure accuracy. Consider using more specific keywords to track related conversations and gauge overall brand perception.",
+      "evaluation_timestamp": "2025-08-10T20:25:50.679854",
+      "text_length": 363,
+      "word_count": 57,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "0f93db54-a674-4b0b-8961-d79c903ca612"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-05T14:12:51Z",
+    "title": "I dumped Google for Kagi",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9997255206108093
+    },
+    "url": "https://arstechnica.com/gadgets/2025/08/enough-is-enough-i-dumped-googles-worsening-search-for-kagi/",
+    "author": "thimabi",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.83,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 1.0,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 0.5,
+        "actionable_insight": 1.0,
+        "noise_level": 1.0
+      },
+      "quality_issues": [],
+      "recommendations": "The signal is of high quality and provides actionable insight into brand perception. Consider incorporating the source and timestamp into the analysis to further enhance temporal value.",
+      "evaluation_timestamp": "2025-08-10T20:25:52.105017",
+      "text_length": 26,
+      "word_count": 5,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "fbd3a635-59b9-4ca7-88e3-796417c3cbb3"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-06T14:04:13Z",
+    "title": "Google suffers data breach in ongoing Salesforce data theft attacks",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.999582827091217
+    },
+    "url": "https://www.bleepingcomputer.com/news/security/google-suffers-data-breach-in-ongoing-salesforce-data-theft-attacks/",
+    "author": "mikece",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.83,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.9,
+        "clarity": 0.9,
+        "sentiment_extractable": 0.8,
+        "temporal_value": 0.8,
+        "actionable_insight": 0.8,
+        "noise_level": 0.9
+      },
+      "quality_issues": [],
+      "recommendations": "The signal is generally of high quality. To further improve, consider adding more context about the impact of the data breach on Google's services and user trust.",
+      "evaluation_timestamp": "2025-08-10T20:25:52.821118",
+      "text_length": 69,
+      "word_count": 10,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "93c28cee-f7c5-44c4-b296-349ac30c6a4e"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-08T14:46:53Z",
+    "title": "Google's Genie is more impressive than GPT5",
+    "text": "",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9995961785316467
+    },
+    "url": "https://theahura.substack.com/p/tech-things-genies-lamp-openai-cant",
+    "author": "theahura",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.83,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.9,
+        "clarity": 0.9,
+        "sentiment_extractable": 0.8,
+        "temporal_value": 0.7,
+        "actionable_insight": 0.8,
+        "noise_level": 0.9
+      },
+      "quality_issues": [],
+      "recommendations": "The signal is generally of high quality. To further improve, consider adding more specific details about Google's Genie and its comparison to GPT5, such as features or performance metrics, to enhance actionable insight and temporal value.",
+      "evaluation_timestamp": "2025-08-10T20:25:53.435139",
+      "text_length": 45,
+      "word_count": 7,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "8063cf32-b42a-451c-8c23-eb41766e794c"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-03T21:03:50Z",
+    "title": "One Dataset. No Warning. Google Took Everything. You're Not Safe Either",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9996159076690674
+    },
+    "url": "https://medium.com/@russoatlarge_93541/i-built-a-privacy-app-google-banned-me-over-a-dataset-used-in-ai-research-66bc0dfb2310",
+    "author": "markatlarge",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.67,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.8,
+        "clarity": 0.9,
+        "sentiment_extractable": 0.8,
+        "temporal_value": 0.7,
+        "actionable_insight": 0.6,
+        "noise_level": 0.9
+      },
+      "quality_issues": [
+        "Overly generic statements with no specific brand insight",
+        "Misleading or false information"
+      ],
+      "recommendations": "Verify information through other sources to increase credibility, provide more specific brand-related context",
+      "evaluation_timestamp": "2025-08-10T20:25:54.162285",
+      "text_length": 73,
+      "word_count": 11,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "736d1426-cc16-44ce-a492-5dd36ef50f59"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-03T22:11:58Z",
+    "title": "Google has dropped more than 50 DEI-related orgs from one of its funding lists",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9996137022972107
+    },
+    "url": "https://www.cnbc.com/2025/08/01/google-dropped-50-dei-groups-from-funding-list-.html",
+    "author": "gslin",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.67,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.8,
+        "clarity": 0.9,
+        "sentiment_extractable": 0.8,
+        "temporal_value": 0.7,
+        "actionable_insight": 0.6,
+        "noise_level": 0.9
+      },
+      "quality_issues": [
+        "Overly generic statements with no specific brand insight",
+        "Poor sentiment indicators (too neutral/ambiguous)"
+      ],
+      "recommendations": "The signal could be improved by providing more specific details about Google's decision to drop DEI-related organizations and how it relates to their brand perception. Additionally, including more context about the potential impact on stakeholders could enhance the signal's value for perception forecasting.",
+      "evaluation_timestamp": "2025-08-10T20:25:55.042761",
+      "text_length": 80,
+      "word_count": 14,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "5862d53a-8ca8-4706-b32c-da5a10971bbd"
+  },
+  {
+    "source": "Mastodon",
+    "text": "Google is, uh, confident",
+    "url": "https://mastodon.social/@stroughtonsmith/115005044761366240",
+    "sentiment_pipeline": {
+      "label": "POSITIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9990542531013489
+    },
+    "sentiment": "positive",
+    "sentiment_polarity": 0.5,
+    "sentiment_subjectivity": 0.8333333333333334,
+    "hashtags": [],
+    "topic": "Other",
+    "analysis": "**Hashtag Analysis**\n\nBefore diving into the topics, let's analyze the provided hashtags:\n\n* **Semantic Category Grouping:**\n\t+ Product/Technology: #Google, #GoogleCloud, #GoogleWorkspace\n\t+ Emotion/Sentiment: #GoogleIsConfident (implying a positive sentiment)\n\t+ Event/News: #PRTIMES, #pr_times\n* **Language Detection:** English (primary language)\n* **Cross-Lingual Variants:** None detected\n* **Co-Occurring Hashtags:** #Google and #GoogleIsConfident appear together in the same post\n* **Sentiment-Laden Hashtags:** #GoogleIsConfident (positive sentiment)\n* **Hashtag Frequency and Source Post Examples:**\n\t+ #Google: 1 post\n\t+ #GoogleIsConfident: 1 post\n\t+ #PRTIMES: 0 posts (not present in the provided data)\n* **Temporal Trend:** No temporal trend can be inferred with only one post\n\n**Topic Identification**\n\nBased on the provided post and hashtag data, I've identified one key discussion topic relevant to Google's brand, business performance, and customer trust:\n\n### Topic 1: **Confidence and Brand Perception**\n\n* **Summary:** The post \"Google is, uh, confident\" sparks a conversation about Google's brand perception, specifically its confidence in the market. This topic can impact B2B decisions, sales, and client engagement as it relates to Google's reputation and trustworthiness.\n* **Supporting Post Snippet:** \"Google is, uh, confident\" (implies a tone of surprise or skepticism about Google's confidence)\n* **Key Hashtags:** #Google, #GoogleIsConfident\n\n**Business Relevance:** The topic of confidence and brand perception is crucial for Google's business performance, as it can influence how potential clients perceive the company and its products. A positive brand perception can lead to increased trust, loyalty, and ultimately, revenue growth.\n\n**Actionable Insights:**\n\n1. Monitor and analyze public digital conversations around Google's brand perception to identify areas of strength and weakness.\n2. Assess the impact of Google's confidence and brand perception on B2B decisions, sales, and client engagement.\n3. Develop strategies to maintain a positive brand perception and address any concerns or skepticism in the market.\n\nBy focusing on these topics and hashtags, Google can better understand its brand perception, address potential concerns, and ultimately drive business growth and customer trust.",
+    "timestamp": "2025-08-10T14:56:01.318834+00:00",
+    "quality": {
+      "overall_quality_score": 0.67,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.8,
+        "clarity": 0.7,
+        "sentiment_extractable": 0.9,
+        "temporal_value": 0.2,
+        "actionable_insight": 0.8,
+        "noise_level": 0.9
+      },
+      "quality_issues": [
+        "Limited temporal value due to lack of trend data",
+        "Somewhat generic statement, but context provides relevance"
+      ],
+      "recommendations": "Provide more contextual trend data to increase temporal value. Consider adding more specific details about Google's confidence to enhance clarity and relevance.",
+      "evaluation_timestamp": "2025-08-10T20:26:01.943506",
+      "text_length": 24,
+      "word_count": 4,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "0b59723e-0d3a-4651-bd10-fce9978beb9a"
+  },
+  {
+    "source": "Mastodon",
+    "text": "gonna tell the kids one day how you used to be able to go on the computer to find information you needed and they wont believe me",
+    "url": "https://mastodon.social/@henrycatalinismith/115005033519055895",
+    "sentiment_pipeline": {
+      "label": "POSITIVE",
+      "score": 0.54,
+      "confidence_bucket": "LOW",
+      "raw_score": 0.6453739404678345
+    },
+    "sentiment": "neutral",
+    "sentiment_polarity": 0.5,
+    "sentiment_subjectivity": 0.625,
+    "hashtags": [],
+    "topic": "Other",
+    "analysis": "**Hashtag Analysis**\n\nBefore diving into the topics, let's analyze the provided hashtags:\n\n* Grouping by semantic category:\n\t+ Product/Technology: #Google, #GoogleSearch\n\t+ Time/Date: #PRTIMES, #pr_times\n\t+ Emotion: None explicitly sentiment-laden\n* Language detection: English (no cross-lingual variants detected)\n* Co-occurring hashtags: #Google and #GoogleSearch appear to be related\n* Sentiment-laden hashtags: None\n* Normalization: #PRTIMES and #pr_times can be standardized to #pr_times\n* Hashtag frequency and source post examples:\n\t+ #Google: 1 post\n\t+ #GoogleSearch: 1 post\n\t+ #PRTIMES: 0 posts ( likely a typo or unused)\n\t+ #pr_times: 0 posts (likely a typo or unused)\n\n**Topic Identification**\n\nBased on the provided post and hashtag analysis, I've identified one key discussion topic relevant to Google's brand, business performance, and customer trust:\n\n### Topic 1: Evolution of Information Search and Retrieval\n\n* **Summary:** The post implies a sense of nostalgia for the past when searching for information on the computer was a straightforward process. This topic may influence business decisions related to Google's search and information retrieval capabilities, potentially impacting deal velocity, lead quality, or client engagement.\n* **Supporting post snippet:** \"gonna tell the kids one day how you used to be able to go on the computer to find information you needed and they wont believe me\"\n* **Key hashtags:** #Google, #GoogleSearch\n\n**Business Relevance:** This topic highlights the changing landscape of information search and retrieval. As technology advances, users' expectations and behaviors evolve. Google must adapt to these changes to maintain its position as a leader in the search industry. This topic may impact business decisions related to:\n\n* Investing in search and information retrieval technologies\n* Developing user-centric interfaces and experiences\n* Addressing potential concerns about the complexity of modern search processes\n\n**Temporal Trend:** Although only one post is provided, the nostalgic tone suggests that this topic might be part of a larger conversation about the evolution of technology and its impact on daily life. This trend could be relevant to Google's brand perception and business performance, particularly if users begin to express concerns about the complexity of modern search processes.\n\nBy monitoring and addressing these topics, Google can better understand its brand perception, improve customer trust, and make informed business decisions to drive growth and engagement.",
+    "timestamp": "2025-08-10T14:56:03.674350+00:00",
+    "quality": {
+      "overall_quality_score": 0.67,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.8,
+        "clarity": 0.9,
+        "sentiment_extractable": 0.4,
+        "temporal_value": 0.7,
+        "actionable_insight": 0.8,
+        "noise_level": 0.9
+      },
+      "quality_issues": [
+        "Poor sentiment indicators (too neutral/ambiguous)",
+        "Content too short to be meaningful"
+      ],
+      "recommendations": "Consider collecting more data points to improve sentiment extractability and temporal value. Additionally, analyzing similar conversations could provide more comprehensive insights into brand perception trends.",
+      "evaluation_timestamp": "2025-08-10T20:26:04.398565",
+      "text_length": 129,
+      "word_count": 27,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "f793af34-4868-486d-be8b-55ecce03f75c"
+  },
+  {
+    "source": "Mastodon",
+    "text": "Gestern stand u.a. dieser Spruch an der Wand: \"Manche Tonträger werden mit jedem Ton träger\". Wollte dann mehr dazu wissen und habe den Text bei Google eingegeben.  Antwort der KI: Der Satz \"Manche Tonträger werden mit jedem Ton Träger\" ist grammatikalisch nicht korrekt und ergibt keinen Sinn. 1/2",
+    "url": "https://fed.brid.gy/r/https://bsky.app/profile/did:plc:3wfcq4rpa3xmscxp5fpkzudn/post/3lw2jtoo4h22e",
+    "sentiment_pipeline": {
+      "label": "NEGATIVE",
+      "score": 0.633,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9925050735473633
+    },
+    "sentiment": "neutral",
+    "sentiment_polarity": 0.0,
+    "sentiment_subjectivity": 0.0,
+    "hashtags": [],
+    "topic": "Other",
+    "analysis": "**Topic 1: AI-powered Search and Information Accuracy**\n\n* Summary: The post discusses a user's experience with Google's AI-powered search feature, where the system failed to provide a meaningful response to a grammatically incorrect phrase. This topic is relevant to Google's brand perception, as it highlights the company's ability to provide accurate and helpful information.\n* Supporting post snippet: \"Wollte dann mehr dazu wissen und habe den Text bei Google eingegeben. Antwort der KI: Der Satz 'Manche Tonträger werden mit jedem Ton Träger' ist grammatikalisch nicht korrekt und ergibt keinen Sinn.\"\n* Key hashtags: None explicitly mentioned, but the topic is related to #Google (implied)\n\n**Topic 2: Language and Grammar Correction**\n\n* Summary: The post touches on Google's language processing capabilities, specifically its ability to detect grammatical errors. This topic may impact B2B decisions, as it relates to the company's expertise in natural language processing (NLP) and its potential applications in areas like content analysis and generation.\n* Supporting post snippet: \"Der Satz 'Manche Tonträger werden mit jedem Ton Träger' ist grammatikalisch nicht korrekt und ergibt keinen Sinn.\"\n* Key hashtags: None explicitly mentioned\n\n**Hashtag Analysis:**\n\n* **Semantic categories:**\n\t+ Product/Company: #Google (implied)\n\t+ Tech: None explicitly mentioned\n\t+ Emotion: None explicitly mentioned\n* **Language detection:** German ( primary language), English ( implied through Google's involvement)\n* **Cross-lingual variants:** None detected\n* **Co-occurring hashtags:** None\n* **Sentiment-laden hashtags:** None\n* **Hashtag frequency and source post examples:** N/A\n* **Temporal trend:** No trend inferred due to limited data\n\n**Business Relevance:**\n\n* The topics identified relate to Google's brand perception, specifically its ability to provide accurate and helpful information through its AI-powered search feature.\n* The discussion around language and grammar correction highlights Google's expertise in NLP, which may have implications for B2B decisions in areas like content analysis and generation.\n* The post's tone is neutral, with the user sharing their experience and not expressing a strong sentiment. However, the topic's relevance to Google's brand perception and potential impact on B2B decisions make it worthy of consideration.",
+    "timestamp": "2025-08-10T14:56:05.825203+00:00",
+    "quality": {
+      "overall_quality_score": 0.67,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.8,
+        "clarity": 0.9,
+        "sentiment_extractable": 0.4,
+        "temporal_value": 0.6,
+        "actionable_insight": 0.7,
+        "noise_level": 0.8
+      },
+      "quality_issues": [
+        "Poor sentiment indicators (too neutral/ambiguous)",
+        "Content too short to be meaningful"
+      ],
+      "recommendations": "The signal could be improved by including more specific details about the user's experience with Google's AI-powered search feature and the emotional tone of the post. Additionally, including more context about the user's expectations and how they were or were not met could provide more actionable insights for brand perception trends.",
+      "evaluation_timestamp": "2025-08-10T20:26:06.751743",
+      "text_length": 298,
+      "word_count": 48,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "27a94ce1-c9ed-41aa-bef1-a6c9018920a0"
+  },
+  {
+    "source": "Mastodon",
+    "text": "Google’s Gmail Warning—Change Every Password That’s On This List https://www. forbes.com/sites/zakdoffman/20 25/08/10/googles-gmail-warning-change-every-password-thats-on-this-list/?utm_source=flipboard&utm_medium=activitypub Posted into cybersecurity @ cybersecurity-forbes",
+    "url": "https://flipboard.com/@forbes/cybersecurity-9reg3hffz/-/a-VSaY8EMPTwiMoGOMWsZzeA%3Aa%3A3199486-%2F0",
+    "sentiment_pipeline": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9970880150794983
+    },
+    "sentiment": "neutral",
+    "sentiment_polarity": 0.0,
+    "sentiment_subjectivity": 0.0,
+    "hashtags": [],
+    "topic": "Other",
+    "analysis": "**Topic Analysis and Breakdown**\n\nBased on the provided Mastodon post and hashtag data, I've identified a key discussion topic relevant to Google's brand, business performance, and customer trust.\n\n### Topic 1: Cybersecurity and Password Management\n\n* **Summary:** Google's Gmail security warnings and password management practices are being discussed in public digital conversations, which may impact B2B decisions, sales, and client engagement. The topic highlights concerns about online security and the importance of robust password management.\n* **Business Relevance:** A strong online security posture is crucial for businesses, and Google's approach to cybersecurity may influence customer trust and loyalty. This topic may affect deal velocity, lead quality, and client engagement, as businesses prioritize security when making technology decisions.\n* **Supporting Post Snippet:** \"Google’s Gmail Warning—Change Every Password That’s On This List\" (from Forbes, posted into cybersecurity @ cybersecurity-forbes)\n* **Key Hashtags:**\n\t+ #cybersecurity (co-occurs with @cybersecurity-forbes)\n\t+ #passwordmanagement (implied, not directly present but related to the topic)\n\n### Hashtag Analysis\n\n* **Semantic Categories:**\n\t+ #cybersecurity (tech/security)\n* **Language:** English (all detected languages)\n* **Cross-lingual Variants:** None detected\n* **Co-occurring Hashtags:** #cybersecurity @cybersecurity-forbes (implying association)\n* **Sentiment-laden Hashtags:** None detected\n* **Hashtag Frequency and Source Post Examples:**\n\t+ #cybersecurity (1 occurrence, from @cybersecurity-forbes)\n* **Temporal Trend:** No temporal trend inferred due to limited data\n\n### Key Takeaways\n\n1. Google's approach to cybersecurity, specifically Gmail security warnings and password management, is a topic of discussion in public digital conversations.\n2. This topic may impact B2B decisions, sales, and client engagement, as businesses prioritize online security when making technology decisions.\n3. The conversation around cybersecurity and password management highlights the importance of robust online security practices for businesses and Google's role in maintaining customer trust.\n\nBy monitoring and addressing concerns around cybersecurity and password management, Google can proactively maintain a positive brand perception, build trust with customers, and ultimately drive business outcomes.",
+    "timestamp": "2025-08-10T14:56:08.180096+00:00",
+    "quality": {
+      "overall_quality_score": 0.83,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.9,
+        "clarity": 0.8,
+        "sentiment_extractable": 0.7,
+        "temporal_value": 0.9,
+        "actionable_insight": 0.8,
+        "noise_level": 0.9
+      },
+      "quality_issues": [],
+      "recommendations": "The signal provides valuable insights into Google's brand perception, particularly regarding cybersecurity and password management. To further improve the signal quality, consider adding more specific sentiment analysis and tracking changes in sentiment over time to enhance the temporal value and actionable insights.",
+      "evaluation_timestamp": "2025-08-10T20:26:08.864009",
+      "text_length": 274,
+      "word_count": 17,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "f69e2b82-1bc8-455e-adde-9608a5931e82"
+  },
+  {
+    "source": "Mastodon",
+    "text": "And this week's newsletter is out, featuring coverage, research and lots of cool stuff from Black Hat and Def Con, and more, plus stories on the data breaches at Google, Cisco, and Air France, the U.S. courts system getting hacked (again), alarm bells over a new Exchange security flaw, and lots more. Sign up: https:// this.weekinsecurity.com Read online: https:// mailchi.mp/weekinsecurity/this -week-in-security-august-10-2025-edition Donate/support: https:// ko-fi.com/thisweekinsecurity",
+    "url": "https://mastodon.social/@zackwhittaker/115005004960394931",
+    "sentiment_pipeline": {
+      "label": "NEGATIVE",
+      "score": 0.627,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9687033891677856
+    },
+    "sentiment": "neutral",
+    "sentiment_polarity": 0.263939393939394,
+    "sentiment_subjectivity": 0.5075757575757576,
+    "hashtags": [],
+    "topic": "Other",
+    "analysis": "Based on the provided Mastodon post and hashtag data, I've identified key discussion topics relevant to Google's brand, business performance, and customer trust.\n\n**Topic 1: Data Breaches and Cybersecurity Concerns**\n\n* Summary: The post mentions data breaches at Google, Cisco, and Air France, which may raise concerns about the company's cybersecurity and data protection capabilities. This topic can impact B2B decisions, sales, and client engagement, as businesses prioritize secure partnerships.\n* Supporting post snippet: \"stories on the data breaches at Google, Cisco, and Air France\"\n* Key hashtags: #cybersecurity, #databreach, #Google (co-occurring with #security and #breach)\n\n**Topic 2: Technology and Security Research**\n\n* Summary: The post highlights coverage and research from Black Hat and Def Con, which may indicate interest in Google's technological advancements and security research. This topic can influence business decisions, as companies seek to partner with innovative and secure technology providers.\n* Supporting post snippet: \"coverage, research and lots of cool stuff from Black Hat and Def Con\"\n* Key hashtags: #BlackHat, #DefCon, #securityresearch (co-occurring with #Google and #tech)\n\n**Hashtag Analysis:**\n\n* Semantic categories:\n\t+ Product/Company: #Google, #Cisco, #AirFrance\n\t+ Technology: #security, #cybersecurity, #tech\n\t+ Event: #BlackHat, #DefCon\n\t+ Emotion: None detected\n* Language: English (all hashtags)\n* Cross-lingual variants: None detected\n* Co-occurring hashtags:\n\t+ #Google, #cybersecurity, and #databreach\n\t+ #BlackHat, #DefCon, and #securityresearch\n* Sentiment-laden hashtags: #databreach (negative), #security (neutral)\n* Frequency and source post examples:\n\t+ #Google (1 post)\n\t+ #cybersecurity (1 post)\n\t+ #databreach (1 post)\n\t+ #BlackHat (1 post)\n\t+ #DefCon (1 post)\n* Temporal trend: No trend detected due to limited data\n\n**Actionable Insights:**\n\n1. Google should prioritize transparency and communication about its data breach incidents to maintain customer trust.\n2. The company can leverage its technological advancements and security research to demonstrate its commitment to innovation and cybersecurity, potentially influencing B2B decisions and sales.\n3. Google may benefit from engaging with the cybersecurity community, as evident from the Black Hat and Def Con coverage, to showcase its expertise and build credibility.\n\nBy monitoring and addressing these topics, Google can proactively manage its brand perception, build trust with customers and partners, and ultimately drive business outcomes.",
+    "timestamp": "2025-08-10T14:56:10.547127+00:00",
+    "quality": {
+      "overall_quality_score": 0.67,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.8,
+        "clarity": 0.9,
+        "sentiment_extractable": 0.6,
+        "temporal_value": 0.8,
+        "actionable_insight": 0.7,
+        "noise_level": 0.4
+      },
+      "quality_issues": [
+        "Somewhat neutral sentiment",
+        "Limited temporal trend data"
+      ],
+      "recommendations": "Improve sentiment indicators and provide more trend data",
+      "evaluation_timestamp": "2025-08-10T20:26:11.263882",
+      "text_length": 491,
+      "word_count": 64,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "995083b3-fd9b-43ed-9911-315cbec60d34"
+  }
+]

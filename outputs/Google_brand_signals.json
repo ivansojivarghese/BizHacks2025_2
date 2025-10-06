@@ -1,0 +1,181 @@
+[
+  {
+    "source": "News",
+    "timestamp": "2025-08-09T14:43:27Z",
+    "title": "$3 keychain lets you carry a functioning keyboard switch and keycap with you wherever you go — fidget toy is compatible with Cherry MX switches and keycaps",
+    "text": "A Japanese company has started selling the My Key Keychain that accepts Cherry MX-compatible switches and keycaps, allowing you to bring your favorite keyboard feel wherever you go.",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.616,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9260923862457275
+    },
+    "url": "https://www.tomshardware.com/peripherals/key-switches/usd3-keychain-lets-you-carry-a-functioning-keyboard-switch-and-keycap-with-you-wherever-you-go-fidget-toy-is-compatible-with-cherry-mx-switches-and-keycaps",
+    "author": "editors@tomshardware.com (Jowi Morales) , Jowi Morales",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.67,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.5,
+        "clarity": 1.0,
+        "sentiment_extractable": 0.8,
+        "temporal_value": 0.5,
+        "actionable_insight": 0.8,
+        "noise_level": 0.9
+      },
+      "quality_issues": [],
+      "recommendations": "The signal could be improved by providing more context about the brand and its relationship to the My Key Keychain product. Additionally, including more specific sentiment analysis or consumer feedback would enhance the signal's value for perception forecasting.",
+      "evaluation_timestamp": "2025-08-10T20:21:25.177911",
+      "text_length": 338,
+      "word_count": 55,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "6ecd09ab-8980-4952-9d1e-de813be6fa15"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-09T14:42:10Z",
+    "title": "MCP's Disregard for 40 Years of RPC Best Practices",
+    "text": "Article URL: https://julsimon.medium.com/why-mcps-disregard-for-40-years-of-rpc-best-practices-will-burn-enterprises-8ef85ce5bc9b\nComments URL: https://news.ycombinator.com/item?id=44846871\nPoints: 6\n# Comments: 2",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9989711046218872
+    },
+    "url": "https://julsimon.medium.com/why-mcps-disregard-for-40-years-of-rpc-best-practices-will-burn-enterprises-8ef85ce5bc9b",
+    "author": "yodon",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.67,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.9,
+        "clarity": 0.8,
+        "sentiment_extractable": 0.9,
+        "temporal_value": 0.7,
+        "actionable_insight": 0.8,
+        "noise_level": 0.4
+      },
+      "quality_issues": [
+        "Somewhat low signal-to-noise ratio due to limited context",
+        "Potential for misinterpretation without specific brand context"
+      ],
+      "recommendations": "Provide additional context about MCP and its relation to the brand, consider adding more specific brand perception data points",
+      "evaluation_timestamp": "2025-08-10T20:21:26.004137",
+      "text_length": 265,
+      "word_count": 20,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "07f4beb5-7aa1-49cb-b8d9-76a6cc50e625"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-09T14:39:00Z",
+    "title": "INVESTOR ALERT: Pomerantz Law Firm Reminds Investors with Losses on their Investment in Reddit, Inc. of Class Action Lawsuit and Upcoming Deadlines - RDDT",
+    "text": "NEW YORK, Aug. 09, 2025 (GLOBE NEWSWIRE) -- Pomerantz LLP announces that a class action lawsuit has been filed against Reddit, Inc. (“Reddit” or the “Company”) (NYSE: RDDT). Such investors are advised to contact Danielle Peyton at newaction@pomlaw.com\r\n or 64…",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.633,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9913852214813232
+    },
+    "url": "https://www.globenewswire.com/news-release/2025/08/09/3130472/1087/en/INVESTOR-ALERT-Pomerantz-Law-Firm-Reminds-Investors-with-Losses-on-their-Investment-in-Reddit-Inc-of-Class-Action-Lawsuit-and-Upcoming-Deadlines-RDDT.html",
+    "author": "Pomerantz LLP",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.67,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.8,
+        "clarity": 0.9,
+        "sentiment_extractable": 0.8,
+        "temporal_value": 0.7,
+        "actionable_insight": 0.6,
+        "noise_level": 0.4
+      },
+      "quality_issues": [
+        "Somewhat low signal-to-noise ratio due to legalistic language",
+        "Content may be considered negative but is specifically targeted at investors"
+      ],
+      "recommendations": "Consider filtering for more general consumer sentiment or adjusting for investor-focused content to improve relevance and noise level.",
+      "evaluation_timestamp": "2025-08-10T20:21:26.820200",
+      "text_length": 416,
+      "word_count": 64,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "55e20ad5-64e7-4fe6-8e96-a6661f535585"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-09T14:30:33Z",
+    "title": "Former youth organizer for AOC busted after urging ‘attack’ on Jewish students at Brooklyn public high school",
+    "text": "A woman urged her 25,000 Instagram followers to “attack” a Brooklyn high school she called a haven for pro-Israel students, sparking an NYPD probe and outrage from Jewish advocates. The now-deleted post targeted Leon M. Goldstein HS in Manhattan Beach.",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.634,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9947732090950012
+    },
+    "url": "https://nypost.com/2025/08/09/us-news/hateful-call-to-attack-nyc-jewish-high-school-probed-by-nypd/",
+    "author": "Susan Edelman, Samantha Olander, Tina Moore",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.67,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.8,
+        "clarity": 0.9,
+        "sentiment_extractable": 0.9,
+        "temporal_value": 0.8,
+        "actionable_insight": 0.6,
+        "noise_level": 0.4
+      },
+      "quality_issues": [
+        "Potential for misleading or false information due to the sensitive nature of the content",
+        "Content may be too specific and not representative of general brand perception trends"
+      ],
+      "recommendations": "Verify the credibility of the source and consider multiple perspectives to ensure accuracy. Use this signal in conjunction with other data points to get a comprehensive view of brand perception trends.",
+      "evaluation_timestamp": "2025-08-10T20:21:27.739394",
+      "text_length": 363,
+      "word_count": 57,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "a986ee04-b950-4cf9-ad0a-3453f8da8f5a"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-09T14:29:57Z",
+    "title": "The $400B Fintech Gold Rush: Crypto Payment Rails",
+    "text": "The fintech infrastructure gold rush: how crypto payment rails are reshaping global finance — and why smart investors are betting on infrastructure over tokens.",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.585,
+      "confidence_bucket": "MEDIUM",
+      "raw_score": 0.8094430565834045
+    },
+    "url": "https://www.forbes.com/sites/roomykhan/2025/08/09/the-400b-fintech-gold-rush-crypto-payment-rails/",
+    "author": "Roomy Khan, Contributor, \n Roomy Khan, Contributor\n https://www.forbes.com/sites/roomykhan/",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.67,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.8,
+        "clarity": 0.9,
+        "sentiment_extractable": 0.6,
+        "temporal_value": 0.7,
+        "actionable_insight": 0.8,
+        "noise_level": 0.9
+      },
+      "quality_issues": [],
+      "recommendations": "The signal is generally of high quality, but could benefit from more specific brand mentions and a more pronounced sentiment signal to improve extractability and temporal value.",
+      "evaluation_timestamp": "2025-08-10T20:21:28.375185",
+      "text_length": 211,
+      "word_count": 32,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "8331a00d-bada-4ee8-9fbe-545f82c83901"
+  }
+]

@@ -1,0 +1,1491 @@
+[
+  {
+    "source": "Reddit",
+    "timestamp": "2025-08-05T14:26:30+00:00",
+    "title": "Google Deepmind's new Genie 3",
+    "text": "[https://x.com/OfficialLoganK/status/1952732206176112915](https://x.com/OfficialLoganK/status/1952732206176112915)",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.634,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9928795695304871
+    },
+    "url": "https://v.redd.it/s6555dgpn7hf1",
+    "author": "u/GraceToSentience",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.6,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.9,
+        "clarity": 0.5,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 0.2,
+        "actionable_insight": 0.6,
+        "noise_level": 0.4
+      },
+      "quality_issues": [
+        "Content too short to be meaningful (signal text is primarily a link without descriptive content)",
+        "Misleading or false information (the timestamp is in the future, which is problematic for a real-time signal)"
+      ],
+      "recommendations": "To improve clarity and actionable insight, the signal text should include a brief summary or key excerpt from the linked content, rather than just the link. The future timestamp is a significant issue; ensure timestamps accurately reflect the content's publication or capture time. If this is simulated or forecasted data, this distinction should be explicitly handled by Agent B to avoid misinterpretation in time-series analysis.",
+      "evaluation_timestamp": "2025-08-10T21:06:24.855654",
+      "text_length": 144,
+      "word_count": 6,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "46634a9b-ae69-4ea1-8808-d235335f409b"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-09T15:32:49Z",
+    "title": "Battlefield 6 keeps crashing on Intel Arc GPUs — here are some workarounds until Intel releases a fix",
+    "text": "Battlefield 6’s open beta is crashing on Intel Arc A-series GPUs, with issues tied to the game’s default Borderless mode. Intel is working on a driver fix, but players can avoid crashes by switching to Full Screen/Windowed or using a risky legacy control pane…",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9986300468444824
+    },
+    "url": "https://www.tomshardware.com/pc-components/gpus/battlefield-6-keeps-crashing-on-intel-arc-gpus-here-are-some-workarounds-until-intel-releases-a-fix",
+    "author": "editors@tomshardware.com (Hassam Nasir) , Hassam Nasir",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.95,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 1.0,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 1.0,
+        "actionable_insight": 1.0,
+        "noise_level": 0.7
+      },
+      "quality_issues": [
+        "Off-topic content in metadata: The 'topic' field ('Google Password Security') is entirely unrelated to the article's content about Intel GPUs and Battlefield 6."
+      ],
+      "recommendations": "Ensure that extracted metadata fields, particularly 'topic', are accurately aligned with the content of the signal text. This improves the signal's categorization and utility for downstream analysis, preventing misclassification which could lead to inaccurate trend analysis in Agent B.",
+      "evaluation_timestamp": "2025-08-10T21:06:33.067709",
+      "text_length": 363,
+      "word_count": 62,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "8fe310d1-56cf-4bd2-922e-5ba3470b3857"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-09T15:32:00Z",
+    "title": "KeySlim Drops Explores Ingredient-First Weight Management Trends in 2025",
+    "text": "A Science-Backed Look at How KeySlim Drops’ Natural Formula Aligns With Evolving Healthy Weight Goals A Science-Backed Look at How KeySlim Drops’ Natural Formula Aligns With Evolving Healthy Weight Goals",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9971202611923218
+    },
+    "url": "https://www.globenewswire.com/news-release/2025/08/09/3130494/0/en/KeySlim-Drops-Explores-Ingredient-First-Weight-Management-Trends-in-2025.html",
+    "author": "KeySlim Drops",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.817,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.9,
+        "clarity": 0.7,
+        "sentiment_extractable": 0.9,
+        "temporal_value": 0.9,
+        "actionable_insight": 0.8,
+        "noise_level": 0.7
+      },
+      "quality_issues": [
+        "Duplicate or near-duplicate content (the phrase 'A Science-Backed Look at How KeySlim Drops’ Natural Formula Aligns With Evolving Healthy Weight Goals' is repeated)"
+      ],
+      "recommendations": "To enhance signal quality, eliminate redundant or duplicated phrases within the text to improve conciseness and clarity. While promotional, this signal provides valuable insight into the brand's strategic positioning; ensuring concise messaging would further enhance its utility for perception forecasting.",
+      "evaluation_timestamp": "2025-08-10T21:06:43.705250",
+      "text_length": 277,
+      "word_count": 39,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "4dea57f8-9ab7-4fc9-8826-cdb03365c55f"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-09T15:30:20Z",
+    "title": "I turned an old CD wallet speaker into a Google Assistant replacement thanks to an ESP32 and a ReSpeaker Lite, and it's amazing",
+    "text": "It&#039;s surprisingly simple to make and a lot of fun.",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9998007416725159
+    },
+    "url": "https://www.xda-developers.com/took-apart-old-speaker-esp32-google-assistant-home-assistant/",
+    "author": "Adam Conway",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.95,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.8,
+        "clarity": 1.0,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 1.0,
+        "actionable_insight": 0.9,
+        "noise_level": 1.0
+      },
+      "quality_issues": [
+        "Positive sentiment is directed at a DIY replacement for the brand's product (Google Assistant), rather than the official product itself, which slightly dilutes direct brand perception insight for the official product."
+      ],
+      "recommendations": "Agent B should be configured to differentiate between direct product sentiment and sentiment for substitute/DIY solutions that replicate product functionality. This signal is highly valuable for understanding desired features, user ingenuity, and the perceived utility of the core service provided by Google Assistant, even if users achieve it via alternative means. Its contribution to direct official product satisfaction trends needs careful interpretation.",
+      "evaluation_timestamp": "2025-08-10T21:06:58.552397",
+      "text_length": 184,
+      "word_count": 33,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "a3e4a5bf-fa4c-4cfa-b0f3-10175d704b1e"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-09T15:30:00Z",
+    "title": "Waze can really detect speed cameras — here’s how to activate it",
+    "text": "As speed checks increase and next-generation cameras pop up on roads everywhere, many drivers look for legal tools to help them drive smarter. Waze, the top",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.629,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.975702702999115
+    },
+    "url": "https://www.talkandroid.com/513610-waze-can-really-detect-speed-cameras-heres-how-to-activate-it/",
+    "author": "Talk Android",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.62,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.9,
+        "clarity": 0.8,
+        "sentiment_extractable": 0.2,
+        "temporal_value": 0.9,
+        "actionable_insight": 0.5,
+        "noise_level": 0.4
+      },
+      "quality_issues": [
+        "Content too short to be meaningful (truncated, especially for understanding the provided sentiment).",
+        "Poor sentiment indicators (the provided negative sentiment is inconsistent with the informational and largely neutral tone of the text snippet)."
+      ],
+      "recommendations": "Ensure the 'SIGNAL TEXT TO EVALUATE' is sufficiently complete to capture the full context and sentiment of the source material. If truncation is necessary, re-evaluate the sentiment solely based on the truncated text. Verify the alignment between the extracted sentiment label and the specific 'SIGNAL TEXT TO EVALUATE'; the current negative sentiment appears contradictory to the provided snippet, which hinders accurate perception forecasting. For improved actionability, if a negative sentiment is assigned to a brand feature, provide specific textual cues or the full source article to justify the sentiment.",
+      "evaluation_timestamp": "2025-08-10T21:07:15.044045",
+      "text_length": 222,
+      "word_count": 38,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "c352cbb3-5584-469b-b945-da50b66ed751"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-09T15:28:12Z",
+    "title": "Acciones de Vivopower saltan 32% en un plan de compra Ripple de USD 100M para aumentar el tesoro XRP",
+    "text": "Las acciones de Vivopower aumentaron más del 32% después de anunciar un plan de USD 100 millones para comprar acciones de Ripple Labs, ampliando su exposición a Ripple Equity y Tokens XRP.\n Nasdaq-listed solar power company VivoPower International PLC saw its…",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.534,
+      "confidence_bucket": "LOW",
+      "raw_score": 0.6208370923995972
+    },
+    "url": "https://es.cointelegraph.com/news/vivopower-shares-jump-ripple-xrp-strategy",
+    "author": "Amin Haqshanas",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.9,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 0.7,
+        "sentiment_extractable": 0.9,
+        "temporal_value": 1.0,
+        "actionable_insight": 1.0,
+        "noise_level": 0.8
+      },
+      "quality_issues": [
+        "Incoherent content (due to abrupt language switch within the text)",
+        "Poor sentiment indicators (provided sentiment has low confidence, although the event itself is clearly positive)"
+      ],
+      "recommendations": "Implement robust language detection and processing to ensure signal text is consistently in one language or properly handled if multilingual. Investigate and improve the confidence level of the automated sentiment analysis, as the current low confidence for a clearly positive event may hinder downstream model performance.",
+      "evaluation_timestamp": "2025-08-10T21:07:27.448755",
+      "text_length": 362,
+      "word_count": 60,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "a65b24c0-cbe3-40b3-a8f7-3ae61d4a0d1b"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-05T14:12:51Z",
+    "title": "I dumped Google for Kagi",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9997255206108093
+    },
+    "url": "https://arstechnica.com/gadgets/2025/08/enough-is-enough-i-dumped-googles-worsening-search-for-kagi/",
+    "author": "thimabi",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 1.0,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 1.0,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 1.0,
+        "actionable_insight": 1.0,
+        "noise_level": 1.0
+      },
+      "quality_issues": [],
+      "recommendations": "This signal is of exceptionally high quality. Agent B should prioritize direct brand switching statements like this, as they indicate strong user sentiment and competitive action. Future enhancements could focus on extracting the 'reason' for the switch (e.g., 'worsening search' from the URL title) to provide deeper causal insights for brand strategy.",
+      "evaluation_timestamp": "2025-08-10T21:07:38.601047",
+      "text_length": 26,
+      "word_count": 5,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "42648cd2-fc32-4662-b615-c2512c5d5f62"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-06T14:04:13Z",
+    "title": "Google suffers data breach in ongoing Salesforce data theft attacks",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.999582827091217
+    },
+    "url": "https://www.bleepingcomputer.com/news/security/google-suffers-data-breach-in-ongoing-salesforce-data-theft-attacks/",
+    "author": "mikece",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 1.0,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 1.0,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 1.0,
+        "actionable_insight": 1.0,
+        "noise_level": 1.0
+      },
+      "quality_issues": [],
+      "recommendations": "This signal is exceptionally high quality for brand perception forecasting. It is highly relevant, clear, contains strong extractable sentiment, is time-sensitive, and provides clear actionable insight with minimal noise. Continue to prioritize signals with similar levels of specificity, clear sentiment, and direct relevance to brand reputation.",
+      "evaluation_timestamp": "2025-08-10T21:07:47.127965",
+      "text_length": 69,
+      "word_count": 10,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "a6a71781-a600-4953-a08b-65271e064bdd"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-08T14:46:53Z",
+    "title": "Google's Genie is more impressive than GPT5",
+    "text": "",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9995961785316467
+    },
+    "url": "https://theahura.substack.com/p/tech-things-genies-lamp-openai-cant",
+    "author": "theahura",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 1.0,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 1.0,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 1.0,
+        "actionable_insight": 1.0,
+        "noise_level": 1.0
+      },
+      "quality_issues": [],
+      "recommendations": "No specific recommendations for improvement on the inherent quality of this signal; it is highly relevant, clear, and actionable for brand perception forecasting. The inclusion of source, timestamp, and topic further enhances its utility.",
+      "evaluation_timestamp": "2025-08-10T21:07:55.476913",
+      "text_length": 45,
+      "word_count": 7,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "164e0cea-6b3e-4646-8dd2-0ff3cf307ba8"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-03T21:03:50Z",
+    "title": "One Dataset. No Warning. Google Took Everything. You're Not Safe Either",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9996159076690674
+    },
+    "url": "https://medium.com/@russoatlarge_93541/i-built-a-privacy-app-google-banned-me-over-a-dataset-used-in-ai-research-66bc0dfb2310",
+    "author": "markatlarge",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.97,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 0.9,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 1.0,
+        "actionable_insight": 0.9,
+        "noise_level": 1.0
+      },
+      "quality_issues": [],
+      "recommendations": "This signal is of high quality due to its direct relevance to Google's brand, clear negative sentiment, and specific event-driven nature. For the Perception Forecaster, it's crucial to leverage the provided URL and topic (Google Product Rumors) to deeply understand the context and root cause of this strong negative sentiment regarding privacy and data handling. Future analysis should focus on identifying other similar privacy-related complaints or policy shifts that could impact Google's brand perception.",
+      "evaluation_timestamp": "2025-08-10T21:08:05.431294",
+      "text_length": 73,
+      "word_count": 11,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "72ad94f9-e502-4691-a84f-c6f443a29ffe"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-03T22:11:58Z",
+    "title": "Google has dropped more than 50 DEI-related orgs from one of its funding lists",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9996137022972107
+    },
+    "url": "https://www.cnbc.com/2025/08/01/google-dropped-50-dei-groups-from-funding-list-.html",
+    "author": "gslin",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 1.0,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 1.0,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 1.0,
+        "actionable_insight": 1.0,
+        "noise_level": 1.0
+      },
+      "quality_issues": [],
+      "recommendations": "This is a high-quality, actionable signal for brand perception forecasting. Agent B should prioritize tracking immediate and evolving sentiment around this specific event across various stakeholder groups (e.g., employees, consumers, investors). Future analysis should correlate any shifts in Google's overall brand perception with this action. While the signal itself is strong, ensure that the metadata, specifically the 'topic: Google Product Rumors', is accurate for effective categorization and trend analysis within the forecasting models, as DEI actions are typically not product rumors.",
+      "evaluation_timestamp": "2025-08-10T21:08:15.992769",
+      "text_length": 80,
+      "word_count": 14,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "cf86653d-ea19-45d9-b4aa-505d9bfb930d"
+  },
+  {
+    "source": "Mastodon",
+    "text": "@ Impertinenzija Die Google-Startseite. Das bringt als Angabe halt nichts. 😁",
+    "url": "https://sueden.social/@DerSash/115005203730116520",
+    "sentiment_pipeline": {
+      "label": "NEGATIVE",
+      "score": 0.634,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9955081939697266
+    },
+    "sentiment": "negative",
+    "sentiment_polarity": 0.0,
+    "sentiment_subjectivity": 0.0,
+    "hashtags": [],
+    "topic": "Other",
+    "analysis": "**Topic Analysis and Identification**\n\nBased on the provided Mastodon post and hashtag data, I have identified a key discussion topic relevant to Google's brand, business performance, and customer trust.\n\n### Topic 1: **Google's User Experience and Search Functionality**\n\n* **Summary:** The topic revolves around users' perceptions of Google's search functionality and user experience. This discussion has implications for Google's business performance, as a positive user experience can drive engagement, while a negative experience can lead to decreased usage and potential loss of revenue.\n* **Supporting Post Snippet:** \"@ Impertinenzija Die Google-Startseite. Das bringt als Angabe halt nichts. 😁\" (Translation: \"The Google homepage. That's not a useful entry point. 😁\") This post suggests that the user finds the Google homepage to be lacking in usefulness, implying a subpar user experience.\n* **Key Hashtags:** \n  - No specific hashtags are provided in the post. However, based on the content, relevant hashtags could include #Google, #SearchExperience, #UserExperience.\n\n### Hashtag Analysis\n\nGiven the limited data, the following observations can be made:\n\n* **Semantic Categories:** \n  - No explicit hashtags are provided, but based on the post content, categories could include product/tech (e.g., #Google), emotion (e.g., 😁).\n* **Languages and Cross-Lingual Variants:** \n  - The post and implied hashtags are in English and German.\n* **Co-Occurring Hashtags:** \n  - Not applicable due to the lack of explicit hashtags.\n* **Sentiment-Laden Hashtags:** \n  - The use of \"😁\" indicates a somewhat negative or mocking sentiment towards Google's user experience.\n* **Hashtag Frequency and Source Post Examples:** \n  - N/A\n* **Temporal Trend:** \n  - Unable to infer due to limited data.\n\n### Grouping Hashtags by Semantic Category\n\nAlthough no explicit hashtags are provided, a hypothetical grouping based on potential hashtags related to the topic could include:\n\n* **Product/Tech:** #Google, #GoogleSearch\n* **Emotion:** #Frustrated, #Disappointed (though not directly provided, these could represent the sentiment expressed)\n\n### Conclusion\n\nThe identified topic of Google's user experience and search functionality directly relates to public digital conversations around the company and has potential implications for business performance and client engagement. Monitoring and addressing user concerns about Google's search functionality and user experience can help maintain a positive brand perception and encourage continued usage and engagement. \n\n**Recommendations for Future Analysis:**\n\n1. **Expand Data Collection:** Gather more posts and hashtags to provide a comprehensive view of the conversation around Google.\n2. **Sentiment Analysis:** Conduct a detailed sentiment analysis to understand the nuances of public perception.\n3. **Trend Analysis:** Monitor temporal trends in hashtags and topics to identify emerging issues or opportunities.\n\nBy focusing on these areas, Google can better understand and address public concerns, ultimately supporting business objectives related to deal velocity, lead quality, and client engagement.",
+    "timestamp": "2025-08-10T15:38:22.944513+00:00",
+    "quality": {
+      "overall_quality_score": 0.95,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 1.0,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 0.8,
+        "actionable_insight": 0.9,
+        "noise_level": 1.0
+      },
+      "quality_issues": [],
+      "recommendations": "While this individual signal is high quality, its full value for perception forecasting is realized when aggregated with similar data points. Future analysis should focus on collecting a broader dataset of such specific feedback instances to identify patterns, emerging trends, and persistent issues related to specific brand features (e.g., Google's homepage user experience). Leveraging the provided sentiment pipeline and performing detailed trend analysis on these aggregated signals will enhance the accuracy of perception forecasts.",
+      "evaluation_timestamp": "2025-08-10T21:08:33.492182",
+      "text_length": 76,
+      "word_count": 11,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "39be8499-17c5-49df-b6c5-237815b2635f"
+  },
+  {
+    "source": "Mastodon",
+    "text": "@ stroughtonsmith As someone who's just outside of that age range, it looks fun! The implementation so far in the betas hasn't been as crazy as the demos they showed but I'm kinda glad Google (and apple!) are both trying things that have a pretty good chance of falling flat. Maybe it's just the \"computers have been boring recently\" in me but I'd rather they take a risk they can walk back than not",
+    "url": "https://tenforward.social/@lowficarrots/115005197298229533",
+    "sentiment_pipeline": {
+      "label": "NEGATIVE",
+      "score": 0.62,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9423359036445618
+    },
+    "sentiment": "positive",
+    "sentiment_polarity": 0.03863636363636364,
+    "sentiment_subjectivity": 0.5568181818181818,
+    "hashtags": [],
+    "topic": "Other",
+    "analysis": "**Hashtag Analysis**\n\nAfter analyzing the provided hashtags, I grouped them by semantic category:\n\n* **Product/Technology**: None\n* **Company/Entity**: #Google\n* **Emotion/Tone**: None\n* **Event/Announcement**: None\n\nNo language other than English is present in the hashtags. There are no cross-lingual variants, sentiment-laden hashtags, or co-occurring hashtags in the same posts.\n\n**Hashtag Frequency and Source Post Examples**\n\n| Hashtag | Frequency | Source Post Examples |\n| --- | --- | --- |\n| #Google | 1 | @stroughtonsmith |\n\n**Temporal Trend**\n\nNo temporal trend can be inferred from the provided data, as there is only one post.\n\n**Topics**\n\nBased on the post and hashtag analysis, I identified one key discussion topic relevant to Google's brand, business performance, or customer trust:\n\n### **Topic 1: Google's Innovation and Risk-Taking in Technology**\n\n**Summary**: The topic revolves around Google's willingness to take risks and experiment with new technologies, which may influence business outcomes such as deal velocity, lead quality, or client engagement. The discussion highlights the importance of innovation and experimentation in the tech industry.\n\n**Supporting Post Snippet**:\n\"I'm kinda glad Google (and apple!) are both trying things that have a pretty good chance of falling flat. Maybe it's just the 'computers have been boring recently' in me but I'd rather they take a risk they can walk back than not\"\n\n**Key Hashtags**: #Google\n\n**Business Relevance**: This topic is relevant to Google's business performance and customer trust, as it showcases the company's commitment to innovation and experimentation. This can positively impact business outcomes, such as:\n\n* Deal velocity: Google's innovative approach may attract new customers and partners, leading to increased deal velocity.\n* Lead quality: The company's willingness to take risks and experiment with new technologies may attract high-quality leads interested in cutting-edge solutions.\n* Client engagement: Google's innovative approach may lead to increased client engagement, as customers are more likely to be interested in a company that is pushing the boundaries of technology.\n\nOverall, the topic highlights Google's commitment to innovation and experimentation, which can have a positive impact on the company's business performance and customer trust.",
+    "timestamp": "2025-08-10T15:38:34.872081+00:00",
+    "quality": {
+      "overall_quality_score": 0.82,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 1.0,
+        "sentiment_extractable": 0.6,
+        "temporal_value": 0.5,
+        "actionable_insight": 0.8,
+        "noise_level": 1.0
+      },
+      "quality_issues": [
+        "Inconsistent sentiment labeling detected (sentiment_pipeline indicates 'NEGATIVE' while sentiment indicates 'positive' for the same text). This reduces the reliability of the extracted sentiment for automated analysis.",
+        "Signal is a single, isolated data point, limiting its standalone temporal value for robust time-series analysis and trend forecasting without aggregation with other signals."
+      ],
+      "recommendations": "1. Prioritize rectifying the discrepancy in sentiment labeling within the sentiment pipeline to ensure consistent and accurate sentiment scores. This is crucial for Agent B's ML model training and prediction accuracy. 2. Implement mechanisms to aggregate similar signals over time to build a richer dataset for time-series analysis, as single data points offer limited temporal insight. 3. Consider deeper contextual extraction for mentions like 'betas' or 'demos' to link the sentiment directly to specific product initiatives.",
+      "evaluation_timestamp": "2025-08-10T21:08:49.060023",
+      "text_length": 399,
+      "word_count": 74,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "deaac9d5-cca9-4f28-bc1d-2fc9df594fff"
+  },
+  {
+    "source": "Mastodon",
+    "text": "Part of Google's confidence: they say this M3 Expressive Design scores incredibly high with Gen Z. Is traditional design language really just an old person thing?",
+    "url": "https://mastodon.social/@stroughtonsmith/115005186384570430",
+    "sentiment_pipeline": {
+      "label": "POSITIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9968231916427612
+    },
+    "sentiment": "positive",
+    "sentiment_polarity": 0.25200000000000006,
+    "sentiment_subjectivity": 0.538,
+    "hashtags": [],
+    "topic": "Other",
+    "analysis": "**Topic Analysis and Identification**\n\nBased on the provided Mastodon post and hashtag data, I have identified a key discussion topic relevant to Google's brand, business performance, and customer trust.\n\n### Topic 1: **Google's Design Language and Appeal to Gen Z**\n\n* **Summary:** Google's design language, specifically the M3 Expressive Design, is being discussed in relation to its appeal to Gen Z. The conversation revolves around whether traditional design language is outdated and only appealing to older generations.\n* **Business Relevance:** This topic has implications for Google's brand perception and potential impact on B2B decisions, sales, or client engagement. If Google's design language is perceived as outdated, it may affect the company's ability to attract and engage with younger generations, potentially influencing business outcomes.\n* **Supporting Post Snippet:** \"Part of Google's confidence: they say this M3 Expressive Design scores incredibly high with Gen Z. Is traditional design language really just an old person thing?\"\n* **Key Hashtags:** \n  - No specific hashtags are provided in the post, but the topic is related to design and generational appeal.\n\n### Hashtag Analysis\n\nGiven the lack of specific hashtags in the provided post, I will focus on the general implications of the topic.\n\n* **Semantic Category:** The topic falls under the category of \"product\" or \"design.\"\n* **Language:** The language present is English.\n* **Sentiment:** The sentiment is neutral/inquisitive, with a hint of questioning traditional design language.\n\n### Temporal Trend and Frequency\n\nWithout additional data on hashtag frequency and temporal trends, it is difficult to infer specific insights. However, the topic of design language and generational appeal is a recurring theme in technology and branding discussions.\n\n### Conclusion\n\nThe key discussion topic identified is Google's design language and its appeal to Gen Z. This topic has implications for Google's brand perception and potential impact on B2B decisions, sales, or client engagement. To further analyze and track this topic, it would be beneficial to monitor relevant hashtags and online conversations related to Google's design language and generational appeal. \n\nIn a real-world scenario, I would use a larger dataset of posts and hashtags to identify more topics, track their temporal trends, and provide a more comprehensive analysis of Google's brand perception in digital conversations. \n\n**Recommendations for Future Analysis:**\n\n1. **Expand Dataset:** Include more posts and hashtags to identify additional topics and trends.\n2. **Track Temporal Trends:** Analyze how topics and hashtags evolve over time to identify emerging patterns.\n3. **Sentiment Analysis:** Conduct sentiment analysis on posts and hashtags to better understand the emotional tone surrounding Google's brand.\n4. **Competitor Analysis:** Compare Google's brand perception with that of its competitors to identify areas of differentiation and improvement.",
+    "timestamp": "2025-08-10T15:38:50.790338+00:00",
+    "quality": {
+      "overall_quality_score": 0.9666666666666667,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 1.0,
+        "sentiment_extractable": 0.8,
+        "temporal_value": 1.0,
+        "actionable_insight": 1.0,
+        "noise_level": 1.0
+      },
+      "quality_issues": [
+        "Inconsistent sentiment labeling: The automated sentiment pipeline labels the signal as 'POSITIVE' with 'HIGH' confidence, but the human-generated analysis describes the sentiment as 'neutral/inquisitive', creating a discrepancy that could impact downstream analysis.",
+        "Incorrect topic categorization in metadata: The provided 'topic' field ('Google Search and Information Retrieval') is inaccurate; the detailed analysis correctly identifies the topic as 'Google's Design Language and Appeal to Gen Z'."
+      ],
+      "recommendations": "1. **Improve Sentiment Analysis Consistency:** Align the automated sentiment pipeline's output with nuanced human interpretations, especially for texts containing rhetorical questions or mixed implications, to provide a more accurate sentiment label (e.g., 'neutral' or 'mixed' where appropriate).\n2. **Enhance Topic Extraction Accuracy:** Debug and refine the primary topic extraction model to ensure it accurately reflects the core subject matter of the text, preventing miscategorizations like the 'search and information retrieval' error in this instance. This will ensure Agent B receives reliably categorized signals.",
+      "evaluation_timestamp": "2025-08-10T21:09:02.884428",
+      "text_length": 162,
+      "word_count": 26,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "40032af7-bf20-46a4-a229-842e0abd8a61"
+  },
+  {
+    "source": "Mastodon",
+    "text": "Today I have discovered: - Google Gemini doesn't support Pandora (but Google Assistant did) - Google Assistant w/ Pandora does work, but it makes new stations instead of playing the one's I already made - Google Gemini w/ Spotify also chooses the wrong playlists. I give the exact name, and it will just choose something else. - Spotify doesn't support stations/\"radios\", only playlists. Weird! I don't really want to make a playlist with specific songs, I want it to just start playing. - Spotify has Daily Mix playlists, which are probably good enough for what I want. - Google Gemini can't play the Daily Mix playlists! WHY?? - Maybe it works okay with YouTube Music? But I'm not paying for premium, so IDK. Voice assistants have been around for over a decade, and there are only like two total use cases for them. So why is using them like pulling teeth? Like, what can voice assistants even do, if not this?",
+    "url": "https://blahaj.zone/notes/ab9eho9sutt504bu",
+    "sentiment_pipeline": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9994822144508362
+    },
+    "sentiment": "positive",
+    "sentiment_polarity": 0.04724025974025974,
+    "sentiment_subjectivity": 0.5199675324675325,
+    "hashtags": [],
+    "topic": "Other",
+    "analysis": "**Topic 1: Voice Assistant Functionality and Integration**\n\n* **Summary:** Users are expressing frustration with the limitations of Google Gemini and Google Assistant, particularly with regards to music playback and integration with services like Pandora and Spotify. This topic has implications for Google's business performance, as it may impact customer satisfaction and loyalty.\n* **Supporting post snippets:**\n\t+ \"Google Gemini doesn't support Pandora (but Google Assistant did)... Google Gemini w/ Spotify also chooses the wrong playlists.\"\n\t+ \"Voice assistants have been around for over a decade, and there are only like two total use cases for them. So why is using them like pulling teeth?\"\n* **Key hashtags:** None explicitly mentioned in the post, but related hashtags like #GoogleAssistant, #GoogleGemini, #VoiceAssistant could be relevant.\n\n**Topic 2: Music Streaming Integration and Limitations**\n\n* **Summary:** The post highlights issues with Google Gemini and Google Assistant integrating with music streaming services like Pandora and Spotify, specifically with regards to playlist and station playback. This topic may impact Google's business performance, as it relates to the user experience and potential churn.\n* **Supporting post snippets:**\n\t+ \"Google Gemini doesn't support Pandora... Google Gemini w/ Spotify also chooses the wrong playlists.\"\n\t+ \"Spotify doesn't support stations/\"radios\", only playlists. Weird! I don't really want to make a playlist with specific songs, I want it to just start playing.\"\n* **Key hashtags:** None explicitly mentioned in the post, but related hashtags like #Spotify, #Pandora, #MusicStreaming could be relevant.\n\n**Hashtag Analysis:**\n\n* **Semantic categories:** \n\t+ Product/Technology: #GoogleAssistant, #GoogleGemini, #VoiceAssistant, #Spotify, #Pandora\n\t+ Emotion: None explicitly sentiment-laden hashtags detected\n* **Language:** English is the primary language present in the hashtags and posts.\n* **Co-occurring hashtags:** None explicitly mentioned in the post.\n* **Sentiment-laden hashtags:** None detected.\n* **Normalized/standardized hashtags:** None required.\n* **Hashtag frequency and source post examples:** \n\t+ No specific hashtags mentioned in the post, but related hashtags like #GoogleAssistant and #GoogleGemini could be used to track conversations around these topics.\n* **Temporal trend:** No temporal trend inferred from the provided data.\n\n**Business Implications:**\n\n* **Deal velocity:** Negative experiences with Google's voice assistants and music streaming integrations may slow down deal velocity, as potential customers may be deterred by these limitations.\n* **Lead quality:** Frustrated users may lead to lower-quality leads, as they may not be satisfied with Google's offerings.\n* **Client engagement:** Existing clients may be less engaged with Google's products and services if they experience these limitations, potentially leading to churn.\n\nBy monitoring and addressing these topics, Google can improve its brand perception, customer satisfaction, and ultimately, its business performance.",
+    "timestamp": "2025-08-10T15:39:04.601889+00:00",
+    "quality": {
+      "overall_quality_score": 1.0,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 1.0,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 1.0,
+        "actionable_insight": 1.0,
+        "noise_level": 1.0
+      },
+      "quality_issues": [],
+      "recommendations": "This signal is exceptionally high quality for perception forecasting. It provides specific, actionable user frustrations directly tied to brand products (Google Gemini, Google Assistant) and their third-party integrations (Pandora, Spotify). Agent B should leverage the precise details (e.g., Gemini's inability to play Spotify Daily Mix, Pandora incompatibility) to track very granular improvements or deteriorations in user experience and brand sentiment over time. Future signals of this specificity and clarity would be ideal for robust model training.",
+      "evaluation_timestamp": "2025-08-10T21:09:12.875284",
+      "text_length": 912,
+      "word_count": 161,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "6c8133d2-9a20-4f47-a54e-c729bd141687"
+  },
+  {
+    "source": "Mastodon",
+    "text": "Lightcraft’s Spark could finally give filmmakers the \"Google Docs of 3D\" Source: creativebloq https:// flip.it/vrmIbn",
+    "url": "https://mstdn.ca/@dkmackinnon/115005151103693664",
+    "sentiment_pipeline": {
+      "label": "POSITIVE",
+      "score": 0.633,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9909321069717407
+    },
+    "sentiment": "positive",
+    "sentiment_polarity": 0.0,
+    "sentiment_subjectivity": 1.0,
+    "hashtags": [],
+    "topic": "Other",
+    "analysis": "**Topic Analysis and Identification**\n\nBased on the provided Mastodon post and hashtag data, I have identified a key discussion topic relevant to Google's brand, business performance, and customer trust.\n\n### Topic 1: Google's Potential Impact on the Film Industry through 3D Technology\n\n**Summary:** The post mentions Lightcraft's Spark as a potential game-changer for filmmakers, comparing its functionality to \"Google Docs of 3D.\" This implies that Google's brand is associated with innovative, collaborative, and accessible technology. The topic highlights the potential for Google to influence the film industry through its technological advancements.\n\n**Business Relevance:** This topic can impact B2B decisions in the film industry, as professionals may consider Google's technology as a factor in their creative workflows. It also speaks to Google's brand perception as a leader in innovative solutions.\n\n**Supporting Post Snippet:**\n\"Lightcraft’s Spark could finally give filmmakers the 'Google Docs of 3D'\" (Source: creativebloq https://flip.it/vrmIbn)\n\n**Key Hashtags:**\n\n* No specific hashtags are provided in the post, but related hashtags could include #Google, #FilmIndustry, #3DTechnology, #Innovation\n\n**Hashtag Analysis:**\n\n* **Semantic Category:** Product/Technology\n* **Language:** English\n* **Co-occurring Hashtags:** None\n* **Sentiment-laden Hashtags:** None\n* **Frequency and Source:** N/A\n* **Temporal Trend:** N/A\n\n### Inferred Topics from Hashtag Analysis\n\nAlthough no specific hashtags are provided, an analysis of potential related hashtags reveals:\n\n* **#Google**: A brand-specific hashtag that could be used to track conversations about Google's products and services.\n* **#FilmIndustry**: A industry-specific hashtag that could be used to track conversations about the film industry and its technological advancements.\n* **#3DTechnology**: A product-specific hashtag that could be used to track conversations about 3D technology and its applications.\n\nThese inferred topics and hashtags can be used to further analyze Google's brand perception and its potential impact on the film industry.\n\n**Conclusion**\n\nThe identified topic highlights Google's potential influence on the film industry through its technological advancements. By monitoring conversations around this topic, Google can better understand its brand perception and potential impact on B2B decisions in the film industry. The inferred topics and hashtags provide additional areas of analysis to further understand Google's brand and its relevance to the film industry.",
+    "timestamp": "2025-08-10T15:39:16.368307+00:00",
+    "quality": {
+      "overall_quality_score": 0.9833333333333333,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 1.0,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 0.9,
+        "actionable_insight": 1.0,
+        "noise_level": 1.0
+      },
+      "quality_issues": [],
+      "recommendations": "The signal is of high quality and directly relevant for brand perception forecasting. The use of 'Google Docs' as an analogy for innovation, collaboration, and accessibility provides a strong positive sentiment indicator. Continue to monitor similar analogies across various industries to track the specific positive attributes consistently associated with the Google brand and to identify emerging areas of influence.",
+      "evaluation_timestamp": "2025-08-10T21:09:23.788276",
+      "text_length": 117,
+      "word_count": 15,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "f4f7d035-fef1-4d97-a61c-6970e4760fc9"
+  },
+  {
+    "url": "https://x.com/Google/status/1953929256674722202?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+    "data": {
+      "__typename": "Tweet",
+      "rest_id": "1953929256674722202",
+      "core": {
+        "user_results": {
+          "result": {
+            "__typename": "User",
+            "id": "VXNlcjoyMDUzNjE1Nw==",
+            "rest_id": "20536157",
+            "affiliates_highlighted_label": {},
+            "avatar": {
+              "image_url": "https://pbs.twimg.com/profile_images/1754606338460487681/bWupXdxo_normal.jpg"
+            },
+            "core": {
+              "created_at": "Tue Feb 10 19:14:39 +0000 2009",
+              "name": "Google",
+              "screen_name": "Google"
+            },
+            "dm_permissions": {},
+            "is_blue_verified": true,
+            "legacy": {
+              "default_profile": false,
+              "default_profile_image": false,
+              "description": "Here to help.",
+              "entities": {
+                "description": {
+                  "urls": []
+                },
+                "url": {
+                  "urls": [
+                    {
+                      "display_url": "blog.google/newsletter-sub…",
+                      "expanded_url": "https://blog.google/newsletter-subscribe/",
+                      "url": "https://t.co/RS3iU873QG",
+                      "indices": [
+                        0,
+                        23
+                      ]
+                    }
+                  ]
+                }
+              },
+              "fast_followers_count": 0,
+              "favourites_count": 3768,
+              "followers_count": 32793750,
+              "friends_count": 285,
+              "has_custom_timelines": true,
+              "is_translator": false,
+              "listed_count": 89741,
+              "media_count": 37473,
+              "normal_followers_count": 32793750,
+              "pinned_tweet_ids_str": [],
+              "possibly_sensitive": false,
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/20536157/1752864768",
+              "profile_interstitial_type": "",
+              "statuses_count": 239189,
+              "translator_type": "regular",
+              "url": "https://t.co/RS3iU873QG",
+              "withheld_in_countries": []
+            },
+            "location": {
+              "location": "Mountain View, CA"
+            },
+            "media_permissions": {},
+            "parody_commentary_fan_label": "None",
+            "profile_image_shape": "Square",
+            "professional": {
+              "rest_id": "1504886752259059716",
+              "professional_type": "Business",
+              "category": [
+                {
+                  "id": 713,
+                  "name": "Science & Technology",
+                  "icon_name": "IconBriefcaseStroke"
+                }
+              ]
+            },
+            "privacy": {
+              "protected": false
+            },
+            "relationship_perspectives": {},
+            "tipjar_settings": {
+              "is_enabled": false,
+              "bandcamp_handle": "",
+              "bitcoin_handle": "",
+              "cash_app_handle": "",
+              "ethereum_handle": "",
+              "gofundme_handle": "",
+              "patreon_handle": "",
+              "pay_pal_handle": "",
+              "venmo_handle": ""
+            },
+            "verification": {
+              "verified": false,
+              "verified_type": "Business"
+            },
+            "verified_phone_status": false
+          }
+        }
+      },
+      "unmention_data": {},
+      "edit_control": {
+        "edit_tweet_ids": [
+          "1953929256674722202"
+        ],
+        "editable_until_msecs": "1754691611000",
+        "is_edit_eligible": true,
+        "edits_remaining": "5"
+      },
+      "is_translatable": false,
+      "views": {
+        "count": "95615",
+        "state": "EnabledWithCount"
+      },
+      "source": "<a href=\"https://prod8.sprinklr.com/\" rel=\"nofollow\">Sprinklr Care</a>",
+      "grok_analysis_button": true,
+      "legacy": {
+        "bookmark_count": 84,
+        "bookmarked": false,
+        "created_at": "Fri Aug 08 21:20:11 +0000 2025",
+        "conversation_id_str": "1953929256674722202",
+        "display_text_range": [
+          0,
+          102
+        ],
+        "entities": {
+          "hashtags": [],
+          "media": [
+            {
+              "display_url": "pic.x.com/ZHbgP2sbDA",
+              "expanded_url": "https://x.com/Google/status/1953929256674722202/video/1",
+              "id_str": "1953929214408712192",
+              "indices": [
+                103,
+                126
+              ],
+              "media_key": "13_1953929214408712192",
+              "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1953929214408712192/img/NTkUO76Z8UiH7xTn.jpg",
+              "type": "video",
+              "url": "https://t.co/ZHbgP2sbDA",
+              "additional_media_info": {
+                "monetizable": false
+              },
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "sizes": {
+                "large": {
+                  "h": 1080,
+                  "w": 1920,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "h": 675,
+                  "w": 1200,
+                  "resize": "fit"
+                },
+                "small": {
+                  "h": 383,
+                  "w": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "h": 150,
+                  "w": 150,
+                  "resize": "crop"
+                }
+              },
+              "original_info": {
+                "height": 1080,
+                "width": 1920,
+                "focus_rects": []
+              },
+              "video_info": {
+                "aspect_ratio": [
+                  16,
+                  9
+                ],
+                "duration_millis": 55833,
+                "variants": [
+                  {
+                    "content_type": "application/x-mpegURL",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/pl/POLkWliRzTyW1vFP.m3u8?tag=16&v=8d5"
+                  },
+                  {
+                    "bitrate": 288000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/480x270/f6B1m4Y6QYBBDJWd.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 832000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/640x360/0WPj0xOFFYEyArA7.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 2176000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/1280x720/8YqKYyzxwe2h_Ah6.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 10368000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/1920x1080/g2FCki_nPh14euu_.mp4?tag=16"
+                  }
+                ]
+              },
+              "media_results": {
+                "result": {
+                  "media_key": "13_1953929214408712192"
+                }
+              }
+            }
+          ],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [],
+          "user_mentions": []
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "display_url": "pic.x.com/ZHbgP2sbDA",
+              "expanded_url": "https://x.com/Google/status/1953929256674722202/video/1",
+              "id_str": "1953929214408712192",
+              "indices": [
+                103,
+                126
+              ],
+              "media_key": "13_1953929214408712192",
+              "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1953929214408712192/img/NTkUO76Z8UiH7xTn.jpg",
+              "type": "video",
+              "url": "https://t.co/ZHbgP2sbDA",
+              "additional_media_info": {
+                "monetizable": false
+              },
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "sizes": {
+                "large": {
+                  "h": 1080,
+                  "w": 1920,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "h": 675,
+                  "w": 1200,
+                  "resize": "fit"
+                },
+                "small": {
+                  "h": 383,
+                  "w": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "h": 150,
+                  "w": 150,
+                  "resize": "crop"
+                }
+              },
+              "original_info": {
+                "height": 1080,
+                "width": 1920,
+                "focus_rects": []
+              },
+              "video_info": {
+                "aspect_ratio": [
+                  16,
+                  9
+                ],
+                "duration_millis": 55833,
+                "variants": [
+                  {
+                    "content_type": "application/x-mpegURL",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/pl/POLkWliRzTyW1vFP.m3u8?tag=16&v=8d5"
+                  },
+                  {
+                    "bitrate": 288000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/480x270/f6B1m4Y6QYBBDJWd.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 832000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/640x360/0WPj0xOFFYEyArA7.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 2176000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/1280x720/8YqKYyzxwe2h_Ah6.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 10368000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/1920x1080/g2FCki_nPh14euu_.mp4?tag=16"
+                  }
+                ]
+              },
+              "media_results": {
+                "result": {
+                  "media_key": "13_1953929214408712192"
+                }
+              }
+            }
+          ]
+        },
+        "favorite_count": 652,
+        "favorited": false,
+        "full_text": "This week at Google, we shared updates to learning tools in Gemini and a new feature called Storybook. https://t.co/ZHbgP2sbDA",
+        "is_quote_status": false,
+        "lang": "en",
+        "possibly_sensitive": false,
+        "possibly_sensitive_editable": true,
+        "quote_count": 3,
+        "reply_count": 92,
+        "retweet_count": 115,
+        "retweeted": false,
+        "user_id_str": "20536157",
+        "id_str": "1953929256674722202"
+      }
+    },
+    "sentiment": {
+      "label": "NEUTRAL",
+      "score": 0.5,
+      "confidence_bucket": "LOW"
+    },
+    "quality": {
+      "overall_quality_score": 0.87,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.9,
+        "clarity": 1.0,
+        "sentiment_extractable": 0.5,
+        "temporal_value": 1.0,
+        "actionable_insight": 0.8,
+        "noise_level": 1.0
+      },
+      "quality_issues": [
+        "Poor sentiment indicators (too neutral/ambiguous from the text itself, confirmed by low confidence neutral sentiment provided).",
+        "The 'created_at' timestamp in the additional context (Fri Aug 08 21:20:11 +0000 2025) appears to be a future date, which is an anomaly in the source data."
+      ],
+      "recommendations": "The signal text itself was provided as empty. This evaluation assumes the 'full_text' from the 'ADDITIONAL CONTEXT' (`'This week at Google, we shared updates to learning tools in Gemini and a new feature called Storybook. https://t.co/ZHbgP2sbDA'`) is the intended signal to be evaluated. It is important to clarify this process.\n\nWhile the signal is highly relevant and clear as an official brand announcement, its inherent neutrality limits direct sentiment extraction. For perception forecasting, consider how these factual, self-promotional updates from the brand should be weighted. They provide valuable context on brand activity and product development, which are foundational to perception, even if they don't carry strong explicit sentiment themselves. The forecaster should look for subsequent signals (e.g., user reactions, news articles) that *react* to these announcements to derive sentiment shifts.\n\nAddress the future timestamp ('created_at') anomaly in the data collection pipeline, as accurate temporal data is critical for time-series analysis.",
+      "evaluation_timestamp": "2025-08-10T21:09:49.057181",
+      "text_length": 0,
+      "word_count": 0,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "4e89fbd2-a6ab-456f-b415-5497d39bc7d5",
+    "topic": "Other"
+  },
+  {
+    "url": "https://x.com/Google/status/1953210766183538949?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+    "data": {
+      "__typename": "Tweet",
+      "rest_id": "1953210766183538949",
+      "core": {
+        "user_results": {
+          "result": {
+            "__typename": "User",
+            "id": "VXNlcjoyMDUzNjE1Nw==",
+            "rest_id": "20536157",
+            "affiliates_highlighted_label": {},
+            "avatar": {
+              "image_url": "https://pbs.twimg.com/profile_images/1754606338460487681/bWupXdxo_normal.jpg"
+            },
+            "core": {
+              "created_at": "Tue Feb 10 19:14:39 +0000 2009",
+              "name": "Google",
+              "screen_name": "Google"
+            },
+            "dm_permissions": {},
+            "is_blue_verified": true,
+            "legacy": {
+              "default_profile": false,
+              "default_profile_image": false,
+              "description": "Here to help.",
+              "entities": {
+                "description": {
+                  "urls": []
+                },
+                "url": {
+                  "urls": [
+                    {
+                      "display_url": "blog.google/newsletter-sub…",
+                      "expanded_url": "https://blog.google/newsletter-subscribe/",
+                      "url": "https://t.co/RS3iU873QG",
+                      "indices": [
+                        0,
+                        23
+                      ]
+                    }
+                  ]
+                }
+              },
+              "fast_followers_count": 0,
+              "favourites_count": 3768,
+              "followers_count": 32793752,
+              "friends_count": 285,
+              "has_custom_timelines": true,
+              "is_translator": false,
+              "listed_count": 89741,
+              "media_count": 37473,
+              "normal_followers_count": 32793752,
+              "pinned_tweet_ids_str": [],
+              "possibly_sensitive": false,
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/20536157/1752864768",
+              "profile_interstitial_type": "",
+              "statuses_count": 239189,
+              "translator_type": "regular",
+              "url": "https://t.co/RS3iU873QG",
+              "withheld_in_countries": []
+            },
+            "location": {
+              "location": "Mountain View, CA"
+            },
+            "media_permissions": {},
+            "parody_commentary_fan_label": "None",
+            "profile_image_shape": "Square",
+            "professional": {
+              "rest_id": "1504886752259059716",
+              "professional_type": "Business",
+              "category": [
+                {
+                  "id": 713,
+                  "name": "Science & Technology",
+                  "icon_name": "IconBriefcaseStroke"
+                }
+              ]
+            },
+            "privacy": {
+              "protected": false
+            },
+            "relationship_perspectives": {},
+            "tipjar_settings": {
+              "is_enabled": false,
+              "bandcamp_handle": "",
+              "bitcoin_handle": "",
+              "cash_app_handle": "",
+              "ethereum_handle": "",
+              "gofundme_handle": "",
+              "patreon_handle": "",
+              "pay_pal_handle": "",
+              "venmo_handle": ""
+            },
+            "verification": {
+              "verified": false,
+              "verified_type": "Business"
+            },
+            "verified_phone_status": false
+          }
+        }
+      },
+      "unmention_data": {},
+      "edit_control": {
+        "edit_tweet_ids": [
+          "1953210766183538949"
+        ],
+        "editable_until_msecs": "1754520310000",
+        "is_edit_eligible": false,
+        "edits_remaining": "5"
+      },
+      "is_translatable": false,
+      "views": {
+        "count": "169112",
+        "state": "EnabledWithCount"
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "note_tweet": {
+        "is_expandable": true,
+        "note_tweet_results": {
+          "result": {
+            "id": "Tm90ZVR3ZWV0OjE5NTMyMTA3NjYxMjA2MDM2NDg=",
+            "text": "In June, we launched Gemini CLI, an open-source AI agent that brings the power of Gemini to your terminal. Now, we’re introducing Gemini CLI GitHub Actions.\n\nIt’s a powerful AI coding teammate for your repository, created for team collaboration on the platform where developers work with each other. It’s now available on GitHub in beta to everyone worldwide at no cost.",
+            "entity_set": {
+              "hashtags": [],
+              "symbols": [],
+              "urls": [],
+              "user_mentions": []
+            },
+            "richtext": {
+              "richtext_tags": []
+            },
+            "media": {
+              "inline_media": []
+            }
+          }
+        }
+      },
+      "grok_analysis_button": true,
+      "legacy": {
+        "bookmark_count": 271,
+        "bookmarked": false,
+        "created_at": "Wed Aug 06 21:45:10 +0000 2025",
+        "conversation_id_str": "1953210766183538949",
+        "display_text_range": [
+          0,
+          277
+        ],
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [],
+          "user_mentions": []
+        },
+        "favorite_count": 1306,
+        "favorited": false,
+        "full_text": "In June, we launched Gemini CLI, an open-source AI agent that brings the power of Gemini to your terminal. Now, we’re introducing Gemini CLI GitHub Actions.\n\nIt’s a powerful AI coding teammate for your repository, created for team collaboration on the platform where developers",
+        "is_quote_status": false,
+        "lang": "en",
+        "quote_count": 10,
+        "reply_count": 116,
+        "retweet_count": 166,
+        "retweeted": false,
+        "user_id_str": "20536157",
+        "id_str": "1953210766183538949"
+      }
+    },
+    "sentiment": {
+      "label": "NEUTRAL",
+      "score": 0.5,
+      "confidence_bucket": "LOW"
+    },
+    "quality": {
+      "overall_quality_score": 0.92,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 1.0,
+        "sentiment_extractable": 0.5,
+        "temporal_value": 1.0,
+        "actionable_insight": 1.0,
+        "noise_level": 1.0
+      },
+      "quality_issues": [
+        "Poor sentiment indicators (too neutral/ambiguous - specifically the low confidence of the provided neutral sentiment)"
+      ],
+      "recommendations": "The signal text itself is high quality in terms of clarity, relevance, and temporal value. To gain richer sentiment insights, Agent B should augment analysis by also processing user replies, quotes, and broader discussions surrounding this official announcement. This will provide organic consumer sentiment in addition to the brand's own statement.",
+      "evaluation_timestamp": "2025-08-10T21:10:03.439669",
+      "text_length": 0,
+      "word_count": 0,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "80b1c167-10c5-452c-9cf4-13c1b2d8c53d",
+    "topic": "Other"
+  },
+  {
+    "url": "https://x.com/Google/status/1953143185011617891?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+    "data": {
+      "__typename": "Tweet",
+      "rest_id": "1953143185011617891",
+      "core": {
+        "user_results": {
+          "result": {
+            "__typename": "User",
+            "id": "VXNlcjoyMDUzNjE1Nw==",
+            "rest_id": "20536157",
+            "affiliates_highlighted_label": {},
+            "avatar": {
+              "image_url": "https://pbs.twimg.com/profile_images/1754606338460487681/bWupXdxo_normal.jpg"
+            },
+            "core": {
+              "created_at": "Tue Feb 10 19:14:39 +0000 2009",
+              "name": "Google",
+              "screen_name": "Google"
+            },
+            "dm_permissions": {},
+            "is_blue_verified": true,
+            "legacy": {
+              "default_profile": false,
+              "default_profile_image": false,
+              "description": "Here to help.",
+              "entities": {
+                "description": {
+                  "urls": []
+                },
+                "url": {
+                  "urls": [
+                    {
+                      "display_url": "blog.google/newsletter-sub…",
+                      "expanded_url": "https://blog.google/newsletter-subscribe/",
+                      "url": "https://t.co/RS3iU873QG",
+                      "indices": [
+                        0,
+                        23
+                      ]
+                    }
+                  ]
+                }
+              },
+              "fast_followers_count": 0,
+              "favourites_count": 3768,
+              "followers_count": 32793752,
+              "friends_count": 285,
+              "has_custom_timelines": true,
+              "is_translator": false,
+              "listed_count": 89741,
+              "media_count": 37473,
+              "normal_followers_count": 32793752,
+              "pinned_tweet_ids_str": [],
+              "possibly_sensitive": false,
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/20536157/1752864768",
+              "profile_interstitial_type": "",
+              "statuses_count": 239189,
+              "translator_type": "regular",
+              "url": "https://t.co/RS3iU873QG",
+              "withheld_in_countries": []
+            },
+            "location": {
+              "location": "Mountain View, CA"
+            },
+            "media_permissions": {},
+            "parody_commentary_fan_label": "None",
+            "profile_image_shape": "Square",
+            "professional": {
+              "rest_id": "1504886752259059716",
+              "professional_type": "Business",
+              "category": [
+                {
+                  "id": 713,
+                  "name": "Science & Technology",
+                  "icon_name": "IconBriefcaseStroke"
+                }
+              ]
+            },
+            "privacy": {
+              "protected": false
+            },
+            "relationship_perspectives": {},
+            "tipjar_settings": {
+              "is_enabled": false,
+              "bandcamp_handle": "",
+              "bitcoin_handle": "",
+              "cash_app_handle": "",
+              "ethereum_handle": "",
+              "gofundme_handle": "",
+              "patreon_handle": "",
+              "pay_pal_handle": "",
+              "venmo_handle": ""
+            },
+            "verification": {
+              "verified": false,
+              "verified_type": "Business"
+            },
+            "verified_phone_status": false
+          }
+        }
+      },
+      "unmention_data": {},
+      "edit_control": {
+        "edit_tweet_ids": [
+          "1953143185011617891"
+        ],
+        "editable_until_msecs": "1754504197000",
+        "is_edit_eligible": true,
+        "edits_remaining": "5"
+      },
+      "is_translatable": false,
+      "views": {
+        "count": "192319",
+        "state": "EnabledWithCount"
+      },
+      "source": "<a href=\"https://prod8.sprinklr.com/\" rel=\"nofollow\">Sprinklr Care</a>",
+      "note_tweet": {
+        "is_expandable": true,
+        "note_tweet_results": {
+          "result": {
+            "id": "Tm90ZVR3ZWV0OjE5NTMxNDMxODQ4NDc5OTg5NzY=",
+            "text": "Here are new @GeminiApp tools to help you learn, understand and study better this school year ✏️\n\n- Guided Learning helps you build a deep understanding of subjects, with step-by-step breakdowns that uncover the “why” and “how”\n- Gemini’s responses automatically integrate visuals, like diagrams and YouTube videos, so you can understand more easily\n- Flashcards and study guides based on Gemini-generated quizzes or other class materials let you review key concepts \n\nPlus, students can get a Google AI Pro subscription at no cost for 1 year, available in the U.S., Japan, Indonesia, Korea and Brazil. \n\nLearn more about @GeminiApp’s latest updates → https://t.co/IYi4Ns1Nvk",
+            "entity_set": {
+              "hashtags": [],
+              "symbols": [],
+              "urls": [
+                {
+                  "display_url": "goo.gle/45lvCGV",
+                  "expanded_url": "https://goo.gle/45lvCGV",
+                  "url": "https://t.co/IYi4Ns1Nvk",
+                  "indices": [
+                    652,
+                    675
+                  ]
+                }
+              ],
+              "user_mentions": [
+                {
+                  "id_str": "1806359170830172162",
+                  "name": "Google Gemini App",
+                  "screen_name": "GeminiApp",
+                  "indices": [
+                    13,
+                    23
+                  ]
+                },
+                {
+                  "id_str": "1806359170830172162",
+                  "name": "Google Gemini App",
+                  "screen_name": "GeminiApp",
+                  "indices": [
+                    622,
+                    632
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "grok_analysis_button": true,
+      "legacy": {
+        "bookmark_count": 434,
+        "bookmarked": false,
+        "created_at": "Wed Aug 06 17:16:37 +0000 2025",
+        "conversation_id_str": "1953143185011617891",
+        "display_text_range": [
+          0,
+          272
+        ],
+        "entities": {
+          "hashtags": [],
+          "media": [
+            {
+              "display_url": "pic.x.com/SS2Vux6hYN",
+              "expanded_url": "https://x.com/Google/status/1953143185011617891/photo/1",
+              "ext_alt_text": "A side-by-side comparison of two Gemini AI versions. The \"Before\" version instantly solves a physics problem for a user, providing all calculations and the final answer. The \"After\" version, labeled \"Guided Learning in Gemini,\" engages the user in a step-by-step tutorial. It breaks down the problem, explains concepts like kinetic and potential energy, and prompts the user to recall formulas and solve the problem themselves, acting as a tutor rather than an answer key.",
+              "id_str": "1953143142783295488",
+              "indices": [
+                273,
+                296
+              ],
+              "media_key": "16_1953143142783295488",
+              "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/Gxr1VxUWoAAUIkw.jpg",
+              "type": "animated_gif",
+              "url": "https://t.co/SS2Vux6hYN",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "sizes": {
+                "large": {
+                  "h": 540,
+                  "w": 960,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "h": 540,
+                  "w": 960,
+                  "resize": "fit"
+                },
+                "small": {
+                  "h": 383,
+                  "w": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "h": 150,
+                  "w": 150,
+                  "resize": "crop"
+                }
+              },
+              "original_info": {
+                "height": 540,
+                "width": 960,
+                "focus_rects": []
+              },
+              "video_info": {
+                "aspect_ratio": [
+                  16,
+                  9
+                ],
+                "variants": [
+                  {
+                    "bitrate": 0,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/tweet_video/Gxr1VxUWoAAUIkw.mp4"
+                  }
+                ]
+              },
+              "media_results": {
+                "result": {
+                  "media_key": "16_1953143142783295488"
+                }
+              }
+            }
+          ],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [],
+          "user_mentions": [
+            {
+              "id_str": "1806359170830172162",
+              "name": "Google Gemini App",
+              "screen_name": "GeminiApp",
+              "indices": [
+                13,
+                23
+              ]
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "display_url": "pic.x.com/SS2Vux6hYN",
+              "expanded_url": "https://x.com/Google/status/1953143185011617891/photo/1",
+              "ext_alt_text": "A side-by-side comparison of two Gemini AI versions. The \"Before\" version instantly solves a physics problem for a user, providing all calculations and the final answer. The \"After\" version, labeled \"Guided Learning in Gemini,\" engages the user in a step-by-step tutorial. It breaks down the problem, explains concepts like kinetic and potential energy, and prompts the user to recall formulas and solve the problem themselves, acting as a tutor rather than an answer key.",
+              "id_str": "1953143142783295488",
+              "indices": [
+                273,
+                296
+              ],
+              "media_key": "16_1953143142783295488",
+              "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/Gxr1VxUWoAAUIkw.jpg",
+              "type": "animated_gif",
+              "url": "https://t.co/SS2Vux6hYN",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "sizes": {
+                "large": {
+                  "h": 540,
+                  "w": 960,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "h": 540,
+                  "w": 960,
+                  "resize": "fit"
+                },
+                "small": {
+                  "h": 383,
+                  "w": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "h": 150,
+                  "w": 150,
+                  "resize": "crop"
+                }
+              },
+              "original_info": {
+                "height": 540,
+                "width": 960,
+                "focus_rects": []
+              },
+              "video_info": {
+                "aspect_ratio": [
+                  16,
+                  9
+                ],
+                "variants": [
+                  {
+                    "bitrate": 0,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/tweet_video/Gxr1VxUWoAAUIkw.mp4"
+                  }
+                ]
+              },
+              "media_results": {
+                "result": {
+                  "media_key": "16_1953143142783295488"
+                }
+              }
+            }
+          ]
+        },
+        "favorite_count": 1488,
+        "favorited": false,
+        "full_text": "Here are new @GeminiApp tools to help you learn, understand and study better this school year ✏️\n\n- Guided Learning helps you build a deep understanding of subjects, with step-by-step breakdowns that uncover the “why” and “how”\n- Gemini’s responses automatically integrate https://t.co/SS2Vux6hYN",
+        "is_quote_status": false,
+        "lang": "en",
+        "possibly_sensitive": false,
+        "possibly_sensitive_editable": true,
+        "quote_count": 43,
+        "reply_count": 85,
+        "retweet_count": 241,
+        "retweeted": false,
+        "user_id_str": "20536157",
+        "id_str": "1953143185011617891"
+      }
+    },
+    "sentiment": {
+      "label": "NEUTRAL",
+      "score": 0.5,
+      "confidence_bucket": "LOW"
+    },
+    "quality": {
+      "overall_quality_score": 0.883,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.9,
+        "clarity": 1.0,
+        "sentiment_extractable": 0.6,
+        "temporal_value": 0.9,
+        "actionable_insight": 0.9,
+        "noise_level": 1.0
+      },
+      "quality_issues": [
+        "Poor sentiment indicators (too neutral/ambiguous)"
+      ],
+      "recommendations": "The 'SIGNAL TEXT TO EVALUATE' field was empty, which required manual extraction of the signal content from the 'ADDITIONAL CONTEXT'. This should be addressed by ensuring the signal text is properly populated in the designated field for direct evaluation.\n\nRegarding sentiment, the automated sentiment labeling provided in the additional context (NEUTRAL, LOW confidence) for this signal is not aligned with the clear positive framing and benefit-oriented nature of the brand announcement. Agent B's sentiment analysis models should be reviewed and potentially retrained to accurately capture positive sentiment from promotional content that details user benefits and offers. This would significantly improve the actionability of such signals.\n\nThis signal is highly valuable as it is an official announcement from the brand detailing new product features and a promotional offer. Agent B should prioritize analyzing the public reception to these specific features (e.g., 'Guided Learning', 'flashcards', 'free subscription') to gain granular insights into user perception and competitive positioning.",
+      "evaluation_timestamp": "2025-08-10T21:10:37.578421",
+      "text_length": 0,
+      "word_count": 0,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "89ec66fa-5590-4edd-9606-fad7aaa360e4",
+    "topic": "Other"
+  }
+]

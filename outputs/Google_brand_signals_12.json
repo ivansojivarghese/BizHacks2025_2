@@ -1,0 +1,2296 @@
+[
+  {
+    "source": "Reddit",
+    "timestamp": "2025-07-29T03:54:41+00:00",
+    "title": "What makes Google so low?",
+    "text": "Google consistently posts massive profits and yet its PE is around 20, which is much lower than other big tech names that sit at 40+, Tesla with a PE near 180, and PLTR up in the 600s.  \n  \nIf we go by valuation multiples alone, Google should easily be trading above $380. What's happening?",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9985194802284241
+    },
+    "url": "https://www.reddit.com/r/stocks/comments/1mc1fz7/what_makes_google_so_low/",
+    "author": "u/sedate_matron",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.9083,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.8,
+        "clarity": 1.0,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 0.9,
+        "actionable_insight": 0.8,
+        "noise_level": 0.95
+      },
+      "quality_issues": [
+        "The 'topic' metadata ('Google Product Leaks and Rumors') provided in the additional context is misaligned with the signal's actual content, which discusses financial valuation and investor perception. This could lead to incorrect categorization or misinterpretation by Agent B."
+      ],
+      "recommendations": "To enhance signal quality for Agent B, improve the accuracy of topic classification for financial content. Ensure signals related to stock performance, valuation, and investor sentiment are correctly categorized (e.g., 'Investor Relations', 'Financial Performance') rather than product-centric topics. This will enable Agent B to train more precise models, distinguishing between various facets of brand perception (e.g., investor confidence versus consumer product sentiment).",
+      "evaluation_timestamp": "2025-08-11T15:42:17.579428",
+      "text_length": 316,
+      "word_count": 58,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "9586e8c1-a833-42aa-b165-75d0df08bfc7"
+  },
+  {
+    "source": "Reddit",
+    "timestamp": "2025-07-28T13:48:41+00:00",
+    "title": "Why is Google so low?",
+    "text": "Google makes more profit than any company and has PE 20 while other mag 7 stocks have 40+. Even Tesla goes up everyday with its ridiculous PE 185, and PLTR with PE 699.\n\nGoogle should be at least $384/share if it trades like other stocks. What's holding it down?",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9989107847213745
+    },
+    "url": "https://www.reddit.com/r/ValueInvesting/comments/1mbgo2b/why_is_google_so_low/",
+    "author": "u/DryGeneral990",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.8833333333333333,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.5,
+        "clarity": 1.0,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 1.0,
+        "actionable_insight": 0.8,
+        "noise_level": 1.0
+      },
+      "quality_issues": [
+        "Narrow focus on investor sentiment: The signal primarily reflects investor perception regarding stock valuation and financial performance rather than broader consumer sentiment related to products, services, or general brand image. This specificity may limit its direct utility for general brand perception forecasting if Agent B is primarily focused on consumer sentiment.",
+        "Incorrect topic classification: The provided metadata 'topic: Google Product Leaks and Rumors' is highly inaccurate and misleading given the signal's financial discussion content. This indicates an issue with upstream content categorization."
+      ],
+      "recommendations": "Improve upstream topic classification: Ensure automated topic extraction accurately reflects the content (e.g., 'Financial Sentiment', 'Investor Perception').\nDefine scope of 'brand perception' for Agent B: Clearly delineate if investor sentiment is a target signal type, or if signals should be focused solely on consumer interactions/opinions. If both, consider sub-categorization.\nEnhance signal context: Add explicit tags for the type of sentiment (e.g., 'financial', 'investor', 'consumer') to allow Agent B to process and utilize signals more effectively based on its specific forecasting needs.",
+      "evaluation_timestamp": "2025-08-11T15:42:36.324392",
+      "text_length": 284,
+      "word_count": 54,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "dd154e8f-8f93-46df-ba9d-94a9a05c34ad"
+  },
+  {
+    "source": "Reddit",
+    "timestamp": "2025-07-27T18:21:00+00:00",
+    "title": "My current DeGoogle+ journey",
+    "text": "Originally a text post bc my phone has Olauncher so there's no icons there, I decided to make a simple visual while also including the things I've done on my PC to move away from Google and equally bad corporations.\n\nI know there's a couple of interesting choices here like Ecosia over the more popular stuff, if you have any questions (including about things I haven't changed) feel free to ask!\n\nOriginal post, with some extra info:\n\nWindows -> PopOS (linux)\n\nGmail\\* + Outlook -> Tutamail\n\nSamsung calendar -> Tuta calendar\n\nGoogle Drive -> kDrive (waiting to see if Tuta Drive has a free plan)\n\nGoogle Authenticator -> Aegis\n\nSamsung Keyboard -> Heliboard\n\nGoogle Maps -> OsmAnd\n\nOffice + Google docs + Canva -> Libreoffice + Cryptpad\n\nPhotoshop -> Krita\n\nSamsung Notes -> Standard Notes\n\nPlay Store -> Droid-ify + Aurora Store\n\nFirefox -> Mullvad Browser (PC) / Ecosia Browser (Android)\n\nPassword Manager of my browsers -> Bitwarden\n\nDuckDuckGo -> Ecosia search engine (looking for green alternatives)\n\nSamsung Calculator -> Fossify Calculator\n\nX\\* -> Bluesky\n\nWhatsapp Desktop - > Beeper\n\nYoutube -> Freetube (PC) / NewPipe (Android)\n\nInstagram -> QUIT\n\nFacebook -> QUIT\n\nReddit -> Lemmy (pending while I figure how to navigate the fediverse)\n\nTikTok -> QUIT\n\nPinterest -> QUIT\n\nDeepL -> LibreTranslate\n\nStreaming services (Netflix, Prime Video) -> Physical media + Piracy\n\n\n\nAlso a list of things i'd like to change but currently can't.\n\nAndroid: Have yet to find an alternative OS compatible with my Galaxy Note20 (OPEN TO SUGESTIONS)\n\nWhatsApp: Would lose contact with friends and family, would love to use Signal.\n\nDiscord: Would lose contact with friends, would love to use Matrix\n\nGmail: Jobd demand Gmail. Can never truly quit.\n\nYT Music: My family pays it. Don't want to throw away money on another platform when I already have one here. I would like to use Quobuz.\n\nX: Not enough people are using alternatives, this is my main place to keep up with news of projects I like, would love to delete it and just use bsky and the fediverse\n\nAmazon Shopping: Is there even another place to buy stuff internationally? (I'm from LATAM)\n\nTwitch: Alternatives are equally ass (to my knowledge)\n\nSteam: Want to move away from this monopoly and actually own the games I buy (DRM-free). Costs money to rebuild but I'm looking at Gog and buying physical games on a console",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.634,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9934697151184082
+    },
+    "url": "https://i.redd.it/kv7d7lmkjgff1.jpeg",
+    "author": "u/Freladdy11",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.9833333333333333,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 1.0,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 0.9,
+        "actionable_insight": 1.0,
+        "noise_level": 1.0
+      },
+      "quality_issues": [],
+      "recommendations": "This is a high-quality signal providing rich data for brand perception analysis. Agent B should focus on: 1. Granular sentiment extraction for each specific brand mentioned (e.g., negative for Google, positive for Tutamail, negative for Steam's 'monopoly'). 2. Identifying the explicit reasons for user dissatisfaction (e.g., 'equally bad corporations', 'monopoly', privacy concerns) and satisfaction (e.g., 'green alternatives', 'DRM-free'). 3. Tracking the trends of user migration away from specific brands and towards alternatives over time to forecast shifts in market share and user preference. 4. Analyzing the 'barriers to exit' identified by users (e.g., social network lock-in, job requirements, family plans, lack of compatible alternatives) to understand points of friction and opportunities for disruption.",
+      "evaluation_timestamp": "2025-08-11T15:42:52.142110",
+      "text_length": 2401,
+      "word_count": 402,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "972200ce-7fbd-4e0c-9d0d-2bc0b9c628b9"
+  },
+  {
+    "source": "Reddit",
+    "timestamp": "2025-07-29T03:01:18+00:00",
+    "title": "Google engineer dies in Yosemite after being struck by falling tree branch",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9992178678512573
+    },
+    "url": "https://www.sfgate.com/california-parks/article/yosemite-national-park-tree-kills-google-employee-20790840.php",
+    "author": "u/grepto",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.675,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.15,
+        "clarity": 1.0,
+        "sentiment_extractable": 0.9,
+        "temporal_value": 1.0,
+        "actionable_insight": 0.1,
+        "noise_level": 0.9
+      },
+      "quality_issues": [
+        "Off-topic content unrelated to core brand perception (event is an external accident, not related to Google's products, services, or operations).",
+        "Overly generic statements with no specific brand insight (while the event is specific, its relevance to understanding or forecasting Google's brand perception trends is minimal)."
+      ],
+      "recommendations": "Implement stricter relevance filtering to prioritize signals directly related to Google's products, services, corporate actions, data privacy, or workplace culture, as these have a more direct impact on brand perception. Develop a more granular event categorization system to distinguish between tragic external events involving employees (low brand perception impact) and events directly tied to company operations or consumer experience (high brand perception impact). Consider weighting signals based on their direct causal link to brand performance or public interaction with the brand.",
+      "evaluation_timestamp": "2025-08-11T15:43:06.521542",
+      "text_length": 75,
+      "word_count": 12,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "a0b93a7c-855f-4280-bba9-ac24d95eb27c"
+  },
+  {
+    "source": "Reddit",
+    "timestamp": "2025-07-13T18:21:23+00:00",
+    "title": "google trans misandry",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.633,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9911501407623291
+    },
+    "url": "https://i.redd.it/8znsstiqoocf1.jpeg",
+    "author": "u/Future_Employment_22",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.75,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.9,
+        "clarity": 0.6,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 1.0,
+        "actionable_insight": 0.6,
+        "noise_level": 0.4
+      },
+      "quality_issues": [
+        "Content too short to be meaningful (missing context beyond the title)",
+        "Potential data extraction issue (source is an image URL, implying original context not captured as text)",
+        "Off-topic classification (topic 'Google Collaborations and Partnerships' is too broad/unrelated for specific 'Google Translate misandry' signal)"
+      ],
+      "recommendations": "Prioritize signals with more extensive textual content rather than just a title or a signal from an image. Implement mechanisms to extract context from URLs (e.g., OCR for images or web scraping for text pages) if the signal is primarily conveyed through non-textual means. Improve topic classification granularity to accurately reflect specific product issues or controversies (e.g., 'Google Translate Issues' or 'AI Bias' rather than broad 'Collaborations').",
+      "evaluation_timestamp": "2025-08-11T15:43:16.627692",
+      "text_length": 22,
+      "word_count": 3,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "b78e0885-82e3-44b9-ad37-190a50546537"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-10T10:12:07Z",
+    "title": "Leak details the Google Pixel Watch 4's updated charging system",
+    "text": "That&#039;s another mystery solved",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9975966811180115
+    },
+    "url": "https://www.androidpolice.com/pixel-watch-4-leak-relocated-pogo-charging-pins/",
+    "author": "Chethan Rao",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.9166666666666666,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.9,
+        "clarity": 0.9,
+        "sentiment_extractable": 0.9,
+        "temporal_value": 1.0,
+        "actionable_insight": 0.9,
+        "noise_level": 0.9
+      },
+      "quality_issues": [
+        "Non-decoded HTML entity present (&#039; for apostrophe)"
+      ],
+      "recommendations": "Pre-process the signal text to decode HTML entities (e.g., &#039; to ') for improved clarity and consistency before feeding into Agent B. While sentiment was extracted, Agent B should be designed to interpret the nuances of 'leak' (often negative for brand control) versus the potentially positive or neutral implications of 'mystery solved' or 'updated system' for consumer perception.",
+      "evaluation_timestamp": "2025-08-11T15:43:56.876488",
+      "text_length": 99,
+      "word_count": 14,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "8713d23e-a315-498f-bd9c-183cffdcd017"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-10T10:09:58Z",
+    "title": "Dragon Ball Gekishin Squadra pre-registration poses an issue for Switch players",
+    "text": "Dragon Ball Gekishin Squadra could be a blast, and you don't have to spend a single dime to play it. The free-to-play MOBA is fast approaching launch on iPhone, Android, PC, PS5, and Nintendo Switch, and developer Ganbarion is giving you a chance to snag some…",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.634,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9941648840904236
+    },
+    "url": "https://www.pockettactics.com/dragon-ball-gekishin-squadra/pre-registration",
+    "author": "Sam Comrie",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.95,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.9,
+        "clarity": 1.0,
+        "sentiment_extractable": 0.9,
+        "temporal_value": 1.0,
+        "actionable_insight": 0.9,
+        "noise_level": 1.0
+      },
+      "quality_issues": [],
+      "recommendations": "The signal is of high quality and provides valuable insights. Agent B should be configured to analyze both general brand sentiment (e.g., 'could be a blast', 'free-to-play') and specific, platform-related sentiment or issues (e.g., 'poses an issue for Switch players') to provide granular perception forecasts. Tracking engagement with pre-registration and launch phase is crucial given the temporal nature of the signal.",
+      "evaluation_timestamp": "2025-08-11T15:44:07.840215",
+      "text_length": 341,
+      "word_count": 57,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "6de4b4e7-d4bb-4bf9-8891-f64afa79896e"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-10T10:01:05Z",
+    "title": "Trump Launches Attack on Nancy Pelosi: 'Disgusting Degenerate'",
+    "text": "Trump also mocked the former House speaker in a post on Truth Social for her involvement in his impeachments.",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9983805418014526
+    },
+    "url": "https://www.newsweek.com/trump-launches-attack-nancy-pelosi-disgusting-degenerate-2111343",
+    "author": "Emma Marsden",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.6833333333333333,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.1,
+        "clarity": 1.0,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 1.0,
+        "actionable_insight": 0.1,
+        "noise_level": 0.9
+      },
+      "quality_issues": [
+        "Off-topic content unrelated to brand perception"
+      ],
+      "recommendations": "The primary issue is the critical mismatch between the signal content (political news about Trump and Pelosi) and its assigned topic ('Google Product Leaks and Rumors'). This makes the signal largely irrelevant and unactionable for its stated context within a brand perception forecasting system. Recommendations include: 1. Enhance the topic classification model to accurately categorize content based on its actual subject matter. 2. Implement a validation step to ensure the assigned topic aligns with the signal's text before feeding it into the perception forecaster. 3. Ensure signals are routed only to forecasting models for brands/topics they are genuinely relevant to, preventing misclassified data from impacting prediction accuracy.",
+      "evaluation_timestamp": "2025-08-11T15:44:23.248436",
+      "text_length": 173,
+      "word_count": 27,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "626953e8-e7b4-4db3-b779-50e770a8a995"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-10T10:00:04Z",
+    "title": "5 file management apps you should use instead of Files by Google",
+    "text": "Files by Google is a great file management app for basic tasks, but if you need something more powerful consider these alternatives.",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.621,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9431507587432861
+    },
+    "url": "https://www.androidauthority.com/files-by-google-alternative-3584023/",
+    "author": "Andy Walker",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.9333333333333333,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.8,
+        "clarity": 1.0,
+        "sentiment_extractable": 0.9,
+        "temporal_value": 1.0,
+        "actionable_insight": 0.9,
+        "noise_level": 1.0
+      },
+      "quality_issues": [
+        "Potential for oversimplified sentiment interpretation if only relying on a single overall sentiment label, as the text presents a nuanced perception (positive for basic use, implies limitations for advanced use)."
+      ],
+      "recommendations": "Agent B should incorporate multi-aspect sentiment analysis to differentiate between positive perceptions for specific use cases (e.g., 'basic tasks') and perceived limitations for others (e.g., 'powerful needs'). This would provide a more granular and actionable understanding of brand perception beyond a single overall sentiment score, improving the accuracy of forecasting.",
+      "evaluation_timestamp": "2025-08-11T15:44:51.791466",
+      "text_length": 198,
+      "word_count": 34,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "e42744c5-69bf-46dc-8efb-c07a1edebfcf"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-10T09:59:04Z",
+    "title": "Sam Altman’s Prediction : ChatGPT 5 Will Create First $1 Billion One-Person Company",
+    "text": "What if the next billion-dollar company didn’t need a sprawling office, a massive team, or even a traditional CEO? Imagine a single entrepreneur, armed with nothing but a laptop and innovative AI tools, building an empire that rivals the giants of Silicon Val…",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.631,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9830165505409241
+    },
+    "url": "https://www.geeky-gadgets.com/chatgpt-5-ai-one-person-business/",
+    "author": "Julian Horsey",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.8833333333333333,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.8,
+        "clarity": 1.0,
+        "sentiment_extractable": 0.9,
+        "temporal_value": 0.9,
+        "actionable_insight": 0.9,
+        "noise_level": 0.8
+      },
+      "quality_issues": [
+        "Mismatched metadata: The 'topic' field is incorrectly categorized as 'Google Collaborations and Partnerships' while the content clearly focuses on ChatGPT/OpenAI."
+      ],
+      "recommendations": "Ensure metadata fields, especially 'topic', accurately reflect the content to reduce signal noise and improve discoverability. For Agent B, this type of forward-looking prediction from a notable figure (Sam Altman) is highly valuable for forecasting future perception shifts and understanding the evolving landscape of AI's perceived impact, even if it's not a direct 'current sentiment' signal.",
+      "evaluation_timestamp": "2025-08-11T15:45:21.188446",
+      "text_length": 345,
+      "word_count": 56,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "adcad33a-872a-4f95-afe9-b8e66e17d687"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-10T09:57:51Z",
+    "title": "Google Finance redesign goes all in on AI, complete with a chatbot",
+    "text": "The Google Finance web app is getting a major overhaul with an emphasis on AI. This redesign includes an AI-powered chatbot, which will answer finance-based queries and provide relevant links. Here’s hoping the chatbot will keep hallucinations to a minimum, g…",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.631,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9846987128257751
+    },
+    "url": "https://www.madshrimps.be/news/google-finance-redesign-goes-all-in-on-ai-complete-with-a-chatbot/",
+    "author": "Stefan",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.9833333333333333,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 1.0,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 1.0,
+        "actionable_insight": 1.0,
+        "noise_level": 0.9
+      },
+      "quality_issues": [
+        "Content appears to be truncated at the end (e.g., 'g…')"
+      ],
+      "recommendations": "Ensure complete text capture to avoid truncation, as this can sometimes obscure full meaning or sentiment nuances. In this specific instance, the impact is minimal, but consistently providing full text improves signal robustness.",
+      "evaluation_timestamp": "2025-08-11T15:45:28.829161",
+      "text_length": 328,
+      "word_count": 53,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "5e2d5e23-7ce6-4ce0-af54-f8b293ead13f"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-07-27T22:18:44Z",
+    "title": "EU age verification app to ban any Android system not licensed by Google",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.633,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9903588891029358
+    },
+    "url": "https://www.reddit.com/r/degoogle/s/YxmPgFes8a",
+    "author": "cft",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 1.0,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 1.0,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 1.0,
+        "actionable_insight": 1.0,
+        "noise_level": 1.0
+      },
+      "quality_issues": [],
+      "recommendations": "This is a high-quality signal. Agent B should prioritize tracking follow-up news and public discourse related to this specific EU regulation affecting Google's Android licensing, as it represents a significant potential future shift in brand perception, particularly concerning market dominance and user choice.",
+      "evaluation_timestamp": "2025-08-11T15:45:40.192290",
+      "text_length": 74,
+      "word_count": 13,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "5e07d995-46ca-41e4-8ff7-99da70459d61"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-07-12T19:06:09Z",
+    "title": "Bypassing Google's big anti-adblock update",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.634,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9930249452590942
+    },
+    "url": "https://0x44.xyz/blog/web-request-blocking/",
+    "author": "deryilz",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.9666666666666667,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.9,
+        "clarity": 1.0,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 1.0,
+        "actionable_insight": 0.9,
+        "noise_level": 1.0
+      },
+      "quality_issues": [],
+      "recommendations": "The signal is of high quality and provides clear, actionable insight into user sentiment regarding a specific Google policy ('anti-adblock update'). For Agent B, ensure this type of event-specific, policy-related sentiment is weighted appropriately, as it can indicate critical shifts in perception among affected user segments (e.g., tech-savvy users, ad-block users). Tracking the volume and spread of similar signals (e.g., more 'bypassing' solutions, discussions) can help gauge the scale and longevity of this sentiment's impact on brand perception.",
+      "evaluation_timestamp": "2025-08-11T15:45:47.475051",
+      "text_length": 44,
+      "word_count": 5,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "afe490f7-9cfb-4edb-8d32-4d653bb9d1cc"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-07-23T13:17:38Z",
+    "title": "Cops say criminals use a Google Pixel with GrapheneOS – I say that's freedom",
+    "text": "",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.629,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.973303496837616
+    },
+    "url": "https://www.androidauthority.com/why-i-use-grapheneos-on-pixel-3575477/",
+    "author": "pabs3",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.9,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.8,
+        "clarity": 1.0,
+        "sentiment_extractable": 0.9,
+        "temporal_value": 1.0,
+        "actionable_insight": 0.8,
+        "noise_level": 0.9
+      },
+      "quality_issues": [],
+      "recommendations": "The signal is of high quality, clearly expressing a nuanced user perception of Google Pixel and GrapheneOS. For future signals, consider explicit sentiment attribution for each distinct brand mentioned (e.g., Google Pixel vs. GrapheneOS) when the statement implies different perceptions or associations for each, even within a single sentence. This would allow Agent B to fine-tune perception tracking for individual brands more accurately.",
+      "evaluation_timestamp": "2025-08-11T15:45:58.924616",
+      "text_length": 78,
+      "word_count": 14,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "ad44d361-9b02-4dbc-8d46-b320932f71af"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-05T14:12:51Z",
+    "title": "I dumped Google for Kagi",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9997255206108093
+    },
+    "url": "https://arstechnica.com/gadgets/2025/08/enough-is-enough-i-dumped-googles-worsening-search-for-kagi/",
+    "author": "thimabi",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 1.0,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 1.0,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 1.0,
+        "actionable_insight": 1.0,
+        "noise_level": 1.0
+      },
+      "quality_issues": [],
+      "recommendations": "This is a high-quality signal for brand perception analysis. Agent B should prioritize similar direct competitor-switching statements and sentiment for robust trend forecasting. Consider tracking the volume and velocity of such shifts over time to identify emerging competitive threats or opportunities.",
+      "evaluation_timestamp": "2025-08-11T15:46:23.174695",
+      "text_length": 26,
+      "word_count": 5,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "54fe6ecc-cf8c-419e-a588-28021e1c1b90"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-01T09:08:59Z",
+    "title": "Our Farewell from Google Play",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9996421337127686
+    },
+    "url": "https://secuso.aifb.kit.edu/english/2809.php",
+    "author": "shakna",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 1.0,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 1.0,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 1.0,
+        "actionable_insight": 1.0,
+        "noise_level": 1.0
+      },
+      "quality_issues": [],
+      "recommendations": "This signal is of exceptionally high quality, offering clear, concise, and directly actionable insight into brand perception. The explicit negative sentiment and temporal context make it highly valuable for Agent B's forecasting. No immediate improvements are suggested for signals of this nature; maintaining this quality is key.",
+      "evaluation_timestamp": "2025-08-11T15:46:31.664001",
+      "text_length": 31,
+      "word_count": 5,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "a2f131f3-68c5-4ca8-bb3c-960efb1228cb"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-07-25T05:28:40Z",
+    "title": "Google spoofed via DKIM replay attack: A technical breakdown",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.998684823513031
+    },
+    "url": "https://easydmarc.com/blog/google-spoofed-via-dkim-replay-attack-a-technical-breakdown/",
+    "author": "frasermarlow",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 1.0,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 1.0,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 1.0,
+        "actionable_insight": 1.0,
+        "noise_level": 1.0
+      },
+      "quality_issues": [],
+      "recommendations": "This signal is of very high quality for brand perception forecasting. Agent B should prioritize similar signals, especially those detailing security vulnerabilities or technical incidents, as they directly impact brand trust and are highly time-sensitive. Consider integrating follow-up signals related to the company's response to further refine perception shifts.",
+      "evaluation_timestamp": "2025-08-11T15:46:39.008753",
+      "text_length": 62,
+      "word_count": 9,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "a2eff030-4807-42e0-82f7-b77c20ec1054"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-11T05:56:33Z",
+    "title": "Google paid a $250K reward for a bug",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9987070560455322
+    },
+    "url": "https://issues.chromium.org/issues/412578726",
+    "author": "alexcos",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.917,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.8,
+        "clarity": 1.0,
+        "sentiment_extractable": 0.9,
+        "temporal_value": 1.0,
+        "actionable_insight": 0.8,
+        "noise_level": 1.0
+      },
+      "quality_issues": [],
+      "recommendations": "The signal is concise, clear, and provides good temporal context. For enhanced actionable insight, future signals could include more specific details about the bug's nature (e.g., critical security flaw vs. minor bug) and the specific Google product or service affected, allowing Agent B to perform more granular impact analysis on different brand facets. Agent B should also be configured to interpret the complex sentiment of 'bug discovery' (negative) alongside 'reward payment' (potentially positive for responsiveness) for a nuanced perception forecast, beyond the initial single sentiment label.",
+      "evaluation_timestamp": "2025-08-11T15:46:50.500942",
+      "text_length": 38,
+      "word_count": 8,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "505e6c1b-269e-467c-ba21-1acf30daa5c5"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-01T17:43:02Z",
+    "title": "Google shifts goo.gl policy: Inactive links deactivated, active links preserved",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.634,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9962461590766907
+    },
+    "url": "https://blog.google/technology/developers/googl-link-shortening-update/",
+    "author": "shuuji3",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.9666666666666667,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.9,
+        "clarity": 1.0,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 1.0,
+        "actionable_insight": 0.9,
+        "noise_level": 1.0
+      },
+      "quality_issues": [],
+      "recommendations": "This signal is of very high quality. Continue to capture policy shifts and service updates with similar conciseness and clarity, as they provide strong temporal and actionable insights. For future signals, ensuring the 'text' field is populated with a more extensive body of content (if available beyond just the title/summary) could provide richer context for deeper ML model training, though this specific signal is highly effective as a concise update.",
+      "evaluation_timestamp": "2025-08-11T15:47:03.946753",
+      "text_length": 81,
+      "word_count": 10,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "fb1761da-754f-4c94-b0ac-3db711a572ae"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-07-25T14:25:30Z",
+    "title": "Google's shortened goo.gl links will stop working next month",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9997537732124329
+    },
+    "url": "https://www.theverge.com/news/713125/google-url-shortener-links-shutdown-deadline",
+    "author": "mobilio",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 1.0,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 1.0,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 1.0,
+        "actionable_insight": 1.0,
+        "noise_level": 1.0
+      },
+      "quality_issues": [],
+      "recommendations": "This signal is of excellent quality. It is highly relevant, clear, and provides specific time-sensitive information about a Google product shutdown, which directly impacts user experience and brand perception. The sentiment is clearly extractable and the signal-to-noise ratio is very high. No specific improvements are needed for this type of signal.",
+      "evaluation_timestamp": "2025-08-11T15:47:11.424216",
+      "text_length": 62,
+      "word_count": 9,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "85ecf077-3963-4d32-a888-5db93cada164"
+  },
+  {
+    "url": "https://x.com/Google/status/1953929256674722202?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+    "data": {
+      "__typename": "Tweet",
+      "rest_id": "1953929256674722202",
+      "core": {
+        "user_results": {
+          "result": {
+            "__typename": "User",
+            "id": "VXNlcjoyMDUzNjE1Nw==",
+            "rest_id": "20536157",
+            "affiliates_highlighted_label": {},
+            "avatar": {
+              "image_url": "https://pbs.twimg.com/profile_images/1754606338460487681/bWupXdxo_normal.jpg"
+            },
+            "core": {
+              "created_at": "Tue Feb 10 19:14:39 +0000 2009",
+              "name": "Google",
+              "screen_name": "Google"
+            },
+            "dm_permissions": {},
+            "is_blue_verified": true,
+            "legacy": {
+              "default_profile": false,
+              "default_profile_image": false,
+              "description": "Here to help.",
+              "entities": {
+                "description": {
+                  "urls": []
+                },
+                "url": {
+                  "urls": [
+                    {
+                      "display_url": "blog.google/newsletter-sub…",
+                      "expanded_url": "https://blog.google/newsletter-subscribe/",
+                      "url": "https://t.co/RS3iU873QG",
+                      "indices": [
+                        0,
+                        23
+                      ]
+                    }
+                  ]
+                }
+              },
+              "fast_followers_count": 0,
+              "favourites_count": 3768,
+              "followers_count": 32795346,
+              "friends_count": 285,
+              "has_custom_timelines": true,
+              "is_translator": false,
+              "listed_count": 89737,
+              "media_count": 37473,
+              "normal_followers_count": 32795346,
+              "pinned_tweet_ids_str": [],
+              "possibly_sensitive": false,
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/20536157/1752864768",
+              "profile_interstitial_type": "",
+              "statuses_count": 239223,
+              "translator_type": "regular",
+              "url": "https://t.co/RS3iU873QG",
+              "withheld_in_countries": []
+            },
+            "location": {
+              "location": "Mountain View, CA"
+            },
+            "media_permissions": {},
+            "parody_commentary_fan_label": "None",
+            "profile_image_shape": "Square",
+            "professional": {
+              "rest_id": "1504886752259059716",
+              "professional_type": "Business",
+              "category": [
+                {
+                  "id": 713,
+                  "name": "Science & Technology",
+                  "icon_name": "IconBriefcaseStroke"
+                }
+              ]
+            },
+            "privacy": {
+              "protected": false
+            },
+            "relationship_perspectives": {},
+            "tipjar_settings": {
+              "is_enabled": false,
+              "bandcamp_handle": "",
+              "bitcoin_handle": "",
+              "cash_app_handle": "",
+              "ethereum_handle": "",
+              "gofundme_handle": "",
+              "patreon_handle": "",
+              "pay_pal_handle": "",
+              "venmo_handle": ""
+            },
+            "verification": {
+              "verified": false,
+              "verified_type": "Business"
+            },
+            "verified_phone_status": false
+          }
+        }
+      },
+      "unmention_data": {},
+      "edit_control": {
+        "edit_tweet_ids": [
+          "1953929256674722202"
+        ],
+        "editable_until_msecs": "1754691611000",
+        "is_edit_eligible": true,
+        "edits_remaining": "5"
+      },
+      "is_translatable": false,
+      "views": {
+        "count": "102768",
+        "state": "EnabledWithCount"
+      },
+      "source": "<a href=\"https://prod8.sprinklr.com/\" rel=\"nofollow\">Sprinklr Care</a>",
+      "grok_analysis_button": true,
+      "legacy": {
+        "bookmark_count": 89,
+        "bookmarked": false,
+        "created_at": "Fri Aug 08 21:20:11 +0000 2025",
+        "conversation_id_str": "1953929256674722202",
+        "display_text_range": [
+          0,
+          102
+        ],
+        "entities": {
+          "hashtags": [],
+          "media": [
+            {
+              "display_url": "pic.x.com/ZHbgP2sbDA",
+              "expanded_url": "https://x.com/Google/status/1953929256674722202/video/1",
+              "id_str": "1953929214408712192",
+              "indices": [
+                103,
+                126
+              ],
+              "media_key": "13_1953929214408712192",
+              "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1953929214408712192/img/NTkUO76Z8UiH7xTn.jpg",
+              "type": "video",
+              "url": "https://t.co/ZHbgP2sbDA",
+              "additional_media_info": {
+                "monetizable": false
+              },
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "sizes": {
+                "large": {
+                  "h": 1080,
+                  "w": 1920,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "h": 675,
+                  "w": 1200,
+                  "resize": "fit"
+                },
+                "small": {
+                  "h": 383,
+                  "w": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "h": 150,
+                  "w": 150,
+                  "resize": "crop"
+                }
+              },
+              "original_info": {
+                "height": 1080,
+                "width": 1920,
+                "focus_rects": []
+              },
+              "video_info": {
+                "aspect_ratio": [
+                  16,
+                  9
+                ],
+                "duration_millis": 55833,
+                "variants": [
+                  {
+                    "content_type": "application/x-mpegURL",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/pl/POLkWliRzTyW1vFP.m3u8?tag=16&v=8d5"
+                  },
+                  {
+                    "bitrate": 288000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/480x270/f6B1m4Y6QYBBDJWd.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 832000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/640x360/0WPj0xOFFYEyArA7.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 2176000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/1280x720/8YqKYyzxwe2h_Ah6.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 10368000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/1920x1080/g2FCki_nPh14euu_.mp4?tag=16"
+                  }
+                ]
+              },
+              "media_results": {
+                "result": {
+                  "media_key": "13_1953929214408712192"
+                }
+              }
+            }
+          ],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [],
+          "user_mentions": []
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "display_url": "pic.x.com/ZHbgP2sbDA",
+              "expanded_url": "https://x.com/Google/status/1953929256674722202/video/1",
+              "id_str": "1953929214408712192",
+              "indices": [
+                103,
+                126
+              ],
+              "media_key": "13_1953929214408712192",
+              "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1953929214408712192/img/NTkUO76Z8UiH7xTn.jpg",
+              "type": "video",
+              "url": "https://t.co/ZHbgP2sbDA",
+              "additional_media_info": {
+                "monetizable": false
+              },
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "sizes": {
+                "large": {
+                  "h": 1080,
+                  "w": 1920,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "h": 675,
+                  "w": 1200,
+                  "resize": "fit"
+                },
+                "small": {
+                  "h": 383,
+                  "w": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "h": 150,
+                  "w": 150,
+                  "resize": "crop"
+                }
+              },
+              "original_info": {
+                "height": 1080,
+                "width": 1920,
+                "focus_rects": []
+              },
+              "video_info": {
+                "aspect_ratio": [
+                  16,
+                  9
+                ],
+                "duration_millis": 55833,
+                "variants": [
+                  {
+                    "content_type": "application/x-mpegURL",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/pl/POLkWliRzTyW1vFP.m3u8?tag=16&v=8d5"
+                  },
+                  {
+                    "bitrate": 288000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/480x270/f6B1m4Y6QYBBDJWd.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 832000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/640x360/0WPj0xOFFYEyArA7.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 2176000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/1280x720/8YqKYyzxwe2h_Ah6.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 10368000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/1920x1080/g2FCki_nPh14euu_.mp4?tag=16"
+                  }
+                ]
+              },
+              "media_results": {
+                "result": {
+                  "media_key": "13_1953929214408712192"
+                }
+              }
+            }
+          ]
+        },
+        "favorite_count": 684,
+        "favorited": false,
+        "full_text": "This week at Google, we shared updates to learning tools in Gemini and a new feature called Storybook. https://t.co/ZHbgP2sbDA",
+        "is_quote_status": false,
+        "lang": "en",
+        "possibly_sensitive": false,
+        "possibly_sensitive_editable": true,
+        "quote_count": 7,
+        "reply_count": 114,
+        "retweet_count": 121,
+        "retweeted": false,
+        "user_id_str": "20536157",
+        "id_str": "1953929256674722202"
+      }
+    },
+    "sentiment": {
+      "label": "NEUTRAL",
+      "score": 0.5,
+      "confidence_bucket": "LOW"
+    },
+    "quality": {
+      "overall_quality_score": 0.0,
+      "is_quality": false,
+      "dimension_scores": {
+        "relevance": 0.0,
+        "clarity": 0.0,
+        "sentiment_extractable": 0.0,
+        "temporal_value": 0.0,
+        "actionable_insight": 0.0,
+        "noise_level": 0.0
+      },
+      "quality_issues": [
+        "Content too short to be meaningful",
+        "Spam, gibberish, or incoherent content",
+        "Overly generic statements with no specific brand insight",
+        "Poor sentiment indicators"
+      ],
+      "recommendations": "The 'SIGNAL TEXT TO EVALUATE' field is empty. For any meaningful evaluation of brand perception and sentiment, this field must contain the actual textual content from the signal's source. The system generating this signal needs to ensure that the relevant text (e.g., the 'full_text' from the provided Twitter data) is correctly extracted and populated in the signal text field before it is passed for analysis by Agent B.",
+      "evaluation_timestamp": "2025-08-11T15:47:39.021277",
+      "text_length": 0,
+      "word_count": 0,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "1e2a40d2-e3fd-4a9d-b5d2-c62febf7894b",
+    "topic": "Other"
+  },
+  {
+    "url": "https://x.com/Google/status/1953210766183538949?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+    "data": {
+      "__typename": "Tweet",
+      "rest_id": "1953210766183538949",
+      "core": {
+        "user_results": {
+          "result": {
+            "__typename": "User",
+            "id": "VXNlcjoyMDUzNjE1Nw==",
+            "rest_id": "20536157",
+            "affiliates_highlighted_label": {},
+            "avatar": {
+              "image_url": "https://pbs.twimg.com/profile_images/1754606338460487681/bWupXdxo_normal.jpg"
+            },
+            "core": {
+              "created_at": "Tue Feb 10 19:14:39 +0000 2009",
+              "name": "Google",
+              "screen_name": "Google"
+            },
+            "dm_permissions": {},
+            "is_blue_verified": true,
+            "legacy": {
+              "default_profile": false,
+              "default_profile_image": false,
+              "description": "Here to help.",
+              "entities": {
+                "description": {
+                  "urls": []
+                },
+                "url": {
+                  "urls": [
+                    {
+                      "display_url": "blog.google/newsletter-sub…",
+                      "expanded_url": "https://blog.google/newsletter-subscribe/",
+                      "url": "https://t.co/RS3iU873QG",
+                      "indices": [
+                        0,
+                        23
+                      ]
+                    }
+                  ]
+                }
+              },
+              "fast_followers_count": 0,
+              "favourites_count": 3768,
+              "followers_count": 32795347,
+              "friends_count": 285,
+              "has_custom_timelines": true,
+              "is_translator": false,
+              "listed_count": 89737,
+              "media_count": 37473,
+              "normal_followers_count": 32795347,
+              "pinned_tweet_ids_str": [],
+              "possibly_sensitive": false,
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/20536157/1752864768",
+              "profile_interstitial_type": "",
+              "statuses_count": 239223,
+              "translator_type": "regular",
+              "url": "https://t.co/RS3iU873QG",
+              "withheld_in_countries": []
+            },
+            "location": {
+              "location": "Mountain View, CA"
+            },
+            "media_permissions": {},
+            "parody_commentary_fan_label": "None",
+            "profile_image_shape": "Square",
+            "professional": {
+              "rest_id": "1504886752259059716",
+              "professional_type": "Business",
+              "category": [
+                {
+                  "id": 713,
+                  "name": "Science & Technology",
+                  "icon_name": "IconBriefcaseStroke"
+                }
+              ]
+            },
+            "privacy": {
+              "protected": false
+            },
+            "relationship_perspectives": {},
+            "tipjar_settings": {
+              "is_enabled": false,
+              "bandcamp_handle": "",
+              "bitcoin_handle": "",
+              "cash_app_handle": "",
+              "ethereum_handle": "",
+              "gofundme_handle": "",
+              "patreon_handle": "",
+              "pay_pal_handle": "",
+              "venmo_handle": ""
+            },
+            "verification": {
+              "verified": false,
+              "verified_type": "Business"
+            },
+            "verified_phone_status": false
+          }
+        }
+      },
+      "unmention_data": {},
+      "edit_control": {
+        "edit_tweet_ids": [
+          "1953210766183538949"
+        ],
+        "editable_until_msecs": "1754520310000",
+        "is_edit_eligible": false,
+        "edits_remaining": "5"
+      },
+      "is_translatable": false,
+      "views": {
+        "count": "170801",
+        "state": "EnabledWithCount"
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "note_tweet": {
+        "is_expandable": true,
+        "note_tweet_results": {
+          "result": {
+            "id": "Tm90ZVR3ZWV0OjE5NTMyMTA3NjYxMjA2MDM2NDg=",
+            "text": "In June, we launched Gemini CLI, an open-source AI agent that brings the power of Gemini to your terminal. Now, we’re introducing Gemini CLI GitHub Actions.\n\nIt’s a powerful AI coding teammate for your repository, created for team collaboration on the platform where developers work with each other. It’s now available on GitHub in beta to everyone worldwide at no cost.",
+            "entity_set": {
+              "hashtags": [],
+              "symbols": [],
+              "urls": [],
+              "user_mentions": []
+            },
+            "richtext": {
+              "richtext_tags": []
+            },
+            "media": {
+              "inline_media": []
+            }
+          }
+        }
+      },
+      "grok_analysis_button": true,
+      "legacy": {
+        "bookmark_count": 272,
+        "bookmarked": false,
+        "created_at": "Wed Aug 06 21:45:10 +0000 2025",
+        "conversation_id_str": "1953210766183538949",
+        "display_text_range": [
+          0,
+          277
+        ],
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [],
+          "user_mentions": []
+        },
+        "favorite_count": 1308,
+        "favorited": false,
+        "full_text": "In June, we launched Gemini CLI, an open-source AI agent that brings the power of Gemini to your terminal. Now, we’re introducing Gemini CLI GitHub Actions.\n\nIt’s a powerful AI coding teammate for your repository, created for team collaboration on the platform where developers",
+        "is_quote_status": false,
+        "lang": "en",
+        "quote_count": 10,
+        "reply_count": 122,
+        "retweet_count": 166,
+        "retweeted": false,
+        "user_id_str": "20536157",
+        "id_str": "1953210766183538949"
+      }
+    },
+    "sentiment": {
+      "label": "NEUTRAL",
+      "score": 0.5,
+      "confidence_bucket": "LOW"
+    },
+    "quality": {
+      "overall_quality_score": 0.0,
+      "is_quality": false,
+      "dimension_scores": {
+        "relevance": 0.0,
+        "clarity": 0.0,
+        "sentiment_extractable": 0.0,
+        "temporal_value": 0.0,
+        "actionable_insight": 0.0,
+        "noise_level": 0.0
+      },
+      "quality_issues": [
+        "Content too short to be meaningful",
+        "Spam, gibberish, or incoherent content",
+        "Overly generic statements with no specific brand insight",
+        "Poor sentiment indicators"
+      ],
+      "recommendations": "The signal text provided for evaluation is empty. This prevents any meaningful analysis. The system responsible for extracting the signal must be corrected to accurately capture the textual content from the source (e.g., the tweet's text, which is present in the 'note_tweet_results.result.text' or 'legacy.full_text' fields within the provided additional context). An empty signal provides no value for sentiment analysis or perception forecasting and will lead to inaccurate or non-existent predictions.",
+      "evaluation_timestamp": "2025-08-11T15:47:56.344104",
+      "text_length": 0,
+      "word_count": 0,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "3d87acb9-83b4-4a8a-b700-97533a7536ee",
+    "topic": "Other"
+  },
+  {
+    "url": "https://x.com/Google/status/1953143185011617891?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+    "data": {
+      "__typename": "Tweet",
+      "rest_id": "1953143185011617891",
+      "core": {
+        "user_results": {
+          "result": {
+            "__typename": "User",
+            "id": "VXNlcjoyMDUzNjE1Nw==",
+            "rest_id": "20536157",
+            "affiliates_highlighted_label": {},
+            "avatar": {
+              "image_url": "https://pbs.twimg.com/profile_images/1754606338460487681/bWupXdxo_normal.jpg"
+            },
+            "core": {
+              "created_at": "Tue Feb 10 19:14:39 +0000 2009",
+              "name": "Google",
+              "screen_name": "Google"
+            },
+            "dm_permissions": {},
+            "is_blue_verified": true,
+            "legacy": {
+              "default_profile": false,
+              "default_profile_image": false,
+              "description": "Here to help.",
+              "entities": {
+                "description": {
+                  "urls": []
+                },
+                "url": {
+                  "urls": [
+                    {
+                      "display_url": "blog.google/newsletter-sub…",
+                      "expanded_url": "https://blog.google/newsletter-subscribe/",
+                      "url": "https://t.co/RS3iU873QG",
+                      "indices": [
+                        0,
+                        23
+                      ]
+                    }
+                  ]
+                }
+              },
+              "fast_followers_count": 0,
+              "favourites_count": 3768,
+              "followers_count": 32795347,
+              "friends_count": 285,
+              "has_custom_timelines": true,
+              "is_translator": false,
+              "listed_count": 89737,
+              "media_count": 37473,
+              "normal_followers_count": 32795347,
+              "pinned_tweet_ids_str": [],
+              "possibly_sensitive": false,
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/20536157/1752864768",
+              "profile_interstitial_type": "",
+              "statuses_count": 239224,
+              "translator_type": "regular",
+              "url": "https://t.co/RS3iU873QG",
+              "withheld_in_countries": []
+            },
+            "location": {
+              "location": "Mountain View, CA"
+            },
+            "media_permissions": {},
+            "parody_commentary_fan_label": "None",
+            "profile_image_shape": "Square",
+            "professional": {
+              "rest_id": "1504886752259059716",
+              "professional_type": "Business",
+              "category": [
+                {
+                  "id": 713,
+                  "name": "Science & Technology",
+                  "icon_name": "IconBriefcaseStroke"
+                }
+              ]
+            },
+            "privacy": {
+              "protected": false
+            },
+            "relationship_perspectives": {},
+            "tipjar_settings": {
+              "is_enabled": false,
+              "bandcamp_handle": "",
+              "bitcoin_handle": "",
+              "cash_app_handle": "",
+              "ethereum_handle": "",
+              "gofundme_handle": "",
+              "patreon_handle": "",
+              "pay_pal_handle": "",
+              "venmo_handle": ""
+            },
+            "verification": {
+              "verified": false,
+              "verified_type": "Business"
+            },
+            "verified_phone_status": false
+          }
+        }
+      },
+      "unmention_data": {},
+      "edit_control": {
+        "edit_tweet_ids": [
+          "1953143185011617891"
+        ],
+        "editable_until_msecs": "1754504197000",
+        "is_edit_eligible": true,
+        "edits_remaining": "5"
+      },
+      "is_translatable": false,
+      "views": {
+        "count": "199174",
+        "state": "EnabledWithCount"
+      },
+      "source": "<a href=\"https://prod8.sprinklr.com/\" rel=\"nofollow\">Sprinklr Care</a>",
+      "note_tweet": {
+        "is_expandable": true,
+        "note_tweet_results": {
+          "result": {
+            "id": "Tm90ZVR3ZWV0OjE5NTMxNDMxODQ4NDc5OTg5NzY=",
+            "text": "Here are new @GeminiApp tools to help you learn, understand and study better this school year ✏️\n\n- Guided Learning helps you build a deep understanding of subjects, with step-by-step breakdowns that uncover the “why” and “how”\n- Gemini’s responses automatically integrate visuals, like diagrams and YouTube videos, so you can understand more easily\n- Flashcards and study guides based on Gemini-generated quizzes or other class materials let you review key concepts \n\nPlus, students can get a Google AI Pro subscription at no cost for 1 year, available in the U.S., Japan, Indonesia, Korea and Brazil. \n\nLearn more about @GeminiApp’s latest updates → https://t.co/IYi4Ns1Nvk",
+            "entity_set": {
+              "hashtags": [],
+              "symbols": [],
+              "urls": [
+                {
+                  "display_url": "goo.gle/45lvCGV",
+                  "expanded_url": "https://goo.gle/45lvCGV",
+                  "url": "https://t.co/IYi4Ns1Nvk",
+                  "indices": [
+                    652,
+                    675
+                  ]
+                }
+              ],
+              "user_mentions": [
+                {
+                  "id_str": "1806359170830172162",
+                  "name": "Google Gemini App",
+                  "screen_name": "GeminiApp",
+                  "indices": [
+                    13,
+                    23
+                  ]
+                },
+                {
+                  "id_str": "1806359170830172162",
+                  "name": "Google Gemini App",
+                  "screen_name": "GeminiApp",
+                  "indices": [
+                    622,
+                    632
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "grok_analysis_button": true,
+      "legacy": {
+        "bookmark_count": 439,
+        "bookmarked": false,
+        "created_at": "Wed Aug 06 17:16:37 +0000 2025",
+        "conversation_id_str": "1953143185011617891",
+        "display_text_range": [
+          0,
+          272
+        ],
+        "entities": {
+          "hashtags": [],
+          "media": [
+            {
+              "display_url": "pic.x.com/SS2Vux6hYN",
+              "expanded_url": "https://x.com/Google/status/1953143185011617891/photo/1",
+              "ext_alt_text": "A side-by-side comparison of two Gemini AI versions. The \"Before\" version instantly solves a physics problem for a user, providing all calculations and the final answer. The \"After\" version, labeled \"Guided Learning in Gemini,\" engages the user in a step-by-step tutorial. It breaks down the problem, explains concepts like kinetic and potential energy, and prompts the user to recall formulas and solve the problem themselves, acting as a tutor rather than an answer key.",
+              "id_str": "1953143142783295488",
+              "indices": [
+                273,
+                296
+              ],
+              "media_key": "16_1953143142783295488",
+              "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/Gxr1VxUWoAAUIkw.jpg",
+              "type": "animated_gif",
+              "url": "https://t.co/SS2Vux6hYN",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "sizes": {
+                "large": {
+                  "h": 540,
+                  "w": 960,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "h": 540,
+                  "w": 960,
+                  "resize": "fit"
+                },
+                "small": {
+                  "h": 383,
+                  "w": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "h": 150,
+                  "w": 150,
+                  "resize": "crop"
+                }
+              },
+              "original_info": {
+                "height": 540,
+                "width": 960,
+                "focus_rects": []
+              },
+              "video_info": {
+                "aspect_ratio": [
+                  16,
+                  9
+                ],
+                "variants": [
+                  {
+                    "bitrate": 0,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/tweet_video/Gxr1VxUWoAAUIkw.mp4"
+                  }
+                ]
+              },
+              "media_results": {
+                "result": {
+                  "media_key": "16_1953143142783295488"
+                }
+              }
+            }
+          ],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [],
+          "user_mentions": [
+            {
+              "id_str": "1806359170830172162",
+              "name": "Google Gemini App",
+              "screen_name": "GeminiApp",
+              "indices": [
+                13,
+                23
+              ]
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "display_url": "pic.x.com/SS2Vux6hYN",
+              "expanded_url": "https://x.com/Google/status/1953143185011617891/photo/1",
+              "ext_alt_text": "A side-by-side comparison of two Gemini AI versions. The \"Before\" version instantly solves a physics problem for a user, providing all calculations and the final answer. The \"After\" version, labeled \"Guided Learning in Gemini,\" engages the user in a step-by-step tutorial. It breaks down the problem, explains concepts like kinetic and potential energy, and prompts the user to recall formulas and solve the problem themselves, acting as a tutor rather than an answer key.",
+              "id_str": "1953143142783295488",
+              "indices": [
+                273,
+                296
+              ],
+              "media_key": "16_1953143142783295488",
+              "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/Gxr1VxUWoAAUIkw.jpg",
+              "type": "animated_gif",
+              "url": "https://t.co/SS2Vux6hYN",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "sizes": {
+                "large": {
+                  "h": 540,
+                  "w": 960,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "h": 540,
+                  "w": 960,
+                  "resize": "fit"
+                },
+                "small": {
+                  "h": 383,
+                  "w": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "h": 150,
+                  "w": 150,
+                  "resize": "crop"
+                }
+              },
+              "original_info": {
+                "height": 540,
+                "width": 960,
+                "focus_rects": []
+              },
+              "video_info": {
+                "aspect_ratio": [
+                  16,
+                  9
+                ],
+                "variants": [
+                  {
+                    "bitrate": 0,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/tweet_video/Gxr1VxUWoAAUIkw.mp4"
+                  }
+                ]
+              },
+              "media_results": {
+                "result": {
+                  "media_key": "16_1953143142783295488"
+                }
+              }
+            }
+          ]
+        },
+        "favorite_count": 1498,
+        "favorited": false,
+        "full_text": "Here are new @GeminiApp tools to help you learn, understand and study better this school year ✏️\n\n- Guided Learning helps you build a deep understanding of subjects, with step-by-step breakdowns that uncover the “why” and “how”\n- Gemini’s responses automatically integrate https://t.co/SS2Vux6hYN",
+        "is_quote_status": false,
+        "lang": "en",
+        "possibly_sensitive": false,
+        "possibly_sensitive_editable": true,
+        "quote_count": 43,
+        "reply_count": 87,
+        "retweet_count": 244,
+        "retweeted": false,
+        "user_id_str": "20536157",
+        "id_str": "1953143185011617891"
+      }
+    },
+    "sentiment": {
+      "label": "NEUTRAL",
+      "score": 0.5,
+      "confidence_bucket": "LOW"
+    },
+    "quality": {
+      "overall_quality_score": 0.0,
+      "is_quality": false,
+      "dimension_scores": {
+        "relevance": 0.0,
+        "clarity": 0.0,
+        "sentiment_extractable": 0.0,
+        "temporal_value": 0.0,
+        "actionable_insight": 0.0,
+        "noise_level": 0.0
+      },
+      "quality_issues": [
+        "Content too short to be meaningful",
+        "Incoherent content",
+        "Off-topic content unrelated to brand perception",
+        "Overly generic statements with no specific brand insight",
+        "Poor sentiment indicators"
+      ],
+      "recommendations": "The signal text provided is an empty string, rendering it entirely unusable for time-series analysis and perception forecasting. The system responsible for generating this signal must be corrected to extract the actual text content from the source (e.g., the tweet's full text or note_tweet text from the provided additional context) instead of an empty string. Without valid text, no meaningful analysis can be performed.",
+      "evaluation_timestamp": "2025-08-11T15:48:13.896289",
+      "text_length": 0,
+      "word_count": 0,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "022901c2-ea4e-4882-9327-3835e2ba35d6",
+    "topic": "Other"
+  },
+  {
+    "url": "https://x.com/Google/status/1953126394847768936?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+    "data": {
+      "__typename": "Tweet",
+      "rest_id": "1953126394847768936",
+      "core": {
+        "user_results": {
+          "result": {
+            "__typename": "User",
+            "id": "VXNlcjoyMDUzNjE1Nw==",
+            "rest_id": "20536157",
+            "affiliates_highlighted_label": {},
+            "avatar": {
+              "image_url": "https://pbs.twimg.com/profile_images/1754606338460487681/bWupXdxo_normal.jpg"
+            },
+            "core": {
+              "created_at": "Tue Feb 10 19:14:39 +0000 2009",
+              "name": "Google",
+              "screen_name": "Google"
+            },
+            "dm_permissions": {},
+            "is_blue_verified": true,
+            "legacy": {
+              "default_profile": false,
+              "default_profile_image": false,
+              "description": "Here to help.",
+              "entities": {
+                "description": {
+                  "urls": []
+                },
+                "url": {
+                  "urls": [
+                    {
+                      "display_url": "blog.google/newsletter-sub…",
+                      "expanded_url": "https://blog.google/newsletter-subscribe/",
+                      "url": "https://t.co/RS3iU873QG",
+                      "indices": [
+                        0,
+                        23
+                      ]
+                    }
+                  ]
+                }
+              },
+              "fast_followers_count": 0,
+              "favourites_count": 3768,
+              "followers_count": 32795347,
+              "friends_count": 285,
+              "has_custom_timelines": true,
+              "is_translator": false,
+              "listed_count": 89737,
+              "media_count": 37473,
+              "normal_followers_count": 32795347,
+              "pinned_tweet_ids_str": [],
+              "possibly_sensitive": false,
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/20536157/1752864768",
+              "profile_interstitial_type": "",
+              "statuses_count": 239224,
+              "translator_type": "regular",
+              "url": "https://t.co/RS3iU873QG",
+              "withheld_in_countries": []
+            },
+            "location": {
+              "location": "Mountain View, CA"
+            },
+            "media_permissions": {},
+            "parody_commentary_fan_label": "None",
+            "profile_image_shape": "Square",
+            "professional": {
+              "rest_id": "1504886752259059716",
+              "professional_type": "Business",
+              "category": [
+                {
+                  "id": 713,
+                  "name": "Science & Technology",
+                  "icon_name": "IconBriefcaseStroke"
+                }
+              ]
+            },
+            "privacy": {
+              "protected": false
+            },
+            "relationship_perspectives": {},
+            "tipjar_settings": {
+              "is_enabled": false,
+              "bandcamp_handle": "",
+              "bitcoin_handle": "",
+              "cash_app_handle": "",
+              "ethereum_handle": "",
+              "gofundme_handle": "",
+              "patreon_handle": "",
+              "pay_pal_handle": "",
+              "venmo_handle": ""
+            },
+            "verification": {
+              "verified": false,
+              "verified_type": "Business"
+            },
+            "verified_phone_status": false
+          }
+        }
+      },
+      "unmention_data": {},
+      "edit_control": {
+        "edit_tweet_ids": [
+          "1953126394847768936"
+        ],
+        "editable_until_msecs": "1754500194000",
+        "is_edit_eligible": true,
+        "edits_remaining": "5"
+      },
+      "is_translatable": false,
+      "views": {
+        "count": "97528",
+        "state": "EnabledWithCount"
+      },
+      "source": "<a href=\"https://prod8.sprinklr.com/\" rel=\"nofollow\">Sprinklr Care</a>",
+      "grok_analysis_button": true,
+      "legacy": {
+        "bookmark_count": 127,
+        "bookmarked": false,
+        "created_at": "Wed Aug 06 16:09:54 +0000 2025",
+        "conversation_id_str": "1953126394847768936",
+        "display_text_range": [
+          0,
+          272
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "indices": [
+                257,
+                272
+              ],
+              "text": "GrowwithGoogle"
+            }
+          ],
+          "media": [
+            {
+              "display_url": "pic.x.com/PnS5N7X4Og",
+              "expanded_url": "https://x.com/Google/status/1953126394847768936/photo/1",
+              "ext_alt_text": "\nA collage of screenshots centered around a colorful, droplet-shaped icon with the letters 'A', 'B', 'C', and 'D' circling it. The screenshots, each with a colorful border, show various learning materials, including a video of a planet, a handwritten math problem, a multiple-choice question, a diagram of an insect, and a screenshot of a video player with a timeline. This image appears to represent a learning or educational platform that incorporates different media types.",
+              "id_str": "1953126390720548864",
+              "indices": [
+                273,
+                296
+              ],
+              "media_key": "3_1953126390720548864",
+              "media_url_https": "https://pbs.twimg.com/media/GxrmGrBW0AAdhJp.jpg",
+              "type": "photo",
+              "url": "https://t.co/PnS5N7X4Og",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "features": {
+                "large": {
+                  "faces": [
+                    {
+                      "x": 18,
+                      "y": 496,
+                      "h": 71,
+                      "w": 71
+                    }
+                  ]
+                },
+                "medium": {
+                  "faces": [
+                    {
+                      "x": 11,
+                      "y": 310,
+                      "h": 44,
+                      "w": 44
+                    }
+                  ]
+                },
+                "small": {
+                  "faces": [
+                    {
+                      "x": 6,
+                      "y": 175,
+                      "h": 25,
+                      "w": 25
+                    }
+                  ]
+                },
+                "orig": {
+                  "faces": [
+                    {
+                      "x": 18,
+                      "y": 496,
+                      "h": 71,
+                      "w": 71
+                    }
+                  ]
+                }
+              },
+              "sizes": {
+                "large": {
+                  "h": 1080,
+                  "w": 1920,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "h": 675,
+                  "w": 1200,
+                  "resize": "fit"
+                },
+                "small": {
+                  "h": 383,
+                  "w": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "h": 150,
+                  "w": 150,
+                  "resize": "crop"
+                }
+              },
+              "original_info": {
+                "height": 1080,
+                "width": 1920,
+                "focus_rects": [
+                  {
+                    "x": 0,
+                    "y": 0,
+                    "w": 1920,
+                    "h": 1075
+                  },
+                  {
+                    "x": 468,
+                    "y": 0,
+                    "w": 1080,
+                    "h": 1080
+                  },
+                  {
+                    "x": 535,
+                    "y": 0,
+                    "w": 947,
+                    "h": 1080
+                  },
+                  {
+                    "x": 738,
+                    "y": 0,
+                    "w": 540,
+                    "h": 1080
+                  },
+                  {
+                    "x": 0,
+                    "y": 0,
+                    "w": 1920,
+                    "h": 1080
+                  }
+                ]
+              },
+              "media_results": {
+                "result": {
+                  "media_key": "3_1953126390720548864"
+                }
+              }
+            }
+          ],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [
+            {
+              "display_url": "goo.gle/3H2oI1r",
+              "expanded_url": "https://goo.gle/3H2oI1r",
+              "url": "https://t.co/MDoQQO1zCn",
+              "indices": [
+                232,
+                255
+              ]
+            }
+          ],
+          "user_mentions": []
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "display_url": "pic.x.com/PnS5N7X4Og",
+              "expanded_url": "https://x.com/Google/status/1953126394847768936/photo/1",
+              "ext_alt_text": "\nA collage of screenshots centered around a colorful, droplet-shaped icon with the letters 'A', 'B', 'C', and 'D' circling it. The screenshots, each with a colorful border, show various learning materials, including a video of a planet, a handwritten math problem, a multiple-choice question, a diagram of an insect, and a screenshot of a video player with a timeline. This image appears to represent a learning or educational platform that incorporates different media types.",
+              "id_str": "1953126390720548864",
+              "indices": [
+                273,
+                296
+              ],
+              "media_key": "3_1953126390720548864",
+              "media_url_https": "https://pbs.twimg.com/media/GxrmGrBW0AAdhJp.jpg",
+              "type": "photo",
+              "url": "https://t.co/PnS5N7X4Og",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "features": {
+                "large": {
+                  "faces": [
+                    {
+                      "x": 18,
+                      "y": 496,
+                      "h": 71,
+                      "w": 71
+                    }
+                  ]
+                },
+                "medium": {
+                  "faces": [
+                    {
+                      "x": 11,
+                      "y": 310,
+                      "h": 44,
+                      "w": 44
+                    }
+                  ]
+                },
+                "small": {
+                  "faces": [
+                    {
+                      "x": 6,
+                      "y": 175,
+                      "h": 25,
+                      "w": 25
+                    }
+                  ]
+                },
+                "orig": {
+                  "faces": [
+                    {
+                      "x": 18,
+                      "y": 496,
+                      "h": 71,
+                      "w": 71
+                    }
+                  ]
+                }
+              },
+              "sizes": {
+                "large": {
+                  "h": 1080,
+                  "w": 1920,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "h": 675,
+                  "w": 1200,
+                  "resize": "fit"
+                },
+                "small": {
+                  "h": 383,
+                  "w": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "h": 150,
+                  "w": 150,
+                  "resize": "crop"
+                }
+              },
+              "original_info": {
+                "height": 1080,
+                "width": 1920,
+                "focus_rects": [
+                  {
+                    "x": 0,
+                    "y": 0,
+                    "w": 1920,
+                    "h": 1075
+                  },
+                  {
+                    "x": 468,
+                    "y": 0,
+                    "w": 1080,
+                    "h": 1080
+                  },
+                  {
+                    "x": 535,
+                    "y": 0,
+                    "w": 947,
+                    "h": 1080
+                  },
+                  {
+                    "x": 738,
+                    "y": 0,
+                    "w": 540,
+                    "h": 1080
+                  },
+                  {
+                    "x": 0,
+                    "y": 0,
+                    "w": 1920,
+                    "h": 1080
+                  }
+                ]
+              },
+              "media_results": {
+                "result": {
+                  "media_key": "3_1953126390720548864"
+                }
+              }
+            }
+          ]
+        },
+        "favorite_count": 763,
+        "favorited": false,
+        "full_text": "New: The Google AI for Education Accelerator will provide free AI training &amp; Google Career Certificates to college students in the U.S.\n\nWe're also committing $1 billion to AI literacy, research and more over the next 3 years → https://t.co/MDoQQO1zCn \n#GrowwithGoogle https://t.co/PnS5N7X4Og",
+        "is_quote_status": false,
+        "lang": "en",
+        "possibly_sensitive": false,
+        "possibly_sensitive_editable": true,
+        "quote_count": 10,
+        "reply_count": 65,
+        "retweet_count": 133,
+        "retweeted": false,
+        "user_id_str": "20536157",
+        "id_str": "1953126394847768936"
+      }
+    },
+    "sentiment": {
+      "label": "NEUTRAL",
+      "score": 0.5,
+      "confidence_bucket": "LOW"
+    },
+    "quality": {
+      "overall_quality_score": 0.967,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 1.0,
+        "sentiment_extractable": 0.8,
+        "temporal_value": 1.0,
+        "actionable_insight": 1.0,
+        "noise_level": 1.0
+      },
+      "quality_issues": [
+        "The provided 'SIGNAL TEXT TO EVALUATE' field is empty, making the direct signal content unavailable for evaluation.",
+        "The accompanying sentiment label for the event ('NEUTRAL' with 'LOW' confidence) is a poor indicator for the actual positive brand perception impact of the announced initiative, as the content describes a positive action.",
+        "The 'created_at' timestamp for the tweet in the provided context is a future date (August 6, 2025), which is anomalous data."
+      ],
+      "recommendations": "Ensure the 'SIGNAL TEXT TO EVALUATE' field contains the actual text content of the signal for direct evaluation. Review and refine the sentiment analysis model to better capture the implied positive sentiment of corporate announcements and initiatives that contribute positively to brand image. Verify the accuracy of temporal metadata, such as tweet creation dates, to ensure data integrity for time-series analysis.",
+      "evaluation_timestamp": "2025-08-11T15:48:41.599829",
+      "text_length": 0,
+      "word_count": 0,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "a5ca4d16-d370-4fa4-bafb-c0f728d0a8d0",
+    "topic": "Other"
+  },
+  {
+    "url": "https://x.com/Google/status/1952816961899118754?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+    "data": {
+      "__typename": "Tweet",
+      "rest_id": "1952816961899118754",
+      "core": {
+        "user_results": {
+          "result": {
+            "__typename": "User",
+            "id": "VXNlcjoyMDUzNjE1Nw==",
+            "rest_id": "20536157",
+            "affiliates_highlighted_label": {},
+            "avatar": {
+              "image_url": "https://pbs.twimg.com/profile_images/1754606338460487681/bWupXdxo_normal.jpg"
+            },
+            "core": {
+              "created_at": "Tue Feb 10 19:14:39 +0000 2009",
+              "name": "Google",
+              "screen_name": "Google"
+            },
+            "dm_permissions": {},
+            "is_blue_verified": true,
+            "legacy": {
+              "default_profile": false,
+              "default_profile_image": false,
+              "description": "Here to help.",
+              "entities": {
+                "description": {
+                  "urls": []
+                },
+                "url": {
+                  "urls": [
+                    {
+                      "display_url": "blog.google/newsletter-sub…",
+                      "expanded_url": "https://blog.google/newsletter-subscribe/",
+                      "url": "https://t.co/RS3iU873QG",
+                      "indices": [
+                        0,
+                        23
+                      ]
+                    }
+                  ]
+                }
+              },
+              "fast_followers_count": 0,
+              "favourites_count": 3768,
+              "followers_count": 32795346,
+              "friends_count": 285,
+              "has_custom_timelines": true,
+              "is_translator": false,
+              "listed_count": 89737,
+              "media_count": 37473,
+              "normal_followers_count": 32795346,
+              "pinned_tweet_ids_str": [],
+              "possibly_sensitive": false,
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/20536157/1752864768",
+              "profile_interstitial_type": "",
+              "statuses_count": 239224,
+              "translator_type": "regular",
+              "url": "https://t.co/RS3iU873QG",
+              "withheld_in_countries": []
+            },
+            "location": {
+              "location": "Mountain View, CA"
+            },
+            "media_permissions": {},
+            "parody_commentary_fan_label": "None",
+            "profile_image_shape": "Square",
+            "professional": {
+              "rest_id": "1504886752259059716",
+              "professional_type": "Business",
+              "category": [
+                {
+                  "id": 713,
+                  "name": "Science & Technology",
+                  "icon_name": "IconBriefcaseStroke"
+                }
+              ]
+            },
+            "privacy": {
+              "protected": false
+            },
+            "relationship_perspectives": {},
+            "tipjar_settings": {
+              "is_enabled": false,
+              "bandcamp_handle": "",
+              "bitcoin_handle": "",
+              "cash_app_handle": "",
+              "ethereum_handle": "",
+              "gofundme_handle": "",
+              "patreon_handle": "",
+              "pay_pal_handle": "",
+              "venmo_handle": ""
+            },
+            "verification": {
+              "verified": false,
+              "verified_type": "Business"
+            },
+            "verified_phone_status": false
+          }
+        }
+      },
+      "card": {
+        "rest_id": "card://1952816960338878464",
+        "legacy": {
+          "binding_values": [
+            {
+              "key": "unified_card",
+              "value": {
+                "string_value": "{\"type\":\"video_website\",\"component_objects\":{\"details_1\":{\"type\":\"details\",\"data\":{\"title\":{\"content\":\"Google Gemini: Free Pro Plan and AI training for college students\",\"is_rtl\":false},\"subtitle\":{\"content\":\"grow.google\",\"is_rtl\":false},\"destination\":\"browser_with_docked_media_1\"}},\"media_1\":{\"type\":\"media\",\"data\":{\"id\":\"13_1952816286213271552\",\"destination\":\"browser_with_docked_media_1\"}}},\"destination_objects\":{\"browser_with_docked_media_1\":{\"type\":\"browser_with_docked_media\",\"data\":{\"url_data\":{\"url\":\"https://grow.google/students \",\"vanity\":\"grow.google\"},\"media_id\":\"13_1952816286213271552\"}}},\"components\":[\"media_1\",\"details_1\"],\"media_entities\":{\"13_1952816286213271552\":{\"id\":1952816286213271552,\"id_str\":\"1952816286213271552\",\"indices\":[0,0],\"media_url\":\"\",\"media_url_https\":\"https://pbs.twimg.com/amplify_video_thumb/1952816286213271552/img/UimtsPWYh1APUMgy.jpg\",\"url\":\"\",\"display_url\":\"\",\"expanded_url\":\"\",\"type\":\"video\",\"original_info\":{\"width\":1080,\"height\":1920},\"sizes\":{\"medium\":{\"w\":675,\"h\":1200,\"resize\":\"fit\"},\"large\":{\"w\":1080,\"h\":1920,\"resize\":\"fit\"},\"thumb\":{\"w\":150,\"h\":150,\"resize\":\"crop\"},\"small\":{\"w\":383,\"h\":680,\"resize\":\"fit\"}},\"source_user_id\":20536157,\"source_user_id_str\":\"20536157\",\"video_info\":{\"aspect_ratio\":[9,16],\"duration_millis\":15000,\"variants\":[{\"bitrate\":2176000,\"content_type\":\"video/mp4\",\"url\":\"https://video-s.twimg.com/amplify_video/1952816286213271552/vid/avc1/720x1280/0iGGOchhoc9K9m2B.mp4?tag=14\"},{\"content_type\":\"application/x-mpegURL\",\"url\":\"https://video-s.twimg.com/amplify_video/1952816286213271552/pl/Tmuze3OVLHMdUOC3.m3u8?tag=14\"},{\"bitrate\":950000,\"content_type\":\"video/mp4\",\"url\":\"https://video-s.twimg.com/amplify_video/1952816286213271552/vid/avc1/480x852/MtxfAuxbbInrUXuQ.mp4?tag=14\"},{\"bitrate\":632000,\"content_type\":\"video/mp4\",\"url\":\"https://video-s.twimg.com/amplify_video/1952816286213271552/vid/avc1/320x568/_xFkCqjjz2Dmm3_e.mp4?tag=14\"}]},\"media_key\":\"13_1952816286213271552\",\"ext\":{\"mediaColor\":{\"r\":{\"ok\":{\"palette\":[{\"rgb\":{\"red\":38,\"green\":30,\"blue\":25},\"percentage\":78.87},{\"rgb\":{\"red\":120,\"green\":113,\"blue\":110},\"percentage\":12.37},{\"rgb\":{\"red\":95,\"green\":64,\"blue\":41},\"percentage\":2.52},{\"rgb\":{\"red\":244,\"green\":244,\"blue\":244},\"percentage\":1.69},{\"rgb\":{\"red\":18,\"green\":17,\"blue\":33},\"percentage\":1.15}]}},\"ttl\":-1}}}}}",
+                "type": "STRING"
+              }
+            },
+            {
+              "key": "card_url",
+              "value": {
+                "scribe_key": "card_url",
+                "string_value": "https://twitter.com",
+                "type": "STRING"
+              }
+            }
+          ],
+          "card_platform": {
+            "platform": {
+              "audience": {
+                "name": "production"
+              },
+              "device": {
+                "name": "Swift",
+                "version": "12"
+              }
+            }
+          },
+          "name": "unified_card",
+          "url": "card://1952816960338878464",
+          "user_refs_results": []
+        }
+      },
+      "unmention_data": {},
+      "edit_control": {
+        "edit_tweet_ids": [
+          "1952816961899118754"
+        ],
+        "editable_until_msecs": "1754426419000",
+        "is_edit_eligible": false,
+        "edits_remaining": "5"
+      },
+      "is_translatable": false,
+      "views": {
+        "count": "120211",
+        "state": "EnabledWithCount"
+      },
+      "source": "<a href=\"https://twitter.com\" rel=\"nofollow\">Twitter for Advertisers</a>",
+      "grok_analysis_button": true,
+      "legacy": {
+        "bookmark_count": 15,
+        "bookmarked": false,
+        "created_at": "Tue Aug 05 19:40:19 +0000 2025",
+        "conversation_control": {
+          "policy": "ByInvitation",
+          "conversation_owner_results": {
+            "result": {
+              "__typename": "User",
+              "core": {
+                "screen_name": "Google"
+              }
+            }
+          }
+        },
+        "conversation_id_str": "1952816961899118754",
+        "display_text_range": [
+          0,
+          173
+        ],
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [],
+          "user_mentions": []
+        },
+        "favorite_count": 45,
+        "favorited": false,
+        "full_text": "We’re making our most advanced AI tools and training programs free for 1 year for every college student in America. Learn more and sign up by October 6th, 2025. Terms apply.",
+        "is_quote_status": false,
+        "lang": "en",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 7,
+        "retweeted": false,
+        "scopes": {
+          "followers": false
+        },
+        "user_id_str": "20536157",
+        "id_str": "1952816961899118754"
+      }
+    },
+    "sentiment": {
+      "label": "NEUTRAL",
+      "score": 0.5,
+      "confidence_bucket": "LOW"
+    },
+    "quality": {
+      "overall_quality_score": 0.0,
+      "is_quality": false,
+      "dimension_scores": {
+        "relevance": 0.0,
+        "clarity": 0.0,
+        "sentiment_extractable": 0.0,
+        "temporal_value": 0.0,
+        "actionable_insight": 0.0,
+        "noise_level": 0.0
+      },
+      "quality_issues": [
+        "Content too short to be meaningful",
+        "Incoherent content",
+        "Poor sentiment indicators (no content to analyze)"
+      ],
+      "recommendations": "The 'SIGNAL TEXT TO EVALUATE' provided is an empty string, which prevents any meaningful analysis of its quality. Ensure that the actual text content of the brand signal (e.g., the 'full_text' from the provided context: 'We’re making our most advanced AI tools and training programs free for 1 year for every college student in America. Learn more and sign up by October 6th, 2025. Terms apply.') is correctly extracted and provided for evaluation. With the full text, this signal would likely score highly across several dimensions, but as an empty string, it provides no value.",
+      "evaluation_timestamp": "2025-08-11T15:48:58.552256",
+      "text_length": 0,
+      "word_count": 0,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "8ad02883-7a1f-4f49-a843-d0f9cbddd918",
+    "topic": "Other"
+  }
+]

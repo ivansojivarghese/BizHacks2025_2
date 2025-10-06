@@ -1,0 +1,480 @@
+[
+  {
+    "source": "Reddit",
+    "timestamp": "2025-07-29T03:54:41+00:00",
+    "title": "What makes Google so low?",
+    "text": "Google consistently posts massive profits and yet its PE is around 20, which is much lower than other big tech names that sit at 40+, Tesla with a PE near 180, and PLTR up in the 600s.  \n  \nIf we go by valuation multiples alone, Google should easily be trading above $380. What's happening?",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9985194802284241
+    },
+    "url": "https://www.reddit.com/r/stocks/comments/1mc1fz7/what_makes_google_so_low/",
+    "author": "u/sedate_matron",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.67,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.8,
+        "clarity": 0.9,
+        "sentiment_extractable": 0.8,
+        "temporal_value": 0.5,
+        "actionable_insight": 0.7,
+        "noise_level": 0.9
+      },
+      "quality_issues": [
+        "Overly generic statements with some specific brand insight",
+        "Some ambiguity in sentiment indicators"
+      ],
+      "recommendations": "The signal could be improved by including more specific data points about Google's financial performance and market trends. Additionally, providing more context about the author's expertise or perspective could increase credibility.",
+      "evaluation_timestamp": "2025-08-11T00:24:33.885432",
+      "text_length": 316,
+      "word_count": 58,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "fc29da7c-ad30-490e-a5d3-757b06d7b138"
+  },
+  {
+    "source": "Reddit",
+    "timestamp": "2025-07-28T13:48:41+00:00",
+    "title": "Why is Google so low?",
+    "text": "Google makes more profit than any company and has PE 20 while other mag 7 stocks have 40+. Even Tesla goes up everyday with its ridiculous PE 185, and PLTR with PE 699.\n\nGoogle should be at least $384/share if it trades like other stocks. What's holding it down?",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9989107847213745
+    },
+    "url": "https://www.reddit.com/r/ValueInvesting/comments/1mbgo2b/why_is_google_so_low/",
+    "author": "u/DryGeneral990",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.67,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.8,
+        "clarity": 0.9,
+        "sentiment_extractable": 0.8,
+        "temporal_value": 0.4,
+        "actionable_insight": 0.7,
+        "noise_level": 0.9
+      },
+      "quality_issues": [
+        "Off-topic content unrelated to brand perception",
+        "Overly generic statements with no specific brand insight"
+      ],
+      "recommendations": "The signal could be improved by providing more specific examples of Google's strengths and weaknesses, as well as data-driven analysis to support the claims made about the company's stock performance.",
+      "evaluation_timestamp": "2025-08-11T00:24:35.222642",
+      "text_length": 284,
+      "word_count": 54,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "fc1e736f-029e-4d28-9ee4-34add25b5261"
+  },
+  {
+    "source": "Reddit",
+    "timestamp": "2025-07-27T18:21:00+00:00",
+    "title": "My current DeGoogle+ journey",
+    "text": "Originally a text post bc my phone has Olauncher so there's no icons there, I decided to make a simple visual while also including the things I've done on my PC to move away from Google and equally bad corporations.\n\nI know there's a couple of interesting choices here like Ecosia over the more popular stuff, if you have any questions (including about things I haven't changed) feel free to ask!\n\nOriginal post, with some extra info:\n\nWindows -> PopOS (linux)\n\nGmail\\* + Outlook -> Tutamail\n\nSamsung calendar -> Tuta calendar\n\nGoogle Drive -> kDrive (waiting to see if Tuta Drive has a free plan)\n\nGoogle Authenticator -> Aegis\n\nSamsung Keyboard -> Heliboard\n\nGoogle Maps -> OsmAnd\n\nOffice + Google docs + Canva -> Libreoffice + Cryptpad\n\nPhotoshop -> Krita\n\nSamsung Notes -> Standard Notes\n\nPlay Store -> Droid-ify + Aurora Store\n\nFirefox -> Mullvad Browser (PC) / Ecosia Browser (Android)\n\nPassword Manager of my browsers -> Bitwarden\n\nDuckDuckGo -> Ecosia search engine (looking for green alternatives)\n\nSamsung Calculator -> Fossify Calculator\n\nX\\* -> Bluesky\n\nWhatsapp Desktop - > Beeper\n\nYoutube -> Freetube (PC) / NewPipe (Android)\n\nInstagram -> QUIT\n\nFacebook -> QUIT\n\nReddit -> Lemmy (pending while I figure how to navigate the fediverse)\n\nTikTok -> QUIT\n\nPinterest -> QUIT\n\nDeepL -> LibreTranslate\n\nStreaming services (Netflix, Prime Video) -> Physical media + Piracy\n\n\n\nAlso a list of things i'd like to change but currently can't.\n\nAndroid: Have yet to find an alternative OS compatible with my Galaxy Note20 (OPEN TO SUGESTIONS)\n\nWhatsApp: Would lose contact with friends and family, would love to use Signal.\n\nDiscord: Would lose contact with friends, would love to use Matrix\n\nGmail: Jobd demand Gmail. Can never truly quit.\n\nYT Music: My family pays it. Don't want to throw away money on another platform when I already have one here. I would like to use Quobuz.\n\nX: Not enough people are using alternatives, this is my main place to keep up with news of projects I like, would love to delete it and just use bsky and the fediverse\n\nAmazon Shopping: Is there even another place to buy stuff internationally? (I'm from LATAM)\n\nTwitch: Alternatives are equally ass (to my knowledge)\n\nSteam: Want to move away from this monopoly and actually own the games I buy (DRM-free). Costs money to rebuild but I'm looking at Gog and buying physical games on a console",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.634,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9934697151184082
+    },
+    "url": "https://i.redd.it/kv7d7lmkjgff1.jpeg",
+    "author": "u/Freladdy11",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.83,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.9,
+        "clarity": 0.8,
+        "sentiment_extractable": 0.9,
+        "temporal_value": 0.7,
+        "actionable_insight": 0.9,
+        "noise_level": 0.8
+      },
+      "quality_issues": [],
+      "recommendations": "The signal provides valuable insights into consumer behavior and sentiment regarding Google and alternative services. To improve, consider adding more specific data points on the user's experience with Google's services and the alternatives they chose.",
+      "evaluation_timestamp": "2025-08-11T00:24:36.341860",
+      "text_length": 2401,
+      "word_count": 402,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "8eb6eba8-a2f5-42d0-9079-6a7d9d45be9f"
+  },
+  {
+    "source": "Reddit",
+    "timestamp": "2025-07-29T03:01:18+00:00",
+    "title": "Google engineer dies in Yosemite after being struck by falling tree branch",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9992178678512573
+    },
+    "url": "https://www.sfgate.com/california-parks/article/yosemite-national-park-tree-kills-google-employee-20790840.php",
+    "author": "u/grepto",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.67,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.8,
+        "clarity": 1.0,
+        "sentiment_extractable": 0.9,
+        "temporal_value": 0.8,
+        "actionable_insight": 0.6,
+        "noise_level": 0.4
+      },
+      "quality_issues": [
+        "Off-topic content unrelated to brand perception",
+        "Poor sentiment indicators (too neutral/ambiguous)"
+      ],
+      "recommendations": "The signal could be improved by adding more context about Google's brand perception. The content seems to be more related to a tragic incident than the brand perception of Google. Consider adding more relevant information about how this incident might affect Google's brand image.",
+      "evaluation_timestamp": "2025-08-11T00:24:37.220605",
+      "text_length": 75,
+      "word_count": 12,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "ab6dace4-c49a-4df8-bc4d-f480cc8c22cf"
+  },
+  {
+    "source": "Reddit",
+    "timestamp": "2025-07-13T18:21:23+00:00",
+    "title": "google trans misandry",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.633,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9911501407623291
+    },
+    "url": "https://i.redd.it/8znsstiqoocf1.jpeg",
+    "author": "u/Future_Employment_22",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.67,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.8,
+        "clarity": 0.9,
+        "sentiment_extractable": 0.9,
+        "temporal_value": 0.5,
+        "actionable_insight": 0.7,
+        "noise_level": 0.8
+      },
+      "quality_issues": [
+        "content may be too short to be meaningful",
+        "topic could be more specific to brand perception"
+      ],
+      "recommendations": "Consider adding more context about Google's brand and its relation to the sentiment expressed, as well as more detailed information about the misandry claims.",
+      "evaluation_timestamp": "2025-08-11T00:24:38.045155",
+      "text_length": 22,
+      "word_count": 3,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "bf4d58b1-3988-4b78-9465-6b1896ee731a"
+  },
+  {
+    "source": "Reddit",
+    "timestamp": "2025-07-27T22:41:53+00:00",
+    "title": "You get pushed into 2035 for 10 minutes and you get ONE Google search. What do you Google?",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.634,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.995633065700531
+    },
+    "url": "https://www.reddit.com/r/AskReddit/comments/1mazth3/you_get_pushed_into_2035_for_10_minutes_and_you/",
+    "author": "u/soyabunz",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.67,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.8,
+        "clarity": 0.9,
+        "sentiment_extractable": 0.8,
+        "temporal_value": 0.5,
+        "actionable_insight": 0.6,
+        "noise_level": 0.9
+      },
+      "quality_issues": [
+        "Overly generic statements with no specific brand insight",
+        "Poor sentiment indicators (too neutral/ambiguous)"
+      ],
+      "recommendations": "The signal could be improved by including more specific brand-related information and a clearer sentiment indicator. Additionally, providing more context about the user's concern or opinion about Google's AI integration could increase the actionable insight value.",
+      "evaluation_timestamp": "2025-08-11T00:24:40.038628",
+      "text_length": 91,
+      "word_count": 18,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "ab1f0ea2-12e2-44f6-b2e5-c2f8163121fe"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-09T18:46:27Z",
+    "title": "AOL will end dial-up internet service in September, 34 years after it's debut — AOL Shield Browser and AOL Dialer software will be shuttered on the same day",
+    "text": "But there remain a few options to plug in your 56K (or slower) screeching modem into.",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.634,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9960116147994995
+    },
+    "url": "https://www.tomshardware.com/service-providers/network-providers/aol-will-end-dial-up-internet-service-in-september-34-years-after-its-debut-aol-shield-browser-and-aol-dialer-software-will-be-shuttered-on-the-same-day",
+    "author": "Mark Tyson",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.67,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.8,
+        "clarity": 0.9,
+        "sentiment_extractable": 0.7,
+        "temporal_value": 0.8,
+        "actionable_insight": 0.6,
+        "noise_level": 0.9
+      },
+      "quality_issues": [
+        "somewhat generic statement",
+        "limited actionable insight"
+      ],
+      "recommendations": "add more specific brand perception data, provide context on AOL's future plans",
+      "evaluation_timestamp": "2025-08-11T00:24:42.493422",
+      "text_length": 243,
+      "word_count": 44,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "39a99bad-16a4-4e9e-a37b-9b1bd7de0ab7"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-09T18:39:13Z",
+    "title": "Mooresville commissioners set to deny rezoning for $30 billion data center",
+    "text": "Mooresville Town Commissioners plan to deny a rezoning request for a $30 billion data center if it comes to a vote, the town mayor told the Charlotte...",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9970746040344238
+    },
+    "url": "https://www.yahoo.com/news/articles/mooresville-commissioners-set-deny-rezoning-183913919.html",
+    "author": "WSOCTV.com News Staff",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.67,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.8,
+        "clarity": 0.9,
+        "sentiment_extractable": 0.7,
+        "temporal_value": 0.6,
+        "actionable_insight": 0.6,
+        "noise_level": 0.8
+      },
+      "quality_issues": [
+        "content may be too short to be meaningful",
+        "sentiment indicators could be more specific"
+      ],
+      "recommendations": "Consider adding more context about the brand and its relationship to the data center, as well as more specific sentiment indicators to improve the signal quality.",
+      "evaluation_timestamp": "2025-08-11T00:24:43.518626",
+      "text_length": 228,
+      "word_count": 38,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "d64ec657-dd09-4375-85f4-e2ba502d2853"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-09T18:38:47Z",
+    "title": "Mastodon Tag Push, 1 Billion Followers Summit, ChatGPT, More: Saturday Afternoon ResearchBuzz, August 9, 2025",
+    "text": "NEW RESOURCES VerbaMea: About Tag Push . This is for Mastodon. “The concept is simple…. Follow any of the tag accounts, which corresponds to a hashtag, and you will get copies of posts …",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.633,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9891791343688965
+    },
+    "url": "https://researchbuzz.me/2025/08/09/mastodon-tag-push-1-billion-followers-summit-chatgpt-more-saturday-afternoon-researchbuzz-august-9-2025/",
+    "author": "ResearchBuzz",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.67,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.4,
+        "clarity": 0.9,
+        "sentiment_extractable": 0.8,
+        "temporal_value": 0.7,
+        "actionable_insight": 0.5,
+        "noise_level": 0.9
+      },
+      "quality_issues": [
+        "Off-topic content unrelated to brand perception",
+        "Overly generic statements with no specific brand insight"
+      ],
+      "recommendations": "The signal could be improved by providing more specific information about the brand and its perception. The content seems to be more focused on a technical feature of Mastodon rather than brand perception. It would be beneficial to include more context about how this feature affects the brand's image or customer sentiment.",
+      "evaluation_timestamp": "2025-08-11T00:24:44.641362",
+      "text_length": 297,
+      "word_count": 49,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "f5ff3455-9886-4f3d-9b61-560076963a78"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-09T18:37:03Z",
+    "title": "The Flash Star Panabaker Gets Real About Crossovers, \"Bad Behavior\"",
+    "text": "It's hard to believe that it's only been a little more than two years since the final chapter was written on the Arrowverse, with The Flash S09E13: \"A New World, Part Four\" hitting screens in May 2023. Though it remains to be seen if DC Studios will ever cons…",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.573,
+      "confidence_bucket": "MEDIUM",
+      "raw_score": 0.7639188766479492
+    },
+    "url": "https://bleedingcool.com/tv/the-flash-star-panabaker-gets-real-about-crossovers-bad-behavior/",
+    "author": "Ray Flook",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.67,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.4,
+        "clarity": 0.9,
+        "sentiment_extractable": 0.8,
+        "temporal_value": 0.6,
+        "actionable_insight": 0.5,
+        "noise_level": 0.8
+      },
+      "quality_issues": [
+        "Off-topic content unrelated to brand perception",
+        "Overly generic statements with no specific brand insight"
+      ],
+      "recommendations": "The signal could be improved by focusing on specific brand-related topics and providing more concrete insights into consumer sentiment. Additionally, the relevance of the content to brand perception could be increased by including more direct mentions or analysis of the brand.",
+      "evaluation_timestamp": "2025-08-11T00:24:45.767107",
+      "text_length": 329,
+      "word_count": 59,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "c5236bb6-9120-4adf-87e9-364bf767e6ca"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-09T18:30:56Z",
+    "title": "Air Canada: Los Angeles – Osaka, Japan. $600 (Basic Economy) / $744 (Regular Economy). Roundtrip, including all Taxes",
+    "text": "A good sale to OsakaAir Canada's $744 fare is a regular economy fare with ONE checked bag and normal size carry-on includedAir Canada also have a $600 fare, but it is a Basic Economy / Economy",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.616,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.924201488494873
+    },
+    "url": "https://www.theflightdeal.com/2025/08/09/air-canada-los-angeles-osaka-japan-600-basic-economy-744-regular-economy-roundtrip-including-all-taxes/",
+    "author": "The Flight Deal",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.67,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.5,
+        "clarity": 0.9,
+        "sentiment_extractable": 0.8,
+        "temporal_value": 0.6,
+        "actionable_insight": 0.7,
+        "noise_level": 0.8
+      },
+      "quality_issues": [
+        "Off-topic content unrelated to brand perception",
+        "Overly generic statements with no specific brand insight"
+      ],
+      "recommendations": "The signal text appears to be a flight deal announcement, which is not directly related to brand perception. To improve the signal quality, consider adding more context about Air Canada's brand, customer experience, or service quality. Additionally, the text could benefit from more specific sentiment indicators to help with sentiment analysis.",
+      "evaluation_timestamp": "2025-08-11T00:24:48.018806",
+      "text_length": 311,
+      "word_count": 54,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "27938b41-6e37-4929-aa72-6706dddbb7f7"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-09T18:30:55Z",
+    "title": "arcade-google-sheets 3.1.0",
+    "text": "Arcade.dev LLM tools for Google Sheets",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.634,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9959138035774231
+    },
+    "url": "https://pypi.org/project/arcade-google-sheets/3.1.0/",
+    "author": "dev@arcade.dev",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.67,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.8,
+        "clarity": 1.0,
+        "sentiment_extractable": 0.8,
+        "temporal_value": 0.6,
+        "actionable_insight": 0.6,
+        "noise_level": 0.8
+      },
+      "quality_issues": [
+        "Content may be too short to be meaningful",
+        "Sentiment score might be influenced by the context of the release note"
+      ],
+      "recommendations": "Consider adding more context about the brand and its relationship to Arcade.dev LLM tools, as well as a more detailed description of the tool's impact on users.",
+      "evaluation_timestamp": "2025-08-11T00:24:48.940157",
+      "text_length": 66,
+      "word_count": 8,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "44634bae-6ea5-48a8-b445-241370d41000"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-09T18:17:03Z",
+    "title": "She Rides Shotgun Star Reveals Why He Initially Joined the Project",
+    "text": "Now playing in theaters, She Rides Shotgun brings Jordan Harper's award-winning crime novel to the screen with a mix of stripped-down violence and emotional complexity. Directed by Nick Rowland (Calm with Horses), the film centers on Nate (Taron Egerton), a r…",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.997018575668335
+    },
+    "url": "https://bleedingcool.com/movies/she-rides-shotgun-star-reveals-why-he-initially-joined-the-project/",
+    "author": "Aedan Juvet",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.67,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.4,
+        "clarity": 0.9,
+        "sentiment_extractable": 0.8,
+        "temporal_value": 0.5,
+        "actionable_insight": 0.6,
+        "noise_level": 0.8
+      },
+      "quality_issues": [
+        "Off-topic content unrelated to brand perception",
+        "Overly generic statements with no specific brand insight"
+      ],
+      "recommendations": "The signal could be improved by including specific brand mentions or references to brand-related events. Additionally, the content seems to be focused on a movie, which may not be directly related to brand perception. Consider adding more context or information that ties the content to a specific brand or product.",
+      "evaluation_timestamp": "2025-08-11T00:24:51.299029",
+      "text_length": 328,
+      "word_count": 52,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "b5cd7b07-d63f-4cbb-a985-3316f2b5e1d2"
+  }
+]

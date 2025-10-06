@@ -1,0 +1,3078 @@
+[
+  {
+    "source": "Reddit",
+    "timestamp": "2025-08-05T14:26:30+00:00",
+    "title": "Google Deepmind's new Genie 3",
+    "text": "[https://x.com/OfficialLoganK/status/1952732206176112915](https://x.com/OfficialLoganK/status/1952732206176112915)",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9928795695304871
+    },
+    "url": "https://v.redd.it/s6555dgpn7hf1",
+    "author": "u/GraceToSentience",
+    "platform": "Reddit",
+    "topic": "Other"
+  },
+  {
+    "source": "Reddit",
+    "timestamp": "2025-08-05T19:38:48+00:00",
+    "title": "In Google’s genie 3 you can look down and see yourself walking",
+    "text": "This is Google’s genie 3 model which is basically real time interactive video",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.880723237991333
+    },
+    "url": "https://v.redd.it/p7cqsx6i79hf1",
+    "author": "u/FaultElectrical4075",
+    "platform": "Reddit",
+    "topic": "Other"
+  },
+  {
+    "source": "Reddit",
+    "timestamp": "2025-08-03T14:30:16+00:00",
+    "title": "“Google’s first trillion”",
+    "text": "",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.8666303157806396
+    },
+    "url": "https://i.redd.it/qahw08inetgf1.jpeg",
+    "author": "u/thisecommercelife",
+    "platform": "Reddit",
+    "topic": "Other"
+  },
+  {
+    "source": "Reddit",
+    "timestamp": "2025-08-02T16:54:51+00:00",
+    "title": "Man steals by simply sending random bills to FACEBOOK & GOOGLE",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9981610178947449
+    },
+    "url": "https://i.redd.it/n6yoz29jzmgf1.jpeg",
+    "author": "u/ihealthahop",
+    "platform": "Reddit",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T11:06:48Z",
+    "title": "RCS in Google Messages Can Now Handle PDFs… If You’re in the Right Place",
+    "text": "Google Messages now supports PDF sharing over RCS for business messages, but the feature is currently rolling out only in India.",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9959225654602051
+    },
+    "url": "https://www.androidheadlines.com/2025/08/google-messages-rcs-pdf.html",
+    "author": "Tyler Lee",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T11:05:13Z",
+    "title": "ipgeolocationio added to PyPI",
+    "text": "IPGeolocation.io - IP intelligence products",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9928283095359802
+    },
+    "url": "https://pypi.org/project/ipgeolocationio/",
+    "author": "support@ipgeolocation.io",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T11:03:52Z",
+    "title": "'A Prank.' Tabs, Fri., Aug. 8, 2025",
+    "text": "Morning news roundup and things to read!",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9785503149032593
+    },
+    "url": "https://www.wonkette.com/p/a-prank-tabs-fri-aug-8-2025",
+    "author": "Rebecca Schoenkopf",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T11:02:00Z",
+    "title": "Nintendo unveils official new My Mario toy line and app: Mario 3D wood block amiibo sets, Hello Mario! book, more",
+    "text": "Not long after gracing the word with its next-generation Switch 2 hardware, some new Nintendo toys are inbound. Nintendo is officially releasing a new platform of sorts known as “My Mario.” Consisting of a range of new toys and products, including a FREE inte…",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.8478695750236511
+    },
+    "url": "http://9to5toys.com/2025/08/08/nintendo-new-my-mario-toy-amiibo/",
+    "author": "Justin Kahn",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T11:01:00Z",
+    "title": "Edge AI Hardware Market Research Report 2025-2030 | Opportunities Expand with Generative AI Optimization, On-Device Visual Processors, and 5G-Enabled Ultra-Low Latency Applications",
+    "text": "The edge AI hardware market is expected to soar to USD 58.90 billion by 2030, from USD 26.14 billion in 2025, at a CAGR of 17.6%. The growth is fueled by the necessity for real-time data processing, improved latency, privacy, and bandwidth efficiency, alongsi…",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.9857094287872314
+    },
+    "url": "https://www.globenewswire.com/news-release/2025/08/08/3130062/28124/en/Edge-AI-Hardware-Market-Research-Report-2025-2030-Opportunities-Expand-with-Generative-AI-Optimization-On-Device-Visual-Processors-and-5G-Enabled-Ultra-Low-Latency-Applications.html",
+    "author": "Research and Markets",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T11:00:36Z",
+    "title": "IONOS Group SE (WBO:IOS) Half Year 2025 Earnings Call Highlights: Strong Customer Growth and AI ...",
+    "text": "IONOS Group SE (WBO:IOS) reports robust revenue and customer growth, while navigating cloud segment challenges and expanding AI initiatives.",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.9995570778846741
+    },
+    "url": "https://finance.yahoo.com/news/ionos-group-se-wbo-ios-110036275.html",
+    "author": "GuruFocus News",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T11:00:03Z",
+    "title": "Enjoy Wordle? Try These 10 Other Word Games Next",
+    "text": "There are plenty of word and puzzle games out there to try.",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.9174248576164246
+    },
+    "url": "https://www.cnet.com/tech/gaming/enjoy-wordle-try-these-10-other-word-games-next/",
+    "author": "Zachary McAuliffe",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T11:00:00Z",
+    "title": "Asus's new ROG Strix 32-inch dual-mode WOLED monitor adapts to fit your gaming needs – 240Hz at 4K or 480Hz at 1080p",
+    "text": "Asus’ new 32-inch ROG OLED monitors feature ultra-fast refresh rates, anti-glare glossy panels, and burn-in prevention features.",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9699890613555908
+    },
+    "url": "https://www.tomshardware.com/monitors/gaming-monitors/asuss-new-rog-strix-32-inch-dual-mode-woled-monitor-adapts-to-fit-your-gaming-needs-240hz-at-4k-or-480hz-at-1080p",
+    "author": "editors@tomshardware.com (Kunal Khullar) , Kunal Khullar",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T11:00:00Z",
+    "title": "Leaked Credentials Up 160%: What Attackers Are Doing With Them",
+    "text": "When an organization’s credentials are leaked, the immediate consequences are rarely visible—but the long-term impact is far-reaching. Far from the cloak-and-dagger tactics seen in fiction, many real-world cyber breaches begin with something deceptively simpl…",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.9896782636642456
+    },
+    "url": "https://thehackernews.com/2025/08/leaked-credentials-up-160-what.html",
+    "author": "info@thehackernews.com (The Hacker News)",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T11:00:00Z",
+    "title": "Is Bitcoin A Security Or Commodity?",
+    "text": "Bitcoin's classification as a security or commodity matters. Understand the key differences and how this debate impacts its regulation and investment.",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9151960015296936
+    },
+    "url": "https://www.forbes.com/sites/digital-assets/article/is-bitcoin-security-or-commodity/",
+    "author": "Becca Bratcher, Contributor, \n Becca Bratcher, Contributor\n https://www.forbes.com/sites/beccabratcher/",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T11:00:00Z",
+    "title": "Did Adam Lambert donate nearly $13M to homeless shelter initiative?",
+    "text": "According to online posts, the singer-songwriter donated the large sum of money after receiving a bonus and sponsorship earnings.",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9849547147750854
+    },
+    "url": "https://www.snopes.com//fact-check/adam-lambert-homeless-shelter-initiative/",
+    "author": "Jordan Liles",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T11:00:00Z",
+    "title": "Everything as a Service Market Size to Grow USD 1991.8 Billion by 2032, at a CAGR of 24.68% | SNS Insider",
+    "text": "The Everything as a Service (XaaS) market is undergoing a transformative phase, driven by enterprises' shift toward flexible, cloud-first operations and the need for enhanced operational efficiency. The Everything as a Service (XaaS) market is undergoing a tr…",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.8728018999099731
+    },
+    "url": "https://www.globenewswire.com/news-release/2025/08/08/3130057/0/en/Everything-as-a-Service-Market-Size-to-Grow-USD-1991-8-Billion-by-2032-at-a-CAGR-of-24-68-SNS-Insider.html",
+    "author": "SNS Insider pvt ltd",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T11:00:00Z",
+    "title": "Google Street View Snowmobile At Boulder Office",
+    "text": "Here is a snowmobile at the Google office in Boulder, Colorado. No, Googlers don't take it out for a spin. This one was used to capture street view images on the mountains and hard to get to places.I found this on Instagram.This post is part of our daily Sear…",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9938966631889343
+    },
+    "url": "https://www.seroundtable.com/photos/google-street-view-snowmobile-39856.html",
+    "author": "Barry Schwartz",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:58:00Z",
+    "title": "RubyGems, PyPI Hit by Malicious Packages Stealing Credentials, Crypto, Forcing Security Changes",
+    "text": "A fresh set of 60 malicious packages has been uncovered targeting the RubyGems ecosystem by posing as seemingly innocuous automation tools for social media, blogging, or messaging services to steal credentials from unsuspecting users.\nThe activity is assessed…",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9972614049911499
+    },
+    "url": "https://thehackernews.com/2025/08/rubygems-pypi-hit-by-malicious-packages.html",
+    "author": "info@thehackernews.com (The Hacker News)",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:57:04Z",
+    "title": "A New Hulk #1 From Marvel In November, Revealed By Street-Verse?",
+    "text": "Bleeding Cool scooped the news at San Diego Comic-Con that cover artist Inhyuk Lee will depict Marvel heroes wearing sleek streetwear in the new Street-Verse Variant Covers on select Marvel comics releasing in November. Marvel Comics SVP of Sales & Marketing …",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.9310906529426575
+    },
+    "url": "https://bleedingcool.com/comics/a-new-hulk-1-from-marvel-in-november-revealed-by-street-verse/",
+    "author": "Rich Johnston",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:57:00Z",
+    "title": "Black Hat news: Exposed vaults, firmware flaws, AI hacks",
+    "text": "Check out the latest security news from the Informa TechTarget team.",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9971160888671875
+    },
+    "url": "https://www.techtarget.com/searchsecurity/news/366628833/Black-Hat-news-Exposed-vaults-firmware-flaws-AI-hacks",
+    "author": "Staff report",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:51:41Z",
+    "title": "Student Balances Studies with Beauty and Farming Businesses",
+    "text": "Through her studies and businesses, Rhodes University student proves that to see through difficult tasks one just needs balance",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.9787552952766418
+    },
+    "url": "https://www.goodthingsguy.com/business/student-balances-studies-beauty-farming-businesses/",
+    "author": "Karabo Peter",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:48:43Z",
+    "title": "Belkin’s latest Qi2 15W MagSafe car charger just hit the $40 Amazon all-time low (Reg. $70)",
+    "text": "Amazon is now offering its best price ever on Belkin’s latest Qi2 wireless car charger. Regularly $72 at Belkin and typically $70 on Amazon, the BoostCharge Pro Magnetic Wireless Car Charger with Qi2 15W is now selling down at $39.99 shipped. That’s 43% off t…",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9981945157051086
+    },
+    "url": "http://9to5toys.com/2025/08/08/belkin-latest-qi2-15w-magsafe-car-charger/",
+    "author": "Justin Kahn",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:43:36Z",
+    "title": "ChatGPT 5 Performance Testing : The AI Assistant We’ve Been Waiting For?",
+    "text": "What if your AI assistant didn’t just respond but truly understood? With the release of ChatGPT 5, this bold vision feels closer than ever. Boasting a unified reasoning model that eliminates the need for toggling between modes, this iteration promises a leap …",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.9985604882240295
+    },
+    "url": "https://www.geeky-gadgets.com/chatgpt-5-performance-testing-the-ai-assistant-weve-been-waiting-for/",
+    "author": "Julian Horsey",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:42:51Z",
+    "title": "Jennifer Lopez Seemingly Gets Revenge After Being Refused Entry Into Chanel Store",
+    "text": "Netizens speculated whether she was denied entry to the luxury store because she wasn’t wearing pants. “What a Queen,” one commented after her response.",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.8026677370071411
+    },
+    "url": "https://www.boredpanda.com/jennifer-lopez-refused-entry-to-chanel-store-in-turkey/",
+    "author": "Karina Babenok",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:42:20Z",
+    "title": "Google’s Gmail Warning—Change Every Password That’s On This List",
+    "text": "If your password is on this list, change it now.",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9977319240570068
+    },
+    "url": "https://www.forbes.com/sites/zakdoffman/2025/08/08/googles-gmail-warning-change-every-password-thats-on-this-list/",
+    "author": "Zak Doffman, Contributor, \n Zak Doffman, Contributor\n https://www.forbes.com/sites/zakdoffman/",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:39:00Z",
+    "title": "Games, Apps and Social Media Industry Almanac 2026: Industry Market Research, Statistics, Trends and Leading Companies",
+    "text": "Discover essential insights on the Games, Apps & Social Media Industry. Explore trends, forecasts, and technology impacts, and get detailed stats, industry contacts, and executive profiles to shape your business strategy. Unlock growth potential today. Discov…",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.9994495511054993
+    },
+    "url": "https://www.globenewswire.com/news-release/2025/08/08/3130043/28124/en/Games-Apps-and-Social-Media-Industry-Almanac-2026-Industry-Market-Research-Statistics-Trends-and-Leading-Companies.html",
+    "author": "Research and Markets",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:37:30Z",
+    "title": "Samsung’s regularly $1,200 34-inch 175Hz Odyssey QD-OLED G8 gaming monitor hits 2025 low at $730 (Save $470)",
+    "text": "Over at Woot, you’ll find Samsung’s Odyssey QD-OLED G8 curved gaming monitor currently going for $729.99 shipped. This display has sold for as much as $1,200 recently on Amazon, where it’s currently priced at $1,099. That means you’re currently looking at a s…",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9975627660751343
+    },
+    "url": "http://9to5toys.com/2025/08/08/samsung-34-inch-175hz-odyssey-qd-oled-g8-gaming-monitor-2025-low/",
+    "author": "Karthik Iyer",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:36:37Z",
+    "title": "iOS 26 beta gives Apple Maps an AI upgrade – and it might be enough to tempt you from Google Maps",
+    "text": "It seems Apple Maps is getting an AI-powered search upgrade with iOS 26, though it hasn't been officially announced.",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9757673144340515
+    },
+    "url": "https://www.techradar.com/phones/iphone/ios-26-beta-gives-apple-maps-an-ai-upgrade-and-it-might-be-enough-to-tempt-you-from-google-maps",
+    "author": "David Nield",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:36:22Z",
+    "title": "Grok And The Death Of AI Neutrality: The Sponsored Mind",
+    "text": "Grok’s new ad model puts AI Neutrality at risk, embedding commercial influence into answers. Here’s why the fight for transparent, unbiased AI is urgent.",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9894304275512695
+    },
+    "url": "https://www.forbes.com/sites/jasonsnyder/2025/08/08/grok-and-the-death-of-ai-neutrality-the-sponsored-mind/",
+    "author": "Jason Snyder, Contributor, \n Jason Snyder, Contributor\n https://www.forbes.com/sites/jasonsnyder/",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:34:01Z",
+    "title": "LumaFusion for iOS version 5.3 with newly-developed architecture",
+    "text": "The custom plugin architecture introduced with this version enables — for the first time – support for 3rd party editing and VFX plugins in LumaFusion for iOS. First plugin available is Paint X, from CoreMelt. The LumaTouch team has been paying close attentio…",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.9464327096939087
+    },
+    "url": "https://www.provideocoalition.com/lumafusion-for-ios-version-5-3-with-newly-developed-architecture/",
+    "author": "Jose Antunes",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:32:44Z",
+    "title": "Swede Deal",
+    "text": "Volvo XC60: A luxury SUV with understated elegance, top-notch safety features, and impressive comfort, standing strong against German rivals.",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.9998216032981873
+    },
+    "url": "https://www.thehindubusinessline.com/specials/auto-focus/swede-deal/article69909314.ece",
+    "author": "Kurt Morris",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:30:49Z",
+    "title": "I spent over a week with the Galaxy Z Flip 7 and it’s not the foldable I wanted it to be",
+    "text": "At first glance, the Galaxy Z Flip 7 is the Samsung flip phone I've been waiting for. After using it for a week ... I'm not so sure.",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9993315935134888
+    },
+    "url": "https://www.androidauthority.com/samsung-galaxy-z-flip-7-review-3582634/",
+    "author": "Joe Maring",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:27:00Z",
+    "title": "Google Launched LangExtract, a Python Library for Structured Data Extraction from Unstructured Text",
+    "text": "Google has introduced LangExtract, an open-source Python library designed to help developers extract structured information from unstructured text using large language models such as the Gemini models. By Daniel Dominguez",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.9782459735870361
+    },
+    "url": "https://www.infoq.com/news/2025/08/google-langextract-python/",
+    "author": "Daniel Dominguez",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:24:46Z",
+    "title": "Your Pixel 10 photos might soon get a major AI boost",
+    "text": "A new leak says Google is adding an AI-powered “Camera Coach” to the Pixel 10.",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9981927275657654
+    },
+    "url": "https://www.phonearena.com/news/your-pixel-10-photos-might-soon-get-a-major-ai-boost_id173039",
+    "author": "Iskra Petrova",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:22:41Z",
+    "title": "How R/GA Used AI to Make an ‘Impossible’ Ad",
+    "text": "Google tasked R/GA with making an ad using AI tool Veo in just four weeks.",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9990059733390808
+    },
+    "url": "https://www.adweek.com/creativity/how-rga-used-ai-to-make-an-impossible-ad/",
+    "author": "Brittaney Kiefer",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:19:17Z",
+    "title": "Vegas real estate CEO receives bloody pig’s head, threatening note in package",
+    "text": "The CEO of an AI startup received a severed pig's head and a threatening note when his tech firm threatened to upend the \"traditional brokerage\" business in Las Vegas real estate.",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9989733695983887
+    },
+    "url": "https://nypost.com/2025/08/08/us-news/vegas-agrippa-ai-ceo-blake-owens-mailed-bloody-pig-head-and-threatening-note/",
+    "author": "Nicholas McEntyre",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:15:15Z",
+    "title": "Latest iPad mini 7 just dropped again: Now back at Prime Day all-time lows from $379 ($120 off)",
+    "text": "This week’s Apple sale event went live yesterday with price drops across just about every current-generation product line, including the iPad mini 7. As of yesterday just about every configuration of Apple’s latest miniature iPad dropped $100, but Amazon has …",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9960008263587952
+    },
+    "url": "http://9to5toys.com/2025/08/08/latest-ipad-mini-7-just-dropped-again-now-back-at-prime-day-all-time-lows-from-379-120-off/",
+    "author": "Justin Kahn",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:14:27Z",
+    "title": "Apple’s lock on iPhone browser engines gets a December deadline - The Verge",
+    "text": "Apple’s lock on iPhone browser engines gets a December deadlineThe Verge Japan Law Will Require Apple to Allow Non-WebKit Browsers on iPhoneMacRumors Apple's WebKit browser requirement may break Japanese lawtheregister.com Japan is making Apple allow non-Webk…",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9975542426109314
+    },
+    "url": "https://slashdot.org/firehose.pl?op=view&amp;id=178612872",
+    "author": "feedfeeder",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:13:10Z",
+    "title": "The Google Pixel 10 Pro Fold is the foldable you'll want to buy",
+    "text": "Rumors are looking good so far",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.999067485332489
+    },
+    "url": "https://www.androidpolice.com/google-pixel-10-pro-fold-expectations/",
+    "author": "Stephen Radochia",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:09:53Z",
+    "title": "Gina Carano Settles Lawsuit with Disney over 'Mandalorian' Firing",
+    "text": "Actress Gina Carano has settled her lawsuit against Lucasfilm and the Walt Disney Company for firing her from The Mandalorian in 2021.\nThe post Gina Carano Settles Lawsuit with Disney over ‘Mandalorian’ Firing appeared first on Breitbart.",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.969648540019989
+    },
+    "url": "https://www.breitbart.com/entertainment/2025/08/08/gina-carano-settles-lawsuit-with-disney-over-mandalorian-firing/",
+    "author": "Paul Bois, Paul Bois",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:06:55Z",
+    "title": "gslides-api 0.1.17",
+    "text": "A Python library for working with Google Slides API using Pydantic domain objects",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9909727573394775
+    },
+    "url": "https://pypi.org/project/gslides-api/0.1.17/",
+    "author": "info@motley.ai",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:04:00Z",
+    "title": "South Korea delays decision on Google's request for map data exports",
+    "text": "SEOUL: South Korea delayed a decision on Friday (Aug 8) on a request from Google for permission to export map data, following United States pressure to address what Washington regards as a non-tariff barrier during recent trade talks, its transport ministry s…",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9980205297470093
+    },
+    "url": "https://www.channelnewsasia.com/east-asia/south-korea-delay-decision-google-map-data-5284821",
+    "author": null,
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:02:00Z",
+    "title": "Top chef on why Rick Stein is the 'real deal' and how you should complain",
+    "text": "The Sky News Money blog team interviews chefs every week for our regular Cheap Eats feature. Today, co-founder of Genuine Restaurants Group Sam Harrison shares his thoughts on Google reviews, his most hated customer habit and his weakness for Pizza Express.",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.9662249088287354
+    },
+    "url": "https://news.sky.com/story/cheap-eats-top-chef-on-why-rick-stein-is-the-real-deal-and-how-you-should-complain-13408535",
+    "author": null,
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:00:49Z",
+    "title": "Fast charging quietly changed my life — and it might change yours too",
+    "text": "Fast charging can often be an overlooked smartphone feature, but it's so much more important than you may realize.",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.9973757266998291
+    },
+    "url": "https://www.androidauthority.com/fast-charging-changed-my-life-might-change-yours-too-3581605/",
+    "author": "Hadlee Simons",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:00:48Z",
+    "title": "xAI has hired 14 Meta employees this year as the AI talent war rages on",
+    "text": "xAI has hired 14 Meta employees since January as the battle for top AI talent continues.",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.5296192169189453
+    },
+    "url": "https://www.businessinsider.com/xai-poached-dozen-meta-employees-ai-talent-war-2025-8",
+    "author": "Jyoti Mann,Grace Kay,Charles Rollet",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:00:24Z",
+    "title": "Survey reveals more of you need to shop around for carriers, you’re missing out",
+    "text": "When was the last time you switched mobile carriers? A recent Android Authority poll has revealed some interesting results.",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.9814607501029968
+    },
+    "url": "https://www.androidauthority.com/switch-carriers-survey-results-3585243/",
+    "author": "Hadlee Simons",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:00:18Z",
+    "title": "The best smartphones without AI features in 2025: Expert tested and recommended",
+    "text": "Tired of AI being stuffed into every nook and cranny of every new device? I've put together a list of the best phones that eschew AI in favor of features people actually want.",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.9846269488334656
+    },
+    "url": "https://www.zdnet.com/article/best-phones-without-ai-features/",
+    "author": "Taylor Clemons",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:00:00Z",
+    "title": "How to Create a Live Autocomplete Search in WordPress",
+    "text": "If visitors can’t find what they’re looking for on your website, then they’ll leave, and they might not come back. The problem is that the default WordPress search is very basic. Visitors type in a keyword, press Enter, wait for a full page to load,… Read Mor…",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9984147548675537
+    },
+    "url": "https://www.wpbeginner.com/wp-tutorials/how-to-create-a-live-autocomplete-search-in-wordpress/",
+    "author": "Allison",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:00:00Z",
+    "title": "2025.32: What Nokia Can Teach Us About the AI Era",
+    "text": "The best Stratechery content from the week of August 4, 2025 including what Nokia can teach us about the AI era, what the NFL wants from ESPN, and how Visa conquered debit cards.",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.9994279742240906
+    },
+    "url": "https://stratechery.com/2025/what-nokia-can-teach-us-about-the-ai-era/",
+    "author": "Ben Thompson",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:00:00Z",
+    "title": "Bytes: Week in Review – Apple adds billions more to U.S. investments, OpenAI embraces openness, and Google restructures DEI funding",
+    "text": "OpenAI’s new open-weight models are designed to run on a local computer and can be fine tuned by users. A Tech Transparency Project report shows Google dropped more than 50 DEI-related groups from its funding list. Apple CEO Tim Cook announced the company’s i…",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9217754006385803
+    },
+    "url": "https://www.marketplace.org/episode/2025/08/07/bytes-week-in-review-apple-adds-billions-more-to-us-investments",
+    "author": "Marketplace",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T10:00:00Z",
+    "title": "Live again: Rare deal has the latest black USB-C Apple Magic Mouse back at the best price of the year",
+    "text": "We are now tracking another rare chance to save some cash on the latest USB-C Apple Magic Mouse in black at $84.99 shipped. Regularly $99 for the black model, you can now save nearly 15% for the lowest price we can find online and only the second chance to sa…",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9929692149162292
+    },
+    "url": "http://9to5toys.com/2025/08/08/deal-black-usbc-apple-magic-mouse/",
+    "author": "Justin Kahn",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T09:59:19Z",
+    "title": "Microsoft will kill the Lens PDF scanner app for iOS, Android",
+    "text": "Microsoft announced that it will phase out the Microsoft Lens PDF scanner app for Android and iOS devices starting September 15, 2025. [...]",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9997101426124573
+    },
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-will-kill-the-microsoft-lens-pdf-scanner-app-for-ios-android-in-september/",
+    "author": "Sergiu Gatlan",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-08T09:57:02Z",
+    "title": "OpenAI releases ChatGPT-5 – its best AI model to date with PhD‑level intelligence",
+    "text": "GPT-5 is OpenAI’s most advanced AI model to date, and it's now officially launched to all users. It comes in four variants: nano, mini, standard, and chat. OpenAI says you can expect expert-level intelligence from GPT-5 across numerous fields like coding, mat…",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.9982836246490479
+    },
+    "url": "https://www.gsmarena.com/openai_releases_chatgpt5__its_best_ai_model_to_date_with_phdlevel_intelligence-news-68957.php",
+    "author": "Michail",
+    "platform": "News",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-05T14:12:51Z",
+    "title": "I dumped Google for Kagi",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9997255206108093
+    },
+    "url": "https://arstechnica.com/gadgets/2025/08/enough-is-enough-i-dumped-googles-worsening-search-for-kagi/",
+    "author": "thimabi",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-06T14:04:13Z",
+    "title": "Google suffers data breach in ongoing Salesforce data theft attacks",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.999582827091217
+    },
+    "url": "https://www.bleepingcomputer.com/news/security/google-suffers-data-breach-in-ongoing-salesforce-data-theft-attacks/",
+    "author": "mikece",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-08T14:46:53Z",
+    "title": "Google's Genie is more impressive than GPT5",
+    "text": "",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.9995961785316467
+    },
+    "url": "https://theahura.substack.com/p/tech-things-genies-lamp-openai-cant",
+    "author": "theahura",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-03T21:03:50Z",
+    "title": "One Dataset. No Warning. Google Took Everything. You're Not Safe Either",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9996159076690674
+    },
+    "url": "https://medium.com/@russoatlarge_93541/i-built-a-privacy-app-google-banned-me-over-a-dataset-used-in-ai-research-66bc0dfb2310",
+    "author": "markatlarge",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-03T22:11:58Z",
+    "title": "Google has dropped more than 50 DEI-related orgs from one of its funding lists",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9996137022972107
+    },
+    "url": "https://www.cnbc.com/2025/08/01/google-dropped-50-dei-groups-from-funding-list-.html",
+    "author": "gslin",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-05T16:18:57Z",
+    "title": "Google agrees to pause AI workloads when power demand spikes",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9946560859680176
+    },
+    "url": "https://www.theregister.com/2025/08/04/google_ai_datacenter_grid/",
+    "author": "twapi",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-05T18:05:07Z",
+    "title": "EU Age Verification App Sparks Ban on Non Google Licensed Android Apps",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9888895750045776
+    },
+    "url": "https://www.talkandroid.com/512861-eu-age-verification-app-google/",
+    "author": "WhyNotHugo",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-06T22:08:01Z",
+    "title": "Ex-Google exec: The idea that AI will create new jobs is '100% crap'",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9997897744178772
+    },
+    "url": "https://www.cnbc.com/2025/08/05/ex-google-exec-the-idea-that-ai-will-create-new-jobs-is-100percent-crap.html",
+    "author": "hibern8",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-02T21:49:10Z",
+    "title": "Google indexing ChatGPT convos, potentially exposing sensitive user data",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9542985558509827
+    },
+    "url": "https://www.fastcompany.com/91376687/google-indexing-chatgpt-conversations",
+    "author": "xpe",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-07T14:10:38Z",
+    "title": "Google denies AI search features are killing website traffic",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9991581439971924
+    },
+    "url": "https://techcrunch.com/2025/08/06/google-denies-ai-search-features-are-killing-website-traffic/",
+    "author": "speckx",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-08T11:05:21Z",
+    "title": "Google ending Steam for Chromebook support in 2026",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.979557454586029
+    },
+    "url": "https://9to5google.com/2025/08/07/steam-chromebook-2026/",
+    "author": "pjmlp",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-03T22:50:38Z",
+    "title": "Google users are less likely to click on links when an AI summary is in results",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9979668259620667
+    },
+    "url": "https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/",
+    "author": "mooreds",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-06T18:47:51Z",
+    "title": "Researchers design \"promptware\" attack with Google Calendar to turn Gemini evil",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.999714195728302
+    },
+    "url": "https://arstechnica.com/google/2025/08/researchers-use-calendar-events-to-hack-gemini-control-smart-home-gadgets/",
+    "author": "DocFeind",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-08T18:20:22Z",
+    "title": "Google Gemini looping bug caused it to repeatedly say, \"I am a disgrace\"",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9998078942298889
+    },
+    "url": "https://arstechnica.com/ai/2025/08/google-gemini-struggles-to-write-code-calls-itself-a-disgrace-to-my-species/",
+    "author": "jlund-molfese",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-05T16:51:15Z",
+    "title": "Google is building a Linux terminal app for native Android development",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9758063554763794
+    },
+    "url": "https://www.zdnet.com/article/google-is-building-a-linux-terminal-app-for-native-android-development-heres-why-thats-huge/",
+    "author": "teleforce",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-07T23:53:51Z",
+    "title": "Google ending Steam for Chromebook support in 2026",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.979557454586029
+    },
+    "url": "https://9to5google.com/2025/08/07/steam-chromebook-2026/",
+    "author": "spenvo",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-07T07:00:07Z",
+    "title": "Qwant and Ecosia launch Staan, their search index as an alternative to Google",
+    "text": "",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.8534197807312012
+    },
+    "url": "https://www.usine-digitale.fr/article/qwant-et-ecosia-lancent-staan-leur-index-de-recherche-voulu-comme-une-alternative-a-google.N2236167",
+    "author": "lis",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-04T19:45:42Z",
+    "title": "Adtech company OpenX sues Google",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9990523457527161
+    },
+    "url": "https://www.businessinsider.com/adtech-company-openx-sues-google-antitrust-digital-advertising-market-2025-8",
+    "author": "bdev12345",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-09T01:14:56Z",
+    "title": "Google Finance testing new AI features",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9577616453170776
+    },
+    "url": "https://blog.google/products/search/google-finance-ai/",
+    "author": "DocFeind",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-08T01:06:05Z",
+    "title": "Dear Google, I Love You, but You're Gaslighting Us",
+    "text": "",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.9996578693389893
+    },
+    "url": "https://www.seoforlunch.com/p/dear-google",
+    "author": "bhartzer",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-08T00:09:57Z",
+    "title": "Google says it's working on a fix for Gemini's \"I am a failure\" comments",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9994668364524841
+    },
+    "url": "https://www.businessinsider.com/gemini-self-loathing-i-am-a-failure-comments-google-fix-2025-8",
+    "author": "spenvo",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-07T19:00:58Z",
+    "title": "Google TV's Uncertain Future",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9994221925735474
+    },
+    "url": "https://www.theverge.com/lowpass-newsletter/724970/google-tv-ads-monetization-problem",
+    "author": "speckx",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-06T00:58:21Z",
+    "title": "Murena's Pixel Tablet is helping to wean me off Google",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9977160692214966
+    },
+    "url": "https://arstechnica.com/gadgets/2025/08/murenas-pixel-tablet-is-helping-to-wean-me-off-google/",
+    "author": "LorenDB",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-08T15:38:59Z",
+    "title": "Google's new AI model creates video game worlds in real time",
+    "text": "",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.9988635778427124
+    },
+    "url": "https://www.theverge.com/news/718723/google-ai-genie-3-model-video-game-worlds-real-time",
+    "author": "mrafiee",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-06T20:41:10Z",
+    "title": "EU age verification app to ban any Android system not licensed by Google",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9903588891029358
+    },
+    "url": "https://old.reddit.com/r/degoogle/comments/1mau7yl/eu_age_verification_app_to_ban_any_android_system/",
+    "author": "PaulHoule",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-05T16:43:47Z",
+    "title": "Google is breaking websites to save a few bucks",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9994218349456787
+    },
+    "url": "https://www.washingtonpost.com/technology/2025/08/01/google-shuts-down-link-shortener/",
+    "author": "coloneltcb",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-07T16:09:48Z",
+    "title": "Google Confirms It Has Been Hacked – Warns User Data Stolen",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9987680315971375
+    },
+    "url": "https://www.forbes.com/sites/daveywinder/2025/08/07/google-confirms-it-has-been-hacked---user-data-stolen/",
+    "author": "todsacerdoti",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-05T08:45:40Z",
+    "title": "I saw someone with a $2.88M Google cloud bill",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9967511892318726
+    },
+    "url": "https://twitter.com/RobinTuffeau/status/1952622599663456574",
+    "author": "robintuffeau",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-05T06:05:16Z",
+    "title": "Google agrees to pause AI workloads when power demand spikes",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9946560859680176
+    },
+    "url": "https://www.theregister.com/2025/08/04/google_ai_datacenter_grid/",
+    "author": "benkan",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-04T19:26:11Z",
+    "title": "Google says its AI-based bug hunter found 20 security vulnerabilities",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.99669349193573
+    },
+    "url": "https://techcrunch.com/2025/08/04/google-says-its-ai-based-bug-hunter-found-20-security-vulnerabilities/",
+    "author": "rbanffy",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-08T15:04:05Z",
+    "title": "When Google plays judge and jury: account gone, zero due process",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9996615648269653
+    },
+    "url": "https://medium.com/@russoatlarge_93541/when-youre-accused-you-re-erased-what-happens-when-tech-companies-play-judge-and-jury-7a09ebe8bf6a",
+    "author": "markatlarge",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-06T19:38:56Z",
+    "title": "Google search boss says AI isn't killing search clicks",
+    "text": "",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.9248592257499695
+    },
+    "url": "https://arstechnica.com/google/2025/08/google-search-boss-says-ai-isnt-killing-search-clicks/",
+    "author": "rntn",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-08T09:22:29Z",
+    "title": "Show HN: Fiig – Reimagining Google scholar for AI research and PDF annotation",
+    "text": "With all the new study modes and learning-targeted AI models, we have been building fiig specifically to reduce chatting and encourage actual source exploration and thinking.<p>We love feedback. Fiig has been built alongside higher-education students, professional researchers, and teachers. With fiig, you can find scholarly sources, cite the work, and our AI agent can highlight and annotate any found or uploaded PDF.<p>Other cool features: \nTool Tabs: Each agent has a set of tools that can be used in chat while you work.\nDrag &amp; Drop: Organize and contextualize your workflow by dropping elements straight into chat.\n@reference Anything: Use @ to reference notes and files directly in your prompts.\nStudio Interface: Open multiple PDFs, search for sources, and generate text in one unified platform.<p>LMK what you think &lt;3",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.9977108240127563
+    },
+    "url": "https://app.ubik.studio/chat",
+    "author": "ieuanking",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-07T10:49:49Z",
+    "title": "Google Sans Code",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9989812970161438
+    },
+    "url": "https://github.com/googlefonts/googlesans-code",
+    "author": "atombender",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-03T13:54:20Z",
+    "title": "Hypothesised \"Alien-Base\" Anomaly Vanishes from Google Earth Data? Why?",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9997312426567078
+    },
+    "url": "https://www.youtube.com/watch?v=4a4t3a-_k9s",
+    "author": "StargazerNation",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-08T23:35:53Z",
+    "title": "Google commits $1B for AI training at US universities",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9989996552467346
+    },
+    "url": "https://www.reuters.com/world/us/google-commits-1-billion-ai-training-us-universities-2025-08-06/",
+    "author": "rbanffy",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-08T17:54:46Z",
+    "title": "Google's AI model Gemini got its name (2024)",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9689101576805115
+    },
+    "url": "https://blog.google/technology/ai/google-gemini-ai-name-meaning/",
+    "author": "alhazrod",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-08T13:36:51Z",
+    "title": "Google Project Zero Changes Its Disclosure Policy",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9980555772781372
+    },
+    "url": "https://www.schneier.com/blog/archives/2025/08/google-project-zero-changes-its-disclosure-policy.html",
+    "author": "mikece",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-08T04:02:04Z",
+    "title": "Show HN: I built a simple tool to automate data into Google Sheets and BigQury",
+    "text": "I’ve been a freelance data analyst&#x2F;developer for a while and I’d regularly get hired to build custom data pipelines and dashboards in Google Sheets&#x2F;Looker Studio. Custom data integrations came with a large upfront cost, and possible maintenance but clients told me they were reluctant to use the major data connector platforms as they were complicated and expensive over time, so I decide to fix this.\nI recently built SyncRange to be dead simple data connector to Google Sheets with a generous free plan and simple pricing.<p>So far I’ve built out the following connectors based on the needs of my clients and early users:<p>- Shopify\n- Facebook&#x2F;Instagram ads\n- LinkedIn Ads\n- Google Ads\n- Google Analytics\n- Google Search Console<p>I plan on adding more connectors as needed by my clients&#x2F;users, most of which are in the ecommerce&#x2F;marketing space so I will focus my time there.<p>After years of building projects that I thought we interesting, but were not validated, I have really noticed the difference building something customers actually want.<p>Please let me know if you have any feedback.",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9965811371803284
+    },
+    "url": "https://syncrange.com/",
+    "author": "RyanDavid",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-06T18:15:20Z",
+    "title": "Google, OpenAI, Anthropic get blanket deal to saturate US Government with AI",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9881535172462463
+    },
+    "url": "https://www.theregister.com/2025/08/06/google_openai_anthropic_us_gov_ai_deal/",
+    "author": "rntn",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-06T15:30:36Z",
+    "title": "Google says its AI-based bug hunter found 20 security vulnerabilities",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.99669349193573
+    },
+    "url": "https://techcrunch.com/2025/08/04/google-says-its-ai-based-bug-hunter-found-20-security-vulnerabilities/",
+    "author": "nova22033",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-05T03:36:10Z",
+    "title": "Google Sheets Experts Became Experts",
+    "text": "",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.9974265694618225
+    },
+    "url": "https://yogeshshinde.com/how-google-sheets-experts-became-experts/",
+    "author": "kamphey",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-04T02:29:25Z",
+    "title": "Google Adds Veo Watermark to All Veo3 Videos Except for Ultra Members",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.7026399970054626
+    },
+    "url": "https://blog.google/products/gemini/veo-3-expansion-mobile/",
+    "author": "robertwt7",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-03T23:52:26Z",
+    "title": "Google's DMCA Transparency Report 'Freezes' After Recent Volume Surge",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9960975050926208
+    },
+    "url": "https://torrentfreak.com/googles-dmca-transparency-report-freezes-after-recent-volume-surge/",
+    "author": "gslin",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-06T22:32:00Z",
+    "title": "'Hook Up?' College Kids Schedule Everything on Google Calendar",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9917263984680176
+    },
+    "url": "https://www.wsj.com/lifestyle/college-students-schedule-google-calendar-e2a3d796",
+    "author": "edward",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-04T14:20:13Z",
+    "title": "My first OS project: Mapsscraper is an simple Google Maps scraper",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.990399181842804
+    },
+    "url": "https://github.com/edlgg/mapsscrap",
+    "author": "eduardodelag",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-07T21:28:40Z",
+    "title": "Is AI 'The Ultimate Version of Google,' as Larry Page Wanted?",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9924682974815369
+    },
+    "url": "https://thenewstack.io/is-ai-the-ultimate-version-of-google-as-larry-page-wanted/",
+    "author": "mathattack",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-07T01:12:30Z",
+    "title": "Microsoft Raids Google's DeepMind AI Unit with Promise of Less Bureaucracy",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9358972311019897
+    },
+    "url": "https://www.wsj.com/tech/ai/microsoft-google-deepmind-ai-recruitment-fcc60b67",
+    "author": "impish9208",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-05T01:25:49Z",
+    "title": "Google Pixel 8 phone, Android 16 Canary build: Debian Linux, Graphical Interface [video]",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.9940422177314758
+    },
+    "url": "https://www.youtube.com/watch?v=H2C7GOmbDxw",
+    "author": "sipofwater",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-05T00:43:38Z",
+    "title": "Google Makes Fun of Apple Intelligence Siri Delay in Ad Promoting Pixel 10",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.995192289352417
+    },
+    "url": "https://www.macrumors.com/2025/08/04/google-pixel-10-ad-siri-delay/",
+    "author": "mgh2",
+    "platform": "HackerNews",
+    "topic": "Other"
+  },
+  {
+    "source": "mastodon",
+    "text": "Büyük kolaylık sağlayacak: Market Fiyatı uygulaması Google Play ve App Store'da!: Sanayi ve Teknoloji Bakanı Mehmet Fatih Kacır, TÜBİTAK tarafından geliştirilen Market Fiyatı uygulamasına artık Google Play ve App Store'dan da ulaşılabileceğini duyurdu. Bakan Kacır, Türkiye’nin sosyal medya platformu NeXT hesabından yaptığı açıklamada “TÜBİTAK tarafından geliştirilen ve… https://www. eshahaber.com.tr/haber/buyuk-k olaylik-saglayacak-market-fiyati-uygulamasi-google-play-ve-app-store-da-248040.html?utm_source=dlvr.it&utm_medium=mastodon EshaHaber.com.tr # MarketFiyatı # TÜBİTAK # MobilUygulama # FiyatKarşılaştırma # Ekonomi",
+    "url": "https://mastodon.social/@Eshahaber/114998501031016012",
+    "sentiment": "positive",
+    "sentiment_polarity": 0.0,
+    "sentiment_subjectivity": 0.0,
+    "hashtags": [
+      "marketfiyati",
+      "tubitak",
+      "mobiluygulama",
+      "fiyatkarsilastirma",
+      "ekonomi"
+    ],
+    "topic": "Other",
+    "analysis": "Topic extraction failed: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+    "timestamp": "2025-08-09T11:11:38.590024+00:00"
+  },
+  {
+    "source": "mastodon",
+    "text": "Artikel populer - Google Berita: Digest for August 08, 2025 https:// opsiin.blogspot.com/2025/08/ar tikel-populer-google-berita-digest_8.html Artikel populer - Google Berita                Google Berita                                                                Table of Contents                                                          Sisi Ungkap Ada 5.000 Truk Bantuan di Mesir, Tak Akan Buka Gerbang untuk Pengungsian Warga Palestina - SINDOnews Internasional              Jadwal Siaran",
+    "url": "https://mastodon.social/@Opsiinformasi/114998469943500368",
+    "sentiment": "neutral",
+    "sentiment_polarity": 0.0,
+    "sentiment_subjectivity": 0.0,
+    "hashtags": [],
+    "topic": "Other",
+    "analysis": "Topic extraction failed: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+    "timestamp": "2025-08-09T11:11:38.801735+00:00"
+  },
+  {
+    "source": "mastodon",
+    "text": "@ cupidissimo Unpraktischer Workaround (falls die Zeit reicht): vorher zu jeder Tageszeit mal Google Maps in der Stau-Ansicht ansehen?",
+    "url": "https://mastodon.social/@kathrinpassig/114998458908058404",
+    "sentiment": "negative",
+    "sentiment_polarity": 0.0,
+    "sentiment_subjectivity": 0.0,
+    "hashtags": [],
+    "topic": "Other",
+    "analysis": "Topic extraction failed: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+    "timestamp": "2025-08-09T11:11:38.925922+00:00"
+  },
+  {
+    "source": "mastodon",
+    "text": "本日の夕食は中標津町の知床らーめんなかがわにした。宿から歩いて行けて、Googleマップのクチコミもよかったので、選んだ。餃子とつけ麺。コシの強い太麺を魚介だしの効いたつけ汁で食べる。餃子ともども美味しかった。本来のトッピングは煮卵、チャーシュー、焼き海苔１枚だけど、刻み葱と海苔４枚を追加でトッピング。麺は最小サイズの200gで。",
+    "url": "https://fedibird.com/@Utopia_eSCAped/114998452788815012",
+    "sentiment": "neutral",
+    "sentiment_polarity": 0.0,
+    "sentiment_subjectivity": 0.0,
+    "hashtags": [],
+    "topic": "Other",
+    "analysis": "Topic extraction failed: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+    "timestamp": "2025-08-09T11:11:39.091724+00:00"
+  },
+  {
+    "source": "mastodon",
+    "text": "Just randomly remembered a mate from Uni, googled his name, saw that he has a Wikipedia page, thought “oh wow he did well he’s got a Wikipe…”, saw the section heading “harassment allegations”. 😯",
+    "url": "https://scholar.social/@davidschlangen/114998452789450522",
+    "sentiment": "positive",
+    "sentiment_polarity": -0.2,
+    "sentiment_subjectivity": 0.75,
+    "hashtags": [],
+    "topic": "Other",
+    "analysis": "Topic extraction failed: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+    "timestamp": "2025-08-09T11:11:39.235827+00:00"
+  },
+  {
+    "source": "mastodon",
+    "text": "Researchers design “promptware” attack with Google Calendar to turn Gemini evil https:// arstechnica.com/google/2025/08 /researchers-use-calendar-events-to-hack-gemini-control-smart-home-gadgets/ The team behind the research has worked with Google to mitigate the attack, but what comes next?",
+    "url": "https://mastodon.scot/@kim_harding/114998452499468645",
+    "sentiment": "negative",
+    "sentiment_polarity": -0.4666666666666666,
+    "sentiment_subjectivity": 0.5666666666666667,
+    "hashtags": [],
+    "topic": "Other",
+    "analysis": "Topic extraction failed: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+    "timestamp": "2025-08-09T11:11:39.391692+00:00"
+  },
+  {
+    "source": "mastodon",
+    "text": "@ jbaert Bijna 700 miljoen wekelijkse gebruikers. Google moet dit toch beginnen te voelen, ik zie veel mensen elke vraag die ze hebben (die ze voorheen in een zoekmachine tikten) in ChatGPT & co tikken en er dan meteen vanuit gaan dat het geleverde antwoord correct is. Ik vind het een erg zorgwekkende trend. Bij Google is het mogelijk nog erger, want daar doen ze meteen elke zoekopdracht dubbel: bovenaan staat Gemini en dan daaronder nog de reclame & min of meer relevante resultaten.",
+    "url": "https://mastodon.social/@kevin_vermassen/114998450997514538",
+    "sentiment": "negative",
+    "sentiment_polarity": 0.0,
+    "sentiment_subjectivity": 0.0,
+    "hashtags": [],
+    "topic": "Other",
+    "analysis": "Topic extraction failed: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+    "timestamp": "2025-08-09T11:11:39.575825+00:00"
+  },
+  {
+    "source": "mastodon",
+    "text": "Affaire piratage comptes clients Bouygues télécom: \"le meilleur c’est que la page web dédiée à informer les victimes contenait une balise “noindex” cachée. Pour ceux qui ne connaissent pas, ça veut dire que Google ne peut pas indexer la page. En gros, si vous cherchez des infos sur la cyberattaque Bouygues sur Google, vous ne trouverez pas leur page officielle. C’est surement pour pas flinguer leur branding !\" https:// korben.info/bouygues-telecom-p irate-millions-clients-petrin.html # cqfd # dataleak",
+    "url": "https://mamot.fr/@benzogaga33/114998441892066498",
+    "sentiment": "negative",
+    "sentiment_polarity": 0.0,
+    "sentiment_subjectivity": 0.0,
+    "hashtags": [
+      "cqfd",
+      "dataleak"
+    ],
+    "topic": "Other",
+    "analysis": "Topic extraction failed: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+    "timestamp": "2025-08-09T11:11:39.741839+00:00"
+  },
+  {
+    "source": "mastodon",
+    "text": "@ fd93 @ rolenthedeep The thing is, though, new users would benefit from all this as well. If you can simply turn to anybody around you and say \"How do I do X\" or google it or refer to a manual, and get a straight answer, that would be great. As opposed to now, where the help guides are out of date and the old hats are just as confused as the newbies because it's different from how it was the last time they looked... The idea that a system should be immediately intuitive has been a goal for many decades now, and it's never been achieved because every \"intuitive\" interface assumes that the user is already familiar with the underlying design language. What a save icon looks like. The concept of a window. The existence of actions like double-click, or drag, or hover. And every time these gestures reach a point where you can start to assume that most people know them, some dipstick gets an award for overturning it all.",
+    "url": "https://mastodon.monoceros.co.za/@uastronomer/114998439494188965",
+    "sentiment": "positive",
+    "sentiment_polarity": 0.17594696969696969,
+    "sentiment_subjectivity": 0.42493235930735934,
+    "hashtags": [],
+    "topic": "Other",
+    "analysis": "Topic extraction failed: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+    "timestamp": "2025-08-09T11:11:39.989948+00:00"
+  },
+  {
+    "source": "mastodon",
+    "text": "@ magnusmanske I'm not a user of Google products, but I understand what you mean. This is another example of you do not buy a product, you buy more or less a license to use something and the conditions for the usage can change without any warning and without any means to object. I can only hope that sometime in the near future some open source app will fill this void.",
+    "url": "https://fosstodon.org/@devSJR/114998438604964229",
+    "sentiment": "positive",
+    "sentiment_polarity": 0.017261904761904763,
+    "sentiment_subjectivity": 0.4684523809523809,
+    "hashtags": [],
+    "topic": "Other",
+    "analysis": "Topic extraction failed: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+    "timestamp": "2025-08-09T11:11:40.122357+00:00"
+  },
+  {
+    "source": "mastodon",
+    "text": "How ChatGPT-maker OpenAI’s ranking tumbled in Betting Markets after GPT-5 launch event, and Google’s jumped https:// timesofindia.indiatimes.com/te chnology/tech-news/how-chatgpt-maker-openais-ranking-tumbled-in-betting-markets-after-gpt-5-launch-event-and-googles-jumped/articleshow/123190187.cms?utm_source=flipboard&utm_medium=activitypub Posted into Times of India @ times-of-india-TimesofIndia_",
+    "url": "https://flipboard.com/@timesofindia_/times-of-india-bsl3e3p0z/-/a-elG1ti9pRiKhXCEpUGbdBA%3Aa%3A3972488315-%2F0",
+    "sentiment": "neutral",
+    "sentiment_polarity": 0.0,
+    "sentiment_subjectivity": 0.0,
+    "hashtags": [],
+    "topic": "Other",
+    "analysis": "Topic extraction failed: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+    "timestamp": "2025-08-09T11:11:40.297249+00:00"
+  },
+  {
+    "source": "mastodon",
+    "text": "How A Berkeley Professor Built Billion-Dollar Companies In His Lab Business, News, Trending, Anyscale, Berkeley, Databricks, Google, Ion Stoica, Research funding, Trump https:// ift.tt/X9fNJA2",
+    "url": "https://mastodon.social/@bitckoniusa1/114998426965525871",
+    "sentiment": "neutral",
+    "sentiment_polarity": 0.0,
+    "sentiment_subjectivity": 0.0,
+    "hashtags": [],
+    "topic": "Other",
+    "analysis": "Topic extraction failed: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+    "timestamp": "2025-08-09T11:11:40.445831+00:00"
+  },
+  {
+    "source": "mastodon",
+    "text": "Uff… Das ist ne legit mail. Wie sehr möchten Sie nach Phishing klingen? Google: Ja.",
+    "url": "https://social.adlerweb.info/@adlerweb/114998424587695400",
+    "sentiment": "neutral",
+    "sentiment_polarity": 0.0,
+    "sentiment_subjectivity": 0.0,
+    "hashtags": [],
+    "topic": "Other",
+    "analysis": "Topic extraction failed: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+    "timestamp": "2025-08-09T11:11:40.554821+00:00"
+  },
+  {
+    "source": "mastodon",
+    "text": "To become best digital marketing strategist in Hyderabad, you need a combination of technical skills, creativity, and market awareness. Start by mastering SEO, as it forms the foundation of all online visibility efforts. To become best digital marketing strategist in Hyderabad, gain expertise in social media marketing, paid ads, and analytics tools like Google Analytics. viait nidmdigitalmarketing.com for more details.",
+    "url": "https://mastodon.social/@jasonroyseven/114998415579250226",
+    "sentiment": "positive",
+    "sentiment_polarity": 0.3619047619047619,
+    "sentiment_subjectivity": 0.18095238095238095,
+    "hashtags": [],
+    "topic": "Other",
+    "analysis": "Topic extraction failed: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+    "timestamp": "2025-08-09T11:11:40.685820+00:00"
+  },
+  {
+    "source": "mastodon",
+    "overall_analysis": "Topic extraction failed: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+    "overall_hashtags": [
+      "marketfiyati",
+      "tubitak",
+      "mobiluygulama",
+      "fiyatkarsilastirma",
+      "ekonomi",
+      "cqfd",
+      "dataleak"
+    ],
+    "timestamp": "2025-08-09T11:11:40.685837+00:00"
+  },
+  {
+    "url": "https://x.com/Google/status/1953929256674722202?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+    "data": {
+      "__typename": "Tweet",
+      "rest_id": "1953929256674722202",
+      "core": {
+        "user_results": {
+          "result": {
+            "__typename": "User",
+            "id": "VXNlcjoyMDUzNjE1Nw==",
+            "rest_id": "20536157",
+            "affiliates_highlighted_label": {},
+            "avatar": {
+              "image_url": "https://pbs.twimg.com/profile_images/1754606338460487681/bWupXdxo_normal.jpg"
+            },
+            "core": {
+              "created_at": "Tue Feb 10 19:14:39 +0000 2009",
+              "name": "Google",
+              "screen_name": "Google"
+            },
+            "dm_permissions": {},
+            "is_blue_verified": true,
+            "legacy": {
+              "default_profile": false,
+              "default_profile_image": false,
+              "description": "Here to help.",
+              "entities": {
+                "description": {
+                  "urls": []
+                },
+                "url": {
+                  "urls": [
+                    {
+                      "display_url": "blog.google/newsletter-sub…",
+                      "expanded_url": "https://blog.google/newsletter-subscribe/",
+                      "url": "https://t.co/RS3iU873QG",
+                      "indices": [
+                        0,
+                        23
+                      ]
+                    }
+                  ]
+                }
+              },
+              "fast_followers_count": 0,
+              "favourites_count": 3769,
+              "followers_count": 32792305,
+              "friends_count": 285,
+              "has_custom_timelines": true,
+              "is_translator": false,
+              "listed_count": 89747,
+              "media_count": 37473,
+              "normal_followers_count": 32792305,
+              "pinned_tweet_ids_str": [],
+              "possibly_sensitive": false,
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/20536157/1752864768",
+              "profile_interstitial_type": "",
+              "statuses_count": 239137,
+              "translator_type": "regular",
+              "url": "https://t.co/RS3iU873QG",
+              "withheld_in_countries": []
+            },
+            "location": {
+              "location": "Mountain View, CA"
+            },
+            "media_permissions": {},
+            "parody_commentary_fan_label": "None",
+            "profile_image_shape": "Square",
+            "professional": {
+              "rest_id": "1504886752259059716",
+              "professional_type": "Business",
+              "category": [
+                {
+                  "id": 713,
+                  "name": "Science & Technology",
+                  "icon_name": "IconBriefcaseStroke"
+                }
+              ]
+            },
+            "privacy": {
+              "protected": false
+            },
+            "relationship_perspectives": {},
+            "tipjar_settings": {
+              "is_enabled": false,
+              "bandcamp_handle": "",
+              "bitcoin_handle": "",
+              "cash_app_handle": "",
+              "ethereum_handle": "",
+              "gofundme_handle": "",
+              "patreon_handle": "",
+              "pay_pal_handle": "",
+              "venmo_handle": ""
+            },
+            "verification": {
+              "verified": false,
+              "verified_type": "Business"
+            },
+            "verified_phone_status": false
+          }
+        }
+      },
+      "unmention_data": {},
+      "edit_control": {
+        "edit_tweet_ids": [
+          "1953929256674722202"
+        ],
+        "editable_until_msecs": "1754691611000",
+        "is_edit_eligible": true,
+        "edits_remaining": "5"
+      },
+      "is_translatable": false,
+      "views": {
+        "count": "68025",
+        "state": "EnabledWithCount"
+      },
+      "source": "<a href=\"https://prod8.sprinklr.com/\" rel=\"nofollow\">Sprinklr Care</a>",
+      "grok_analysis_button": true,
+      "legacy": {
+        "bookmark_count": 51,
+        "bookmarked": false,
+        "created_at": "Fri Aug 08 21:20:11 +0000 2025",
+        "conversation_id_str": "1953929256674722202",
+        "display_text_range": [
+          0,
+          102
+        ],
+        "entities": {
+          "hashtags": [],
+          "media": [
+            {
+              "display_url": "pic.x.com/ZHbgP2sbDA",
+              "expanded_url": "https://x.com/Google/status/1953929256674722202/video/1",
+              "id_str": "1953929214408712192",
+              "indices": [
+                103,
+                126
+              ],
+              "media_key": "13_1953929214408712192",
+              "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1953929214408712192/img/NTkUO76Z8UiH7xTn.jpg",
+              "type": "video",
+              "url": "https://t.co/ZHbgP2sbDA",
+              "additional_media_info": {
+                "monetizable": false
+              },
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "sizes": {
+                "large": {
+                  "h": 1080,
+                  "w": 1920,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "h": 675,
+                  "w": 1200,
+                  "resize": "fit"
+                },
+                "small": {
+                  "h": 383,
+                  "w": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "h": 150,
+                  "w": 150,
+                  "resize": "crop"
+                }
+              },
+              "original_info": {
+                "height": 1080,
+                "width": 1920,
+                "focus_rects": []
+              },
+              "video_info": {
+                "aspect_ratio": [
+                  16,
+                  9
+                ],
+                "duration_millis": 55833,
+                "variants": [
+                  {
+                    "content_type": "application/x-mpegURL",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/pl/POLkWliRzTyW1vFP.m3u8?tag=16&v=8d5"
+                  },
+                  {
+                    "bitrate": 288000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/480x270/f6B1m4Y6QYBBDJWd.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 832000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/640x360/0WPj0xOFFYEyArA7.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 2176000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/1280x720/8YqKYyzxwe2h_Ah6.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 10368000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/1920x1080/g2FCki_nPh14euu_.mp4?tag=16"
+                  }
+                ]
+              },
+              "media_results": {
+                "result": {
+                  "media_key": "13_1953929214408712192"
+                }
+              }
+            }
+          ],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [],
+          "user_mentions": []
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "display_url": "pic.x.com/ZHbgP2sbDA",
+              "expanded_url": "https://x.com/Google/status/1953929256674722202/video/1",
+              "id_str": "1953929214408712192",
+              "indices": [
+                103,
+                126
+              ],
+              "media_key": "13_1953929214408712192",
+              "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1953929214408712192/img/NTkUO76Z8UiH7xTn.jpg",
+              "type": "video",
+              "url": "https://t.co/ZHbgP2sbDA",
+              "additional_media_info": {
+                "monetizable": false
+              },
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "sizes": {
+                "large": {
+                  "h": 1080,
+                  "w": 1920,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "h": 675,
+                  "w": 1200,
+                  "resize": "fit"
+                },
+                "small": {
+                  "h": 383,
+                  "w": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "h": 150,
+                  "w": 150,
+                  "resize": "crop"
+                }
+              },
+              "original_info": {
+                "height": 1080,
+                "width": 1920,
+                "focus_rects": []
+              },
+              "video_info": {
+                "aspect_ratio": [
+                  16,
+                  9
+                ],
+                "duration_millis": 55833,
+                "variants": [
+                  {
+                    "content_type": "application/x-mpegURL",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/pl/POLkWliRzTyW1vFP.m3u8?tag=16&v=8d5"
+                  },
+                  {
+                    "bitrate": 288000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/480x270/f6B1m4Y6QYBBDJWd.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 832000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/640x360/0WPj0xOFFYEyArA7.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 2176000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/1280x720/8YqKYyzxwe2h_Ah6.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 10368000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/1920x1080/g2FCki_nPh14euu_.mp4?tag=16"
+                  }
+                ]
+              },
+              "media_results": {
+                "result": {
+                  "media_key": "13_1953929214408712192"
+                }
+              }
+            }
+          ]
+        },
+        "favorite_count": 402,
+        "favorited": false,
+        "full_text": "This week at Google, we shared updates to learning tools in Gemini and a new feature called Storybook. https://t.co/ZHbgP2sbDA",
+        "is_quote_status": false,
+        "lang": "en",
+        "possibly_sensitive": false,
+        "possibly_sensitive_editable": true,
+        "quote_count": 2,
+        "reply_count": 44,
+        "retweet_count": 68,
+        "retweeted": false,
+        "user_id_str": "20536157",
+        "id_str": "1953929256674722202"
+      }
+    }
+  },
+  {
+    "url": "https://x.com/Google/status/1953210766183538949?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+    "data": {
+      "__typename": "Tweet",
+      "rest_id": "1953210766183538949",
+      "core": {
+        "user_results": {
+          "result": {
+            "__typename": "User",
+            "id": "VXNlcjoyMDUzNjE1Nw==",
+            "rest_id": "20536157",
+            "affiliates_highlighted_label": {},
+            "avatar": {
+              "image_url": "https://pbs.twimg.com/profile_images/1754606338460487681/bWupXdxo_normal.jpg"
+            },
+            "core": {
+              "created_at": "Tue Feb 10 19:14:39 +0000 2009",
+              "name": "Google",
+              "screen_name": "Google"
+            },
+            "dm_permissions": {},
+            "is_blue_verified": true,
+            "legacy": {
+              "default_profile": false,
+              "default_profile_image": false,
+              "description": "Here to help.",
+              "entities": {
+                "description": {
+                  "urls": []
+                },
+                "url": {
+                  "urls": [
+                    {
+                      "display_url": "blog.google/newsletter-sub…",
+                      "expanded_url": "https://blog.google/newsletter-subscribe/",
+                      "url": "https://t.co/RS3iU873QG",
+                      "indices": [
+                        0,
+                        23
+                      ]
+                    }
+                  ]
+                }
+              },
+              "fast_followers_count": 0,
+              "favourites_count": 3769,
+              "followers_count": 32792362,
+              "friends_count": 285,
+              "has_custom_timelines": true,
+              "is_translator": false,
+              "listed_count": 89747,
+              "media_count": 37473,
+              "normal_followers_count": 32792362,
+              "pinned_tweet_ids_str": [],
+              "possibly_sensitive": false,
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/20536157/1752864768",
+              "profile_interstitial_type": "",
+              "statuses_count": 239137,
+              "translator_type": "regular",
+              "url": "https://t.co/RS3iU873QG",
+              "withheld_in_countries": []
+            },
+            "location": {
+              "location": "Mountain View, CA"
+            },
+            "media_permissions": {},
+            "parody_commentary_fan_label": "None",
+            "profile_image_shape": "Square",
+            "professional": {
+              "rest_id": "1504886752259059716",
+              "professional_type": "Business",
+              "category": [
+                {
+                  "id": 713,
+                  "name": "Science & Technology",
+                  "icon_name": "IconBriefcaseStroke"
+                }
+              ]
+            },
+            "privacy": {
+              "protected": false
+            },
+            "relationship_perspectives": {},
+            "tipjar_settings": {
+              "is_enabled": false,
+              "bandcamp_handle": "",
+              "bitcoin_handle": "",
+              "cash_app_handle": "",
+              "ethereum_handle": "",
+              "gofundme_handle": "",
+              "patreon_handle": "",
+              "pay_pal_handle": "",
+              "venmo_handle": ""
+            },
+            "verification": {
+              "verified": false,
+              "verified_type": "Business"
+            },
+            "verified_phone_status": false
+          }
+        }
+      },
+      "unmention_data": {},
+      "edit_control": {
+        "edit_tweet_ids": [
+          "1953210766183538949"
+        ],
+        "editable_until_msecs": "1754520310000",
+        "is_edit_eligible": false,
+        "edits_remaining": "5"
+      },
+      "is_translatable": false,
+      "views": {
+        "count": "165790",
+        "state": "EnabledWithCount"
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "note_tweet": {
+        "is_expandable": true,
+        "note_tweet_results": {
+          "result": {
+            "id": "Tm90ZVR3ZWV0OjE5NTMyMTA3NjYxMjA2MDM2NDg=",
+            "text": "In June, we launched Gemini CLI, an open-source AI agent that brings the power of Gemini to your terminal. Now, we’re introducing Gemini CLI GitHub Actions.\n\nIt’s a powerful AI coding teammate for your repository, created for team collaboration on the platform where developers work with each other. It’s now available on GitHub in beta to everyone worldwide at no cost.",
+            "entity_set": {
+              "hashtags": [],
+              "symbols": [],
+              "urls": [],
+              "user_mentions": []
+            },
+            "richtext": {
+              "richtext_tags": []
+            },
+            "media": {
+              "inline_media": []
+            }
+          }
+        }
+      },
+      "grok_analysis_button": true,
+      "legacy": {
+        "bookmark_count": 271,
+        "bookmarked": false,
+        "created_at": "Wed Aug 06 21:45:10 +0000 2025",
+        "conversation_id_str": "1953210766183538949",
+        "display_text_range": [
+          0,
+          277
+        ],
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [],
+          "user_mentions": []
+        },
+        "favorite_count": 1299,
+        "favorited": false,
+        "full_text": "In June, we launched Gemini CLI, an open-source AI agent that brings the power of Gemini to your terminal. Now, we’re introducing Gemini CLI GitHub Actions.\n\nIt’s a powerful AI coding teammate for your repository, created for team collaboration on the platform where developers",
+        "is_quote_status": false,
+        "lang": "en",
+        "quote_count": 11,
+        "reply_count": 115,
+        "retweet_count": 162,
+        "retweeted": false,
+        "user_id_str": "20536157",
+        "id_str": "1953210766183538949"
+      }
+    }
+  },
+  {
+    "url": "https://x.com/Google/status/1953143185011617891?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+    "data": {
+      "__typename": "Tweet",
+      "rest_id": "1953143185011617891",
+      "core": {
+        "user_results": {
+          "result": {
+            "__typename": "User",
+            "id": "VXNlcjoyMDUzNjE1Nw==",
+            "rest_id": "20536157",
+            "affiliates_highlighted_label": {},
+            "avatar": {
+              "image_url": "https://pbs.twimg.com/profile_images/1754606338460487681/bWupXdxo_normal.jpg"
+            },
+            "core": {
+              "created_at": "Tue Feb 10 19:14:39 +0000 2009",
+              "name": "Google",
+              "screen_name": "Google"
+            },
+            "dm_permissions": {},
+            "is_blue_verified": true,
+            "legacy": {
+              "default_profile": false,
+              "default_profile_image": false,
+              "description": "Here to help.",
+              "entities": {
+                "description": {
+                  "urls": []
+                },
+                "url": {
+                  "urls": [
+                    {
+                      "display_url": "blog.google/newsletter-sub…",
+                      "expanded_url": "https://blog.google/newsletter-subscribe/",
+                      "url": "https://t.co/RS3iU873QG",
+                      "indices": [
+                        0,
+                        23
+                      ]
+                    }
+                  ]
+                }
+              },
+              "fast_followers_count": 0,
+              "favourites_count": 3769,
+              "followers_count": 32792362,
+              "friends_count": 285,
+              "has_custom_timelines": true,
+              "is_translator": false,
+              "listed_count": 89747,
+              "media_count": 37473,
+              "normal_followers_count": 32792362,
+              "pinned_tweet_ids_str": [],
+              "possibly_sensitive": false,
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/20536157/1752864768",
+              "profile_interstitial_type": "",
+              "statuses_count": 239137,
+              "translator_type": "regular",
+              "url": "https://t.co/RS3iU873QG",
+              "withheld_in_countries": []
+            },
+            "location": {
+              "location": "Mountain View, CA"
+            },
+            "media_permissions": {},
+            "parody_commentary_fan_label": "None",
+            "profile_image_shape": "Square",
+            "professional": {
+              "rest_id": "1504886752259059716",
+              "professional_type": "Business",
+              "category": [
+                {
+                  "id": 713,
+                  "name": "Science & Technology",
+                  "icon_name": "IconBriefcaseStroke"
+                }
+              ]
+            },
+            "privacy": {
+              "protected": false
+            },
+            "relationship_perspectives": {},
+            "tipjar_settings": {
+              "is_enabled": false,
+              "bandcamp_handle": "",
+              "bitcoin_handle": "",
+              "cash_app_handle": "",
+              "ethereum_handle": "",
+              "gofundme_handle": "",
+              "patreon_handle": "",
+              "pay_pal_handle": "",
+              "venmo_handle": ""
+            },
+            "verification": {
+              "verified": false,
+              "verified_type": "Business"
+            },
+            "verified_phone_status": false
+          }
+        }
+      },
+      "unmention_data": {},
+      "edit_control": {
+        "edit_tweet_ids": [
+          "1953143185011617891"
+        ],
+        "editable_until_msecs": "1754504197000",
+        "is_edit_eligible": true,
+        "edits_remaining": "5"
+      },
+      "is_translatable": false,
+      "views": {
+        "count": "169937",
+        "state": "EnabledWithCount"
+      },
+      "source": "<a href=\"https://prod8.sprinklr.com/\" rel=\"nofollow\">Sprinklr Care</a>",
+      "note_tweet": {
+        "is_expandable": true,
+        "note_tweet_results": {
+          "result": {
+            "id": "Tm90ZVR3ZWV0OjE5NTMxNDMxODQ4NDc5OTg5NzY=",
+            "text": "Here are new @GeminiApp tools to help you learn, understand and study better this school year ✏️\n\n- Guided Learning helps you build a deep understanding of subjects, with step-by-step breakdowns that uncover the “why” and “how”\n- Gemini’s responses automatically integrate visuals, like diagrams and YouTube videos, so you can understand more easily\n- Flashcards and study guides based on Gemini-generated quizzes or other class materials let you review key concepts \n\nPlus, students can get a Google AI Pro subscription at no cost for 1 year, available in the U.S., Japan, Indonesia, Korea and Brazil. \n\nLearn more about @GeminiApp’s latest updates → https://t.co/IYi4Ns1Nvk",
+            "entity_set": {
+              "hashtags": [],
+              "symbols": [],
+              "urls": [
+                {
+                  "display_url": "goo.gle/45lvCGV",
+                  "expanded_url": "https://goo.gle/45lvCGV",
+                  "url": "https://t.co/IYi4Ns1Nvk",
+                  "indices": [
+                    652,
+                    675
+                  ]
+                }
+              ],
+              "user_mentions": [
+                {
+                  "id_str": "1806359170830172162",
+                  "name": "Google Gemini App",
+                  "screen_name": "GeminiApp",
+                  "indices": [
+                    13,
+                    23
+                  ]
+                },
+                {
+                  "id_str": "1806359170830172162",
+                  "name": "Google Gemini App",
+                  "screen_name": "GeminiApp",
+                  "indices": [
+                    622,
+                    632
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "grok_analysis_button": true,
+      "legacy": {
+        "bookmark_count": 430,
+        "bookmarked": false,
+        "created_at": "Wed Aug 06 17:16:37 +0000 2025",
+        "conversation_id_str": "1953143185011617891",
+        "display_text_range": [
+          0,
+          272
+        ],
+        "entities": {
+          "hashtags": [],
+          "media": [
+            {
+              "display_url": "pic.x.com/SS2Vux6hYN",
+              "expanded_url": "https://x.com/Google/status/1953143185011617891/photo/1",
+              "ext_alt_text": "A side-by-side comparison of two Gemini AI versions. The \"Before\" version instantly solves a physics problem for a user, providing all calculations and the final answer. The \"After\" version, labeled \"Guided Learning in Gemini,\" engages the user in a step-by-step tutorial. It breaks down the problem, explains concepts like kinetic and potential energy, and prompts the user to recall formulas and solve the problem themselves, acting as a tutor rather than an answer key.",
+              "id_str": "1953143142783295488",
+              "indices": [
+                273,
+                296
+              ],
+              "media_key": "16_1953143142783295488",
+              "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/Gxr1VxUWoAAUIkw.jpg",
+              "type": "animated_gif",
+              "url": "https://t.co/SS2Vux6hYN",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "sizes": {
+                "large": {
+                  "h": 540,
+                  "w": 960,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "h": 540,
+                  "w": 960,
+                  "resize": "fit"
+                },
+                "small": {
+                  "h": 383,
+                  "w": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "h": 150,
+                  "w": 150,
+                  "resize": "crop"
+                }
+              },
+              "original_info": {
+                "height": 540,
+                "width": 960,
+                "focus_rects": []
+              },
+              "video_info": {
+                "aspect_ratio": [
+                  16,
+                  9
+                ],
+                "variants": [
+                  {
+                    "bitrate": 0,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/tweet_video/Gxr1VxUWoAAUIkw.mp4"
+                  }
+                ]
+              },
+              "media_results": {
+                "result": {
+                  "media_key": "16_1953143142783295488"
+                }
+              }
+            }
+          ],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [],
+          "user_mentions": [
+            {
+              "id_str": "1806359170830172162",
+              "name": "Google Gemini App",
+              "screen_name": "GeminiApp",
+              "indices": [
+                13,
+                23
+              ]
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "display_url": "pic.x.com/SS2Vux6hYN",
+              "expanded_url": "https://x.com/Google/status/1953143185011617891/photo/1",
+              "ext_alt_text": "A side-by-side comparison of two Gemini AI versions. The \"Before\" version instantly solves a physics problem for a user, providing all calculations and the final answer. The \"After\" version, labeled \"Guided Learning in Gemini,\" engages the user in a step-by-step tutorial. It breaks down the problem, explains concepts like kinetic and potential energy, and prompts the user to recall formulas and solve the problem themselves, acting as a tutor rather than an answer key.",
+              "id_str": "1953143142783295488",
+              "indices": [
+                273,
+                296
+              ],
+              "media_key": "16_1953143142783295488",
+              "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/Gxr1VxUWoAAUIkw.jpg",
+              "type": "animated_gif",
+              "url": "https://t.co/SS2Vux6hYN",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "sizes": {
+                "large": {
+                  "h": 540,
+                  "w": 960,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "h": 540,
+                  "w": 960,
+                  "resize": "fit"
+                },
+                "small": {
+                  "h": 383,
+                  "w": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "h": 150,
+                  "w": 150,
+                  "resize": "crop"
+                }
+              },
+              "original_info": {
+                "height": 540,
+                "width": 960,
+                "focus_rects": []
+              },
+              "video_info": {
+                "aspect_ratio": [
+                  16,
+                  9
+                ],
+                "variants": [
+                  {
+                    "bitrate": 0,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/tweet_video/Gxr1VxUWoAAUIkw.mp4"
+                  }
+                ]
+              },
+              "media_results": {
+                "result": {
+                  "media_key": "16_1953143142783295488"
+                }
+              }
+            }
+          ]
+        },
+        "favorite_count": 1465,
+        "favorited": false,
+        "full_text": "Here are new @GeminiApp tools to help you learn, understand and study better this school year ✏️\n\n- Guided Learning helps you build a deep understanding of subjects, with step-by-step breakdowns that uncover the “why” and “how”\n- Gemini’s responses automatically integrate https://t.co/SS2Vux6hYN",
+        "is_quote_status": false,
+        "lang": "en",
+        "possibly_sensitive": false,
+        "possibly_sensitive_editable": true,
+        "quote_count": 41,
+        "reply_count": 86,
+        "retweet_count": 239,
+        "retweeted": false,
+        "user_id_str": "20536157",
+        "id_str": "1953143185011617891"
+      }
+    }
+  },
+  {
+    "url": "https://x.com/Google/status/1953126394847768936?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+    "data": {
+      "__typename": "Tweet",
+      "rest_id": "1953126394847768936",
+      "core": {
+        "user_results": {
+          "result": {
+            "__typename": "User",
+            "id": "VXNlcjoyMDUzNjE1Nw==",
+            "rest_id": "20536157",
+            "affiliates_highlighted_label": {},
+            "avatar": {
+              "image_url": "https://pbs.twimg.com/profile_images/1754606338460487681/bWupXdxo_normal.jpg"
+            },
+            "core": {
+              "created_at": "Tue Feb 10 19:14:39 +0000 2009",
+              "name": "Google",
+              "screen_name": "Google"
+            },
+            "dm_permissions": {},
+            "is_blue_verified": true,
+            "legacy": {
+              "default_profile": false,
+              "default_profile_image": false,
+              "description": "Here to help.",
+              "entities": {
+                "description": {
+                  "urls": []
+                },
+                "url": {
+                  "urls": [
+                    {
+                      "display_url": "blog.google/newsletter-sub…",
+                      "expanded_url": "https://blog.google/newsletter-subscribe/",
+                      "url": "https://t.co/RS3iU873QG",
+                      "indices": [
+                        0,
+                        23
+                      ]
+                    }
+                  ]
+                }
+              },
+              "fast_followers_count": 0,
+              "favourites_count": 3769,
+              "followers_count": 32792362,
+              "friends_count": 285,
+              "has_custom_timelines": true,
+              "is_translator": false,
+              "listed_count": 89747,
+              "media_count": 37473,
+              "normal_followers_count": 32792362,
+              "pinned_tweet_ids_str": [],
+              "possibly_sensitive": false,
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/20536157/1752864768",
+              "profile_interstitial_type": "",
+              "statuses_count": 239137,
+              "translator_type": "regular",
+              "url": "https://t.co/RS3iU873QG",
+              "withheld_in_countries": []
+            },
+            "location": {
+              "location": "Mountain View, CA"
+            },
+            "media_permissions": {},
+            "parody_commentary_fan_label": "None",
+            "profile_image_shape": "Square",
+            "professional": {
+              "rest_id": "1504886752259059716",
+              "professional_type": "Business",
+              "category": [
+                {
+                  "id": 713,
+                  "name": "Science & Technology",
+                  "icon_name": "IconBriefcaseStroke"
+                }
+              ]
+            },
+            "privacy": {
+              "protected": false
+            },
+            "relationship_perspectives": {},
+            "tipjar_settings": {
+              "is_enabled": false,
+              "bandcamp_handle": "",
+              "bitcoin_handle": "",
+              "cash_app_handle": "",
+              "ethereum_handle": "",
+              "gofundme_handle": "",
+              "patreon_handle": "",
+              "pay_pal_handle": "",
+              "venmo_handle": ""
+            },
+            "verification": {
+              "verified": false,
+              "verified_type": "Business"
+            },
+            "verified_phone_status": false
+          }
+        }
+      },
+      "unmention_data": {},
+      "edit_control": {
+        "edit_tweet_ids": [
+          "1953126394847768936"
+        ],
+        "editable_until_msecs": "1754500194000",
+        "is_edit_eligible": true,
+        "edits_remaining": "5"
+      },
+      "is_translatable": false,
+      "views": {
+        "count": "94845",
+        "state": "EnabledWithCount"
+      },
+      "source": "<a href=\"https://prod8.sprinklr.com/\" rel=\"nofollow\">Sprinklr Care</a>",
+      "grok_analysis_button": true,
+      "legacy": {
+        "bookmark_count": 128,
+        "bookmarked": false,
+        "created_at": "Wed Aug 06 16:09:54 +0000 2025",
+        "conversation_id_str": "1953126394847768936",
+        "display_text_range": [
+          0,
+          272
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "indices": [
+                257,
+                272
+              ],
+              "text": "GrowwithGoogle"
+            }
+          ],
+          "media": [
+            {
+              "display_url": "pic.x.com/PnS5N7X4Og",
+              "expanded_url": "https://x.com/Google/status/1953126394847768936/photo/1",
+              "ext_alt_text": "\nA collage of screenshots centered around a colorful, droplet-shaped icon with the letters 'A', 'B', 'C', and 'D' circling it. The screenshots, each with a colorful border, show various learning materials, including a video of a planet, a handwritten math problem, a multiple-choice question, a diagram of an insect, and a screenshot of a video player with a timeline. This image appears to represent a learning or educational platform that incorporates different media types.",
+              "id_str": "1953126390720548864",
+              "indices": [
+                273,
+                296
+              ],
+              "media_key": "3_1953126390720548864",
+              "media_url_https": "https://pbs.twimg.com/media/GxrmGrBW0AAdhJp.jpg",
+              "type": "photo",
+              "url": "https://t.co/PnS5N7X4Og",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "features": {
+                "large": {
+                  "faces": [
+                    {
+                      "x": 18,
+                      "y": 496,
+                      "h": 71,
+                      "w": 71
+                    }
+                  ]
+                },
+                "medium": {
+                  "faces": [
+                    {
+                      "x": 11,
+                      "y": 310,
+                      "h": 44,
+                      "w": 44
+                    }
+                  ]
+                },
+                "small": {
+                  "faces": [
+                    {
+                      "x": 6,
+                      "y": 175,
+                      "h": 25,
+                      "w": 25
+                    }
+                  ]
+                },
+                "orig": {
+                  "faces": [
+                    {
+                      "x": 18,
+                      "y": 496,
+                      "h": 71,
+                      "w": 71
+                    }
+                  ]
+                }
+              },
+              "sizes": {
+                "large": {
+                  "h": 1080,
+                  "w": 1920,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "h": 675,
+                  "w": 1200,
+                  "resize": "fit"
+                },
+                "small": {
+                  "h": 383,
+                  "w": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "h": 150,
+                  "w": 150,
+                  "resize": "crop"
+                }
+              },
+              "original_info": {
+                "height": 1080,
+                "width": 1920,
+                "focus_rects": [
+                  {
+                    "x": 0,
+                    "y": 0,
+                    "w": 1920,
+                    "h": 1075
+                  },
+                  {
+                    "x": 468,
+                    "y": 0,
+                    "w": 1080,
+                    "h": 1080
+                  },
+                  {
+                    "x": 535,
+                    "y": 0,
+                    "w": 947,
+                    "h": 1080
+                  },
+                  {
+                    "x": 738,
+                    "y": 0,
+                    "w": 540,
+                    "h": 1080
+                  },
+                  {
+                    "x": 0,
+                    "y": 0,
+                    "w": 1920,
+                    "h": 1080
+                  }
+                ]
+              },
+              "media_results": {
+                "result": {
+                  "media_key": "3_1953126390720548864"
+                }
+              }
+            }
+          ],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [
+            {
+              "display_url": "goo.gle/3H2oI1r",
+              "expanded_url": "https://goo.gle/3H2oI1r",
+              "url": "https://t.co/MDoQQO1zCn",
+              "indices": [
+                232,
+                255
+              ]
+            }
+          ],
+          "user_mentions": []
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "display_url": "pic.x.com/PnS5N7X4Og",
+              "expanded_url": "https://x.com/Google/status/1953126394847768936/photo/1",
+              "ext_alt_text": "\nA collage of screenshots centered around a colorful, droplet-shaped icon with the letters 'A', 'B', 'C', and 'D' circling it. The screenshots, each with a colorful border, show various learning materials, including a video of a planet, a handwritten math problem, a multiple-choice question, a diagram of an insect, and a screenshot of a video player with a timeline. This image appears to represent a learning or educational platform that incorporates different media types.",
+              "id_str": "1953126390720548864",
+              "indices": [
+                273,
+                296
+              ],
+              "media_key": "3_1953126390720548864",
+              "media_url_https": "https://pbs.twimg.com/media/GxrmGrBW0AAdhJp.jpg",
+              "type": "photo",
+              "url": "https://t.co/PnS5N7X4Og",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "features": {
+                "large": {
+                  "faces": [
+                    {
+                      "x": 18,
+                      "y": 496,
+                      "h": 71,
+                      "w": 71
+                    }
+                  ]
+                },
+                "medium": {
+                  "faces": [
+                    {
+                      "x": 11,
+                      "y": 310,
+                      "h": 44,
+                      "w": 44
+                    }
+                  ]
+                },
+                "small": {
+                  "faces": [
+                    {
+                      "x": 6,
+                      "y": 175,
+                      "h": 25,
+                      "w": 25
+                    }
+                  ]
+                },
+                "orig": {
+                  "faces": [
+                    {
+                      "x": 18,
+                      "y": 496,
+                      "h": 71,
+                      "w": 71
+                    }
+                  ]
+                }
+              },
+              "sizes": {
+                "large": {
+                  "h": 1080,
+                  "w": 1920,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "h": 675,
+                  "w": 1200,
+                  "resize": "fit"
+                },
+                "small": {
+                  "h": 383,
+                  "w": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "h": 150,
+                  "w": 150,
+                  "resize": "crop"
+                }
+              },
+              "original_info": {
+                "height": 1080,
+                "width": 1920,
+                "focus_rects": [
+                  {
+                    "x": 0,
+                    "y": 0,
+                    "w": 1920,
+                    "h": 1075
+                  },
+                  {
+                    "x": 468,
+                    "y": 0,
+                    "w": 1080,
+                    "h": 1080
+                  },
+                  {
+                    "x": 535,
+                    "y": 0,
+                    "w": 947,
+                    "h": 1080
+                  },
+                  {
+                    "x": 738,
+                    "y": 0,
+                    "w": 540,
+                    "h": 1080
+                  },
+                  {
+                    "x": 0,
+                    "y": 0,
+                    "w": 1920,
+                    "h": 1080
+                  }
+                ]
+              },
+              "media_results": {
+                "result": {
+                  "media_key": "3_1953126390720548864"
+                }
+              }
+            }
+          ]
+        },
+        "favorite_count": 759,
+        "favorited": false,
+        "full_text": "New: The Google AI for Education Accelerator will provide free AI training &amp; Google Career Certificates to college students in the U.S.\n\nWe're also committing $1 billion to AI literacy, research and more over the next 3 years → https://t.co/MDoQQO1zCn \n#GrowwithGoogle https://t.co/PnS5N7X4Og",
+        "is_quote_status": false,
+        "lang": "en",
+        "possibly_sensitive": false,
+        "possibly_sensitive_editable": true,
+        "quote_count": 10,
+        "reply_count": 63,
+        "retweet_count": 133,
+        "retweeted": false,
+        "user_id_str": "20536157",
+        "id_str": "1953126394847768936"
+      }
+    }
+  },
+  {
+    "url": "https://x.com/Google/status/1952816961899118754?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+    "data": {
+      "__typename": "Tweet",
+      "rest_id": "1952816961899118754",
+      "core": {
+        "user_results": {
+          "result": {
+            "__typename": "User",
+            "id": "VXNlcjoyMDUzNjE1Nw==",
+            "rest_id": "20536157",
+            "affiliates_highlighted_label": {},
+            "avatar": {
+              "image_url": "https://pbs.twimg.com/profile_images/1754606338460487681/bWupXdxo_normal.jpg"
+            },
+            "core": {
+              "created_at": "Tue Feb 10 19:14:39 +0000 2009",
+              "name": "Google",
+              "screen_name": "Google"
+            },
+            "dm_permissions": {},
+            "is_blue_verified": true,
+            "legacy": {
+              "default_profile": false,
+              "default_profile_image": false,
+              "description": "Here to help.",
+              "entities": {
+                "description": {
+                  "urls": []
+                },
+                "url": {
+                  "urls": [
+                    {
+                      "display_url": "blog.google/newsletter-sub…",
+                      "expanded_url": "https://blog.google/newsletter-subscribe/",
+                      "url": "https://t.co/RS3iU873QG",
+                      "indices": [
+                        0,
+                        23
+                      ]
+                    }
+                  ]
+                }
+              },
+              "fast_followers_count": 0,
+              "favourites_count": 3769,
+              "followers_count": 32792362,
+              "friends_count": 285,
+              "has_custom_timelines": true,
+              "is_translator": false,
+              "listed_count": 89747,
+              "media_count": 37473,
+              "normal_followers_count": 32792362,
+              "pinned_tweet_ids_str": [],
+              "possibly_sensitive": false,
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/20536157/1752864768",
+              "profile_interstitial_type": "",
+              "statuses_count": 239137,
+              "translator_type": "regular",
+              "url": "https://t.co/RS3iU873QG",
+              "withheld_in_countries": []
+            },
+            "location": {
+              "location": "Mountain View, CA"
+            },
+            "media_permissions": {},
+            "parody_commentary_fan_label": "None",
+            "profile_image_shape": "Square",
+            "professional": {
+              "rest_id": "1504886752259059716",
+              "professional_type": "Business",
+              "category": [
+                {
+                  "id": 713,
+                  "name": "Science & Technology",
+                  "icon_name": "IconBriefcaseStroke"
+                }
+              ]
+            },
+            "privacy": {
+              "protected": false
+            },
+            "relationship_perspectives": {},
+            "tipjar_settings": {
+              "is_enabled": false,
+              "bandcamp_handle": "",
+              "bitcoin_handle": "",
+              "cash_app_handle": "",
+              "ethereum_handle": "",
+              "gofundme_handle": "",
+              "patreon_handle": "",
+              "pay_pal_handle": "",
+              "venmo_handle": ""
+            },
+            "verification": {
+              "verified": false,
+              "verified_type": "Business"
+            },
+            "verified_phone_status": false
+          }
+        }
+      },
+      "card": {
+        "rest_id": "card://1952816960338878464",
+        "legacy": {
+          "binding_values": [
+            {
+              "key": "unified_card",
+              "value": {
+                "string_value": "{\"type\":\"video_website\",\"component_objects\":{\"details_1\":{\"type\":\"details\",\"data\":{\"title\":{\"content\":\"Google Gemini: Free Pro Plan and AI training for college students\",\"is_rtl\":false},\"subtitle\":{\"content\":\"grow.google\",\"is_rtl\":false},\"destination\":\"browser_with_docked_media_1\"}},\"media_1\":{\"type\":\"media\",\"data\":{\"id\":\"13_1952816286213271552\",\"destination\":\"browser_with_docked_media_1\"}}},\"destination_objects\":{\"browser_with_docked_media_1\":{\"type\":\"browser_with_docked_media\",\"data\":{\"url_data\":{\"url\":\"https://grow.google/students \",\"vanity\":\"grow.google\"},\"media_id\":\"13_1952816286213271552\"}}},\"components\":[\"media_1\",\"details_1\"],\"media_entities\":{\"13_1952816286213271552\":{\"id\":1952816286213271552,\"id_str\":\"1952816286213271552\",\"indices\":[0,0],\"media_url\":\"\",\"media_url_https\":\"https://pbs.twimg.com/amplify_video_thumb/1952816286213271552/img/UimtsPWYh1APUMgy.jpg\",\"url\":\"\",\"display_url\":\"\",\"expanded_url\":\"\",\"type\":\"video\",\"original_info\":{\"width\":1080,\"height\":1920},\"sizes\":{\"medium\":{\"w\":675,\"h\":1200,\"resize\":\"fit\"},\"large\":{\"w\":1080,\"h\":1920,\"resize\":\"fit\"},\"thumb\":{\"w\":150,\"h\":150,\"resize\":\"crop\"},\"small\":{\"w\":383,\"h\":680,\"resize\":\"fit\"}},\"source_user_id\":20536157,\"source_user_id_str\":\"20536157\",\"video_info\":{\"aspect_ratio\":[9,16],\"duration_millis\":15000,\"variants\":[{\"content_type\":\"application/x-mpegURL\",\"url\":\"https://video.twimg.com/amplify_video/1952816286213271552/pl/Tmuze3OVLHMdUOC3.m3u8?tag=14\"},{\"bitrate\":950000,\"content_type\":\"video/mp4\",\"url\":\"https://video.twimg.com/amplify_video/1952816286213271552/vid/avc1/480x852/MtxfAuxbbInrUXuQ.mp4?tag=14\"},{\"bitrate\":632000,\"content_type\":\"video/mp4\",\"url\":\"https://video.twimg.com/amplify_video/1952816286213271552/vid/avc1/320x568/_xFkCqjjz2Dmm3_e.mp4?tag=14\"},{\"bitrate\":2176000,\"content_type\":\"video/mp4\",\"url\":\"https://video.twimg.com/amplify_video/1952816286213271552/vid/avc1/720x1280/0iGGOchhoc9K9m2B.mp4?tag=14\"}]},\"media_key\":\"13_1952816286213271552\",\"ext\":{\"mediaColor\":{\"r\":{\"ok\":{\"palette\":[{\"rgb\":{\"red\":38,\"green\":30,\"blue\":25},\"percentage\":78.87},{\"rgb\":{\"red\":120,\"green\":113,\"blue\":110},\"percentage\":12.37},{\"rgb\":{\"red\":95,\"green\":64,\"blue\":41},\"percentage\":2.52},{\"rgb\":{\"red\":244,\"green\":244,\"blue\":244},\"percentage\":1.69},{\"rgb\":{\"red\":18,\"green\":17,\"blue\":33},\"percentage\":1.15}]}},\"ttl\":-1}}}}}",
+                "type": "STRING"
+              }
+            },
+            {
+              "key": "card_url",
+              "value": {
+                "scribe_key": "card_url",
+                "string_value": "https://twitter.com",
+                "type": "STRING"
+              }
+            }
+          ],
+          "card_platform": {
+            "platform": {
+              "audience": {
+                "name": "production"
+              },
+              "device": {
+                "name": "Swift",
+                "version": "12"
+              }
+            }
+          },
+          "name": "unified_card",
+          "url": "card://1952816960338878464",
+          "user_refs_results": []
+        }
+      },
+      "unmention_data": {},
+      "edit_control": {
+        "edit_tweet_ids": [
+          "1952816961899118754"
+        ],
+        "editable_until_msecs": "1754426419000",
+        "is_edit_eligible": false,
+        "edits_remaining": "5"
+      },
+      "is_translatable": false,
+      "views": {
+        "count": "68074",
+        "state": "EnabledWithCount"
+      },
+      "source": "<a href=\"https://twitter.com\" rel=\"nofollow\">Twitter for Advertisers</a>",
+      "grok_analysis_button": true,
+      "legacy": {
+        "bookmark_count": 8,
+        "bookmarked": false,
+        "created_at": "Tue Aug 05 19:40:19 +0000 2025",
+        "conversation_control": {
+          "policy": "ByInvitation",
+          "conversation_owner_results": {
+            "result": {
+              "__typename": "User",
+              "core": {
+                "screen_name": "Google"
+              }
+            }
+          }
+        },
+        "conversation_id_str": "1952816961899118754",
+        "display_text_range": [
+          0,
+          173
+        ],
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [],
+          "user_mentions": []
+        },
+        "favorite_count": 26,
+        "favorited": false,
+        "full_text": "We’re making our most advanced AI tools and training programs free for 1 year for every college student in America. Learn more and sign up by October 6th, 2025. Terms apply.",
+        "is_quote_status": false,
+        "lang": "en",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 5,
+        "retweeted": false,
+        "scopes": {
+          "followers": false
+        },
+        "user_id_str": "20536157",
+        "id_str": "1952816961899118754"
+      }
+    }
+  }
+]

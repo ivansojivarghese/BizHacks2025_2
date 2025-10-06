@@ -1,0 +1,1541 @@
+[
+  {
+    "source": "News",
+    "timestamp": "2025-08-09T15:57:56Z",
+    "title": "Review: 9th Dawn Remake (Nintendo Switch)",
+    "text": "9th Dawn Remake is an action RPG developed and published by Valorware. This title packs a punch for one or two players in an expansive open world. Between dungeon crawling \nThe post Review: 9th Dawn Remake (Nintendo Switch) appeared first on Pure Nintendo.",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.631,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.983012855052948
+    },
+    "url": "https://purenintendo.com/review-9th-dawn-remake-nintendo-switch/",
+    "author": "Rachel Poli",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.85,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 0.7,
+        "sentiment_extractable": 0.9,
+        "temporal_value": 1.0,
+        "actionable_insight": 0.8,
+        "noise_level": 0.7
+      },
+      "quality_issues": [
+        "Content too short/truncated to be fully meaningful"
+      ],
+      "recommendations": "Ensure the full text of reviews or articles is captured to provide complete context for sentiment analysis and deeper actionable insights. Review the topic classification pipeline as 'Google Product Rumors' appears to be an incorrect topic for a game review, which could impact signal routing and analysis.",
+      "evaluation_timestamp": "2025-08-10T21:29:39.444746",
+      "text_length": 299,
+      "word_count": 49,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "011b9cb3-855b-4169-ac1b-4cf0e65bc02b"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-09T15:57:35Z",
+    "title": "The Delicious Codename For Android 17 Has Been Revealed",
+    "text": "Recent discoveries have revealed Android 17's codename, and it's as sweet as you'd expect. More details here.",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.99980229139328
+    },
+    "url": "https://www.androidheadlines.com/2025/08/android-17-os-update-codename-leak-cinnamon-bun.html",
+    "author": "Jean Leon",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.9,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.8,
+        "clarity": 1.0,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 0.9,
+        "actionable_insight": 0.7,
+        "noise_level": 1.0
+      },
+      "quality_issues": [],
+      "recommendations": "While positive and clear, this signal primarily pertains to a codename rumor, which provides initial buzz but limited deep insight into core product perception. Agent B should aim to integrate a broader range of signals, including those related to core product features, user experience, market adoption, and customer service feedback, for a more comprehensive and robust brand perception forecast. This signal is valuable for tracking early anticipation and branding sentiment.",
+      "evaluation_timestamp": "2025-08-10T21:29:51.626059",
+      "text_length": 166,
+      "word_count": 26,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "be11a198-d068-4236-8bcf-abff64fc9db3"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-09T15:57:06Z",
+    "title": "DC Releases SDCC K.O. Ashcan For Local Comic Shop Day 2025",
+    "text": "Back in June, Bleeding Cool ran a complete list of Local Comic Shop Day items being offered to brick-and-mortar comic book stores for the 27th of September 2025. One month out we have some updates. That includes a standard edition and a foil edition of the DC…",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.63,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9789710640907288
+    },
+    "url": "https://bleedingcool.com/comics/dc-releases-sdcc-k-o-ashcan-for-local-comic-shop-day-2025/",
+    "author": "Rich Johnston",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.62,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.7,
+        "clarity": 1.0,
+        "sentiment_extractable": 0.3,
+        "temporal_value": 1.0,
+        "actionable_insight": 0.4,
+        "noise_level": 0.3
+      },
+      "quality_issues": [
+        "Off-topic content unrelated to brand perception (the 'topic' metadata 'Google Product Rumors' is incorrect for a DC Comics article).",
+        "Poor sentiment indicators (the sentiment 'NEGATIVE' is not clearly supported by the provided text snippet, which is purely descriptive, making it potentially misleading or ambiguous).",
+        "Content too short to fully understand the context for the sentiment or derive deep actionable insights."
+      ],
+      "recommendations": "Verify the accuracy of extracted metadata, particularly the 'topic', to ensure it precisely aligns with the content's subject matter. Improve sentiment extraction models or provide more textual context/justification when the sentiment label does not immediately align with the apparent neutrality of the text snippet. Consider providing longer text snippets or the full article content to enhance the reliability of sentiment analysis and enable richer actionable insights for perception forecasting.",
+      "evaluation_timestamp": "2025-08-10T21:30:03.911259",
+      "text_length": 320,
+      "word_count": 58,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "89b7c72d-1521-49f1-9b79-9ab12af4850f"
+  },
+  {
+    "source": "News",
+    "timestamp": "2025-08-09T15:52:03Z",
+    "title": "Ice the Competition with McFarlane's Mortal Kombat Klassic Sub-Zero",
+    "text": "Sub-Zero debuted in the original Mortal Kombat arcade game in 1992, instantly becoming one of the franchise's most iconic fighters. This blue-clad ninja features an impressive array of ice-based abilities, bringing icy and deadly precision to the arena. The o…",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9997842907905579
+    },
+    "url": "https://bleedingcool.com/collectibles/ice-the-competition-with-mcfarlanes-mortal-kombat-klassic-sub-zero/",
+    "author": "Tyler Roberts",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.8833333333333333,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.8,
+        "clarity": 0.9,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 0.9,
+        "actionable_insight": 0.8,
+        "noise_level": 0.9
+      },
+      "quality_issues": [
+        "Content truncation: The signal text is cut off, potentially limiting the full context and depth of analysis.",
+        "Future timestamp anomaly: The timestamp is in the future, which may require clarification to determine if it refers to a future event/release or a data collection anomaly."
+      ],
+      "recommendations": "Ensure complete signal text is captured to provide full context for analysis and sentiment extraction. Implement a mechanism to interpret or flag future timestamps, distinguishing between announcements for future events/products and potential data collection discrepancies, for accurate temporal insight. While this news article provides valuable promotional insight, consider its source type when analyzing overall brand perception, differentiating it from direct consumer feedback.",
+      "evaluation_timestamp": "2025-08-10T21:30:18.960144",
+      "text_length": 329,
+      "word_count": 49,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "ccd0cf79-462d-4046-a3f4-7f820e4addca"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-05T14:12:51Z",
+    "title": "I dumped Google for Kagi",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9997255206108093
+    },
+    "url": "https://arstechnica.com/gadgets/2025/08/enough-is-enough-i-dumped-googles-worsening-search-for-kagi/",
+    "author": "thimabi",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 1.0,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 1.0,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 1.0,
+        "actionable_insight": 1.0,
+        "noise_level": 1.0
+      },
+      "quality_issues": [],
+      "recommendations": "This is an excellent quality signal. Ensure that the ingestion pipeline prioritizes signals of this clarity and directness, especially those indicating brand switching or direct comparisons, as they are highly valuable for perception forecasting. The associated metadata (source, timestamp, topic, URL) further enriches its utility, allowing for deeper contextual analysis and trend identification.",
+      "evaluation_timestamp": "2025-08-10T21:30:26.437968",
+      "text_length": 26,
+      "word_count": 5,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "3a12433c-ce04-4e42-bf50-d1dac9c08038"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-06T14:04:13Z",
+    "title": "Google suffers data breach in ongoing Salesforce data theft attacks",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.999582827091217
+    },
+    "url": "https://www.bleepingcomputer.com/news/security/google-suffers-data-breach-in-ongoing-salesforce-data-theft-attacks/",
+    "author": "mikece",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 1.0,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 1.0,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 1.0,
+        "actionable_insight": 1.0,
+        "noise_level": 1.0
+      },
+      "quality_issues": [],
+      "recommendations": "This is an excellent quality signal for perception forecasting. Agent B should flag this as a significant event requiring immediate monitoring for subsequent sentiment shifts. Consider correlating this with Google's public statements or stock performance. Continue to monitor for follow-up news on the 'ongoing Salesforce data theft attacks' and any further impact on Google.",
+      "evaluation_timestamp": "2025-08-10T21:30:33.921418",
+      "text_length": 69,
+      "word_count": 10,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "7c8776f8-e8d5-401d-87bd-26fde3282472"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-08T14:46:53Z",
+    "title": "Google's Genie is more impressive than GPT5",
+    "text": "",
+    "sentiment": {
+      "label": "POSITIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9995961785316467
+    },
+    "url": "https://theahura.substack.com/p/tech-things-genies-lamp-openai-cant",
+    "author": "theahura",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 1.0,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 1.0,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 1.0,
+        "actionable_insight": 1.0,
+        "noise_level": 1.0
+      },
+      "quality_issues": [
+        "Metadata Mismatch: The 'topic' field ('Google Service Tips and Usage') provided in the additional context does not accurately reflect the content of the signal text, which is a comparative assessment of advanced AI models (Google's Genie vs. GPT5). This could lead to incorrect categorization or filtering downstream."
+      ],
+      "recommendations": "Improve the accuracy of metadata tagging, specifically the 'topic' field, to better align with the content of the signal. For this type of content, 'AI Innovation', 'Competitive Analysis', or 'Product Comparison' would be more appropriate topics than 'Google Service Tips and Usage'.",
+      "evaluation_timestamp": "2025-08-10T21:30:44.007843",
+      "text_length": 45,
+      "word_count": 7,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "fa4212d9-2dfe-4d3d-85cc-e218cc68c946"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-03T21:03:50Z",
+    "title": "One Dataset. No Warning. Google Took Everything. You're Not Safe Either",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9996159076690674
+    },
+    "url": "https://medium.com/@russoatlarge_93541/i-built-a-privacy-app-google-banned-me-over-a-dataset-used-in-ai-research-66bc0dfb2310",
+    "author": "markatlarge",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 1.0,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 1.0,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 1.0,
+        "actionable_insight": 1.0,
+        "noise_level": 1.0
+      },
+      "quality_issues": [],
+      "recommendations": "The signal text is exceptionally high quality for brand perception analysis, being clear, relevant, and having strong extractable sentiment. For Agent B, this signal provides direct, time-sensitive insight into a significant potential brand perception issue related to privacy and data handling. Future improvements could focus on ensuring the 'topic' categorization precisely reflects the nature of the claim (e.g., 'privacy complaint' or 'data security issue' instead of 'product rumor') to provide even more granular insights for forecasting specific perception shifts.",
+      "evaluation_timestamp": "2025-08-10T21:30:55.827288",
+      "text_length": 73,
+      "word_count": 11,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "adbdfa2f-0346-4de8-b124-889688f8bdfc"
+  },
+  {
+    "source": "HackerNews",
+    "timestamp": "2025-08-03T22:11:58Z",
+    "title": "Google has dropped more than 50 DEI-related orgs from one of its funding lists",
+    "text": "",
+    "sentiment": {
+      "label": "NEGATIVE",
+      "score": 0.635,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9996137022972107
+    },
+    "url": "https://www.cnbc.com/2025/08/01/google-dropped-50-dei-groups-from-funding-list-.html",
+    "author": "gslin",
+    "topic": "Other",
+    "quality": {
+      "overall_quality_score": 0.983,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 1.0,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 1.0,
+        "actionable_insight": 1.0,
+        "noise_level": 0.9
+      },
+      "quality_issues": [
+        "The 'topic' metadata 'Google Product Rumors' is misaligned with the content of the signal, which discusses Google's funding decisions rather than product-related news. This is a minor metadata inconsistency rather than an issue with the signal text itself."
+      ],
+      "recommendations": "Ensure that metadata fields, specifically 'topic', accurately reflect the content of the signal. For this signal, a topic such as 'Corporate Social Responsibility', 'Company Policy', or 'Business Operations' would be more appropriate than 'Google Product Rumors' to improve downstream classification and analysis.",
+      "evaluation_timestamp": "2025-08-10T21:31:04.638748",
+      "text_length": 80,
+      "word_count": 14,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "6e179415-0232-4555-8b93-1e48a978fea0"
+  },
+  {
+    "source": "Mastodon",
+    "text": "Google's age research makes you wonder if Material Design 3 Expressive is the result of a younger design team, and Apple's Liquid Glass is perhaps the last gasp of older designers who've been in the industry too long. Maybe people *want* UIs to be colorful nonsense and break all the existing rules. These are the times when you really miss having a third opinion, a third platform in the race",
+    "url": "https://mastodon.social/@stroughtonsmith/115005287868345315",
+    "sentiment_pipeline": {
+      "label": "NEGATIVE",
+      "score": 0.633,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9895347952842712
+    },
+    "sentiment": "negative",
+    "sentiment_polarity": 0.15740740740740738,
+    "sentiment_subjectivity": 0.26666666666666666,
+    "hashtags": [],
+    "topic": "Other",
+    "analysis": "**Hashtag Analysis**\n\nAfter analyzing the provided hashtags, I grouped them by semantic category:\n\n* Product/Technology: \n* Location: \n* Emotion: \n* Company/Entity: #Google, #Apple\n* Design/UI: \n\nNo specific language variants were detected, as all hashtags appear to be in English.\n\nCo-occurring hashtags were not observed, as only one hashtag (#Google) is present in the metadata.\n\nNo sentiment-laden hashtags were identified.\n\nHashtag frequency and source post examples:\n\n| Hashtag | Frequency | Source Post Examples |\n| --- | --- | --- |\n| #Google | 1 | Not provided (only metadata) |\n\nNo temporal trend can be inferred due to the limited data.\n\n**Topic Identification**\n\nBased on the provided Mastodon post and hashtag data, I identified the following key discussion topics relevant to Google's brand, business performance, or customer trust:\n\n### Topic 1: Design Philosophy and User Experience\n\n* **Summary**: The post discusses the potential influence of a younger design team on Google's Material Design 3 Expressive and compares it to Apple's design approach. This topic may impact B2B decisions, sales, or client engagement as it relates to the user experience and perception of Google's products.\n* **Supporting post snippet**: \"Google's age research makes you wonder if Material Design3 Expressive is the result of a younger design team, and Apple's Liquid Glass is perhaps the last gasp of older designers who've been in the industry too long.\"\n* **Key hashtags**: #Google, #MaterialDesign\n\n### Topic 2: Competition and Market Dynamics\n\n* **Summary**: The post mentions Apple and Google in the context of design and user experience, highlighting the competitive landscape in the tech industry. This topic may impact B2B decisions, sales, or client engagement as it relates to market positioning and competition.\n* **Supporting post snippet**: \"Google's age research makes you wonder if Material Design3 Expressive is the result of a younger design team, and Apple's Liquid Glass is perhaps the last gasp of older designers who've been in the industry too long.\"\n* **Key hashtags**: #Google, #Apple\n\n### Topic 3: Innovation and Differentiation\n\n* **Summary**: The post touches on the idea that users may prefer unconventional, colorful designs, and that the absence of a third platform in the market may limit innovation. This topic may impact B2B decisions, sales, or client engagement as it relates to Google's ability to innovate and differentiate itself.\n* **Supporting post snippet**: \"Maybe people *want* UIs to be colorful nonsense and break all the existing rules. These are the times when you really miss having a third opinion, a third platform in the race\"\n* **Key hashtags**: #Google \n\nThese topics are grounded in specific language used in the post and offer potential impact on B2B decisions, sales, or client engagement. They are clearly tied to public digital conversations around Google's brand and business performance.",
+    "timestamp": "2025-08-10T16:01:11.997944+00:00",
+    "quality": {
+      "overall_quality_score": 0.925,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.9,
+        "clarity": 1.0,
+        "sentiment_extractable": 0.9,
+        "temporal_value": 0.9,
+        "actionable_insight": 0.85,
+        "noise_level": 1.0
+      },
+      "quality_issues": [],
+      "recommendations": "The signal is of high quality and provides specific, relevant insights into perceptions of Google's and Apple's design philosophies. To further enhance its utility for perception forecasting, consider tracking the engagement and reach of such industry-specific critiques. Analyzing responses from other designers or tech enthusiasts could reveal how widely these sentiments are shared, providing more robust data for trend identification and forecasting. Additionally, cross-referencing with official product announcements or design changes by Google/Apple could provide valuable context for understanding the signal's impact.",
+      "evaluation_timestamp": "2025-08-10T21:31:20.618518",
+      "text_length": 393,
+      "word_count": 70,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "9c8ad9af-b2d0-48c1-9b90-e7c28f615f04"
+  },
+  {
+    "source": "Mastodon",
+    "text": "The World Will Enter a 15-Year AI Dystopia in 2027, Former Google Exec Says https:// gizmodo.com/the-world-will-ent er-a-15-year-ai-dystopia-in-2027-former-google-exec-says-2000641195?utm_source=flipboard&utm_medium=activitypub Posted into Tech @ tech-Gizmodo",
+    "url": "https://flipboard.com/@gizmodo/tech-fknh6odjz/-/a-3178eumNTQem3TtjpVlkpA%3Aa%3A1876139665-%2F0",
+    "sentiment_pipeline": {
+      "label": "NEGATIVE",
+      "score": 0.634,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9932087063789368
+    },
+    "sentiment": "neutral",
+    "sentiment_polarity": 0.0,
+    "sentiment_subjectivity": 0.0,
+    "hashtags": [],
+    "topic": "Other",
+    "analysis": "**Topic Analysis**\n\nBased on the provided Mastodon post and hashtag data, I've identified a key discussion topic relevant to Google's brand, business performance, and customer trust.\n\n### Topic 1: AI Ethics and Dystopian Concerns\n\n**Summary:** A former Google executive's statement about a potential 15-year AI dystopia has sparked concerns about AI ethics and Google's responsibility in shaping the future of AI.\n\n**Business Relevance:** This topic has significant implications for Google's brand reputation, particularly in the B2B sector, where companies are increasingly relying on AI solutions. The discussion around AI ethics and potential dystopian consequences may influence business decisions, such as deal velocity, lead quality, and client engagement.\n\n**Supporting Post Snippet:**\n\"The World Will Enter a 15-Year AI Dystopia in 2027, Former Google Exec Says\" (Gizmodo)\n\n**Key Hashtags:**\n\n* #AI (co-occurring with #Google, #Dystopia)\n* #Google (co-occurring with #AI, #Exec)\n* #Dystopia (co-occurring with #AI, #Google)\n\n**Hashtag Analysis:**\n\n* **Semantic Category:** Tech, AI, Ethics\n* **Languages:** English\n* **Sentiment-laden Hashtags:** #Dystopia (negative sentiment)\n* **Hashtag Frequency:** #AI (1), #Google (1), #Dystopia (1)\n* **Source Post Examples:** Gizmodo\n* **Temporal Trend:** No clear trend, but the topic is currently being discussed.\n\n**Grouping Hashtags by Semantic Category:**\n\n* Tech: #AI, #Google\n* Emotion: #Dystopia\n\n**Cross-lingual Variants:** None detected.\n\n**Co-occurring Hashtags:** #AI and #Google, #AI and #Dystopia, #Google and #Dystopia.\n\n**Normalized/Standardized Hashtags:** None.\n\nThe topic of AI ethics and dystopian concerns is a pressing issue that requires attention from Google and other AI stakeholders. By monitoring and engaging with this conversation, Google can proactively address concerns, maintain transparency, and demonstrate its commitment to responsible AI development. This, in turn, can help maintain trust with its customers, partners, and the broader B2B community.",
+    "timestamp": "2025-08-10T16:01:22.137643+00:00",
+    "quality": {
+      "overall_quality_score": 0.95,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 1.0,
+        "sentiment_extractable": 0.9,
+        "temporal_value": 1.0,
+        "actionable_insight": 1.0,
+        "noise_level": 0.8
+      },
+      "quality_issues": [
+        "Poor sentiment indicators (conflicting sentiment labels between 'sentiment_pipeline' and 'sentiment' field, with 'neutral' being inaccurate given the content)",
+        "Off-topic classification ('topic: Google Product Rumors' is inaccurate; 'AI Ethics and Dystopian Concerns' is more appropriate and identified correctly in the 'analysis' section)"
+      ],
+      "recommendations": "1. **Harmonize Sentiment Analysis:** Investigate the discrepancy between the 'sentiment_pipeline' (correctly identifying negative) and the 'sentiment: neutral' fields. Ensure consistent and accurate sentiment classification for future signals, prioritizing the more detailed and confident output where available. \n2. **Refine Topic Modeling:** Improve the topic classification model to accurately categorize discussions related to AI ethics, future societal impact, and brand responsibility, rather than mislabeling them as 'Product Rumors'. This will ensure Agent B consumes more precise topical signals.\n3. **Leverage Temporal Specificity:** Agent B should be designed to explicitly recognize and utilize time-bound predictions (e.g., 'in 2027', '15-Year') to build more nuanced predictive models for long-term perception shifts.",
+      "evaluation_timestamp": "2025-08-10T21:31:33.412854",
+      "text_length": 259,
+      "word_count": 22,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "ab114841-87f2-46ac-a0ef-8949c75755ad"
+  },
+  {
+    "source": "Mastodon",
+    "text": "Bon... C'est sûr que quand # google , # facebook et # tiktok n'y sont pas, c'est plus facile d'être gagnant. # vieprivee # lapressemontreal",
+    "url": "https://jasette.facil.services/@bpruneau/115005268969471836",
+    "sentiment_pipeline": {
+      "label": "NEGATIVE",
+      "score": 0.631,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9824050068855286
+    },
+    "sentiment": "neutral",
+    "sentiment_polarity": 0.0,
+    "sentiment_subjectivity": 0.0,
+    "hashtags": [
+      "google",
+      "facebook",
+      "tiktok",
+      "vieprivee",
+      "lapressemontreal"
+    ],
+    "topic": "Other",
+    "analysis": "**Hashtag Analysis**\n\n* **Semantic Category Grouping:**\n\t+ Technology/Platforms: #google, #facebook, #tiktok\n\t+ Privacy: #vieprivee\n\t+ Location/Media Outlet: #lapressemontreal\n* **Language Detection:**\n\t+ French ( primary language used)\n* **Cross-Lingual Variants:**\n\t+ None detected\n* **Co-Occurring Hashtags:**\n\t+ #google, #facebook, and #tiktok often appear together in posts (implying comparison or discussion of multiple tech platforms)\n* **Sentiment-Laden Hashtags:**\n\t+ #vieprivee (implying concerns about privacy)\n* **Hashtag Frequency and Source Post Examples:**\n\t+ #google: 1 post\n\t+ #facebook: 1 post\n\t+ #tiktok: 1 post\n\t+ #vieprivee: 1 post\n\t+ #lapressemontreal: 1 post\n* **Temporal Trend:**\n\t+ No temporal trend can be inferred from a single post\n\n**Topic Identification**\n\n1. **Digital Advertising and Competition**\n\t* Summary: The post implies that the absence of major tech platforms like Google, Facebook, and TikTok makes it easier to succeed in digital advertising. This topic is relevant to Google's business performance, as it highlights the competitive landscape of digital advertising.\n\t* Supporting post snippet: \"Bon... C'est sûr que quand #google, #facebook et #tiktok n'y sont pas, c'est plus facile d'être gagnant.\"\n\t* Key hashtags: #google, #facebook, #tiktok\n2. **Online Privacy Concerns**\n\t* Summary: The post mentions #vieprivee, implying concerns about online privacy. This topic is relevant to Google's brand perception, as it highlights the importance of data protection and transparency in the digital landscape.\n\t* Supporting post snippet: \"#vieprivee\"\n\t* Key hashtags: #vieprivee\n3. **Media and Platform Coverage**\n\t* Summary: The post mentions #lapressemontreal, indicating that the discussion is happening in the context of a specific media outlet. This topic is relevant to Google's brand perception, as it highlights the company's visibility and coverage in different media channels.\n\t* Supporting post snippet: \"#lapressemontreal\"\n\t* Key hashtags: #lapressemontreal\n\n**Business Relevance and Impact**\n\nThese topics have potential implications for Google's business performance, sales, and client engagement:\n\n* Digital Advertising and Competition: Understanding the competitive landscape of digital advertising can inform Google's marketing and advertising strategies.\n* Online Privacy Concerns: Addressing concerns about online privacy can help Google build trust with its users and maintain a positive brand perception.\n* Media and Platform Coverage: Monitoring media coverage and platform discussions can help Google stay informed about its brand perception and identify opportunities to engage with its audience.\n\nBy analyzing these topics and hashtags, Google can gain insights into its brand perception, competitive landscape, and customer concerns, ultimately informing business decisions and strategies.",
+    "timestamp": "2025-08-10T16:01:35.243754+00:00",
+    "quality": {
+      "overall_quality_score": 0.77,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.9,
+        "clarity": 1.0,
+        "sentiment_extractable": 0.7,
+        "temporal_value": 0.1,
+        "actionable_insight": 0.9,
+        "noise_level": 1.0
+      },
+      "quality_issues": [
+        "Poor sentiment indicators (too neutral/ambiguous due to conflicting labels)"
+      ],
+      "recommendations": "Implement a robust sentiment reconciliation process, or develop a multi-dimensional sentiment scoring system to resolve conflicts between automated and manual sentiment labels (e.g., 'NEGATIVE' from pipeline vs. 'neutral' for overall). This will provide a clearer and more consistent signal for Agent B's ML models. While this single post offers limited temporal value, its strength lies in its ability to contribute to aggregated datasets for long-term trend analysis. Ensure the forecaster is designed to leverage these individual snapshots for broader trend identification.",
+      "evaluation_timestamp": "2025-08-10T21:31:48.355768",
+      "text_length": 139,
+      "word_count": 25,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "f8ff6a28-e0f9-4290-8716-e12d9fcde808"
+  },
+  {
+    "source": "Mastodon",
+    "text": "The World Will Enter a 15-Year AI Dystopia in 2027, Former Google Exec Says The world is hurtling towards an inevitable AI dystopia in the very near future, according to Mo Gawdat, the former chief business officer of Alphabet’s moonshot factory, formerly known as Google X. “We will have to prepare for a world that is very unfamiliar,” Gawdat said in an interview on the “Diary of a CEO” podcast, adding that humanity’s key values like freedom, human connection,… https:// blueviolet-shrew-461181.hostin gersite.com/the-world-will-enter-a-15-year-ai-dystopia-in-2027-former-google-exec-says/?utm_source=mastodon&utm_medium=jetpack_social",
+    "url": "https://mastodon.social/@Tejasmaheshram/115005258658560855",
+    "sentiment_pipeline": {
+      "label": "NEGATIVE",
+      "score": 0.63,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9804806113243103
+    },
+    "sentiment": "positive",
+    "sentiment_polarity": 0.03666666666666667,
+    "sentiment_subjectivity": 0.3383333333333334,
+    "hashtags": [],
+    "topic": "Other",
+    "analysis": "**Topic Breakdown and Analysis**\n\nBased on the provided Mastodon post and hashtag data, I've identified key discussion topics relevant to Google's brand, business performance, and customer trust.\n\n### Topic 1: AI Ethics and Dystopia Concerns\n\n* **Summary:** A former Google executive, Mo Gawdat, warns of an impending AI dystopia, sparking concerns about Google's AI development and its potential impact on society.\n* **Business Relevance:** This topic may influence B2B decisions, sales, and client engagement as it raises questions about Google's responsibility in developing AI technology and its potential consequences. Clients and partners may be concerned about the ethics of working with a company that may prioritize innovation over human values.\n* **Supporting Post Snippet:** \"The world is hurtling towards an inevitable AI dystopia in the very near future, according to Mo Gawdat, the former chief business officer of Alphabet’s moonshot factory, formerly known as Google X.\"\n* **Key Hashtags:** \n  * `#AI` (co-occurs with `#Google`, implying association)\n  * `#Dystopia` (sentiment-laden, negative)\n  * `#GoogleX` (product/initiative-related)\n\n### Topic 2: Google's AI Development and Leadership\n\n* **Summary:** The post highlights Mo Gawdat's experience at Google X and his concerns about AI development, which may impact perceptions of Google's leadership and innovation capabilities.\n* **Business Relevance:** This topic may affect B2B decisions, sales, and client engagement as it raises questions about Google's ability to develop AI technology responsibly and effectively.\n* **Supporting Post Snippet:** \"Mo Gawdat, the former chief business officer of Alphabet’s moonshot factory, formerly known as Google X.\"\n* **Key Hashtags:** \n  * `#GoogleX` (product/initiative-related)\n  * `#Alphabet` (company-related)\n  * `#Leadership` ( implicit, related to Mo Gawdat's role)\n\n### Hashtag Analysis\n\n* **Semantic Categories:**\n\t+ Tech: `#AI`, `#GoogleX`, `#Alphabet`\n\t+ Emotion: `#Dystopia` (negative)\n* **Languages:** English (primary language)\n* **Co-occurring Hashtags:** `#Google` and `#AI` co-occur in the same post, implying association.\n* **Sentiment-laden Hashtags:** `#Dystopia` (negative)\n* **Normalized/Standardized Hashtags:** None\n* **Hashtag Frequency and Source Post Examples:**\n\t+ `#AI`: 1 occurrence, source post: \"The World Will Enter a15-Year AI Dystopia in2027, Former Google Exec Says\"\n\t+ `#GoogleX`: 1 occurrence, source post: \"The World Will Enter a15-Year AI Dystopia in2027, Former Google Exec Says\"\n* **Temporal Trend:** No clear temporal trend can be inferred from a single post.\n\nThese topics and hashtags provide insights into the conversation around Google's brand, business performance, and customer trust. The AI ethics and dystopia concerns topic may have a significant impact on B2B decisions, sales, and client engagement, as it raises questions about Google's responsibility in developing AI technology.",
+    "timestamp": "2025-08-10T16:01:50.403291+00:00",
+    "quality": {
+      "overall_quality_score": 0.97,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 1.0,
+        "sentiment_extractable": 1.0,
+        "temporal_value": 0.8,
+        "actionable_insight": 1.0,
+        "noise_level": 1.0
+      },
+      "quality_issues": [],
+      "recommendations": "Integrate this signal into a broader trend analysis for 'AI Ethics' and 'Future of AI' topics specifically tied to Google/Alphabet. Monitor for increased frequency of such dire predictions from former or current industry figures to identify shifts in public and expert perception. Cross-reference with discussions about Google's responsible AI initiatives. Ensure consistency in sentiment extraction, as the provided 'sentiment: positive' contradicts the 'sentiment_pipeline: NEGATIVE' for this clearly negatively toned signal.",
+      "evaluation_timestamp": "2025-08-10T21:32:02.736092",
+      "text_length": 639,
+      "word_count": 82,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "378b9c31-835d-48f2-a6df-ab2ee7c82505"
+  },
+  {
+    "source": "Mastodon",
+    "text": "Fresh Google Pixel Watch 4 leaks may give us our best look yet at the upgraded sensors and charging system https://www. techradar.com/health-fitness/s martwatches/fresh-google-pixel-watch-4-leaks-may-give-us-our-best-look-yet-at-the-upgraded-sensors-and-charging-system?utm_source=flipboard&utm_medium=activitypub Posted into TechRadar: The Full Screen @ techradar-the-full-screen-TechRadar",
+    "url": "https://flipboard.com/@techradar/techradar-the-full-screen-kdeniktpz/-/a-i3GlJohXTVmoPEU2xetlUQ%3Aa%3A2416536031-%2F0",
+    "sentiment_pipeline": {
+      "label": "NEGATIVE",
+      "score": 0.634,
+      "confidence_bucket": "HIGH",
+      "raw_score": 0.9964068531990051
+    },
+    "sentiment": "positive",
+    "sentiment_polarity": 0.5499999999999999,
+    "sentiment_subjectivity": 0.45,
+    "hashtags": [],
+    "topic": "Other",
+    "analysis": "**Topic Analysis and Breakdown**\n\nBased on the provided Mastodon post and hashtag data, I've identified a key discussion topic relevant to Google's brand, business performance, and customer trust.\n\n### Topic 1: Google Pixel Watch 4 Leaks and Upgrades\n\n* **Summary:** Public interest in Google's upcoming Pixel Watch 4, specifically its upgraded sensors and charging system, may influence consumer and business decisions regarding Google's wearable technology and potentially impact sales.\n* **Business Relevance:** The discussion around the Pixel Watch 4 leaks may affect B2B decisions, sales, and client engagement in the wearable technology sector. Positive sentiment around the upgrades could lead to increased interest and potential sales, while negative sentiment may deter potential customers.\n* **Supporting Post Snippet:** \"Fresh Google Pixel Watch4 leaks may give us our best look yet at the upgraded sensors and charging system\" (TechRadar: The Full Screen @ techradar-the-full-screen-TechRadar)\n* **Key Hashtags:** \n  - No specific hashtags are provided in the post; however, related hashtags that could be relevant include #Google, #PixelWatch4, #WearableTechnology, and #TechLeaks.\n\n### Hashtag Analysis\n\nGiven the lack of specific hashtags in the provided post, I'll focus on general observations and inferences:\n\n* **Semantic Categories:** \n  - Product: #Google (inferred, not directly provided)\n  - Tech: #TechRadar, #TechLeaks (inferred)\n* **Detected Languages:** English is the primary language detected.\n* **Cross-lingual Variants:** None observed.\n* **Co-occurring Hashtags:** Not applicable due to the absence of multiple hashtags in the post.\n* **Sentiment-laden Hashtags:** None observed.\n* **Normalized/Standardized Hashtags:** Not applicable.\n* **Hashtag Frequency and Source Post Examples:** \n  - No specific hashtag frequency analysis can be performed with the given data.\n* **Temporal Trend:** \n  - The post does not provide information on trending hashtags over time.\n\n### Conclusion\n\nThe discussion around the Google Pixel Watch 4 leaks and its upgrades presents an opportunity for Google to capitalize on public interest in its wearable technology. By monitoring and engaging with these conversations, Google can potentially influence B2B decisions, sales, and client engagement in the wearable technology sector.",
+    "timestamp": "2025-08-10T16:02:04.227323+00:00",
+    "quality": {
+      "overall_quality_score": 0.95,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 1.0,
+        "sentiment_extractable": 0.7,
+        "temporal_value": 1.0,
+        "actionable_insight": 1.0,
+        "noise_level": 1.0
+      },
+      "quality_issues": [
+        "Conflicting sentiment labels provided within the signal (`sentiment_pipeline` indicating 'NEGATIVE' with high confidence, while `sentiment` indicates 'positive'), which severely compromises the reliability of the automated sentiment extraction and its utility for forecasting."
+      ],
+      "recommendations": "Prioritize resolving the internal inconsistency in the provided sentiment data. Investigate why the 'sentiment_pipeline' and 'sentiment' fields generate contradictory labels for the same text. Implement a robust reconciliation process or a more accurate sentiment analysis model to ensure consistent and reliable sentiment scores are part of the signal, as this consistency is critical for accurate perception forecasting by Agent B.",
+      "evaluation_timestamp": "2025-08-10T21:32:22.557809",
+      "text_length": 390,
+      "word_count": 31,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "f3b5d1e6-7491-46a5-a831-5fc0e146865e"
+  },
+  {
+    "url": "https://x.com/Google/status/1953929256674722202?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+    "data": {
+      "__typename": "Tweet",
+      "rest_id": "1953929256674722202",
+      "core": {
+        "user_results": {
+          "result": {
+            "__typename": "User",
+            "id": "VXNlcjoyMDUzNjE1Nw==",
+            "rest_id": "20536157",
+            "affiliates_highlighted_label": {},
+            "avatar": {
+              "image_url": "https://pbs.twimg.com/profile_images/1754606338460487681/bWupXdxo_normal.jpg"
+            },
+            "core": {
+              "created_at": "Tue Feb 10 19:14:39 +0000 2009",
+              "name": "Google",
+              "screen_name": "Google"
+            },
+            "dm_permissions": {},
+            "is_blue_verified": true,
+            "legacy": {
+              "default_profile": false,
+              "default_profile_image": false,
+              "description": "Here to help.",
+              "entities": {
+                "description": {
+                  "urls": []
+                },
+                "url": {
+                  "urls": [
+                    {
+                      "display_url": "blog.google/newsletter-sub…",
+                      "expanded_url": "https://blog.google/newsletter-subscribe/",
+                      "url": "https://t.co/RS3iU873QG",
+                      "indices": [
+                        0,
+                        23
+                      ]
+                    }
+                  ]
+                }
+              },
+              "fast_followers_count": 0,
+              "favourites_count": 3768,
+              "followers_count": 32793784,
+              "friends_count": 285,
+              "has_custom_timelines": true,
+              "is_translator": false,
+              "listed_count": 89741,
+              "media_count": 37473,
+              "normal_followers_count": 32793784,
+              "pinned_tweet_ids_str": [],
+              "possibly_sensitive": false,
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/20536157/1752864768",
+              "profile_interstitial_type": "",
+              "statuses_count": 239191,
+              "translator_type": "regular",
+              "url": "https://t.co/RS3iU873QG",
+              "withheld_in_countries": []
+            },
+            "location": {
+              "location": "Mountain View, CA"
+            },
+            "media_permissions": {},
+            "parody_commentary_fan_label": "None",
+            "profile_image_shape": "Square",
+            "professional": {
+              "rest_id": "1504886752259059716",
+              "professional_type": "Business",
+              "category": [
+                {
+                  "id": 713,
+                  "name": "Science & Technology",
+                  "icon_name": "IconBriefcaseStroke"
+                }
+              ]
+            },
+            "privacy": {
+              "protected": false
+            },
+            "relationship_perspectives": {},
+            "tipjar_settings": {
+              "is_enabled": false,
+              "bandcamp_handle": "",
+              "bitcoin_handle": "",
+              "cash_app_handle": "",
+              "ethereum_handle": "",
+              "gofundme_handle": "",
+              "patreon_handle": "",
+              "pay_pal_handle": "",
+              "venmo_handle": ""
+            },
+            "verification": {
+              "verified": false,
+              "verified_type": "Business"
+            },
+            "verified_phone_status": false
+          }
+        }
+      },
+      "unmention_data": {},
+      "edit_control": {
+        "edit_tweet_ids": [
+          "1953929256674722202"
+        ],
+        "editable_until_msecs": "1754691611000",
+        "is_edit_eligible": true,
+        "edits_remaining": "5"
+      },
+      "is_translatable": false,
+      "views": {
+        "count": "95878",
+        "state": "EnabledWithCount"
+      },
+      "source": "<a href=\"https://prod8.sprinklr.com/\" rel=\"nofollow\">Sprinklr Care</a>",
+      "grok_analysis_button": true,
+      "legacy": {
+        "bookmark_count": 84,
+        "bookmarked": false,
+        "created_at": "Fri Aug 08 21:20:11 +0000 2025",
+        "conversation_id_str": "1953929256674722202",
+        "display_text_range": [
+          0,
+          102
+        ],
+        "entities": {
+          "hashtags": [],
+          "media": [
+            {
+              "display_url": "pic.x.com/ZHbgP2sbDA",
+              "expanded_url": "https://x.com/Google/status/1953929256674722202/video/1",
+              "id_str": "1953929214408712192",
+              "indices": [
+                103,
+                126
+              ],
+              "media_key": "13_1953929214408712192",
+              "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1953929214408712192/img/NTkUO76Z8UiH7xTn.jpg",
+              "type": "video",
+              "url": "https://t.co/ZHbgP2sbDA",
+              "additional_media_info": {
+                "monetizable": false
+              },
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "sizes": {
+                "large": {
+                  "h": 1080,
+                  "w": 1920,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "h": 675,
+                  "w": 1200,
+                  "resize": "fit"
+                },
+                "small": {
+                  "h": 383,
+                  "w": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "h": 150,
+                  "w": 150,
+                  "resize": "crop"
+                }
+              },
+              "original_info": {
+                "height": 1080,
+                "width": 1920,
+                "focus_rects": []
+              },
+              "video_info": {
+                "aspect_ratio": [
+                  16,
+                  9
+                ],
+                "duration_millis": 55833,
+                "variants": [
+                  {
+                    "content_type": "application/x-mpegURL",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/pl/POLkWliRzTyW1vFP.m3u8?tag=16&v=8d5"
+                  },
+                  {
+                    "bitrate": 288000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/480x270/f6B1m4Y6QYBBDJWd.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 832000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/640x360/0WPj0xOFFYEyArA7.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 2176000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/1280x720/8YqKYyzxwe2h_Ah6.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 10368000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/1920x1080/g2FCki_nPh14euu_.mp4?tag=16"
+                  }
+                ]
+              },
+              "media_results": {
+                "result": {
+                  "media_key": "13_1953929214408712192"
+                }
+              }
+            }
+          ],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [],
+          "user_mentions": []
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "display_url": "pic.x.com/ZHbgP2sbDA",
+              "expanded_url": "https://x.com/Google/status/1953929256674722202/video/1",
+              "id_str": "1953929214408712192",
+              "indices": [
+                103,
+                126
+              ],
+              "media_key": "13_1953929214408712192",
+              "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1953929214408712192/img/NTkUO76Z8UiH7xTn.jpg",
+              "type": "video",
+              "url": "https://t.co/ZHbgP2sbDA",
+              "additional_media_info": {
+                "monetizable": false
+              },
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "sizes": {
+                "large": {
+                  "h": 1080,
+                  "w": 1920,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "h": 675,
+                  "w": 1200,
+                  "resize": "fit"
+                },
+                "small": {
+                  "h": 383,
+                  "w": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "h": 150,
+                  "w": 150,
+                  "resize": "crop"
+                }
+              },
+              "original_info": {
+                "height": 1080,
+                "width": 1920,
+                "focus_rects": []
+              },
+              "video_info": {
+                "aspect_ratio": [
+                  16,
+                  9
+                ],
+                "duration_millis": 55833,
+                "variants": [
+                  {
+                    "content_type": "application/x-mpegURL",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/pl/POLkWliRzTyW1vFP.m3u8?tag=16&v=8d5"
+                  },
+                  {
+                    "bitrate": 288000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/480x270/f6B1m4Y6QYBBDJWd.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 832000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/640x360/0WPj0xOFFYEyArA7.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 2176000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/1280x720/8YqKYyzxwe2h_Ah6.mp4?tag=16"
+                  },
+                  {
+                    "bitrate": 10368000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1953929214408712192/vid/avc1/1920x1080/g2FCki_nPh14euu_.mp4?tag=16"
+                  }
+                ]
+              },
+              "media_results": {
+                "result": {
+                  "media_key": "13_1953929214408712192"
+                }
+              }
+            }
+          ]
+        },
+        "favorite_count": 654,
+        "favorited": false,
+        "full_text": "This week at Google, we shared updates to learning tools in Gemini and a new feature called Storybook. https://t.co/ZHbgP2sbDA",
+        "is_quote_status": false,
+        "lang": "en",
+        "possibly_sensitive": false,
+        "possibly_sensitive_editable": true,
+        "quote_count": 3,
+        "reply_count": 92,
+        "retweet_count": 115,
+        "retweeted": false,
+        "user_id_str": "20536157",
+        "id_str": "1953929256674722202"
+      }
+    },
+    "sentiment": {
+      "label": "NEUTRAL",
+      "score": 0.5,
+      "confidence_bucket": "LOW"
+    },
+    "quality": {
+      "overall_quality_score": 0.767,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 0.9,
+        "clarity": 1.0,
+        "sentiment_extractable": 0.3,
+        "temporal_value": 0.9,
+        "actionable_insight": 0.6,
+        "noise_level": 0.9
+      },
+      "quality_issues": [
+        "Poor sentiment indicators (too neutral/ambiguous)"
+      ],
+      "recommendations": "While the signal text itself is clear and relevant as an official brand announcement, its inherent neutrality limits direct sentiment extraction. For robust sentiment trend analysis, Agent B should focus on analyzing user reactions (replies, retweets, quotes) to this announcement. Ensure that the associated timestamp data is consistently accurate, as the provided 'created_at' in the additional context (2025) appears to be an anomaly and would negatively impact temporal analysis if taken literally.",
+      "evaluation_timestamp": "2025-08-10T21:32:52.573217",
+      "text_length": 0,
+      "word_count": 0,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "eee41793-fa22-417f-bbdc-36ad2f091351",
+    "topic": "Other"
+  },
+  {
+    "url": "https://x.com/Google/status/1953126394847768936?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+    "data": {
+      "__typename": "Tweet",
+      "rest_id": "1953126394847768936",
+      "core": {
+        "user_results": {
+          "result": {
+            "__typename": "User",
+            "id": "VXNlcjoyMDUzNjE1Nw==",
+            "rest_id": "20536157",
+            "affiliates_highlighted_label": {},
+            "avatar": {
+              "image_url": "https://pbs.twimg.com/profile_images/1754606338460487681/bWupXdxo_normal.jpg"
+            },
+            "core": {
+              "created_at": "Tue Feb 10 19:14:39 +0000 2009",
+              "name": "Google",
+              "screen_name": "Google"
+            },
+            "dm_permissions": {},
+            "is_blue_verified": true,
+            "legacy": {
+              "default_profile": false,
+              "default_profile_image": false,
+              "description": "Here to help.",
+              "entities": {
+                "description": {
+                  "urls": []
+                },
+                "url": {
+                  "urls": [
+                    {
+                      "display_url": "blog.google/newsletter-sub…",
+                      "expanded_url": "https://blog.google/newsletter-subscribe/",
+                      "url": "https://t.co/RS3iU873QG",
+                      "indices": [
+                        0,
+                        23
+                      ]
+                    }
+                  ]
+                }
+              },
+              "fast_followers_count": 0,
+              "favourites_count": 3768,
+              "followers_count": 32793790,
+              "friends_count": 285,
+              "has_custom_timelines": true,
+              "is_translator": false,
+              "listed_count": 89741,
+              "media_count": 37473,
+              "normal_followers_count": 32793790,
+              "pinned_tweet_ids_str": [],
+              "possibly_sensitive": false,
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/20536157/1752864768",
+              "profile_interstitial_type": "",
+              "statuses_count": 239191,
+              "translator_type": "regular",
+              "url": "https://t.co/RS3iU873QG",
+              "withheld_in_countries": []
+            },
+            "location": {
+              "location": "Mountain View, CA"
+            },
+            "media_permissions": {},
+            "parody_commentary_fan_label": "None",
+            "profile_image_shape": "Square",
+            "professional": {
+              "rest_id": "1504886752259059716",
+              "professional_type": "Business",
+              "category": [
+                {
+                  "id": 713,
+                  "name": "Science & Technology",
+                  "icon_name": "IconBriefcaseStroke"
+                }
+              ]
+            },
+            "privacy": {
+              "protected": false
+            },
+            "relationship_perspectives": {},
+            "tipjar_settings": {
+              "is_enabled": false,
+              "bandcamp_handle": "",
+              "bitcoin_handle": "",
+              "cash_app_handle": "",
+              "ethereum_handle": "",
+              "gofundme_handle": "",
+              "patreon_handle": "",
+              "pay_pal_handle": "",
+              "venmo_handle": ""
+            },
+            "verification": {
+              "verified": false,
+              "verified_type": "Business"
+            },
+            "verified_phone_status": false
+          }
+        }
+      },
+      "unmention_data": {},
+      "edit_control": {
+        "edit_tweet_ids": [
+          "1953126394847768936"
+        ],
+        "editable_until_msecs": "1754500194000",
+        "is_edit_eligible": true,
+        "edits_remaining": "5"
+      },
+      "is_translatable": false,
+      "views": {
+        "count": "96702",
+        "state": "EnabledWithCount"
+      },
+      "source": "<a href=\"https://prod8.sprinklr.com/\" rel=\"nofollow\">Sprinklr Care</a>",
+      "grok_analysis_button": true,
+      "legacy": {
+        "bookmark_count": 127,
+        "bookmarked": false,
+        "created_at": "Wed Aug 06 16:09:54 +0000 2025",
+        "conversation_id_str": "1953126394847768936",
+        "display_text_range": [
+          0,
+          272
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "indices": [
+                257,
+                272
+              ],
+              "text": "GrowwithGoogle"
+            }
+          ],
+          "media": [
+            {
+              "display_url": "pic.x.com/PnS5N7X4Og",
+              "expanded_url": "https://x.com/Google/status/1953126394847768936/photo/1",
+              "ext_alt_text": "\nA collage of screenshots centered around a colorful, droplet-shaped icon with the letters 'A', 'B', 'C', and 'D' circling it. The screenshots, each with a colorful border, show various learning materials, including a video of a planet, a handwritten math problem, a multiple-choice question, a diagram of an insect, and a screenshot of a video player with a timeline. This image appears to represent a learning or educational platform that incorporates different media types.",
+              "id_str": "1953126390720548864",
+              "indices": [
+                273,
+                296
+              ],
+              "media_key": "3_1953126390720548864",
+              "media_url_https": "https://pbs.twimg.com/media/GxrmGrBW0AAdhJp.jpg",
+              "type": "photo",
+              "url": "https://t.co/PnS5N7X4Og",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "features": {
+                "large": {
+                  "faces": [
+                    {
+                      "x": 18,
+                      "y": 496,
+                      "h": 71,
+                      "w": 71
+                    }
+                  ]
+                },
+                "medium": {
+                  "faces": [
+                    {
+                      "x": 11,
+                      "y": 310,
+                      "h": 44,
+                      "w": 44
+                    }
+                  ]
+                },
+                "small": {
+                  "faces": [
+                    {
+                      "x": 6,
+                      "y": 175,
+                      "h": 25,
+                      "w": 25
+                    }
+                  ]
+                },
+                "orig": {
+                  "faces": [
+                    {
+                      "x": 18,
+                      "y": 496,
+                      "h": 71,
+                      "w": 71
+                    }
+                  ]
+                }
+              },
+              "sizes": {
+                "large": {
+                  "h": 1080,
+                  "w": 1920,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "h": 675,
+                  "w": 1200,
+                  "resize": "fit"
+                },
+                "small": {
+                  "h": 383,
+                  "w": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "h": 150,
+                  "w": 150,
+                  "resize": "crop"
+                }
+              },
+              "original_info": {
+                "height": 1080,
+                "width": 1920,
+                "focus_rects": [
+                  {
+                    "x": 0,
+                    "y": 0,
+                    "w": 1920,
+                    "h": 1075
+                  },
+                  {
+                    "x": 468,
+                    "y": 0,
+                    "w": 1080,
+                    "h": 1080
+                  },
+                  {
+                    "x": 535,
+                    "y": 0,
+                    "w": 947,
+                    "h": 1080
+                  },
+                  {
+                    "x": 738,
+                    "y": 0,
+                    "w": 540,
+                    "h": 1080
+                  },
+                  {
+                    "x": 0,
+                    "y": 0,
+                    "w": 1920,
+                    "h": 1080
+                  }
+                ]
+              },
+              "media_results": {
+                "result": {
+                  "media_key": "3_1953126390720548864"
+                }
+              }
+            }
+          ],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [
+            {
+              "display_url": "goo.gle/3H2oI1r",
+              "expanded_url": "https://goo.gle/3H2oI1r",
+              "url": "https://t.co/MDoQQO1zCn",
+              "indices": [
+                232,
+                255
+              ]
+            }
+          ],
+          "user_mentions": []
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "display_url": "pic.x.com/PnS5N7X4Og",
+              "expanded_url": "https://x.com/Google/status/1953126394847768936/photo/1",
+              "ext_alt_text": "\nA collage of screenshots centered around a colorful, droplet-shaped icon with the letters 'A', 'B', 'C', and 'D' circling it. The screenshots, each with a colorful border, show various learning materials, including a video of a planet, a handwritten math problem, a multiple-choice question, a diagram of an insect, and a screenshot of a video player with a timeline. This image appears to represent a learning or educational platform that incorporates different media types.",
+              "id_str": "1953126390720548864",
+              "indices": [
+                273,
+                296
+              ],
+              "media_key": "3_1953126390720548864",
+              "media_url_https": "https://pbs.twimg.com/media/GxrmGrBW0AAdhJp.jpg",
+              "type": "photo",
+              "url": "https://t.co/PnS5N7X4Og",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "features": {
+                "large": {
+                  "faces": [
+                    {
+                      "x": 18,
+                      "y": 496,
+                      "h": 71,
+                      "w": 71
+                    }
+                  ]
+                },
+                "medium": {
+                  "faces": [
+                    {
+                      "x": 11,
+                      "y": 310,
+                      "h": 44,
+                      "w": 44
+                    }
+                  ]
+                },
+                "small": {
+                  "faces": [
+                    {
+                      "x": 6,
+                      "y": 175,
+                      "h": 25,
+                      "w": 25
+                    }
+                  ]
+                },
+                "orig": {
+                  "faces": [
+                    {
+                      "x": 18,
+                      "y": 496,
+                      "h": 71,
+                      "w": 71
+                    }
+                  ]
+                }
+              },
+              "sizes": {
+                "large": {
+                  "h": 1080,
+                  "w": 1920,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "h": 675,
+                  "w": 1200,
+                  "resize": "fit"
+                },
+                "small": {
+                  "h": 383,
+                  "w": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "h": 150,
+                  "w": 150,
+                  "resize": "crop"
+                }
+              },
+              "original_info": {
+                "height": 1080,
+                "width": 1920,
+                "focus_rects": [
+                  {
+                    "x": 0,
+                    "y": 0,
+                    "w": 1920,
+                    "h": 1075
+                  },
+                  {
+                    "x": 468,
+                    "y": 0,
+                    "w": 1080,
+                    "h": 1080
+                  },
+                  {
+                    "x": 535,
+                    "y": 0,
+                    "w": 947,
+                    "h": 1080
+                  },
+                  {
+                    "x": 738,
+                    "y": 0,
+                    "w": 540,
+                    "h": 1080
+                  },
+                  {
+                    "x": 0,
+                    "y": 0,
+                    "w": 1920,
+                    "h": 1080
+                  }
+                ]
+              },
+              "media_results": {
+                "result": {
+                  "media_key": "3_1953126390720548864"
+                }
+              }
+            }
+          ]
+        },
+        "favorite_count": 761,
+        "favorited": false,
+        "full_text": "New: The Google AI for Education Accelerator will provide free AI training &amp; Google Career Certificates to college students in the U.S.\n\nWe're also committing $1 billion to AI literacy, research and more over the next 3 years → https://t.co/MDoQQO1zCn \n#GrowwithGoogle https://t.co/PnS5N7X4Og",
+        "is_quote_status": false,
+        "lang": "en",
+        "possibly_sensitive": false,
+        "possibly_sensitive_editable": true,
+        "quote_count": 10,
+        "reply_count": 63,
+        "retweet_count": 131,
+        "retweeted": false,
+        "user_id_str": "20536157",
+        "id_str": "1953126394847768936"
+      }
+    },
+    "sentiment": {
+      "label": "NEUTRAL",
+      "score": 0.5,
+      "confidence_bucket": "LOW"
+    },
+    "quality": {
+      "overall_quality_score": 0.95,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 1.0,
+        "sentiment_extractable": 0.7,
+        "temporal_value": 1.0,
+        "actionable_insight": 1.0,
+        "noise_level": 1.0
+      },
+      "quality_issues": [
+        "The provided automated sentiment classification for this signal was 'NEUTRAL' with 'LOW' confidence, which may undervalue the inherent positive brand perception impact of a significant corporate social responsibility announcement."
+      ],
+      "recommendations": "Enhance sentiment analysis models to better interpret the implicit positive sentiment of corporate announcements detailing significant investments, social responsibility initiatives, or educational programs. Such content, while not always overtly emotional, is designed to generate positive brand perception and should be accurately reflected in sentiment scores for effective forecasting.",
+      "evaluation_timestamp": "2025-08-10T21:33:52.980848",
+      "text_length": 0,
+      "word_count": 0,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "8c69743c-1930-4904-9454-4ca02e3c2fd7",
+    "topic": "Other"
+  },
+  {
+    "url": "https://x.com/Google/status/1952816961899118754?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+    "data": {
+      "__typename": "Tweet",
+      "rest_id": "1952816961899118754",
+      "core": {
+        "user_results": {
+          "result": {
+            "__typename": "User",
+            "id": "VXNlcjoyMDUzNjE1Nw==",
+            "rest_id": "20536157",
+            "affiliates_highlighted_label": {},
+            "avatar": {
+              "image_url": "https://pbs.twimg.com/profile_images/1754606338460487681/bWupXdxo_normal.jpg"
+            },
+            "core": {
+              "created_at": "Tue Feb 10 19:14:39 +0000 2009",
+              "name": "Google",
+              "screen_name": "Google"
+            },
+            "dm_permissions": {},
+            "is_blue_verified": true,
+            "legacy": {
+              "default_profile": false,
+              "default_profile_image": false,
+              "description": "Here to help.",
+              "entities": {
+                "description": {
+                  "urls": []
+                },
+                "url": {
+                  "urls": [
+                    {
+                      "display_url": "blog.google/newsletter-sub…",
+                      "expanded_url": "https://blog.google/newsletter-subscribe/",
+                      "url": "https://t.co/RS3iU873QG",
+                      "indices": [
+                        0,
+                        23
+                      ]
+                    }
+                  ]
+                }
+              },
+              "fast_followers_count": 0,
+              "favourites_count": 3768,
+              "followers_count": 32794169,
+              "friends_count": 285,
+              "has_custom_timelines": true,
+              "is_translator": false,
+              "listed_count": 89740,
+              "media_count": 37473,
+              "normal_followers_count": 32794169,
+              "pinned_tweet_ids_str": [],
+              "possibly_sensitive": false,
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/20536157/1752864768",
+              "profile_interstitial_type": "",
+              "statuses_count": 239191,
+              "translator_type": "regular",
+              "url": "https://t.co/RS3iU873QG",
+              "withheld_in_countries": []
+            },
+            "location": {
+              "location": "Mountain View, CA"
+            },
+            "media_permissions": {},
+            "parody_commentary_fan_label": "None",
+            "profile_image_shape": "Square",
+            "professional": {
+              "rest_id": "1504886752259059716",
+              "professional_type": "Business",
+              "category": [
+                {
+                  "id": 713,
+                  "name": "Science & Technology",
+                  "icon_name": "IconBriefcaseStroke"
+                }
+              ]
+            },
+            "privacy": {
+              "protected": false
+            },
+            "relationship_perspectives": {},
+            "tipjar_settings": {
+              "is_enabled": false,
+              "bandcamp_handle": "",
+              "bitcoin_handle": "",
+              "cash_app_handle": "",
+              "ethereum_handle": "",
+              "gofundme_handle": "",
+              "patreon_handle": "",
+              "pay_pal_handle": "",
+              "venmo_handle": ""
+            },
+            "verification": {
+              "verified": false,
+              "verified_type": "Business"
+            },
+            "verified_phone_status": false
+          }
+        }
+      },
+      "card": {
+        "rest_id": "card://1952816960338878464",
+        "legacy": {
+          "binding_values": [
+            {
+              "key": "unified_card",
+              "value": {
+                "string_value": "{\"type\":\"video_website\",\"component_objects\":{\"details_1\":{\"type\":\"details\",\"data\":{\"title\":{\"content\":\"Google Gemini: Free Pro Plan and AI training for college students\",\"is_rtl\":false},\"subtitle\":{\"content\":\"grow.google\",\"is_rtl\":false},\"destination\":\"browser_with_docked_media_1\"}},\"media_1\":{\"type\":\"media\",\"data\":{\"id\":\"13_1952816286213271552\",\"destination\":\"browser_with_docked_media_1\"}}},\"destination_objects\":{\"browser_with_docked_media_1\":{\"type\":\"browser_with_docked_media\",\"data\":{\"url_data\":{\"url\":\"https://grow.google/students \",\"vanity\":\"grow.google\"},\"media_id\":\"13_1952816286213271552\"}}},\"components\":[\"media_1\",\"details_1\"],\"media_entities\":{\"13_1952816286213271552\":{\"id\":1952816286213271552,\"id_str\":\"1952816286213271552\",\"indices\":[0,0],\"media_url\":\"\",\"media_url_https\":\"https://pbs.twimg.com/amplify_video_thumb/1952816286213271552/img/UimtsPWYh1APUMgy.jpg\",\"url\":\"\",\"display_url\":\"\",\"expanded_url\":\"\",\"type\":\"video\",\"original_info\":{\"width\":1080,\"height\":1920},\"sizes\":{\"medium\":{\"w\":675,\"h\":1200,\"resize\":\"fit\"},\"large\":{\"w\":1080,\"h\":1920,\"resize\":\"fit\"},\"thumb\":{\"w\":150,\"h\":150,\"resize\":\"crop\"},\"small\":{\"w\":383,\"h\":680,\"resize\":\"fit\"}},\"source_user_id\":20536157,\"source_user_id_str\":\"20536157\",\"video_info\":{\"aspect_ratio\":[9,16],\"duration_millis\":15000,\"variants\":[{\"content_type\":\"application/x-mpegURL\",\"url\":\"https://video.twimg.com/amplify_video/1952816286213271552/pl/Tmuze3OVLHMdUOC3.m3u8?tag=14\"},{\"bitrate\":950000,\"content_type\":\"video/mp4\",\"url\":\"https://video.twimg.com/amplify_video/1952816286213271552/vid/avc1/480x852/MtxfAuxbbInrUXuQ.mp4?tag=14\"},{\"bitrate\":632000,\"content_type\":\"video/mp4\",\"url\":\"https://video.twimg.com/amplify_video/1952816286213271552/vid/avc1/320x568/_xFkCqjjz2Dmm3_e.mp4?tag=14\"},{\"bitrate\":2176000,\"content_type\":\"video/mp4\",\"url\":\"https://video.twimg.com/amplify_video/1952816286213271552/vid/avc1/720x1280/0iGGOchhoc9K9m2B.mp4?tag=14\"}]},\"media_key\":\"13_1952816286213271552\",\"ext\":{\"mediaColor\":{\"r\":{\"ok\":{\"palette\":[{\"rgb\":{\"red\":38,\"green\":30,\"blue\":25},\"percentage\":78.87},{\"rgb\":{\"red\":120,\"green\":113,\"blue\":110},\"percentage\":12.37},{\"rgb\":{\"red\":95,\"green\":64,\"blue\":41},\"percentage\":2.52},{\"rgb\":{\"red\":244,\"green\":244,\"blue\":244},\"percentage\":1.69},{\"rgb\":{\"red\":18,\"green\":17,\"blue\":33},\"percentage\":1.15}]}},\"ttl\":-1}}}}}",
+                "type": "STRING"
+              }
+            },
+            {
+              "key": "card_url",
+              "value": {
+                "scribe_key": "card_url",
+                "string_value": "https://twitter.com",
+                "type": "STRING"
+              }
+            }
+          ],
+          "card_platform": {
+            "platform": {
+              "audience": {
+                "name": "production"
+              },
+              "device": {
+                "name": "Swift",
+                "version": "12"
+              }
+            }
+          },
+          "name": "unified_card",
+          "url": "card://1952816960338878464",
+          "user_refs_results": []
+        }
+      },
+      "unmention_data": {},
+      "edit_control": {
+        "edit_tweet_ids": [
+          "1952816961899118754"
+        ],
+        "editable_until_msecs": "1754426419000",
+        "is_edit_eligible": false,
+        "edits_remaining": "5"
+      },
+      "is_translatable": false,
+      "views": {
+        "count": "100237",
+        "state": "EnabledWithCount"
+      },
+      "source": "<a href=\"https://twitter.com\" rel=\"nofollow\">Twitter for Advertisers</a>",
+      "grok_analysis_button": true,
+      "legacy": {
+        "bookmark_count": 13,
+        "bookmarked": false,
+        "created_at": "Tue Aug 05 19:40:19 +0000 2025",
+        "conversation_control": {
+          "policy": "ByInvitation",
+          "conversation_owner_results": {
+            "result": {
+              "__typename": "User",
+              "core": {
+                "screen_name": "Google"
+              }
+            }
+          }
+        },
+        "conversation_id_str": "1952816961899118754",
+        "display_text_range": [
+          0,
+          173
+        ],
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [],
+          "user_mentions": []
+        },
+        "favorite_count": 37,
+        "favorited": false,
+        "full_text": "We’re making our most advanced AI tools and training programs free for 1 year for every college student in America. Learn more and sign up by October 6th, 2025. Terms apply.",
+        "is_quote_status": false,
+        "lang": "en",
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 6,
+        "retweeted": false,
+        "scopes": {
+          "followers": false
+        },
+        "user_id_str": "20536157",
+        "id_str": "1952816961899118754"
+      }
+    },
+    "sentiment": {
+      "label": "NEUTRAL",
+      "score": 0.5,
+      "confidence_bucket": "LOW"
+    },
+    "quality": {
+      "overall_quality_score": 0.97,
+      "is_quality": true,
+      "dimension_scores": {
+        "relevance": 1.0,
+        "clarity": 1.0,
+        "sentiment_extractable": 0.9,
+        "temporal_value": 0.9,
+        "actionable_insight": 1.0,
+        "noise_level": 1.0
+      },
+      "quality_issues": [
+        "Signal text was empty, requiring extraction from 'ADDITIONAL CONTEXT'.",
+        "External sentiment analysis labeled a clearly positive announcement as 'NEUTRAL' with 'LOW' confidence, indicating a potential issue with the external sentiment extraction system, not the signal content itself."
+      ],
+      "recommendations": "Ensure the actual signal text (e.g., tweet 'full_text') is directly provided in the 'SIGNAL TEXT TO EVALUATE' field to avoid ambiguity. Review and potentially fine-tune the external sentiment analysis model to more accurately capture the sentiment of promotional or beneficial brand announcements.",
+      "evaluation_timestamp": "2025-08-10T21:34:13.052749",
+      "text_length": 0,
+      "word_count": 0,
+      "evaluator": "brand_perception_quality_checker_v1"
+    },
+    "id": "9c0db1ae-bb2e-4345-92dc-4dcacb900415",
+    "topic": "Other"
+  }
+]
