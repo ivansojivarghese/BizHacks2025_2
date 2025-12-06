@@ -16,6 +16,11 @@ logging.basicConfig(
     level=logging.INFO
 )
 
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from util import signals_collector
+
 # Import data collection utilities
 from util.signals_collector import (
     get_gnews_articles,
@@ -33,10 +38,16 @@ from util.signals_collector import (
     extract_topic_ml,
     parse_json_from_codeblock,
     groq_llm, # low limits
-    gemini_llm,
+    gemini_llm, # backup for groq
     nvidia_llm,
     hf_llm, # unusable
-    together_llm # very slow
+    together_llm, # very slow
+    # New dynamic topic extraction functions
+    extract_signal_text,
+    extract_topics_from_signals,
+    parse_topics_to_labels,
+    reclassify_signals,
+    update_topics_and_reclassify
 )
 
 
@@ -82,7 +93,7 @@ class BrandSignalCollectorAgent:
             '''
             "NEWSAPI": "44aa2fe007c249b291b84f90ef03c77c",
             "GNEWS": "ef5f8624efbdff7065a8b27b064230d8",
-            "GROQ": "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",
+            "GROQ": "",
             "APITUBE": "api_live_4FCFmHUM0FDz9E5wvS2FZYfdiE2Qsf3Air8X8mH0IXFs",
             "SCRAPFLY": "scp-live-1a870f1d40854783b5e42f486702f116"
         }
@@ -137,29 +148,87 @@ class BrandSignalCollectorAgent:
                 logging.info(f"[FILTER] Limiting sources to: {allowed_sources}")
 
             finance_ticker = get_finance_ticker(self.company_name)
+            # perform a swap of words between ':'
+            finance_ticker = finance_ticker.split(':')[1] + ':' + finance_ticker.split(':')[0]
+            #finance_ticker = "GOOGL:NASDAQ"
+            print(f"finance_ticker: {finance_ticker}")
 
             # Core social/media sources
             
             if "Reddit" in allowed_sources:
-                self.collected_signals.extend(fetch_reddit(self.company_name, self.labels, self.max_results, self.hours_back))
+                reddit_signals = fetch_reddit(self.company_name, self.labels, self.max_results, self.hours_back)
+                if reddit_signals:
+                    self.collected_signals.extend(reddit_signals)
+                    # Update topics after each batch
+                    self.collected_signals, self.labels = update_topics_and_reclassify(
+                        self.company_name, self.collected_signals, self.labels
+                    )
+                    logging.info(f"[TOPIC_UPDATE] Reddit batch: {len(self.collected_signals)} signals, {len(self.labels)} topics")
+            
             if "News" in allowed_sources:
-                self.collected_signals.extend(fetch_news(self.company_name, self.labels, self.max_results, self.hours_back))
+                news_signals = fetch_news(self.company_name, self.labels, self.max_results, self.hours_back)
+                if news_signals:
+                    self.collected_signals.extend(news_signals)
+                    # Update topics after each batch
+                    self.collected_signals, self.labels = update_topics_and_reclassify(
+                        self.company_name, self.collected_signals, self.labels
+                    )
+                    logging.info(f"[TOPIC_UPDATE] News batch: {len(self.collected_signals)} signals, {len(self.labels)} topics")
+            
             if "HackerNews" in allowed_sources:
-                self.collected_signals.extend(fetch_hackernews(self.company_name, self.labels, self.max_results, self.hours_back))
-
+                hn_signals = fetch_hackernews(self.company_name, self.labels, self.max_results, self.hours_back)
+                if hn_signals:
+                    self.collected_signals.extend(hn_signals)
+                    # Update topics after each batch
+                    self.collected_signals, self.labels = update_topics_and_reclassify(
+                        self.company_name, self.collected_signals, self.labels
+                    )
+                    logging.info(f"[TOPIC_UPDATE] HackerNews batch: {len(self.collected_signals)} signals, {len(self.labels)} topics")
+            
             # SOME ISSUE WITH THIS API BELOW
             #if "Mastodon" in allowed_sources:
                 #self.collected_signals.extend(analyze_brand_signals(self.company_name, self.labels, self.max_results, self.hours_back))
-            
+
             if "APITube" in allowed_sources:
-                self.collected_signals.extend(fetch_news_articles(self.company_name))
+                apitube_signals = fetch_news_articles(self.company_name)
+                if apitube_signals:
+                    self.collected_signals.extend(apitube_signals)
+                    # Update topics after each batch
+                    self.collected_signals, self.labels = update_topics_and_reclassify(
+                        self.company_name, self.collected_signals, self.labels
+                    )
+                    logging.info(f"[TOPIC_UPDATE] APITube batch: {len(self.collected_signals)} signals, {len(self.labels)} topics")
+            '''
             if "Twitter" in allowed_sources:
-                self.collected_signals.extend(scrape_company_tweets(self.company_name, self.country))
-            if "ScrapFly" in allowed_sources:
-                self.collected_signals.extend(fetch_company_news(self.company_name, self.hours_back)) # company news from Bloomberg, CNN, Forbes, etc.
-            if "Finance" in allowed_sources:
-                self.collected_signals.extend(get_combined_finance_analysis(self.company_name, finance_ticker, self.hours_back)) # Finance data from Google Finance - SERP API
+                twitter_signals = scrape_company_tweets(self.company_name, self.country)
+                if twitter_signals:
+                    self.collected_signals.extend(twitter_signals)
+                    # Update topics after each batch
+                    self.collected_signals, self.labels = update_topics_and_reclassify(
+                        self.company_name, self.collected_signals, self.labels
+                    )
+                    logging.info(f"[TOPIC_UPDATE] Twitter batch: {len(self.collected_signals)} signals, {len(self.labels)} topics")
             
+            if "ScrapFly" in allowed_sources:
+                scrapfly_signals = fetch_company_news(self.company_name, self.hours_back)
+                if scrapfly_signals:
+                    self.collected_signals.extend(scrapfly_signals)
+                    # Update topics after each batch
+                    self.collected_signals, self.labels = update_topics_and_reclassify(
+                        self.company_name, self.collected_signals, self.labels
+                    )
+                    logging.info(f"[TOPIC_UPDATE] ScrapFly batch: {len(self.collected_signals)} signals, {len(self.labels)} topics")
+            
+            if "Finance" in allowed_sources:
+                finance_signals = get_combined_finance_analysis(self.company_name, finance_ticker, self.hours_back)
+                if finance_signals:
+                    self.collected_signals.extend(finance_signals)
+                    # Update topics after each batch
+                    self.collected_signals, self.labels = update_topics_and_reclassify(
+                        self.company_name, self.collected_signals, self.labels
+                    )
+                    logging.info(f"[TOPIC_UPDATE] Finance batch: {len(self.collected_signals)} signals, {len(self.labels)} topics")
+            '''
             # ===========================================================================================
 
             #print(f"sig {self.collected_signals}")
@@ -312,20 +381,23 @@ class BrandSignalCollectorAgent:
         # 4. Adaptive reclassification if needed
         # Criteria: high Other ratio or too few topics relative to signals
         if other_ratio > 0.3 or len(topics_found) < max(3, total_signals // 50):
-            logging.info("[ADAPT] High 'Other' ratio or too few topics detected. Prompting LLM for new topics.")
-            all_texts = [sig.get('title', '') + " " + sig.get('text', '') + " " + sig.get('full_text', "") + " " + sig.get('description', "") for sig in self.collected_signals]
-            new_topics = groq_llm(
-            #new_topics = gemini_llm(
-            #new_topics = nvidia_llm(
-                prompt=(
-                    "Given the following signals, propose a comprehensive list of topics "
-                    "that would cover them well. Return only a JSON array of topic names.\n\n"
-                    + "\n".join(all_texts)
-                ),
-                temperature=0.35,
-                top_p=0.6
+            logging.info("[ADAPT] High 'Other' ratio or too few topics detected. Re-extracting topics from all signals.")
+            
+            # Use the new dynamic topic extraction system
+            self.collected_signals, self.labels = update_topics_and_reclassify(
+                self.company_name, self.collected_signals, self.labels
             )
-            # Update taxonomy and reclassify
+            
+            # Re-compute topic distribution after reclassification
+            topic_counts = Counter(sig["topic"] for sig in self.collected_signals)
+            topics_found = list({sig.get("topic") for sig in self.collected_signals if sig.get("topic")})
+            other_ratio = topic_counts.get("Other", 0) / total_signals if total_signals else 0
+            
+            logging.info(f"[ADAPT] After reclassification: {len(topics_found)} topics, Other ratio: {other_ratio:.2%}")
+            logging.info(f"[ADAPT] Updated topic labels: {self.labels}")
+            
+            # Generate new topics string for feedback
+            new_topics = "\n".join(self.labels)
             perform_feedback = True
             if feedback_prompt:
                 feedback_prompt = (
@@ -441,21 +513,16 @@ class BrandSignalCollectorAgent:
             
     def reclassify(self) -> None:
         """
-        Re‐assign each signal to a topic based on the refreshed taxonomy,
-        then compute counts and the 'Other' ratio.
+        Re‐assign each signal to a topic using ML-based topic classification.
+        Uses the new dynamic topic extraction and reclassification system.
         """
-        # 1. Assign new topics
-        for signal in self.collected_signals:
-            text = signal.get('title', '') + " " + signal.get('text', '') + " " + signal.get('full_text', "") + " " + signal.get('description', "")
-            assigned = False
-            for topic, keywords in self.taxonomy.items():
-                if any(keyword.lower() in text.lower() for keyword in keywords):
-                    signal['topic'] = topic
-                    assigned = True
-                    break
-            if not assigned:
-                signal['topic'] = 'Other'
-
+        if not self.collected_signals:
+            logging.info("[RECLASSIFY] No signals to reclassify")
+            return
+        
+        # Use the new reclassify_signals function from signals_collector
+        self.collected_signals = reclassify_signals(self.collected_signals, self.labels)
+        
         # 2. Count signals per topic
         topic_counts = Counter(sig['topic'] for sig in self.collected_signals)
         total = sum(topic_counts.values())
@@ -467,6 +534,8 @@ class BrandSignalCollectorAgent:
         # 4. Store metrics for logging or downstream use
         self.topic_counts = dict(topic_counts)
         self.other_ratio = other_ratio
+        
+        logging.info(f"[RECLASSIFY] Completed: {total} signals across {len(topic_counts)} topics, Other ratio: {other_ratio:.2%}")
 
     # --- Run cycle ---
     def run_cycle(self, feedback_data: dict = None) -> List[dict]:
@@ -586,7 +655,7 @@ if __name__ == "__main__":
         company_name="Google",
         hours_back=168,
         max_results=50,
-        country="IN"
+        country="US"
     )
     signals = agent.run_cycle()
     agent.export_to_json("brand_signals.json")
