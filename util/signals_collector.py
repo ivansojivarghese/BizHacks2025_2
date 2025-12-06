@@ -43,7 +43,7 @@ APITUBE_API_KEY = "api_live_4FCFmHUM0FDz9E5wvS2FZYfdiE2Qsf3Air8X8mH0IXFs"
 #ABSTRACT_API_KEY = "c15e5c2212c248bbbfb1e827ecd08975"
 TOGETHER_API_KEY = "e4e865e00e428d4136bf9b2996d25334496c29bd0a7caf0415ee2f13845fecbd"
 TOGETHER_MODEL = "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free"
-GROQ_API_KEY = "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"
+GROQ_API_KEY = ""
 GEMINI_API_KEY = "AIzaSyBolQ5bS2KErY8_mqPyK-bzflLfVzRf2mA"
 GEMINI_MODEL = "gemini-2.5-flash"
 #GROQ_MODEL = "llama-3.3-70b-versatile"  # Use a versatile model for topic extraction
@@ -52,7 +52,12 @@ GROQ_MODEL = "meta-llama/llama-4-scout-17b-16e-instruct"
 HF_MODEL = "HuggingFaceTB/SmolLM3-3B"
 HF_TOKEN = "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"
 
-INSTANCE_URL = "https://mastodon.social"    
+INSTANCE_URL = "https://mastodon.social"
+
+# Global flag to track Groq API exhaustion with time-based cooldown
+GROQ_API_EXHAUSTED = False
+GROQ_EXHAUSTED_TIMESTAMP = None
+GROQ_COOLDOWN_SECONDS = 180  # 3 minutes
 
 vader = SentimentIntensityAnalyzer()
 
@@ -70,12 +75,12 @@ def get_user_country():
 country = region or get_user_country()
 #print(f"Using country: {country or 'Unknown'}")
 
-# load the tokenizer and the model
-device = "cpu"
-tokenizer = AutoTokenizer.from_pretrained(HF_MODEL)
-hf_model = AutoModelForCausalLM.from_pretrained(
-    HF_MODEL,
-).to(device)
+# load the tokenizer and the model (COMMENTED OUT - NOT CURRENTLY USED)
+# device = "cpu"
+# tokenizer = AutoTokenizer.from_pretrained(HF_MODEL)
+# hf_model = AutoModelForCausalLM.from_pretrained(
+#     HF_MODEL,
+# ).to(device)
 
 gemini_client = genai.Client(api_key=GEMINI_API_KEY)
 
@@ -95,6 +100,41 @@ reddit = praw.Reddit(
     client_secret='s51CK4-b6timEvSVxVdWImDkKzDUsQ',
     user_agent='brand_signal_mvp'
 )
+
+# === Helper Functions ===
+
+def check_groq_cooldown():
+    """
+    Check if Groq API cooldown period has expired.
+    Returns True if Groq can be used, False if still in cooldown.
+    """
+    global GROQ_API_EXHAUSTED, GROQ_EXHAUSTED_TIMESTAMP
+    
+    if not GROQ_API_EXHAUSTED:
+        return True
+    
+    # Check if cooldown period has expired
+    if GROQ_EXHAUSTED_TIMESTAMP:
+        elapsed = time.time() - GROQ_EXHAUSTED_TIMESTAMP
+        if elapsed >= GROQ_COOLDOWN_SECONDS:
+            print(f"[COOLDOWN EXPIRED] Groq API cooldown period ({GROQ_COOLDOWN_SECONDS}s) has passed. Re-enabling Groq.")
+            GROQ_API_EXHAUSTED = False
+            GROQ_EXHAUSTED_TIMESTAMP = None
+            return True
+        else:
+            remaining = GROQ_COOLDOWN_SECONDS - elapsed
+            return False
+    
+    return False
+
+def set_groq_exhausted():
+    """
+    Mark Groq API as exhausted and start cooldown timer.
+    """
+    global GROQ_API_EXHAUSTED, GROQ_EXHAUSTED_TIMESTAMP
+    GROQ_API_EXHAUSTED = True
+    GROQ_EXHAUSTED_TIMESTAMP = time.time()
+    print(f"[COOLDOWN STARTED] Groq API exhausted. Switching to Gemini for {GROQ_COOLDOWN_SECONDS}s (3 minutes).")
 
 # === Fetch Company Mentions ===
 
@@ -198,20 +238,48 @@ def extract_topics_groq(company, posts, hashtags):
         "top_p": 0.35,
     }
 
-    try:
-        response = requests.post("https://api.groq.com/openai/v1/chat/completions", headers=headers, json=payload)
-        response.raise_for_status()
-        return response.json()["choices"][0]["message"]["content"].strip()
-    except Exception as e:
-        # return f"Topic extraction failed: {e}"
-        print(f"[ERROR] Topic extraction failed: {e}")
+    # Check if Groq cooldown has expired
+    can_use_groq = check_groq_cooldown()
     
-        # === Fallback: Together API ===
-        #backup_response = together_llm(prompt=prompt, temperature=0.25, top_p=0.35)
-        #backup_response = groq_llm(prompt=prompt, temperature=0.25, top_p=0.35)
-        #backup_response = gemini_llm(prompt=prompt, temperature=0.25, top_p=0.35)
-        backup_response = together_llm(prompt=prompt, temperature=0.25, top_p=0.35)
-        return backup_response
+    if not can_use_groq:
+        print("[SKIP] Groq API in cooldown period. Using Gemini API for topic extraction")
+        return gemini_llm(prompt=prompt, temperature=0.25, top_p=0.35)
+
+    max_retries = 3
+    base_delay = 1.5
+    
+    for attempt in range(max_retries):
+        try:
+            # Add delay to avoid rate limiting
+            if attempt > 0:
+                delay = base_delay * (2 ** attempt)
+                time.sleep(delay)
+            else:
+                time.sleep(1.0)
+            
+            response = requests.post("https://api.groq.com/openai/v1/chat/completions", headers=headers, json=payload)
+            response.raise_for_status()
+            return response.json()["choices"][0]["message"]["content"].strip()
+        except requests.HTTPError as e:
+            if response.status_code == 429 and attempt < max_retries - 1:
+                wait_time = base_delay * (2 ** (attempt + 1))
+                print(f"[RATE LIMIT] Waiting {wait_time}s before retry {attempt + 1}/{max_retries}...")
+                time.sleep(wait_time)
+                continue
+            else:
+                print(f"[ERROR] Topic extraction failed: {e}")
+                break
+        except Exception as e:
+            print(f"[ERROR] Topic extraction failed: {e}")
+            if attempt < max_retries - 1:
+                time.sleep(base_delay * (2 ** attempt))
+                continue
+            break
+    
+    # === Fallback: Gemini API ===
+    set_groq_exhausted()
+    backup_response = gemini_llm(prompt=prompt, temperature=0.25, top_p=0.35)
+    return backup_response
     
 def together_llm(prompt: str, temperature: float = 0.3, top_p: float = 0.7):
     """
@@ -453,6 +521,17 @@ def run_quality_check(text, context):
     5. ACTIONABLE_INSIGHT (0-1): Can this inform brand perception trends?
     6. NOISE_LEVEL (0-1): Is signal-to-noise ratio acceptable? (1 = low noise)
     
+    SCORING CALIBRATION:
+    - 0.0-0.3: Poor quality (spam, gibberish, completely off-topic)
+    - 0.4-0.6: Below average (tangentially related, unclear, high noise)
+    - 0.7-0.8: Good quality (relevant, clear, actionable)
+    - 0.9-1.0: Excellent (highly relevant, crystal clear, strong signal)
+
+    Example:
+    - Text: "Buy cheap watches now!" → Relevance: 0.1 (spam)
+    - Text: "Google stock mentioned in passing during tech discussion" → Relevance: 0.5
+    - Text: "Google announces major AI breakthrough - stock surges" → Relevance: 0.95
+
     QUALITY ISSUES TO DETECT:
     - Spam, gibberish, or incoherent content
     - Duplicate or near-duplicate content
@@ -489,7 +568,7 @@ def run_quality_check(text, context):
         #response = together_llm(
         #response = nvidia_llm(
             prompt=evaluation_prompt,
-            temperature=0.1,  # Low temperature for consistent evaluation
+            temperature=0.4,  # Low temperature for consistent evaluation
             top_p=0.85
         )
         
@@ -506,12 +585,24 @@ def run_quality_check(text, context):
         #print(quality_assessment)
         
         # Log quality check results
-        logging.info(f"[QUALITY_CHECK] Text: '{text[:50]}...'")
+        logging.info(f"[QUALITY_CHECK] Text: '{text[:100]}...'")
         logging.info(f"[QUALITY_CHECK] Overall Score: {quality_assessment['overall_quality_score']:.2f}")
         logging.info(f"[QUALITY_CHECK] Quality Status: {'PASS' if quality_assessment['is_quality'] else 'FAIL'}")
         
+        # Apply quality issue penalty to overall score
         if quality_assessment['quality_issues']:
+            num_issues = len(quality_assessment['quality_issues'])
+            # Reduce score by 0.1 per issue, minimum score of 0.0
+            penalty = min(0.1 * num_issues, quality_assessment['overall_quality_score'])
+            original_score = quality_assessment['overall_quality_score']
+            quality_assessment['overall_quality_score'] = max(0.0, original_score - penalty)
+            
+            # Re-evaluate is_quality flag based on penalized score
+            quality_assessment['is_quality'] = quality_assessment['overall_quality_score'] >= 0.6
+            
             logging.info(f"[QUALITY_CHECK] Issues: {quality_assessment['quality_issues']}")
+            logging.info(f"[QUALITY_CHECK] Penalty Applied: -{penalty:.2f} ({num_issues} issues)")
+            logging.info(f"[QUALITY_CHECK] Adjusted Score: {quality_assessment['overall_quality_score']:.2f}")
         
         # Add metadata for downstream processing
         quality_assessment.update({
@@ -822,10 +913,10 @@ def fetch_company_news(company_name: str, hours_back : int):
     base_url = "https://api.scrapfly.io/scrape"
     headers = {}
 
-    #company_url = get_brand_review_url_llm(company_name, review_platform="Trustpilot")
-    #print(f"Company URL for reviews: {company_url}")
+    company_url = get_brand_review_url_llm(company_name, review_platform="Trustpilot")
+    print(f"Company URL for reviews: {company_url}")
 
-    '''
+    ''' # ADD MORE IF NEEDED LATER (PROVIDED QUOTA ALLOWS)
         {
             "source": "Forbes",
             "url": f"https://www.forbes.com/search/?q={company_name}",
@@ -838,13 +929,14 @@ def fetch_company_news(company_name: str, hours_back : int):
         },
         {
             "source": "Trustpilot",
-            # "url": f"https://www.trustpilot.com/review/{company_url}",
-            "url": company_url,
+            "url": f"https://www.trustpilot.com/review/{company_url}",
+            # "url": company_url,
             "prompt": "Get all user reviews under 'All reviews' and display as a JSON. Include the publishing dates (in ISO 8601 format [YYYY-MM-DD]), context of review, review rating (out of 5), author of review, and country of reviewer (in ISO 3166-1 alpha-2 format)."
         }
     '''
 
     urls = [
+        
         {
             "source": "Bloomberg",
             "url": f"https://www.bloomberg.com/search?query={company_name}&resource_subtypes=Article&sort=relevance",
@@ -875,10 +967,21 @@ def fetch_company_news(company_name: str, hours_back : int):
 
             #print(f"articles: {articles}")
             for article in articles:
-
-                article_text = ((article.get("title") and article.get("description")) or "").strip()
+                # Skip articles without required fields
+                if not isinstance(article, dict):
+                    continue
+                
+                # Extract fields with safe fallbacks
+                title = article.get("title", "")
+                description = article.get("description", "")
+                article_date = article.get("publishing_date") or article.get("date") or article.get("published_at") or datetime.now(timezone.utc).isoformat()
+                
+                # Skip if no meaningful content
+                if not title and not description:
+                    continue
+                
+                article_text = f"{title}. {description}".strip()
                 sentiment_result = run_sentiment(article_text)
-                article_date = article['publishing_date']
                 article_source = site['source']
 
                 quality_context = (
@@ -889,10 +992,10 @@ def fetch_company_news(company_name: str, hours_back : int):
                 )
 
                 all_articles_data.append({
-                    "title" : article["title"],
-                    "description" : article["description"],
+                    "title": title,
+                    "description": description,
                     "date": article_date,
-                    "source": f"ScrapFly: {site["source"]}",
+                    "source": f"ScrapFly: {site['source']}",
                     "sentiment": sentiment_result,
                     "quality": run_quality_check(article_text, quality_context),
                 })
@@ -963,6 +1066,7 @@ def get_google_finance_data_with_window(ticker: str, hours_back: int):
     selecting the history window based on hours_back.
     """
     window = hours_back_to_window(hours_back)
+    #window = "MAX"
     params = {
         "engine": "google_finance",
         "q": ticker,
@@ -972,7 +1076,7 @@ def get_google_finance_data_with_window(ticker: str, hours_back: int):
     search = GoogleSearch(params)
     results = search.get_dict()
     return results
-
+'''
 def get_finance_ticker(company_name: str) -> str:
     prompt = f"""
     You are a financial data assistant.
@@ -987,6 +1091,62 @@ def get_finance_ticker(company_name: str) -> str:
     response = groq_llm(prompt, temperature=0.0, top_p=1.0)
     # print(f"TICKER {response}")
     return response
+'''
+'''
+def get_finance_ticker(company_name: str) -> str:
+    prompt = f"""
+    You are a financial data assistant.
+
+    Task:
+    - Given a company name, return its primary stock listing in the format: TICKER:EXCHANGE.
+      Examples:
+      - Apple → AAPL:NASDAQ
+      - Google (Alphabet) → GOOGL:NASDAQ
+      - Tesla → TSLA:NASDAQ
+      - Coca-Cola → KO:NYSE
+    - Use the company's main US exchange listing when available.
+    - Use uppercase for both exchange and ticker.
+    - If the company is private or has no ticker, return exactly: None
+
+    Rules:
+    - Output only TICKER:EXCHANGE (no explanations, no extra text).
+    - Do not include country codes (no US:, no .AX, no .L).
+    - Do not return multiple tickers.
+
+    Company: {company_name}
+    Output:
+    """
+    response = groq_llm(prompt, temperature=0.0, top_p=1.0)
+    return response.strip()
+'''
+
+def get_finance_ticker(company_name: str) -> str:
+    prompt = f"""
+    You are a financial data assistant.
+
+    Task:
+    - Given a company name, output its *primary stock exchange listing* in the format:
+      EXCHANGE:TICKER
+    - If the company is based outside the U.S., return the main exchange in its home country.
+      Examples:
+      - Toyota → TSE:7203
+      - Samsung → KRX:005930
+      - Nestlé → SIX:NESN
+      - HSBC → LSE:HSBA
+
+    Rules:
+    - Use the exchange’s standard abbreviation (NASDAQ, NYSE, LSE, TSE, KRX, HKEX, SIX, Euronext, etc.).
+    - Ticker must be uppercase (except when the exchange uses numbers).
+    - If multiple listings exist, choose the primary home-country listing unless the company is known
+      primarily by its U.S. ADR (e.g., BABA → NYSE:BABA).
+    - If no ticker exists, return exactly: None
+    - Output ONLY EXCHANGE:TICKER — no extra text.
+
+    Company: {company_name}
+    Output:
+    """
+    response = groq_llm(prompt, temperature=0.0, top_p=1.0)
+    return response.strip()
 
 def hours_back_to_window(hours_back: int) -> str:
     """
@@ -1009,47 +1169,80 @@ def hours_back_to_window(hours_back: int) -> str:
     else:
         return "MAX"
 
-def ai_synthesise_single(data: dict, label: str) -> str:
+def ai_synthesise_single(data: dict, label: str, hours_back: int = None, is_windowed: bool = False) -> str:
     """
-    Placeholder for AI synthesis for one dataset.
-    Replace with an actual AI API call to get a smart summary.
+    AI synthesis for financial dataset with context-aware prompting.
+    
+    Args:
+        data: Financial data dictionary
+        label: Dataset label (e.g., "Live Data", "Window (168h)")
+        hours_back: Time window in hours (for windowed analysis)
+        is_windowed: If True, focuses on time-period specific trends
     """
-    # Example: extracting only a few top-level fields
-    """
-    price = data.get("summary", {}).get("price", "N/A")
-    market_cap = data.get("summary", {}).get("market_cap", "N/A")
-    return f"{label} summary → Price: {price}, Market Cap: {market_cap}"
-    """
-    prompt = (f"""
+    if is_windowed and hours_back:
+        # Time-focused analysis for windowed data
+        time_description = f"{hours_back} hours ({hours_back // 24} days)" if hours_back >= 24 else f"{hours_back} hours"
+        prompt = (f"""
+        You are a senior financial research analyst specializing in short-term market trends.
+        Analyze the following {label} finance dataset covering the past {time_description}.
+        
+        FOCUS AREAS FOR TIME-WINDOWED ANALYSIS:
+        1. **Price Movement Over Period**: Identify the trend direction (upward, downward, volatile) during this specific {time_description} window.
+        2. **Volatility & Trading Patterns**: Highlight any significant price swings, volume spikes, or unusual trading activity within this timeframe.
+        3. **Recent Catalysts**: Identify news, events, or market conditions that drove price changes during this period.
+        4. **Momentum Indicators**: Assess whether the stock gained or lost momentum during this window.
+        5. **Relative Performance**: Compare performance to broader market indices during this same period (if available).
+        6. **Support/Resistance Levels**: Note any technical price levels tested or broken during this timeframe.
+        7. **Short-term Sentiment**: Extract sentiment signals from recent price action and volume.
+        
+        IMPORTANT:
+        - Focus exclusively on data from the past {time_description}
+        - Emphasize temporal patterns and trend changes
+        - Highlight what changed during this specific window
+        - Use precise timestamps and date ranges when referencing events
+        - Quantify percentage changes over this period
+        
+        Formatting:
+        - Use clear, concise financial language
+        - Present findings in bullet points
+        - Include specific numbers with context
+        - Do not output raw JSON — only the analysis
+        
+        Dataset ({time_description} window):
+        {data}
+        """)
+    else:
+        # Comprehensive analysis for live/current data
+        prompt = (f"""
         You are a senior financial research analyst.
-        Analyze the following {label} finance dataset provided in JSON format and produce a thorough, data-rich narrative.
+        Analyze the following {label} finance dataset and produce a comprehensive, data-rich narrative covering the company's overall financial position and history.
 
-        Your output should:
-        1. Clearly identify the entity and its sector/industry (if available).
-        2. State the latest price, market capitalization, P/E ratio, dividend yield, and other valuation metrics.
-        3. Highlight notable recent price movements and percentage changes over different timeframes (1 day, 1 week, 1 month, 1 year).
-        4. Summarize revenue, net income, EPS, debt levels, and cash reserves (if present).
-        5. Mention analyst consensus, target price ranges, and recommendation ratings (buy/hold/sell).
-        6. Identify key news, events, or filings influencing performance.
-        7. Include risk factors or warnings from the data.
-        8. Provide forward-looking commentary, including potential growth drivers or market threats.
+        COMPREHENSIVE ANALYSIS REQUIREMENTS:
+        1. **Company Profile**: Identify the entity, sector/industry, market position, and business model.
+        2. **Current Valuation**: State latest price, market capitalization, P/E ratio, dividend yield, price-to-book, and other key metrics.
+        3. **Historical Performance**: Highlight price movements and percentage changes across ALL available timeframes (1 day, 1 week, 1 month, YTD, 1 year, 5 years, since inception).
+        4. **Financial Health**: Summarize revenue, net income, EPS, operating margins, debt levels, cash reserves, and cash flow trends.
+        5. **Growth Trajectory**: Analyze revenue growth rates, earnings growth, and expansion patterns over multiple years.
+        6. **Market Sentiment**: Mention analyst consensus, target price ranges, recommendation ratings (buy/hold/sell), and institutional ownership.
+        7. **News & Events**: Identify major announcements, product launches, regulatory filings, earnings reports, and market-moving events.
+        8. **Risk Assessment**: Include risk factors, competitive threats, regulatory challenges, and market vulnerabilities.
+        9. **Long-term Outlook**: Provide forward-looking commentary on growth drivers, strategic initiatives, and market opportunities/threats.
+        10. **Comparative Analysis**: Position the company relative to peers and industry benchmarks (if data available).
 
         Formatting rules:
-        - Write in clear, professional financial language.
-        - Use bullet points or numbered lists for clarity.
-        - Include both absolute numbers and percentage changes where available.
-        - Avoid adding data not present in the dataset.
-        - Do not output raw JSON or code — only the narrative.
+        - Write in clear, professional financial language
+        - Use bullet points or numbered lists for clarity
+        - Include both absolute numbers and percentage changes
+        - Provide historical context for current metrics
+        - Cite specific timeframes when discussing trends
+        - Avoid adding data not present in the dataset
+        - Do not output raw JSON or code — only the narrative
 
         Dataset:
         {data}
-        """
-        )
-    #response = gemini_llm(prompt, temperature=0.2, top_p=1.0)
+        """)
+    
     response = groq_llm(prompt, temperature=0.2, top_p=1.0)
-
-    #print(f"ai single {response}")
-
     return response
 '''
 def ai_synthesise_overall(summary1: str, summary2: str) -> str:
@@ -1111,73 +1304,142 @@ def get_combined_finance_analysis(company: str, ticker: str, hours_back: int):
     Runs both finance data fetches (no window & window-based),
     synthesises each individually, then produces an overall synthesis.
     """
-    data = []
-    # Run both data pulls
-    data_live = get_google_finance_data(ticker)
-    data_windowed = get_google_finance_data_with_window(data_live["futures_chain"][0]["stock"], hours_back)
+    try:
+        # Run both data pulls
+        data_live = get_google_finance_data(ticker)
+        
+        # Extract stock ticker from summary section
+        stock_ticker = None
+        if "summary" in data_live and "stock" in data_live["summary"]:
+            stock_ticker = data_live["summary"]["stock"]
+        else:
+            # Fallback to original ticker if structure is unexpected
+            stock_ticker = ticker
+            logging.warning(f"[FINANCE] No summary.stock found, using original ticker: {ticker}")
+            logging.warning(f"[FINANCE] Available top-level keys: {list(data_live.keys())}")
+       
+        data_windowed = get_google_finance_data_with_window(ticker, hours_back)
+        
+        # Determine which data to analyze - prefer summary, fallback to entire response
+        live_data_to_analyze = data_live
+        
+        # Synthesise each individually with differentiated prompts
+        # Live: comprehensive historical analysis from inception
+        summary_live = ai_synthesise_single(live_data_to_analyze, "Live Data", hours_back=None, is_windowed=False)
+        # Windowed: focused on recent time period trends
+        summary_windowed = ai_synthesise_single(data_windowed, f"Window ({hours_back}h)", hours_back=hours_back, is_windowed=True)
 
-    #print(f"d live {data_live["futures_chain"]}")
-    #print(f"d windowed {data_windowed}")
-    
-    # Synthesise each individually
-    summary_live = ai_synthesise_single(data_live["futures_chain"][0], "Live Data")
-    summary_windowed = ai_synthesise_single(data_windowed, f"Window ({hours_back}h)")
-    
-    # Overall synthesis
-    combined = ai_synthesise_overall(summary_live, summary_windowed)
+        #print(f"SUMMARY LIVE:\n{summary_live}\n")
+        #print(f"SUMMARY WINDOWED:\n{summary_windowed}\n")
 
-    combined_text = (
-        (company_name) + " " +
-        (ticker) + " " +
-        (str(data_live) or "") + " " +
-        (str(data_windowed) or "") + " " +
-        (summary_live) + " " +
-        (summary_windowed) + " " +
-        (combined)
-    ).strip()
-    
-    sentiment_result = run_sentiment(combined_text)
+        #exit()
+        
+        # Overall synthesis
+        combined = ai_synthesise_overall(summary_live, summary_windowed)
 
-    quality_context = (
-        f"company: {company_name} "
-        f"data: {combined_text} "
-        f"sentiment: {sentiment_result}"
-    )
+        #print(f"combined: {combined}")
 
-    data = [{
-        "source": "Finance",
-        "company": company_name,
-        "ticker": ticker,
-        "live_data": data_live,
-        "windowed_data": data_windowed,
-        "live_summary": summary_live,
-        "window_summary": summary_windowed,
-        "overall_synthesis": combined,
-        "quality": run_quality_check(combined_text, quality_context),
-    }]
+        #exit()
 
-    print(data)
-    
-    return data
+        combined_text = (
+            (company_name) + " " +
+            (ticker) + " " +
+            (str(data_live) or "") + " " +
+            (str(data_windowed) or "") + " " +
+            (summary_live) + " " +
+            (summary_windowed) + " " +
+            (combined)
+        ).strip()
+        
+        sentiment_result = run_sentiment(combined_text)
+
+        quality_context = (
+            f"company: {company_name} "
+            f"data: {combined_text} "
+            f"sentiment: {sentiment_result}"
+        )
+
+        data = [{
+            "source": "Finance",
+            "company": company_name,
+            "ticker": ticker,
+            "live_data": data_live,
+            "windowed_data": data_windowed,
+            "live_summary": summary_live,
+            "window_summary": summary_windowed,
+            "overall_synthesis": combined,
+            "quality": run_quality_check(combined_text, quality_context),
+        }]
+        
+        logging.info(f"[FINANCE] Successfully analyzed {company_name} ({ticker})")
+        return data
+        
+    except KeyError as e:
+        logging.error(f"[FINANCE] Missing expected key in API response: {e}")
+        logging.error(f"[FINANCE] Available keys in data_live: {list(data_live.keys()) if 'data_live' in locals() else 'N/A'}")
+        return [{
+            "source": "Finance",
+            "company": company_name,
+            "ticker": ticker,
+            "error": f"API structure mismatch: {str(e)}",
+            "quality": {"overall_quality_score": 0.0, "is_quality": False, "quality_issues": ["api_error"]}
+        }]
+    except Exception as e:
+        logging.error(f"[FINANCE] Unexpected error in finance analysis: {e}")
+        return [{
+            "source": "Finance",
+            "company": company_name,
+            "ticker": ticker,
+            "error": str(e),
+            "quality": {"overall_quality_score": 0.0, "is_quality": False, "quality_issues": ["system_error"]}
+        }]
 
 # --- Step 1: Google Search for Tweet URLs ---
 def get_tweet_urls(company_name, country):
-    params = {
-    "q": company_name + " twitter posts",
-    "hl": "en",
-    "gl": country,
-    "api_key": SERP_API_KEY
-    }
+    """
+    Fetch tweet URLs from SerpAPI, with fallback to alternate query terms.
+    Tries 'x posts' first, then 'twitter posts' if no results found.
+    """
+    search_queries = [
+        company_name + " x posts",
+        company_name + " twitter posts"
+    ]
+    
+    for query in search_queries:
+        params = {
+            "q": query,
+            "hl": "en",
+            "gl": country,
+            "api_key": SERP_API_KEY
+        }
 
-    search = GoogleSearch(params)
-    results = search.get_dict()["twitter_results"]
-    #results = search.get_dict()
-
-    # Extract tweet URLs (from SerpAPI's Twitter results)
-    tweets = results
-    tweet_urls = [tweet["link"] for tweet in tweets["tweets"] if "link" in tweet]
-
-    return tweet_urls
+        try:
+            search = GoogleSearch(params)
+            results = search.get_dict()
+            
+            # Check if 'latest_posts' exists and has content
+            if "latest_posts" in results and results["latest_posts"]:
+                latest_posts = results["latest_posts"]
+                # Extract tweet URLs from latest_posts
+                tweet_urls = [post["link"] for post in latest_posts if "link" in post]
+                
+                if tweet_urls:
+                    print(f"Found {len(tweet_urls)} tweet URLs using query: '{query}'")
+                    return tweet_urls
+            
+            # If no results with current query, try next one
+            print(f"No results with query '{query}', trying alternate...")
+            
+        except KeyError as e:
+            print(f"KeyError with query '{query}': {e}")
+            continue
+        except Exception as e:
+            print(f"Error fetching tweets with query '{query}': {e}")
+            continue
+    
+    # If all queries fail, return empty list
+    print(f"Could not find any tweets for '{company_name}' after trying all query variations")
+    return []
 
 # --- Step 2: Scrape Individual Tweet Content ---
 def scrape_tweet(url: str) -> dict:
@@ -1226,21 +1488,35 @@ def scrape_company_tweets(company_name, country=country):
 
             #run sentiment
             # Extract tweet text content for sentiment analysis
-            tweet_text = (tweet_data.get("full_text") or tweet_data.get("text") or "").strip()
+            # Twitter API response structure: data.tweetResult.result.legacy.full_text
+            tweet_text = ""
+            if "legacy" in tweet_data:
+                tweet_text = tweet_data["legacy"].get("full_text", "")
+            elif "tweet" in tweet_data:
+                tweet_text = tweet_data["tweet"].get("legacy", {}).get("full_text", "")
+            
+            # Fallback to top-level fields if nested structure not found
+            if not tweet_text:
+                tweet_text = (tweet_data.get("full_text") or tweet_data.get("text") or "").strip()
+            
+            tweet_text = tweet_text.strip()
+            
             # Only run sentiment if there is text
             if tweet_text:
                 sentiment_result = run_sentiment(tweet_text)
             else:
                 sentiment_result = {"label": "NEUTRAL", "score": 0.5, "confidence_bucket": "LOW"}
+                print(f"Warning: No text extracted from tweet at {url}")
 
             quality_context = (
                 f"url: {url} "
-                f"data: {tweet_data} "
+                f"text: {tweet_text} "
                 f"sentiment: {sentiment_result}"
             )
 
             all_tweet_data.append({
                 "url": url,
+                "text": tweet_text,
                 "data": tweet_data,
                 "sentiment": sentiment_result,
                 "quality": run_quality_check(tweet_text, quality_context),
@@ -1272,6 +1548,29 @@ def extract_topics_with_groq(groq_api_key: str, headlines: list, model: str = GR
         + "\n\nNow extract and return only the most relevant company-specific topics."
     )
 
+    # Check if Groq cooldown has expired
+    can_use_groq = check_groq_cooldown()
+    
+    if not can_use_groq:
+        print("[SKIP] Groq API in cooldown period. Using Gemini API for headline topic extraction")
+        gemini_prompt = (
+            "You are a company-focused news analyst.\n\n"
+            "Given a list of recent news headlines, extract only the key topics that are directly relevant to a specific company being monitored. "
+            "Ignore headlines that are unrelated to the company, even if they are about similar products or competitors.\n\n"
+            "Your output should contain:\n"
+            "1. A list of 3–5 core topics or themes that are relevant to the company.\n"
+            "2. Each topic should have:\n"
+            "   - A short title\n"
+            "   - A one-line explanation\n"
+            "   - (Optional) Example headlines that support it\n\n"
+            "Do NOT include general tech news, competitor product launches, or unrelated stories.\n\n"
+            f"Company being analyzed: {company_name}\n\n"
+            "Headlines:\n"
+            + "\n".join(f"- {h}" for h in headlines)
+            + "\n\nNow extract and return only the most relevant company-specific topics."
+        )
+        return gemini_llm(prompt=gemini_prompt, temperature=0.2, top_p=0.4)
+    
     headers = {
         "Authorization": f"Bearer {groq_api_key}",
         "Content-Type": "application/json"
@@ -1287,13 +1586,56 @@ def extract_topics_with_groq(groq_api_key: str, headlines: list, model: str = GR
         "top_p": 0.4,
     }
 
-    response = requests.post("https://api.groq.com/openai/v1/chat/completions", headers=headers, json=payload)
-
-    if response.status_code == 200:
-        return response.json()["choices"][0]["message"]["content"].strip()
-    else:
-        print("Groq API Error:", response.text)
-        return "Failed to extract topics."
+    max_retries = 3
+    base_delay = 1.5
+    
+    for attempt in range(max_retries):
+        try:
+            # Add delay to avoid rate limiting
+            if attempt > 0:
+                delay = base_delay * (2 ** attempt)
+                time.sleep(delay)
+            else:
+                time.sleep(1.0)
+            
+            response = requests.post("https://api.groq.com/openai/v1/chat/completions", headers=headers, json=payload)
+            
+            if response.status_code == 200:
+                return response.json()["choices"][0]["message"]["content"].strip()
+            elif response.status_code == 429 and attempt < max_retries - 1:
+                wait_time = base_delay * (2 ** (attempt + 1))
+                print(f"Rate limit hit. Waiting {wait_time}s before retry {attempt + 1}/{max_retries}...")
+                time.sleep(wait_time)
+                continue
+            else:
+                print("Groq API Error:", response.text)
+                break
+        except Exception as e:
+            print(f"Error calling Groq API: {e}")
+            if attempt < max_retries - 1:
+                time.sleep(base_delay * (2 ** attempt))
+                continue
+            break
+    
+    # === Fallback: Gemini API ===
+    set_groq_exhausted()
+    gemini_prompt = (
+        "You are a company-focused news analyst.\n\n"
+        "Given a list of recent news headlines, extract only the key topics that are directly relevant to a specific company being monitored. "
+        "Ignore headlines that are unrelated to the company, even if they are about similar products or competitors.\n\n"
+        "Your output should contain:\n"
+        "1. A list of 3–5 core topics or themes that are relevant to the company.\n"
+        "2. Each topic should have:\n"
+        "   - A short title\n"
+        "   - A one-line explanation\n"
+        "   - (Optional) Example headlines that support it\n\n"
+        "Do NOT include general tech news, competitor product launches, or unrelated stories.\n\n"
+        f"Company being analyzed: {company_name}\n\n"
+        "Headlines:\n"
+        + "\n".join(f"- {h}" for h in headlines)
+        + "\n\nNow extract and return only the most relevant company-specific topics."
+    )
+    return gemini_llm(prompt=gemini_prompt, temperature=0.2, top_p=0.4)
 
 def _text_similarity(a, b):
     return SequenceMatcher(None, a, b).ratio()
@@ -1454,10 +1796,20 @@ def groq_llm(
         prompt: str, 
         temperature: float = 0.0,
         top_p: float = 0.3,
-        html_content: str = None) -> str:
+        html_content: str = None,
+        max_retries: int = 3,
+        base_delay: float = 1.5) -> str:
     """
     Calls Groq chat completion API with the given prompt, returning the assistant's reply.
+    Implements exponential backoff retry logic and rate limiting.
     """
+    # Check if Groq cooldown has expired
+    can_use_groq = check_groq_cooldown()
+    
+    if not can_use_groq:
+        print("[SKIP] Groq API in cooldown period. Using Gemini API")
+        return gemini_llm(prompt=prompt, temperature=temperature, top_p=top_p)
+    
     # Append HTML content as cleaned text if provided
     if html_content:
         try:
@@ -1489,17 +1841,46 @@ def groq_llm(
         "temperature": temperature,
         "top_p": top_p,
     }
-    try:
-        response = requests.post("https://api.groq.com/openai/v1/chat/completions", headers=headers, json=payload)
-        response.raise_for_status()
-        result = response.json()
-        return result["choices"][0]["message"]["content"].strip()
-    except requests.RequestException as e:
-        print(f"Request failed: {e}")
-        return ""
-    except (KeyError, IndexError) as e:
-        print(f"Unexpected response format: {e}")
-        return ""
+    
+    for attempt in range(max_retries):
+        try:
+            # Add delay before each request to avoid rate limiting
+            if attempt > 0:
+                delay = base_delay * (2 ** attempt)  # Exponential backoff
+                time.sleep(delay)
+            else:
+                time.sleep(1.0)  # Small delay for first request
+            
+            response = requests.post("https://api.groq.com/openai/v1/chat/completions", headers=headers, json=payload)
+            response.raise_for_status()
+            result = response.json()
+            return result["choices"][0]["message"]["content"].strip()
+        except requests.HTTPError as e:
+            if response.status_code == 429:  # Rate limit error
+                if attempt < max_retries - 1:
+                    wait_time = base_delay * (2 ** (attempt + 1))
+                    print(f"Rate limit hit. Waiting {wait_time}s before retry {attempt + 1}/{max_retries}...")
+                    time.sleep(wait_time)
+                    continue
+                else:
+                    print(f"Rate limit exceeded after {max_retries} retries: {e}")
+                    break
+            else:
+                print(f"Request failed: {e}")
+                break
+        except requests.RequestException as e:
+            print(f"Request failed: {e}")
+            if attempt < max_retries - 1:
+                time.sleep(base_delay * (2 ** attempt))
+                continue
+            break
+        except (KeyError, IndexError) as e:
+            print(f"Unexpected response format: {e}")
+            break
+    
+    # === Fallback: Gemini API ===
+    set_groq_exhausted()
+    return gemini_llm(prompt=prompt, temperature=temperature, top_p=top_p)
 
 def gemini_llm(prompt: str, model: str = GEMINI_MODEL, 
                 temperature: float = 0.7,
@@ -1524,61 +1905,274 @@ def gemini_llm(prompt: str, model: str = GEMINI_MODEL,
     except Exception as e:
         return f"Error: {e}"
 
-def get_brand_review_url_llm(company_name, review_platform="Trustpilot"):
+def extract_signal_text(signal: dict) -> str:
+    """
+    Extract meaningful text from a signal for topic extraction.
+    Handles multiple signal formats from different sources.
+    """
+    text_parts = []
+    
+    # Try common text fields
+    for field in ['title', 'text', 'full_text', 'description', 'selftext']:
+        value = signal.get(field, '')
+        if value and isinstance(value, str):
+            text_parts.append(value)
+    
+    # For finance signals, extract synthesis text
+    if signal.get('source') == 'Finance':
+        for field in ['overall_synthesis', 'live_summary', 'window_summary']:
+            value = signal.get(field, '')
+            if value and isinstance(value, str):
+                text_parts.append(value)
+    
+    return ' '.join(text_parts).strip()
+
+def extract_topics_from_signals(company_name: str, signals: list) -> str:
+    """
+    Extract common topics from a collection of signals using LLM analysis.
+    Returns raw topic extraction response.
+    """
+    if not signals:
+        return "**Other**\n- General uncategorized signals"
+    
+    # Extract text content from all signals
+    signal_texts = []
+    for signal in signals:
+        if not isinstance(signal, dict):
+            continue
+        text = extract_signal_text(signal)
+        if text:
+            signal_texts.append(text[:200])  # Limit length for API efficiency
+    
+    if not signal_texts:
+        return "**Other**\n- General uncategorized signals"
+    
+    # Limit to max 50 samples to avoid token limits
+    sample_texts = signal_texts[:50]
+    
     prompt = (
-        f"For the brand '{company_name}', what is the main review URL on {review_platform}? "
-        "Give only the full URL where real customer reviews for this brand are most likely posted, "
-        "not the homepage. If none found, respond with 'None'."
+        "You are a company-focused brand perception analyst.\n\n"
+        "Given a collection of signal texts (news, social media, reviews, financial data) about a specific company, "
+        "extract 3-7 core topics that emerge from this data. Focus on themes directly relevant to brand perception.\n\n"
+        "Your output should:\n"
+        "1. List each topic in the format: **Topic Name**\n"
+        "2. Each topic should be concise (1-4 words)\n"
+        "3. Include a brief one-line explanation under each topic\n"
+        "4. Ensure topics are mutually exclusive where possible\n"
+        "5. Always include an 'Other' category for miscellaneous signals\n\n"
+        "Example output format:\n"
+        "**AI Innovation**\n"
+        "- Signals related to artificial intelligence developments\n\n"
+        "**Financial Performance**\n"
+        "- Revenue, earnings, stock price discussions\n\n"
+        "**Other**\n"
+        "- Miscellaneous brand-related content\n\n"
+        f"Company being analyzed: {company_name}\n\n"
+        "Signal Texts:\n"
+        + "\n".join(f"- {text[:150]}" for text in sample_texts[:30])  # Show max 30 samples
+        + "\n\nNow extract the most relevant topics:"
     )
-    # Send this prompt to LLM and parse response (details depend on API client)
-    url = groq_llm(prompt, temperature=0.0, top_p=1.0)  # Replace with your LLM client interface
-    return url if url != "None" else None
+    
+    # Use groq_llm directly with custom prompt
+    return groq_llm(prompt, temperature=0.2, top_p=0.4)
 
-def brand_signal_collector(company_name, hours_back=hours_back):
-
-    # url = get_brand_review_url_llm(company_name)
-
-    headlines = get_gnews_articles(GNEWSAPI_KEY, company_name, max_results=10)
-    print("\n📋 Headlines fetched:")
-    for h in headlines:
-        print(f"- {h}")
-
-    print("\n🔍 Extracting topics using Groq...")
-    topics = extract_topics_with_groq(GROQ_API_KEY, headlines)
-
-    print("\n✅ Topics Summary:\n")
-    print(topics)
-
+def parse_topics_to_labels(topics_raw: str) -> list:
+    """
+    Parse LLM topic extraction response into a list of topic labels.
+    Ensures 'Other' is always included.
+    """
+    import re
+    
     labels = [
         re.search(r"\*\*(.*?)\*\*", line).group(1).strip()
-        for line in topics.splitlines()
+        for line in topics_raw.splitlines()
         if re.search(r"\*\*(.*?)\*\*", line)
     ]
-    labels.append("Other")
+    
+    # Ensure 'Other' is always present
+    if "Other" not in labels:
+        labels.append("Other")
+    
+    return labels
 
-    print("labels: ", labels)
+def reclassify_signals(signals: list, labels: list) -> list:
+    """
+    Reclassify all signals in the list based on updated topic labels.
+    Updates the 'topic' field for each signal.
+    """
+    logging.info(f"[TOPIC_RECLASSIFY] Reclassifying {len(signals)} signals with {len(labels)} topics")
+    
+    for signal in signals:
+        if not isinstance(signal, dict):
+            continue
+        
+        # Extract text for classification
+        text = extract_signal_text(signal)
+        
+        if not text:
+            signal['topic'] = 'Other'
+            continue
+        
+        # Use existing topic classification logic
+        new_topic = extract_topic_ml(text, labels, backup=None)
+        
+        # Update topic
+        old_topic = signal.get('topic', 'Unknown')
+        signal['topic'] = new_topic
+        
+        # Log reclassifications
+        if old_topic != new_topic and old_topic != 'Unknown':
+            logging.debug(f"[TOPIC_RECLASSIFY] '{old_topic}' → '{new_topic}': {text[:80]}")
+    
+    return signals
 
+def update_topics_and_reclassify(company_name: str, signals: list, current_labels: list = None) -> tuple:
+    """
+    Extract updated topics from current signals and reclassify all signals.
+    
+    Args:
+        company_name: Name of the company being analyzed
+        signals: Current list of signals
+        current_labels: Optional existing labels to merge with
+    
+    Returns:
+        tuple: (updated_signals, new_labels)
+    """
+    if not signals:
+        return signals, current_labels or ['Other']
+    
+    logging.info(f"[TOPIC_UPDATE] Extracting topics from {len(signals)} signals")
+    
+    # Extract topics from current signal set
+    topics_raw = extract_topics_from_signals(company_name, signals)
+    new_labels = parse_topics_to_labels(topics_raw)
+    
+    # Merge with existing labels if provided
+    if current_labels:
+        combined_labels = list(set(current_labels + new_labels))
+        if "Other" not in combined_labels:
+            combined_labels.append("Other")
+        new_labels = combined_labels
+    
+    logging.info(f"[TOPIC_UPDATE] Updated topic labels: {new_labels}")
+    
+    # Reclassify all signals with updated labels
+    updated_signals = reclassify_signals(signals, new_labels)
+    
+    return updated_signals, new_labels
+
+def get_brand_review_url_llm(company_name, review_platform="Trustpilot"):
+    """
+    Get the company's domain name that can be appended to Trustpilot review URLs.
+    Returns just the domain (e.g., 'google.com') without protocol or www.
+    """
+    prompt = (
+        f"For the brand '{company_name}', what is its main website domain? "
+        "Return ONLY the domain name without http://, https://, or www. prefix. "
+        "For example, for Google return 'google.com', for Microsoft return 'microsoft.com'. "
+        "If none found, respond with 'None'."
+    )
+    # Send this prompt to LLM and parse response
+    domain = groq_llm(prompt, temperature=0.0, top_p=1.0)
+    
+    if domain and domain != "None":
+        # Clean up the domain in case LLM included protocol or www
+        domain = domain.strip().lower()
+        domain = domain.replace("https://", "").replace("http://", "")
+        domain = domain.replace("www.", "")
+        # Remove trailing slash if present
+        domain = domain.rstrip("/")
+        return domain
+    
+    return None
+
+def brand_signal_collector(company_name, hours_back=hours_back):
+    """
+    Collect brand signals from multiple sources with dynamic topic extraction and reclassification.
+    Topics are re-extracted and all signals are reclassified after each batch of signals is added.
+    """
     signals = []
-    #signals_Phase1 = []
-    #signals_Phase2 = []
-
+    current_labels = ['Other']  # Start with default label
+    
     # Phase 1: Fetch signals from various sources
-    signals.extend(fetch_reddit(company_name, labels, max_results=max_results, hours_back=hours_back)) # social media / forums
-    signals.extend(fetch_news(company_name, labels, max_results=max_results, hours_back=hours_back)) # news
-    signals.extend(fetch_hackernews(company_name, labels, max_results=max_results, hours_back=hours_back)) # news 
-    signals.extend(analyze_brand_signals(company_name, labels, max_results=max_results, hours_back=hours_back)) # social media / forums
-    # Phase 1 AI analysis done at this point
-    # Phase 2: Fetch additional important signals
-    signals.extend(fetch_news_articles(company_name)) # other news sources
-    signals.extend(scrape_company_tweets(company_name, country)) # twitter (most recent tweets)
-    #signals.extend(fetch_company_news(company_name, SCRAPFLY_API_KEY, hours_back=hours_back)) # company news from Bloomberg, CNN, Forbes, Trustpilot, etc.
-    # SCRAPFLY API is not used here (Usage limit exceeded), but can be added if needed
-    # Phase 2 AI analysis done at this point
-
-    #signals.extend(fetch_company_news(company_name, ABSTRACT_API_KEY, hours_back=hours_back)) # company news from Bloomberg, CNN, Forbes, Trustpilot, etc.
-    # ALTERNATIVE TO fetch_company_news() using Abstract API (not working now)
-
-    # signals = deduplicate_signals(signals)
+    # Each time signals.extend() is called, we'll update topics and reclassify
+    
+    # Reddit signals
+    logging.info("[SIGNAL_COLLECTION] Fetching Reddit signals...")
+    reddit_signals = []  # fetch_reddit(company_name, current_labels, max_results=max_results, hours_back=hours_back)
+    if reddit_signals:
+        signals.extend(reddit_signals)
+        signals, current_labels = update_topics_and_reclassify(company_name, signals, current_labels)
+        logging.info(f"[SIGNAL_COLLECTION] Total signals: {len(signals)}, Topics: {current_labels}")
+    
+    # News signals
+    logging.info("[SIGNAL_COLLECTION] Fetching News signals...")
+    news_signals = []  # fetch_news(company_name, current_labels, max_results=max_results, hours_back=hours_back)
+    if news_signals:
+        signals.extend(news_signals)
+        signals, current_labels = update_topics_and_reclassify(company_name, signals, current_labels)
+        logging.info(f"[SIGNAL_COLLECTION] Total signals: {len(signals)}, Topics: {current_labels}")
+    
+    # HackerNews signals
+    logging.info("[SIGNAL_COLLECTION] Fetching HackerNews signals...")
+    hn_signals = []  # fetch_hackernews(company_name, current_labels, max_results=max_results, hours_back=hours_back)
+    if hn_signals:
+        signals.extend(hn_signals)
+        signals, current_labels = update_topics_and_reclassify(company_name, signals, current_labels)
+        logging.info(f"[SIGNAL_COLLECTION] Total signals: {len(signals)}, Topics: {current_labels}")
+    
+    # Brand analysis signals
+    logging.info("[SIGNAL_COLLECTION] Fetching brand analysis signals...")
+    brand_signals = []  # analyze_brand_signals(company_name, current_labels, max_results=max_results, hours_back=hours_back)
+    if brand_signals:
+        signals.extend(brand_signals)
+        signals, current_labels = update_topics_and_reclassify(company_name, signals, current_labels)
+        logging.info(f"[SIGNAL_COLLECTION] Total signals: {len(signals)}, Topics: {current_labels}")
+    
+    # Phase 2: Additional news sources
+    logging.info("[SIGNAL_COLLECTION] Fetching additional news articles...")
+    news_articles = []  # fetch_news_articles(company_name)
+    if news_articles:
+        signals.extend(news_articles)
+        signals, current_labels = update_topics_and_reclassify(company_name, signals, current_labels)
+        logging.info(f"[SIGNAL_COLLECTION] Total signals: {len(signals)}, Topics: {current_labels}")
+    
+    # Twitter/X signals
+    logging.info("[SIGNAL_COLLECTION] Fetching Twitter/X signals...")
+    tweet_signals = []  # scrape_company_tweets(company_name, country)
+    if tweet_signals:
+        signals.extend(tweet_signals)
+        signals, current_labels = update_topics_and_reclassify(company_name, signals, current_labels)
+        logging.info(f"[SIGNAL_COLLECTION] Total signals: {len(signals)}, Topics: {current_labels}")
+    
+    # Company news (ScrapFly)
+    logging.info("[SIGNAL_COLLECTION] Fetching company news...")
+    company_news = []  # fetch_company_news(company_name, hours_back=hours_back)
+    if company_news:
+        signals.extend(company_news)
+        signals, current_labels = update_topics_and_reclassify(company_name, signals, current_labels)
+        logging.info(f"[SIGNAL_COLLECTION] Total signals: {len(signals)}, Topics: {current_labels}")
+    
+    # Financial data
+    logging.info("[SIGNAL_COLLECTION] Fetching financial data...")
+    finance_ticker = get_finance_ticker(company_name)
+    if finance_ticker and finance_ticker != "None":
+        finance_signals = get_combined_finance_analysis(company_name, finance_ticker, hours_back)
+        if finance_signals:
+            signals.extend(finance_signals)
+            signals, current_labels = update_topics_and_reclassify(company_name, signals, current_labels)
+            logging.info(f"[SIGNAL_COLLECTION] Total signals: {len(signals)}, Topics: {current_labels}")
+    
+    # Final deduplication
+    logging.info("[SIGNAL_COLLECTION] Deduplicating signals...")
+    signals = deduplicate_signals(signals)
+    
+    # Final topic update and reclassification
+    logging.info("[SIGNAL_COLLECTION] Final topic extraction and reclassification...")
+    signals, current_labels = update_topics_and_reclassify(company_name, signals, current_labels)
+    
+    logging.info(f"[SIGNAL_COLLECTION] Completed. Total signals: {len(signals)}, Final topics: {current_labels}")
+    
     return signals
 
 # --- Usage Example ---
