@@ -50,7 +50,7 @@ GEMINI_MODEL = "gemini-2.5-flash"
 GROQ_MODEL = "meta-llama/llama-4-scout-17b-16e-instruct"
 #HF_MODEL = "deepseek-ai/DeepSeek-V3-0324"
 HF_MODEL = "HuggingFaceTB/SmolLM3-3B"
-HF_TOKEN = "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"
+HF_TOKEN = ""
 
 INSTANCE_URL = "https://mastodon.social"
 
