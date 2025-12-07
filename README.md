@@ -19,3 +19,7 @@ GROQ_API_KEY = "your-api-key-here"
 
 
 Make sure not to commit your key to version control if this file is tracked. Add it to .gitignore or use environment variables for better security.
+
+To obtain:
+- HF Token (fine-grained)
+
