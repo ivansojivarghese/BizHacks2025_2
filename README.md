@@ -1,6 +1,6 @@
 # AgenticAI
 
-Problem Statement: How might we design a scalable and responsive measurement framework - powered by AI or agentic systems - that can track brand performance and connect it to business metrics such as lead quality, sales velocity, and cleint engagement?
+Problem Statement: How might we design a scalable and responsive measurement framework - powered by AI agentic systems - that can track brand performance and connect it to business metrics such as lead quality, sales velocity, and client engagement?
 
 
 🔑 Getting a Groq API Key
@@ -25,5 +25,6 @@ To obtain:
 - Groq API Key
 - Gemini API Key
 - NVIDIA API Key
+
 
 
