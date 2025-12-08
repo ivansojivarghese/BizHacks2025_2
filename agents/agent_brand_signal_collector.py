@@ -174,7 +174,7 @@ class BrandSignalCollectorAgent:
                         self.company_name, self.collected_signals, self.labels
                     )
                     logging.info(f"[TOPIC_UPDATE] News batch: {len(self.collected_signals)} signals, {len(self.labels)} topics")
-            
+            '''
             if "HackerNews" in allowed_sources:
                 hn_signals = fetch_hackernews(self.company_name, self.labels, self.max_results, self.hours_back)
                 if hn_signals:
@@ -184,11 +184,11 @@ class BrandSignalCollectorAgent:
                         self.company_name, self.collected_signals, self.labels
                     )
                     logging.info(f"[TOPIC_UPDATE] HackerNews batch: {len(self.collected_signals)} signals, {len(self.labels)} topics")
-            
+            '''
             # SOME ISSUE WITH THIS API BELOW
             #if "Mastodon" in allowed_sources:
                 #self.collected_signals.extend(analyze_brand_signals(self.company_name, self.labels, self.max_results, self.hours_back))
-
+            '''
             if "APITube" in allowed_sources:
                 apitube_signals = fetch_news_articles(self.company_name)
                 if apitube_signals:
@@ -198,7 +198,7 @@ class BrandSignalCollectorAgent:
                         self.company_name, self.collected_signals, self.labels
                     )
                     logging.info(f"[TOPIC_UPDATE] APITube batch: {len(self.collected_signals)} signals, {len(self.labels)} topics")
-            '''
+            
             if "Twitter" in allowed_sources:
                 twitter_signals = scrape_company_tweets(self.company_name, self.country)
                 if twitter_signals:
@@ -218,7 +218,7 @@ class BrandSignalCollectorAgent:
                         self.company_name, self.collected_signals, self.labels
                     )
                     logging.info(f"[TOPIC_UPDATE] ScrapFly batch: {len(self.collected_signals)} signals, {len(self.labels)} topics")
-            
+            '''
             if "Finance" in allowed_sources:
                 finance_signals = get_combined_finance_analysis(self.company_name, finance_ticker, self.hours_back)
                 if finance_signals:
@@ -228,7 +228,7 @@ class BrandSignalCollectorAgent:
                         self.company_name, self.collected_signals, self.labels
                     )
                     logging.info(f"[TOPIC_UPDATE] Finance batch: {len(self.collected_signals)} signals, {len(self.labels)} topics")
-            '''
+            
             # ===========================================================================================
 
             #print(f"sig {self.collected_signals}")
@@ -248,7 +248,7 @@ class BrandSignalCollectorAgent:
 
             # Sentiment + Topic Classification Adjustments
             if use_backup_topic_extractor:
-                logging.info("[TOPIC] Using backup topic extractor (Together API)")
+                logging.info("[TOPIC] Using backup topic extractor (Groq API)")
                 for sig in self.collected_signals:
                     if not isinstance(signal, dict):
                         continue
@@ -495,15 +495,21 @@ class BrandSignalCollectorAgent:
     def feedback(self, feedback_data: dict):
         logging.info("[FEEDBACK] Adjusting strategy based on downstream feedback.")
 
-        # Skip if no feedback provided
-        if not feedback_data or feedback_data == {} or self.feedback_run_count >= 0:
+        # Skip if no feedback provided or max re-runs exceeded
+        MAX_FEEDBACK_RERUNS = 3  # Limit to prevent infinite loops
+        
+        if not feedback_data or feedback_data == {}:
             logging.info("[FEEDBACK] No feedback provided — skipping adjustments.")
             return None
+        
+        if self.feedback_run_count >= MAX_FEEDBACK_RERUNS:
+            logging.warning(f"[FEEDBACK] Maximum re-runs ({MAX_FEEDBACK_RERUNS}) reached. Stopping feedback loop.")
+            return None
 
-        # Be careful to avoid infinite loop
+        # Re-run cycle with updated configuration
         if feedback_data.get("topics") or feedback_data.get("improvements"):
             self.feedback_run_count += 1
-            logging.info(f"[FEEDBACK COUNT] {self.feedback_run_count}")
+            logging.info(f"[FEEDBACK COUNT] Re-run {self.feedback_run_count}/{MAX_FEEDBACK_RERUNS}")
             logging.info("[♻] Re-running cycle with updated strategy...")
             signals = self.run_cycle()  # no feedback this time to prevent loop
 
@@ -557,44 +563,57 @@ class BrandSignalCollectorAgent:
         run_memory = self.memory.get(self.last_run, {})
         if ("feedback" in run_memory and run_memory["feedback"]):
                 
-                # PROMPT based on feedback_prompt
-                #feedback_data = gemini_llm(
-                #feedback_data = groq_llm(
-                feedback_data = together_llm(
-                #feedback_data = nvidia_llm(
-                    prompt=run_memory.get("feedback_prompt"),
-                    temperature=0.0,       # deterministic, minimal randomness
-                    top_p=0.3,              # only consider most probable tokens
-                )
-
-                #print(f"feedback_data type: {type(feedback_data)}")
-                #print(f"{feedback_data}")
-                # Example: parse if string
-                feedback_data = parse_json_from_codeblock(feedback_data)
+                # PROMPT based on feedback_prompt (using Groq - Together AI removed)
+                try:
+                    feedback_response = groq_llm(
+                        prompt=run_memory.get("feedback_prompt"),
+                        temperature=0.0,       # deterministic, minimal randomness
+                        top_p=0.3,              # only consider most probable tokens
+                    )
+                    
+                    logging.info(f"[FEEDBACK] LLM response type: {type(feedback_response)}")
+                    logging.debug(f"[FEEDBACK] LLM response preview: {feedback_response[:500]}")
+                    
+                    # Parse JSON from response
+                    feedback_data = parse_json_from_codeblock(feedback_response)
+                    
+                    if not feedback_data or feedback_data == {}:
+                        logging.warning("[FEEDBACK] Failed to parse JSON from LLM response. Skipping feedback loop.")
+                        feedback_data = None
+                    else:
+                        logging.info(f"[FEEDBACK] Successfully parsed feedback: {list(feedback_data.keys())}")
+                        
+                except Exception as e:
+                    logging.error(f"[FEEDBACK] Error during feedback generation: {e}")
+                    logging.error(f"[FEEDBACK] Skipping feedback loop for this cycle.")
+                    feedback_data = None
 
                 # Route actions based on what we got
-                if feedback_data.get("improvements"):
-                    print("[🔁 ROUTER] Applying improvements from feedback...")
-                    self.apply_improvements(feedback_data["improvements"])
+                if feedback_data:  # Only proceed if we have valid feedback data
+                    if feedback_data.get("improvements"):
+                        print("[🔁 ROUTER] Applying improvements from feedback...")
+                        self.apply_improvements(feedback_data["improvements"])
 
-                if feedback_data.get("topics"):
-                    print("[🔁 ROUTER] Updating topic labels from feedback...")
+                    if feedback_data.get("topics"):
+                        print("[🔁 ROUTER] Updating topic labels from feedback...")
 
-                    # Identify missing topics that were added in feedback
-                    original_topics = set(self.labels)
-                    updated_topics = set(feedback_data["topics"])
-                    missing_topics = list(updated_topics - original_topics)
+                        # Identify missing topics that were added in feedback
+                        original_topics = set(self.labels)
+                        updated_topics = set(feedback_data["topics"])
+                        missing_topics = list(updated_topics - original_topics)
 
-                    if missing_topics:
-                        print(f"[➕] New topics added: {missing_topics}")
+                        if missing_topics:
+                            print(f"[➕] New topics added: {missing_topics}")
 
-                    # Store for memory/debug
-                    self.memory[self.last_run]["new_topics_added"] = missing_topics
+                        # Store for memory/debug
+                        self.memory[self.last_run]["new_topics_added"] = missing_topics
 
-                    feedback_data["missing_topics"] = missing_topics
-                    self.labels = feedback_data["topics"]
+                        feedback_data["missing_topics"] = missing_topics
+                        self.labels = feedback_data["topics"]
 
-                self.feedback(feedback_data)
+                    self.feedback(feedback_data)
+                else:
+                    logging.info("[FEEDBACK] No valid feedback data to process. Continuing without feedback loop.")
 
         # 6. Return the collected signals
         return self.collected_signals
@@ -653,7 +672,7 @@ if __name__ == "__main__":
     # Example run (requires API keys in env vars)
     agent = BrandSignalCollectorAgent(
         company_name="Google",
-        hours_back=168,
+        hours_back=720,
         max_results=50,
         country="US"
     )

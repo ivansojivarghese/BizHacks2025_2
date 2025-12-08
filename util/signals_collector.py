@@ -37,17 +37,20 @@ GNEWSAPI_KEY = "ef5f8624efbdff7065a8b27b064230d8"
 #SCRAPFLY_API_KEY = "scp-live-1a870f1d40854783b5e42f486702f116" # Ivan's API
 SCRAPFLY_API_KEY = "scp-live-953159fb899846a68a58de25444888d2" # Liam's API
 
-NVIDIA_API_KEY = "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"
+NVIDIA_API_KEY = ""
 SERP_API_KEY = "6ca19dd5cf3bb00dae28957e7c8ee9512aae8e654be50bf22529fadc505ff8e2"
 APITUBE_API_KEY = "api_live_4FCFmHUM0FDz9E5wvS2FZYfdiE2Qsf3Air8X8mH0IXFs"
 #ABSTRACT_API_KEY = "c15e5c2212c248bbbfb1e827ecd08975"
 TOGETHER_API_KEY = "e4e865e00e428d4136bf9b2996d25334496c29bd0a7caf0415ee2f13845fecbd"
 TOGETHER_MODEL = "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free"
 GROQ_API_KEY = ""
-GEMINI_API_KEY = "AIzaSyBolQ5bS2KErY8_mqPyK-bzflLfVzRf2mA"
-GEMINI_MODEL = "gemini-2.5-flash"
+GEMINI_API_KEY = ""
+GEMINI_MODEL = "models/gemini-3-pro-preview"
+# Old compromised key - DO NOT USE
+# GEMINI_API_KEY_OLD = "AIzaSyBolQ5bS2KErY8_mqPyK-bzflLfVzRf2mA"
+# GEMINI_MODEL_OLD = "gemini-2.5-flash"
 #GROQ_MODEL = "llama-3.3-70b-versatile"  # Use a versatile model for topic extraction
-GROQ_MODEL = "meta-llama/llama-4-scout-17b-16e-instruct"
+GROQ_MODEL = "meta-llama/llama-3.3-70b-instruct"
 #HF_MODEL = "deepseek-ai/DeepSeek-V3-0324"
 HF_MODEL = "HuggingFaceTB/SmolLM3-3B"
 HF_TOKEN = ""
@@ -58,6 +61,10 @@ INSTANCE_URL = "https://mastodon.social"
 GROQ_API_EXHAUSTED = False
 GROQ_EXHAUSTED_TIMESTAMP = None
 GROQ_COOLDOWN_SECONDS = 180  # 3 minutes
+
+# Global rate limiter for NVIDIA API (40 RPM = 1.5s between calls)
+NVIDIA_LAST_CALL_TIME = None
+NVIDIA_MIN_INTERVAL = 1.5  # seconds between requests (40 RPM)
 
 vader = SentimentIntensityAnalyzer()
 
@@ -283,35 +290,11 @@ def extract_topics_groq(company, posts, hashtags):
     
 def together_llm(prompt: str, temperature: float = 0.3, top_p: float = 0.7):
     """
-    Call Together AI's chat completion API with error handling.
-
-    Args:
-        prompt (str): The prompt to send to the LLM.
-        model (str): Model ID to use. Defaults to TOGETHER_MODEL env var.
-        temperature (float): Sampling temperature.
-        top_p (float): Nucleus sampling parameter.
-        max_tokens (int): Maximum tokens for output.
-
-    Returns:
-        str: Model's response text, or error message on failure.
+    Legacy function redirected to Groq AI.
+    Together AI removed due to credit limits - using Groq as fallback.
     """
-    try:
-        together_client = Together(api_key=TOGETHER_API_KEY)  # uses TOGETHER_API_KEY from env
-        response = together_client.chat.completions.create(
-            #model="openai/gpt-oss-120b", (paid)
-            model=TOGETHER_MODEL,
-            messages=[{"role": "user", "content": prompt}],
-            temperature=temperature,
-            top_p=top_p,
-        )
-
-        content = response.choices[0].message.content.strip()
-        print(f"[INFO] Together AI response: {content}")
-        return content
-
-    except Exception as e:
-        print(f"[ERROR] Together API request failed: {e}")
-        return "Failed to get response from Together AI"
+    logging.info("[REDIRECT] together_llm call redirected to groq_llm")
+    return groq_llm(prompt=prompt, temperature=temperature, top_p=top_p)
 
 # === Hashtag/Entity Co-occurrence ===
 def extract_entities(posts):
@@ -1724,33 +1707,95 @@ def parse_json_from_codeblock(text: str) -> dict:
         return {}  # or a default placeholder dict
 
 def nvidia_llm(prompt: str, temperature: float, top_p: float) -> str:
+    """
+    Calls NVIDIA API with comprehensive error handling, logging, and rate limiting.
+    Enforces 40 RPM (1.5s between requests) globally.
+    Returns response content or error string with "Error:" prefix.
+    """
+    global NVIDIA_LAST_CALL_TIME
+    
+    # Enforce rate limiting: 40 RPM = 1.5s minimum between calls
+    if NVIDIA_LAST_CALL_TIME is not None:
+        elapsed = time.time() - NVIDIA_LAST_CALL_TIME
+        if elapsed < NVIDIA_MIN_INTERVAL:
+            wait_time = NVIDIA_MIN_INTERVAL - elapsed
+            logging.info(f"[NVIDIA] Rate limiting: waiting {wait_time:.2f}s (40 RPM)")
+            time.sleep(wait_time)
+    
     invoke_url = "https://integrate.api.nvidia.com/v1/chat/completions"
+    stream = False
 
     headers = {
         "Authorization": f"Bearer {NVIDIA_API_KEY}",
-        "Accept": "application/json"
+        "Accept": "text/event-stream" if stream else "application/json"
     }
 
-    prompt = prompt
-
     payload = {
-        "model": "meta/llama-4-maverick-17b-128e-instruct",
-        "messages": [{"role": "user", "content": prompt}],
-        "max_tokens": 512,
+        "model": "meta/llama-3.3-70b-instruct",
+        "messages": [
+            {
+                "role": "system",
+                "content": (
+                    "You are a brand perception quality analyst. "
+                    "You MUST respond with valid JSON only - no conversational text, no explanations. "
+                    "Follow all formatting instructions in the user prompt exactly. "
+                    "If the prompt requests JSON, output only valid JSON with no markdown wrappers."
+                )
+            },
+            {"role": "user", "content": prompt}
+        ],
+        "max_tokens": 1024,
         "temperature": temperature,
         "top_p": top_p,
         "frequency_penalty": 0.0,
         "presence_penalty": 0.0,
-        "stream": False
+        "stream": stream
     }
 
-    response = requests.post(invoke_url, headers=headers, json=payload)
-    data = response.json()
-
+    logging.info("[NVIDIA] Calling API with meta/llama-3.3-70b-instruct...")
+    
     try:
-        return data["choices"][0]["message"]["content"].strip()
-    except (KeyError, IndexError):
-        return "None"
+        response = requests.post(invoke_url, headers=headers, json=payload, timeout=30)
+        NVIDIA_LAST_CALL_TIME = time.time()  # Update timestamp after call
+        response.raise_for_status()  # Raises HTTPError for 4xx/5xx responses
+        
+        data = response.json()
+        content = data["choices"][0]["message"]["content"].strip()
+        
+        logging.info(f"[NVIDIA] Successfully received response ({len(content)} chars)")
+        logging.debug(f"[NVIDIA] Response preview: {content[:200]}")
+        return content
+        
+    except requests.exceptions.Timeout:
+        NVIDIA_LAST_CALL_TIME = time.time()  # Update timestamp even on failure
+        logging.error("[NVIDIA] Request timeout after 30s")
+        return "Error: NVIDIA API timeout"
+    
+    except requests.exceptions.HTTPError as e:
+        NVIDIA_LAST_CALL_TIME = time.time()  # Update timestamp even on failure
+        error_details = response.text if 'response' in locals() else 'N/A'
+        logging.error(f"[NVIDIA] HTTP error {response.status_code}: {e}")
+        logging.error(f"[NVIDIA] Response body: {error_details[:500]}")
+        return f"Error: NVIDIA HTTP {response.status_code}"
+    
+    except (KeyError, IndexError) as e:
+        logging.error(f"[NVIDIA] Unexpected response format: {e}")
+        logging.error(f"[NVIDIA] Response data: {data if 'data' in locals() else 'N/A'}")
+        return f"Error: NVIDIA response format - {e}"
+    
+    except json.JSONDecodeError as e:
+        logging.error(f"[NVIDIA] Invalid JSON response: {e}")
+        logging.error(f"[NVIDIA] Raw response: {response.text[:500] if 'response' in locals() else 'N/A'}")
+        return "Error: NVIDIA invalid JSON"
+    
+    except requests.exceptions.RequestException as e:
+        NVIDIA_LAST_CALL_TIME = time.time()  # Update timestamp even on failure
+        logging.error(f"[NVIDIA] Network error: {e}")
+        return f"Error: NVIDIA network - {e}"
+    
+    except Exception as e:
+        logging.error(f"[NVIDIA] Unexpected error: {e}")
+        return f"Error: NVIDIA {e}"
 
 def hf_llm(
     prompt: str,
@@ -1807,8 +1852,17 @@ def groq_llm(
     can_use_groq = check_groq_cooldown()
     
     if not can_use_groq:
-        print("[SKIP] Groq API in cooldown period. Using Gemini API")
-        return gemini_llm(prompt=prompt, temperature=temperature, top_p=top_p)
+        logging.info("[SKIP] Groq API in cooldown period. Using Gemini API")
+        try:
+            gemini_response = gemini_llm(prompt=prompt, temperature=temperature, top_p=top_p)
+            if gemini_response and not gemini_response.startswith("Error:"):
+                return gemini_response
+            else:
+                logging.warning("[GEMINI] Cooldown fallback failed or returned error. Trying NVIDIA API...")
+                return nvidia_llm(prompt=prompt, temperature=temperature, top_p=top_p)
+        except Exception as e:
+            logging.error(f"[GEMINI] Cooldown fallback exception: {e}. Trying NVIDIA API...")
+            return nvidia_llm(prompt=prompt, temperature=temperature, top_p=top_p)
     
     # Append HTML content as cleaned text if provided
     if html_content:
@@ -1880,7 +1934,17 @@ def groq_llm(
     
     # === Fallback: Gemini API ===
     set_groq_exhausted()
-    return gemini_llm(prompt=prompt, temperature=temperature, top_p=top_p)
+    logging.warning("[GROQ] All retries failed. Attempting Gemini fallback...")
+    try:
+        gemini_response = gemini_llm(prompt=prompt, temperature=temperature, top_p=top_p)
+        if gemini_response and not gemini_response.startswith("Error:"):
+            return gemini_response
+        else:
+            logging.warning("[GEMINI] Fallback failed or returned error. Trying NVIDIA API...")
+            return nvidia_llm(prompt=prompt, temperature=temperature, top_p=top_p)
+    except Exception as e:
+        logging.error(f"[GEMINI] Fallback exception: {e}. Trying NVIDIA API...")
+        return nvidia_llm(prompt=prompt, temperature=temperature, top_p=top_p)
 
 def gemini_llm(prompt: str, model: str = GEMINI_MODEL, 
                 temperature: float = 0.7,
@@ -1891,7 +1955,7 @@ def gemini_llm(prompt: str, model: str = GEMINI_MODEL,
     
     Args:
         prompt (str): The text prompt you want the model to process.
-        model (str): The Gemini model to use. Defaults to "gemini-2.5-flash".
+        model (str): The Gemini model to use. Defaults to "models/gemini-3-pro-preview".
     
     Returns:
         str: The model's response text.
@@ -1903,6 +1967,7 @@ def gemini_llm(prompt: str, model: str = GEMINI_MODEL,
         )
         return response.text
     except Exception as e:
+        logging.error(f"[GEMINI] API request failed: {e}")
         return f"Error: {e}"
 
 def extract_signal_text(signal: dict) -> str:
