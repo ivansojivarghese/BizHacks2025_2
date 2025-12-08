@@ -24,3 +24,6 @@ mistralai
 tiktoken
 langchain_core
 bs4
+holidays
+requests
+numpy
