@@ -1,6 +1,6 @@
-# BizHacks 2
+# Brand Intelligence System
 
-Problem Statement: How might we design a scalable and responsive measurement framework - powered by AI agentic systems - that can track brand performance and connect it to business metrics such as lead quality, sales velocity, and client engagement?
+Problem Statement (from Infosys BizHacks 2025): How might we design a scalable and responsive measurement framework - powered by AI agentic systems - that can track brand performance and connect it to business metrics such as lead quality, sales velocity, and client engagement?
 
 To obtain:
 - HF Token (fine-grained)
@@ -8,6 +8,7 @@ To obtain:
 - Gemini API Key
 - NVIDIA API Key
 - Mistral API Key
+
 
 
 
