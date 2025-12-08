@@ -17,6 +17,7 @@ logging.basicConfig(
 # --- Define shared graph state ---
 class GraphState(TypedDict):
     company_name: str
+    region: str  # Region code (US, SG, UK, etc.)
     brand_signals: List[Dict]
     sentiment_forecast: List[Dict]
     error_messages: List[str]
@@ -25,13 +26,13 @@ class GraphState(TypedDict):
 def node_brand_signal_collector(state: GraphState) -> GraphState:
     """Collect brand signals using Agent A"""
     company = state["company_name"]
+    region = state.get("region", "US")  # Get region from state, default to US
     
     try:
         hours_back = 720  # Default to prev. 30 days
-        region = "US"
-        max_results = 10 # Default max results per source
+        max_results = 50 # Default max results per source
 
-        logging.info(f"[MAIN] Starting brand signal collection for {company}")
+        logging.info(f"[MAIN] Starting brand signal collection for {company} in {region}")
         agent_a = BrandSignalCollectorAgent(company_name=company, hours_back=hours_back, max_results=max_results, country=region)
         signals = agent_a.run_cycle()
         
@@ -56,13 +57,18 @@ def node_perception_forecaster(state: GraphState) -> GraphState:
     
     try:
         forecast_days = 180 # no. of days to forecast ahead
+        region = state.get("region", "US")  # Get region from state
 
-        logging.info("[MAIN] Starting sentiment forecasting")
-        agent_b = PerceptionForecasterAgent(state=state, forecast_steps=forecast_days, model_type="Prophet")
+        logging.info(f"[MAIN] Starting sentiment forecasting for {region} region")
+        agent_b = PerceptionForecasterAgent(
+            state=state, 
+            forecast_steps=forecast_days, 
+            model_type="Prophet",
+            region=region  # Pass region for holiday/market context
+        )
         
         # Run forecasting
-        #forecast_df = agent_b.run_cycle(state["brand_signals"], state["company_name"])
-        forecast_df = agent_b.run_cycle()
+        forecast_df = agent_b.run_cycle(state["brand_signals"], state["company_name"])
         
         # Convert to JSON format
         if not forecast_df.empty:
@@ -107,6 +113,7 @@ if __name__ == "__main__":
     # Create initial state
     initial_state: GraphState = {
         "company_name": "Google",
+        "region": "US",  # Change to SG, UK, CN, etc. for different regions
         "brand_signals": [],
         "sentiment_forecast": [],
         "error_messages": []
