@@ -22,4 +22,8 @@ Make sure not to commit your key to version control if this file is tracked. Add
 
 To obtain:
 - HF Token (fine-grained)
+- Groq API Key
+- Gemini API Key
+- NVIDIA API Key
+
 
